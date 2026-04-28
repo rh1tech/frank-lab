@@ -417,6 +417,18 @@
 			(symbol "PGA2350_1_1"
 				(polyline
 					(pts
+						(xy 2.2224 -26.67) (xy 13.0174 -26.67) (xy 14.605 -27.94)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 2.54 -20.32) (xy 10.16 -20.32)
 					)
 					(stroke
@@ -442,18 +454,6 @@
 				(polyline
 					(pts
 						(xy 2.54 -24.13) (xy 10.16 -24.13)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -26.035) (xy 13.335 -26.035) (xy 14.605 -27.305)
 					)
 					(stroke
 						(width 0)
@@ -597,7 +597,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -48.895) (xy 13.335 -48.895) (xy 14.605 -50.165)
+						(xy 2.54 -49.53) (xy 13.335 -49.53) (xy 14.605 -50.8)
 					)
 					(stroke
 						(width 0)
@@ -620,19 +620,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.795 -15.875) (xy 5.715 -10.795) (xy 2.54 -10.795)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.795 -51.435) (xy 5.715 -56.515) (xy 2.54 -56.515)
+						(xy 10.16 -16.51) (xy 5.08 -12.7) (xy 0 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -746,6 +734,18 @@
 					(radius 1.27)
 					(stroke
 						(width 1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -52.07) (xy 6.35 -57.15) (xy 3.175 -57.15)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -888,18 +888,6 @@
 				)
 				(polyline
 					(pts
-						(xy 18.415 -19.685) (xy 17.145 -18.415) (xy 17.145 -13.335) (xy 10.795 -6.985) (xy 2.54 -6.985)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 19.05 -2.54) (xy 19.05 -15.24)
 					)
 					(stroke
@@ -915,6 +903,18 @@
 					(radius 1.27)
 					(stroke
 						(width 1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -19.05) (xy 17.78 -17.78) (xy 17.78 -12.7) (xy 11.43 -6.35) (xy 2.54 -6.35)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1526,7 +1526,7 @@
 				)
 				(polyline
 					(pts
-						(xy 38.735 -19.685) (xy 40.005 -18.415) (xy 40.005 -13.335) (xy 46.355 -6.985) (xy 54.61 -6.985)
+						(xy 39.37 -20.32) (xy 40.64 -19.05) (xy 40.64 -13.97) (xy 46.99 -7.62) (xy 55.245 -7.62)
 					)
 					(stroke
 						(width 0)
@@ -1818,7 +1818,7 @@
 				)
 				(polyline
 					(pts
-						(xy 46.355 -15.875) (xy 51.435 -10.795) (xy 54.61 -10.795)
+						(xy 46.99 -16.51) (xy 52.07 -11.43) (xy 55.245 -11.43)
 					)
 					(stroke
 						(width 0)
@@ -1830,7 +1830,7 @@
 				)
 				(polyline
 					(pts
-						(xy 46.355 -51.435) (xy 51.435 -56.515) (xy 54.61 -56.515)
+						(xy 46.99 -52.07) (xy 52.07 -57.15) (xy 55.245 -57.15)
 					)
 					(stroke
 						(width 0)
@@ -2009,7 +2009,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -10.795 0)
+					(at 0 -12.7 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2081,7 +2081,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -26.035 0)
+					(at 0 -26.67 0)
 					(length 2.54)
 					(name "GP5"
 						(effects
@@ -2297,7 +2297,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -48.895 0)
+					(at 0 -49.53 0)
 					(length 2.54)
 					(name "GP17"
 						(effects
@@ -2315,7 +2315,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -56.515 0)
+					(at 1.27 -57.15 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2585,7 +2585,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 57.15 -56.515 180)
+					(at 57.15 -57.15 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2855,7 +2855,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 57.15 -10.795 180)
+					(at 57.15 -11.43 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2891,7 +2891,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 57.15 -6.985 180)
+					(at 57.15 -7.62 180)
 					(length 2.54)
 					(name "GP47"
 						(effects
@@ -3089,7 +3089,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -6.985 0)
+					(at 0 -6.35 0)
 					(length 2.54)
 					(name "GP0"
 						(effects
@@ -3384,7 +3384,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 135.89) (xy 166.37 135.89)
+			(xy 166.37 137.16) (xy 168.91 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3394,7 +3394,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 135.89) (xy 148.59 135.89)
+			(xy 149.86 137.16) (xy 151.13 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3404,27 +3404,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 66.04) (xy 120.65 66.04)
+			(xy 125.73 68.58) (xy 128.27 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50afd8e5-96aa-4eba-b422-93195d142b87")
-	)
-	(wire
-		(pts
-			(xy 189.23 66.04) (xy 182.88 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80f887b1-9583-4a54-871d-bdeafdcab872")
+		(uuid "4bfbb136-6cbc-4e9d-95fa-aaa779422fa1")
 	)
 	(hierarchical_label "GP32"
 		(shape input)
-		(at 182.88 102.235 0)
+		(at 185.42 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3435,7 +3425,7 @@
 	)
 	(hierarchical_label "GP40"
 		(shape input)
-		(at 182.88 86.995 0)
+		(at 185.42 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3446,7 +3436,7 @@
 	)
 	(hierarchical_label "GP23"
 		(shape input)
-		(at 154.305 117.475 270)
+		(at 156.845 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3457,7 +3447,7 @@
 	)
 	(hierarchical_label "GP36"
 		(shape input)
-		(at 182.88 94.615 0)
+		(at 185.42 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3468,7 +3458,7 @@
 	)
 	(hierarchical_label "GP2"
 		(shape input)
-		(at 125.73 75.565 180)
+		(at 128.27 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3479,7 +3469,7 @@
 	)
 	(hierarchical_label "GP10"
 		(shape input)
-		(at 125.73 90.805 180)
+		(at 128.27 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3490,7 +3480,7 @@
 	)
 	(hierarchical_label "GP45"
 		(shape input)
-		(at 182.88 77.47 0)
+		(at 185.42 78.105 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3501,7 +3491,7 @@
 	)
 	(hierarchical_label "GP18"
 		(shape input)
-		(at 144.78 117.475 270)
+		(at 147.32 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3512,7 +3502,7 @@
 	)
 	(hierarchical_label "GP38"
 		(shape input)
-		(at 182.88 90.805 0)
+		(at 185.42 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3523,7 +3513,7 @@
 	)
 	(hierarchical_label "GP6"
 		(shape input)
-		(at 125.73 83.185 180)
+		(at 128.27 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3534,7 +3524,7 @@
 	)
 	(hierarchical_label "GP46"
 		(shape input)
-		(at 182.88 64.135 0)
+		(at 185.42 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3545,7 +3535,7 @@
 	)
 	(hierarchical_label "BOOTSEL"
 		(shape input)
-		(at 163.83 55.245 90)
+		(at 166.37 55.88 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3556,7 +3546,7 @@
 	)
 	(hierarchical_label "GP17"
 		(shape input)
-		(at 125.73 104.14 180)
+		(at 128.27 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3567,7 +3557,7 @@
 	)
 	(hierarchical_label "PGA_VBUS"
 		(shape input)
-		(at 144.78 55.245 90)
+		(at 147.32 55.88 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3578,7 +3568,7 @@
 	)
 	(hierarchical_label "DP"
 		(shape input)
-		(at 156.21 55.245 90)
+		(at 158.75 55.88 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3589,7 +3579,7 @@
 	)
 	(hierarchical_label "GP43"
 		(shape input)
-		(at 182.88 81.28 0)
+		(at 185.42 81.915 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3600,7 +3590,7 @@
 	)
 	(hierarchical_label "GP4"
 		(shape input)
-		(at 125.73 79.375 180)
+		(at 128.27 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3611,7 +3601,7 @@
 	)
 	(hierarchical_label "DM"
 		(shape input)
-		(at 160.02 55.245 90)
+		(at 162.56 55.88 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3622,7 +3612,7 @@
 	)
 	(hierarchical_label "GP14"
 		(shape input)
-		(at 125.73 98.425 180)
+		(at 128.27 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3633,7 +3623,7 @@
 	)
 	(hierarchical_label "GP31"
 		(shape input)
-		(at 169.545 117.475 270)
+		(at 172.085 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3644,7 +3634,7 @@
 	)
 	(hierarchical_label "SWCLK"
 		(shape input)
-		(at 154.305 55.245 90)
+		(at 156.845 55.88 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3655,7 +3645,7 @@
 	)
 	(hierarchical_label "GP1"
 		(shape input)
-		(at 125.73 64.135 180)
+		(at 128.27 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3666,7 +3656,7 @@
 	)
 	(hierarchical_label "GP47"
 		(shape input)
-		(at 182.88 62.23 0)
+		(at 185.42 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3677,7 +3667,7 @@
 	)
 	(hierarchical_label "SWDIO"
 		(shape input)
-		(at 161.925 55.245 90)
+		(at 164.465 55.88 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3688,7 +3678,7 @@
 	)
 	(hierarchical_label "GP3"
 		(shape input)
-		(at 125.73 77.47 180)
+		(at 128.27 78.105 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3699,7 +3689,7 @@
 	)
 	(hierarchical_label "GP7"
 		(shape input)
-		(at 125.73 85.09 180)
+		(at 128.27 85.725 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3710,7 +3700,7 @@
 	)
 	(hierarchical_label "GP29"
 		(shape input)
-		(at 165.735 117.475 270)
+		(at 168.275 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3721,7 +3711,7 @@
 	)
 	(hierarchical_label "GP26"
 		(shape input)
-		(at 160.02 117.475 270)
+		(at 162.56 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3732,7 +3722,7 @@
 	)
 	(hierarchical_label "GP39"
 		(shape input)
-		(at 182.88 88.9 0)
+		(at 185.42 89.535 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3743,7 +3733,7 @@
 	)
 	(hierarchical_label "GP13"
 		(shape input)
-		(at 125.73 96.52 180)
+		(at 128.27 97.155 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3754,7 +3744,7 @@
 	)
 	(hierarchical_label "GP15"
 		(shape input)
-		(at 125.73 100.33 180)
+		(at 128.27 100.965 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3765,7 +3755,7 @@
 	)
 	(hierarchical_label "GP12"
 		(shape input)
-		(at 125.73 94.615 180)
+		(at 128.27 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3776,7 +3766,7 @@
 	)
 	(hierarchical_label "GP9"
 		(shape input)
-		(at 125.73 88.9 180)
+		(at 128.27 89.535 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3787,7 +3777,7 @@
 	)
 	(hierarchical_label "GP41"
 		(shape input)
-		(at 182.88 85.09 0)
+		(at 185.42 85.725 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3798,7 +3788,7 @@
 	)
 	(hierarchical_label "GP20"
 		(shape input)
-		(at 148.59 117.475 270)
+		(at 151.13 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3809,7 +3799,7 @@
 	)
 	(hierarchical_label "GP8"
 		(shape input)
-		(at 125.73 86.995 180)
+		(at 128.27 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3820,7 +3810,7 @@
 	)
 	(hierarchical_label "PGA_3V3"
 		(shape input)
-		(at 146.685 55.245 90)
+		(at 149.225 55.88 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3831,7 +3821,7 @@
 	)
 	(hierarchical_label "GP21"
 		(shape input)
-		(at 150.495 117.475 270)
+		(at 153.035 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3842,7 +3832,7 @@
 	)
 	(hierarchical_label "GP27"
 		(shape input)
-		(at 161.925 117.475 270)
+		(at 164.465 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3853,7 +3843,7 @@
 	)
 	(hierarchical_label "GP34"
 		(shape input)
-		(at 182.88 98.425 0)
+		(at 185.42 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3864,7 +3854,7 @@
 	)
 	(hierarchical_label "ADC_VREF"
 		(shape input)
-		(at 150.495 55.245 90)
+		(at 153.035 55.88 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3875,7 +3865,7 @@
 	)
 	(hierarchical_label "GP37"
 		(shape input)
-		(at 182.88 92.71 0)
+		(at 185.42 93.345 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3886,7 +3876,7 @@
 	)
 	(hierarchical_label "GP25"
 		(shape input)
-		(at 158.115 117.475 270)
+		(at 160.655 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3897,7 +3887,7 @@
 	)
 	(hierarchical_label "GP22"
 		(shape input)
-		(at 152.4 117.475 270)
+		(at 154.94 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3908,7 +3898,7 @@
 	)
 	(hierarchical_label "GP24"
 		(shape input)
-		(at 156.21 117.475 270)
+		(at 158.75 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3919,7 +3909,7 @@
 	)
 	(hierarchical_label "GP35"
 		(shape input)
-		(at 182.88 96.52 0)
+		(at 185.42 97.155 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3930,7 +3920,7 @@
 	)
 	(hierarchical_label "GP42"
 		(shape input)
-		(at 182.88 83.185 0)
+		(at 185.42 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3941,7 +3931,7 @@
 	)
 	(hierarchical_label "GP5"
 		(shape input)
-		(at 125.73 81.28 180)
+		(at 128.27 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3952,7 +3942,7 @@
 	)
 	(hierarchical_label "RUN"
 		(shape input)
-		(at 152.4 55.245 90)
+		(at 154.94 55.88 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3963,7 +3953,7 @@
 	)
 	(hierarchical_label "GP16"
 		(shape input)
-		(at 125.73 102.235 180)
+		(at 128.27 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3974,7 +3964,7 @@
 	)
 	(hierarchical_label "GP11"
 		(shape input)
-		(at 125.73 92.71 180)
+		(at 128.27 93.345 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3985,7 +3975,7 @@
 	)
 	(hierarchical_label "GP33"
 		(shape input)
-		(at 182.88 100.33 0)
+		(at 185.42 100.965 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3996,7 +3986,7 @@
 	)
 	(hierarchical_label "GP19"
 		(shape input)
-		(at 146.685 117.475 270)
+		(at 149.225 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4007,7 +3997,7 @@
 	)
 	(hierarchical_label "GP44"
 		(shape input)
-		(at 182.88 79.375 0)
+		(at 185.42 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4018,7 +4008,7 @@
 	)
 	(hierarchical_label "PGA_3V3_EN"
 		(shape input)
-		(at 148.59 55.245 90)
+		(at 151.13 55.88 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4029,7 +4019,7 @@
 	)
 	(hierarchical_label "GP0"
 		(shape input)
-		(at 125.73 62.23 180)
+		(at 128.27 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4040,7 +4030,7 @@
 	)
 	(hierarchical_label "GP30"
 		(shape input)
-		(at 167.64 117.475 270)
+		(at 170.18 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4051,7 +4041,7 @@
 	)
 	(hierarchical_label "GP28"
 		(shape input)
-		(at 163.83 117.475 270)
+		(at 166.37 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4062,7 +4052,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:PGA2350")
-		(at 125.73 55.245 0)
+		(at 128.27 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4073,7 +4063,7 @@
 		(fields_autoplaced yes)
 		(uuid "486f6a51-4b6c-4c39-b16f-034fd44735f7")
 		(property "Reference" "U6"
-			(at 165.9733 53.34 0)
+			(at 168.5133 53.975 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4084,7 +4074,7 @@
 			)
 		)
 		(property "Value" "Pimoroni PGA2350"
-			(at 165.9733 55.88 0)
+			(at 168.5133 56.515 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4095,7 +4085,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:PGA2350"
-			(at 125.73 55.245 0)
+			(at 128.27 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4106,7 +4096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 55.245 0)
+			(at 128.27 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4117,7 +4107,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 55.245 0)
+			(at 128.27 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4324,7 +4314,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 111.76 90)
+		(at 185.42 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4333,9 +4323,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "60754904-762b-4848-a480-90d2ce15440a")
-		(property "Reference" "#PWR078"
-			(at 189.23 111.76 0)
+		(uuid "5bb6bea5-5d55-4910-8ec8-b3938dee81fb")
+		(property "Reference" "#PWR083"
+			(at 191.77 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4346,7 +4336,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 111.7599 90)
+			(at 189.23 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4357,7 +4347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 111.76 0)
+			(at 185.42 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4368,7 +4358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 111.76 0)
+			(at 185.42 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4379,7 +4369,86 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 111.76 0)
+			(at 185.42 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e352631a-3ed9-4fec-a774-9cf669161ff8")
+		)
+		(instances
+			(project "frank_pro_m2"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/34f704ec-275b-4a20-97af-9479c3af78d4"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60754904-762b-4848-a480-90d2ce15440a")
+		(property "Reference" "#PWR078"
+			(at 191.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4403,7 +4472,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 135.89 90)
+		(at 162.56 137.16 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4414,7 +4483,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a181b27-7a12-4be8-813a-f8a65cc462c8")
 		(property "Reference" "R25"
-			(at 160.02 129.54 90)
+			(at 162.56 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4424,7 +4493,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 160.02 132.08 90)
+			(at 162.56 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4434,7 +4503,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:R_0805_2012Metric"
-			(at 160.02 137.668 90)
+			(at 162.56 138.938 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4445,7 +4514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 135.89 0)
+			(at 162.56 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4456,7 +4525,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 135.89 0)
+			(at 162.56 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4467,7 +4536,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 160.02 135.89 0)
+			(at 162.56 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4478,7 +4547,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 160.02 135.89 0)
+			(at 162.56 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4488,7 +4557,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 160.02 135.89 0)
+			(at 162.56 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4498,7 +4567,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 160.02 135.89 0)
+			(at 162.56 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4508,7 +4577,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 160.02 135.89 0)
+			(at 162.56 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4518,7 +4587,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 160.02 135.89 0)
+			(at 162.56 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4528,7 +4597,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 160.02 135.89 0)
+			(at 162.56 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4538,7 +4607,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 160.02 135.89 0)
+			(at 162.56 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4548,7 +4617,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 160.02 135.89 0)
+			(at 162.56 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4558,7 +4627,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 160.02 135.89 0)
+			(at 162.56 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4568,7 +4637,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 160.02 135.89 0)
+			(at 162.56 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4594,7 +4663,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 66.04 270)
+		(at 125.73 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4604,7 +4673,7 @@
 		(dnp no)
 		(uuid "a3051a1f-6832-4c34-bd66-77028f5cd3e2")
 		(property "Reference" "#PWR067"
-			(at 114.3 66.04 0)
+			(at 119.38 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4615,7 +4684,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 66.0399 90)
+			(at 121.92 68.5799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4626,7 +4695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 66.04 0)
+			(at 125.73 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4637,7 +4706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 66.04 0)
+			(at 125.73 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4648,7 +4717,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 66.04 0)
+			(at 125.73 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4672,7 +4741,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 135.89 270)
+		(at 149.86 137.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4683,7 +4752,7 @@
 		(fields_autoplaced yes)
 		(uuid "a80190d4-ad93-4cdb-934d-7cae8fb44430")
 		(property "Reference" "#PWR074"
-			(at 140.97 135.89 0)
+			(at 143.51 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4694,7 +4763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 135.8899 90)
+			(at 146.05 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4705,7 +4774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 135.89 0)
+			(at 149.86 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4716,7 +4785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 135.89 0)
+			(at 149.86 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4727,7 +4796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 135.89 0)
+			(at 149.86 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4751,7 +4820,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 166.37 135.89 270)
+		(at 168.91 137.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4762,7 +4831,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc638477-9383-4a47-aa8d-adce573a8a00")
 		(property "Reference" "#PWR075"
-			(at 162.56 135.89 0)
+			(at 165.1 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4773,7 +4842,7 @@
 			)
 		)
 		(property "Value" "GP25"
-			(at 169.545 135.8899 90)
+			(at 172.085 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4784,7 +4853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 135.89 0)
+			(at 168.91 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4795,7 +4864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 135.89 0)
+			(at 168.91 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4806,7 +4875,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 166.37 135.89 0)
+			(at 168.91 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4830,7 +4899,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 152.4 135.89 0)
+		(at 154.94 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4841,7 +4910,7 @@
 		(fields_autoplaced yes)
 		(uuid "dac2b9bc-9f83-4580-bd4a-478c8b7466dd")
 		(property "Reference" "LD2"
-			(at 150.8125 129.54 0)
+			(at 153.3525 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4851,7 +4920,7 @@
 			)
 		)
 		(property "Value" "Blue"
-			(at 150.8125 132.08 0)
+			(at 153.3525 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4861,7 +4930,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:LED_0805"
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4872,7 +4941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4883,7 +4952,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4894,7 +4963,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005007252088951.html"
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4905,7 +4974,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4916,7 +4985,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4926,7 +4995,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4936,7 +5005,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4946,7 +5015,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4956,7 +5025,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4966,7 +5035,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4976,7 +5045,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4986,7 +5055,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4996,7 +5065,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5006,7 +5075,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 152.4 135.89 0)
+			(at 154.94 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5032,7 +5101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 111.76 270)
+		(at 129.54 113.03 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5043,7 +5112,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0faba3c-8f02-4f42-9c5a-4e64dbdcca35")
 		(property "Reference" "#PWR073"
-			(at 119.38 111.76 0)
+			(at 123.19 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5054,7 +5123,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 111.7599 90)
+			(at 125.73 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5065,7 +5134,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 111.76 0)
+			(at 129.54 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5076,7 +5145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 111.76 0)
+			(at 129.54 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5087,7 +5156,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 111.76 0)
+			(at 129.54 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5104,84 +5173,6 @@
 			(project "frank_pro_m2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/34f704ec-275b-4a20-97af-9479c3af78d4"
 					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 66.04 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f44cf2c6-1fc6-4ef8-86e4-d33bc42787a7")
-		(property "Reference" "#PWR083"
-			(at 195.58 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 66.0401 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af8adcfb-e75c-47a9-b9e7-1c9336dfc20d")
-		)
-		(instances
-			(project "frank_pro_m2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/34f704ec-275b-4a20-97af-9479c3af78d4"
-					(reference "#PWR083")
 					(unit 1)
 				)
 			)
