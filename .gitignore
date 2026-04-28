@@ -1,9 +1,38 @@
-/frank_m2/frank_m2-backups
-/frank_m2/frank_m2-backups
+# macOS
+.DS_Store
+
+# KiCad temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+.refactor-backup-*/
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
 *.lck
-/frank_m2/.history
-/frank_m2/frank_m2-backups
-/frank_pro_m2/.refactor-backup-20260428-135116
-/frank_pro_m2/.history
-frank_pro_m2/~frank_pro_m2.kicad_pro.lck
-frank_pro_m2/~frank_pro_m2.kicad_pro.lck
+\#auto_saved_files#
+\#auto_saved_files\#
+*.round-tracks-config
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+.history/
+
+.DS_Store
