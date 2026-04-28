@@ -36,7 +36,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FRANK:Raspberry Pi Zero"
+			(property "Footprint" "FRANK:RaspberryPi_Zero"
 				(at -8.89 5.08 0)
 				(effects
 					(font
@@ -494,7 +494,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "FRANK:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -878,7 +878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Raspberry Pi Zero"
+		(property "Footprint" "FRANK:RaspberryPi_Zero"
 			(at 142.24 92.71 0)
 			(effects
 				(font
@@ -993,7 +993,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FRANK:GND")
 		(at 135.89 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)

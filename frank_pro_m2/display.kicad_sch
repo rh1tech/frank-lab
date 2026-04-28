@@ -12,7 +12,7 @@
 		(comment 1 "https://github.com/rh1tech/frank")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x08_Pin"
+		(symbol "FRANK:Conn_01x08_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -439,7 +439,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "FRANK:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -554,7 +554,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
+		(symbol "FRANK:VBUS"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -841,7 +841,7 @@
 		(uuid "e2009c52-c4c4-491f-a8b8-1020f57daab6")
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FRANK:GND")
 		(at 160.02 95.25 90)
 		(unit 1)
 		(body_style 1)
@@ -920,7 +920,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
+		(lib_id "FRANK:VBUS")
 		(at 160.02 92.71 270)
 		(unit 1)
 		(body_style 1)
@@ -999,7 +999,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x08_Pin")
+		(lib_id "FRANK:Conn_01x08_Pin")
 		(at 134.62 100.33 0)
 		(unit 1)
 		(body_style 1)

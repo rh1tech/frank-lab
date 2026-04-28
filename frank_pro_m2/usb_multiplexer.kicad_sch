@@ -591,6 +591,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FRANK:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FRANK:R"
 			(pin_numbers
 				(hide yes)
@@ -731,122 +846,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:VBUS"
+		(symbol "FRANK:VBUS"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1286,7 +1286,7 @@
 		(uuid "dc8ef69a-7832-497b-9a10-ac023187b0b5")
 	)
 	(symbol
-		(lib_id "power:VBUS")
+		(lib_id "FRANK:VBUS")
 		(at 186.69 87.63 270)
 		(unit 1)
 		(body_style 1)
@@ -1363,7 +1363,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FRANK:GND")
 		(at 171.45 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -1441,7 +1441,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FRANK:GND")
 		(at 186.69 90.17 90)
 		(unit 1)
 		(body_style 1)
@@ -1520,7 +1520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FRANK:GND")
 		(at 125.73 102.87 270)
 		(unit 1)
 		(body_style 1)
@@ -1599,7 +1599,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FRANK:GND")
 		(at 175.26 77.47 180)
 		(unit 1)
 		(body_style 1)
@@ -2048,7 +2048,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FRANK:GND")
 		(at 125.73 100.33 270)
 		(unit 1)
 		(body_style 1)
@@ -2127,7 +2127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FRANK:GND")
 		(at 125.73 95.25 270)
 		(unit 1)
 		(body_style 1)
@@ -2206,7 +2206,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FRANK:GND")
 		(at 125.73 105.41 270)
 		(unit 1)
 		(body_style 1)
@@ -2285,7 +2285,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FRANK:GND")
 		(at 186.69 105.41 90)
 		(unit 1)
 		(body_style 1)
@@ -2642,7 +2642,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FRANK:GND")
 		(at 186.69 100.33 90)
 		(unit 1)
 		(body_style 1)
@@ -2721,7 +2721,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FRANK:GND")
 		(at 125.73 90.17 270)
 		(unit 1)
 		(body_style 1)
