@@ -373,287 +373,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input non_logic
-					(at -3.81 -2.54 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FRANK:DS05-127-2-04BK-SMT-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1929,10 +1648,22 @@
 		(uuid "1bf41fdb-f55e-4ab0-928b-2d930939ccc4")
 	)
 	(junction
+		(at 55.88 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "336363d7-d29a-4096-ace4-fd991f841932")
+	)
+	(junction
 		(at 55.88 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c88b10a-54e6-4682-9376-d05bef6684da")
+	)
+	(junction
+		(at 55.88 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41332f69-b2dd-44f6-a131-9df7be86507b")
 	)
 	(junction
 		(at 69.85 22.86)
@@ -1975,12 +1706,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f962b0f-7189-4ef0-a7c6-eb1e01af32b6")
-	)
-	(junction
-		(at 55.88 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9187e24f-715c-4df9-8f17-7cd4c670c958")
 	)
 	(junction
 		(at 55.88 109.22)
@@ -2059,12 +1784,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddad34e1-33c2-43b6-b3d2-0188098cbdbf")
-	)
-	(junction
-		(at 55.88 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddb58fae-d7ec-4ccb-b5fc-a5b3e41951ec")
 	)
 	(junction
 		(at 55.88 90.17)
@@ -2650,6 +2369,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 53.34) (xy 90.17 55.88)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "46767de2-a110-417d-b35f-5dcd477d43f7")
+	)
+	(wire
+		(pts
 			(xy 105.41 69.85) (xy 105.41 85.09)
 		)
 		(stroke
@@ -2920,7 +2649,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 53.34) (xy 105.41 53.34)
+			(xy 55.88 53.34) (xy 90.17 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3027,6 +2756,16 @@
 			(type dot)
 		)
 		(uuid "9119dbe2-8c13-4429-9503-896cbbd8c68b")
+	)
+	(wire
+		(pts
+			(xy 90.17 55.88) (xy 107.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "914976a2-0593-4d77-8a3e-c378537e9d71")
 	)
 	(wire
 		(pts
@@ -3360,7 +3099,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 50.8) (xy 105.41 50.8)
+			(xy 55.88 50.8) (xy 107.95 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3770,86 +3509,6 @@
 	)
 	(symbol
 		(lib_id "FRANK:GND")
-		(at 105.41 45.72 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "01b99baf-419b-464b-b3d0-6ba488bd7a3a")
-		(property "Reference" "#PWR08"
-			(at 99.06 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.568 45.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87135061-38bf-4427-ad02-8678e46bcb6f")
-		)
-		(instances
-			(project "frank_pro_m2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:GND")
 		(at 134.62 165.1 90)
 		(unit 1)
 		(body_style 1)
@@ -3924,87 +3583,6 @@
 			(project "frank_pro_m2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:GND")
-		(at 114.3 50.8 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e848c1f-f1d0-4005-8678-ac8835c02977")
-		(property "Reference" "#PWR0151"
-			(at 114.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 48.006 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "726dce20-aa3c-4479-90b3-71f39f132ea0")
-		)
-		(instances
-			(project "frank_pro_m2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -4780,6 +4358,7 @@
 	(symbol
 		(lib_id "FRANK:Conn_01x03_Pin")
 		(at 120.65 184.15 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4789,7 +4368,7 @@
 		(dnp no)
 		(uuid "2c15406c-efaf-41bd-b5c4-9bf435c5b2a2")
 		(property "Reference" "J2"
-			(at 120.65 175.514 0)
+			(at 120.65 192.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4799,7 +4378,7 @@
 			)
 		)
 		(property "Value" "DEBUG"
-			(at 120.65 178.054 0)
+			(at 120.65 190.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5843,87 +5422,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
-		(at 105.41 48.26 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51745eab-d914-4f17-b8bd-72b2310ecedc")
-		(property "Reference" "#PWR09"
-			(at 109.22 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 98.806 48.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 255 0 0 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 105.41 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21b1df40-c73a-465b-9b58-d709eb37dfe3")
-		)
-		(instances
-			(project "frank_pro_m2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FRANK:R")
 		(at 77.47 48.26 90)
 		(mirror x)
@@ -6188,95 +5686,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:Conn_01x04_Pin")
-		(at 110.49 48.26 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a62a6f80-746c-471e-bda1-2a7cecb04100")
-		(property "Reference" "J1"
-			(at 119.38 50.546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UART"
-			(at 119.38 53.086 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:JST_SH_1x04_P1.00mm_Vertical"
-			(at 110.49 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 110.49 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "09f9db4d-a345-49f1-966c-ea6f638ff1a3")
-		)
-		(pin "2"
-			(uuid "0f8f3a36-aed9-4cb6-b663-980bdf58a6d8")
-		)
-		(pin "1"
-			(uuid "e7abfcfb-a1dc-4142-a5bd-98fd2a77d46b")
-		)
-		(pin "4"
-			(uuid "cfe15019-6c57-49b7-af4c-90e245ee9054")
-		)
-		(pin "MP"
-			(uuid "e086b23e-af8a-48ba-87dc-5da5e699d3cc")
-		)
-		(instances
-			(project "frank_pro_m2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FRANK:MountingHole")
 		(at 267.97 156.21 0)
 		(unit 1)
@@ -6424,6 +5833,89 @@
 			(project "frank_pro_m2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:Conn_01x03_Pin")
+		(at 113.03 53.34 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b402b5ce-54c7-471e-a392-b1825244b7aa")
+		(property "Reference" "J1"
+			(at 117.856 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UART"
+			(at 117.856 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:JST_SH_1x03_P1.00mm_Vertical"
+			(at 113.03 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 113.03 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f75620a7-f3f2-40ef-b94c-63b22418d4fb")
+		)
+		(pin "2"
+			(uuid "c231f2d0-a6ea-42d5-8c7f-8859532e25c1")
+		)
+		(pin "1"
+			(uuid "d9789511-e8b1-469d-ab9d-49f5db603920")
+		)
+		(instances
+			(project "frank_pro_m2"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7287,6 +6779,87 @@
 			(project "frank_pro_m2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:GND")
+		(at 107.95 53.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3db2ed4-ccc4-4134-917b-7da63230720c")
+		(property "Reference" "#PWR0151"
+			(at 101.6 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45bfbc88-04c4-433e-9ce0-5f828f22f106")
+		)
+		(instances
+			(project "frank_pro_m2"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
