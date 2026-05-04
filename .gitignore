@@ -1,5 +1,6 @@
 # macOS
 .DS_Store
+._*
 
 # KiCad temporary files
 *.000
@@ -25,15 +26,16 @@ fp-info-cache
 
 # Netlist files (exported from Eeschema)
 *.net
+*.xml
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
 
 # Exported BOM files
-*.xml
 *.csv
-.history/
 
-.DS_Store
-/frank_m2/frank_m2-backups
+# Editor / tooling state
+.history/
+.vscode/
+.idea/
