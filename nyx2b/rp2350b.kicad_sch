@@ -4389,6 +4389,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 168.91) (xy 182.88 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08cc12d5-91aa-4e26-8b5a-8400518ce617")
+	)
+	(wire
+		(pts
 			(xy 251.46 93.98) (xy 262.89 93.98)
 		)
 		(stroke
@@ -4639,16 +4649,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 168.91) (xy 182.88 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32bc6e86-5820-4627-8436-040944861652")
-	)
-	(wire
-		(pts
 			(xy 204.47 71.12) (xy 210.82 71.12)
 		)
 		(stroke
@@ -4869,6 +4869,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 166.37) (xy 182.88 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0f7bcd-ff47-4c9a-8f93-afc5ff77e0c3")
+	)
+	(wire
+		(pts
 			(xy 93.98 137.16) (xy 93.98 125.73)
 		)
 		(stroke
@@ -4886,16 +4896,6 @@
 			(type default)
 		)
 		(uuid "5bf80da6-e464-4676-aa95-2ed790b2cd1e")
-	)
-	(wire
-		(pts
-			(xy 160.02 171.45) (xy 182.88 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c46fe85-adec-4112-a95a-080507aaaabe")
 	)
 	(wire
 		(pts
@@ -5329,16 +5329,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 166.37) (xy 160.02 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0903e72-4a83-4e8f-ba3b-e8ee1f8cc387")
-	)
-	(wire
-		(pts
 			(xy 210.82 71.12) (xy 213.36 71.12)
 		)
 		(stroke
@@ -5386,6 +5376,16 @@
 			(type default)
 		)
 		(uuid "aa1ae168-9503-4943-aa8f-83c359736167")
+	)
+	(wire
+		(pts
+			(xy 166.37 171.45) (xy 182.88 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab34bc5d-18b4-431a-a67a-c6545bbf1304")
 	)
 	(wire
 		(pts
@@ -6157,6 +6157,16 @@
 		)
 		(uuid "32dcf6ee-5c01-4555-ab86-73a17d92bbf4")
 	)
+	(label "SWD"
+		(at 173.99 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36ef6158-022a-4f62-981f-c2de5ec2e5a2")
+	)
 	(label "QSPI_SD2"
 		(at 168.91 121.92 0)
 		(effects
@@ -6196,6 +6206,16 @@
 			(justify left bottom)
 		)
 		(uuid "83dd439c-fee7-4a4d-b893-c133c694a6df")
+	)
+	(label "SWCLK"
+		(at 173.99 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8807aeb4-32e6-4265-aa79-012619aa9e4a")
 	)
 	(label "QSPI_SD3"
 		(at 168.91 124.46 0)
@@ -8291,8 +8311,7 @@
 	)
 	(symbol
 		(lib_id "Nyx:Conn_01x03_Pin")
-		(at 165.1 168.91 0)
-		(mirror y)
+		(at 171.45 168.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8302,7 +8321,7 @@
 		(dnp no)
 		(uuid "2b644d23-619b-4b99-b8c5-b1b16d777afe")
 		(property "Reference" "J4"
-			(at 165.1 160.274 0)
+			(at 182.118 175.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8312,7 +8331,7 @@
 			)
 		)
 		(property "Value" "DEBUG"
-			(at 165.1 162.814 0)
+			(at 179.832 172.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8322,7 +8341,7 @@
 			)
 		)
 		(property "Footprint" "Nyx:JST_SH_1x03_P1.00mm_Vertical"
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8333,7 +8352,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/154/basics-us_2-54mm-125848.pdf"
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8344,7 +8363,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8355,7 +8374,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005007039504981.html"
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8366,7 +8385,7 @@
 			)
 		)
 		(property "Attrition Qty" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8377,7 +8396,7 @@
 			)
 		)
 		(property "Category" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8388,7 +8407,7 @@
 			)
 		)
 		(property "Class" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8399,7 +8418,7 @@
 			)
 		)
 		(property "Crystal Type" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8410,7 +8429,7 @@
 			)
 		)
 		(property "Frequency" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8421,7 +8440,7 @@
 			)
 		)
 		(property "Frequency Stability" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8432,7 +8451,7 @@
 			)
 		)
 		(property "Frequency Tolerance" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8443,7 +8462,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8454,7 +8473,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8465,7 +8484,7 @@
 			)
 		)
 		(property "Minimum Qty" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8476,7 +8495,7 @@
 			)
 		)
 		(property "Normal Temperature Frequency Tolerance" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8487,7 +8506,7 @@
 			)
 		)
 		(property "Operating Temperature" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8498,7 +8517,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8509,7 +8528,7 @@
 			)
 		)
 		(property "Process" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8520,7 +8539,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8531,7 +8550,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 165.1 168.91 0)
+			(at 171.45 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12574,7 +12593,7 @@
 	)
 	(symbol
 		(lib_id "Nyx:GND")
-		(at 160.02 168.91 270)
+		(at 166.37 168.91 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12585,7 +12604,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0c4b6cb-d2fa-4c5e-802b-294ac7ccdb84")
 		(property "Reference" "#PWR020"
-			(at 153.67 168.91 0)
+			(at 160.02 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12596,7 +12615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 168.9099 90)
+			(at 162.56 168.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12607,7 +12626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 168.91 0)
+			(at 166.37 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12618,7 +12637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 168.91 0)
+			(at 166.37 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12629,7 +12648,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 168.91 0)
+			(at 166.37 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -512,16 +512,17 @@
 			(embedded_fonts no)
 		)
 	)
-	(hierarchical_label "GPIO0"
-		(shape input)
-		(at 175.26 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "02d5cd2e-722e-4320-b32e-f5fd3df4bc6e")
+	(no_connect
+		(at 175.26 101.6)
+		(uuid "7b242706-7dd6-4698-ae88-2e5085aed1c4")
+	)
+	(no_connect
+		(at 175.26 99.06)
+		(uuid "d3423cbf-2d69-4edc-9a58-9826cf7541c6")
+	)
+	(no_connect
+		(at 127 99.06)
+		(uuid "e3557920-334d-4c77-89cc-8736b662b981")
 	)
 	(hierarchical_label "RX"
 		(shape input)
@@ -555,28 +556,6 @@
 			(justify right)
 		)
 		(uuid "35293547-366c-4726-a11f-80ec4c86d97f")
-	)
-	(hierarchical_label "CH_PD"
-		(shape input)
-		(at 127 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "63c7997f-2019-4ebe-b7ec-35ab70b386b8")
-	)
-	(hierarchical_label "GPIO2"
-		(shape input)
-		(at 175.26 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ab85144-d11a-4d83-90cd-63b7365196d8")
 	)
 	(symbol
 		(lib_id "power:GND")
