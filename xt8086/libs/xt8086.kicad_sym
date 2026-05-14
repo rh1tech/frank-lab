@@ -1312,7 +1312,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "LS"
-			(at 24.13 7.62 0)
+			(at 4.826 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1322,8 +1322,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CMT-7525-80-SMT-TR"
-			(at 24.13 5.08 0)
+		(property "Value" "GENERIC BUZZER"
+			(at 4.826 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1431,7 +1431,7 @@
 		(symbol "CMT-7525-80-SMT-TR_1_1"
 			(rectangle
 				(start 5.08 2.54)
-				(end 22.86 -5.08)
+				(end 10.16 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1469,42 +1469,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 27.94 -2.54 180)
-				(length 5.08)
-				(name "DUMMY_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 27.94 0 180)
-				(length 5.08)
-				(name "DUMMY_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
