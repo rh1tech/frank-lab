@@ -1648,146 +1648,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:VBUS"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:SolderJumper_2_Open"
+		(symbol "FRANK:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1955,6 +1816,145 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FRANK:VBUS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2372,16 +2372,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 97.79) (xy 152.394 97.79)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-		)
-		(uuid "45dab6cd-a8b0-4de6-9a99-0eca85a7782d")
-	)
-	(wire
-		(pts
 			(xy 132.08 111.76) (xy 151.13 111.76)
 		)
 		(stroke
@@ -2509,6 +2499,16 @@
 			(type default)
 		)
 		(uuid "57ae33bd-cc00-4433-bcef-018bb28baa7f")
+	)
+	(wire
+		(pts
+			(xy 99.06 95.25) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "58f97c73-f58e-4a78-9cc3-b84709653624")
 	)
 	(wire
 		(pts
@@ -2719,16 +2719,6 @@
 			(type default)
 		)
 		(uuid "911dcaeb-2f47-488a-a9b5-90a059bbe701")
-	)
-	(wire
-		(pts
-			(xy 99.06 95.25) (xy 152.4 95.25)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-		)
-		(uuid "9d22871f-6b54-4181-a59c-f8970a1e6596")
 	)
 	(wire
 		(pts
@@ -2982,7 +2972,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.474 97.79) (xy 170.18 97.79)
+			(xy 157.48 97.79) (xy 170.18 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3039,6 +3029,16 @@
 			(type dot)
 		)
 		(uuid "f16f2ef6-d288-4f2e-ad8a-4066ddf145ee")
+	)
+	(wire
+		(pts
+			(xy 99.06 97.79) (xy 152.4 97.79)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "f18c695c-011e-4c3a-9729-1170adda00a5")
 	)
 	(wire
 		(pts
@@ -4606,7 +4606,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:R_Small")
-		(at 154.934 97.79 270)
+		(at 154.94 97.79 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4616,7 +4616,7 @@
 		(dnp no)
 		(uuid "26a477e8-b468-4489-8175-18f212efee21")
 		(property "Reference" "R1"
-			(at 158.744 96.52 90)
+			(at 158.75 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4626,7 +4626,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 154.934 97.79 90)
+			(at 154.94 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4636,7 +4636,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:R_0603_1608Metric"
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4647,7 +4647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4658,7 +4658,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4669,7 +4669,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4680,7 +4680,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4691,7 +4691,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4701,7 +4701,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4711,7 +4711,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4721,7 +4721,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4731,7 +4731,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4741,7 +4741,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4751,7 +4751,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4761,7 +4761,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4771,7 +4771,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4781,7 +4781,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 154.934 97.79 0)
+			(at 154.94 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8036,7 +8036,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "FRANK:SolderJumper_2_Open")
 		(at 156.21 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -8749,7 +8749,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "FRANK:SolderJumper_2_Open")
 		(at 156.21 64.77 0)
 		(unit 1)
 		(body_style 1)
