@@ -87,10 +87,6 @@
           ""
         ],
         [
-          "silk_over_copper|183040000|104500000|c44c44c7-83b7-4028-8820-ee8b128a3af5|59ebf3bb-b036-4365-ac98-92a1ced8d0d4",
-          ""
-        ],
-        [
           "silk_over_copper|224800000|121598104|0a2193f1-a3b8-457c-8429-c84d717baf10|3af10d41-dad0-4d0b-b9a4-5a90ea1763fa",
           ""
         ],
@@ -443,6 +439,14 @@
         ""
       ],
       [
+        "power_pin_not_driven|1295400|1168400|f5b93720-e0e4-4245-ab87-16c53a6c762b|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1320800|762000|bd291d8e-8ca4-42f2-ba75-895951f654f4|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cc3b493c-84ed-45fe-8a9e-a3bf2d009620|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cc3b493c-84ed-45fe-8a9e-a3bf2d009620|",
+        ""
+      ],
+      [
         "power_pin_not_driven|1371600|1130300|f5b93720-e0e4-4245-ab87-16c53a6c762b|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|",
         ""
       ],
@@ -456,6 +460,10 @@
       ],
       [
         "power_pin_not_driven|1549400|1003300|62e942fd-8348-489a-a4af-ef21d319fbfd|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/9d0ad236-240c-42bd-9e4a-79b0506e7ea9/3a0b6cee-28de-4cf4-a8a0-557e76ef8313|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/9d0ad236-240c-42bd-9e4a-79b0506e7ea9/3a0b6cee-28de-4cf4-a8a0-557e76ef8313|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1600200|990600|f207bf4b-679c-4c4a-9547-78662ce37d9b|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7655862b-5d0e-4f8a-9c77-7db819ebca81|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7655862b-5d0e-4f8a-9c77-7db819ebca81|",
         ""
       ]
     ],
@@ -726,7 +734,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/1_02",
+      "plot": "gerbers/1_00",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "docs/1/04/fastbeta_hdmi.step",
@@ -1099,7 +1107,7 @@
         "uuid": "8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
       }
     ],
-    "used_designators": "#PWR180,S9",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -1130,6 +1138,14 @@
     [
       "69880b1a-cb0b-4b19-afc8-c8ab05f75f62",
       "TS"
+    ],
+    [
+      "7655862b-5d0e-4f8a-9c77-7db819ebca81",
+      "RTC"
+    ],
+    [
+      "6557223e-7638-462f-8313-ebefb99ed495",
+      "DS2401"
     ],
     [
       "db853a64-9343-4a36-b5b8-71001392b936",
@@ -1205,10 +1221,10 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2026-05-06",
+    "DATE": "2026-05-30",
     "MODEL": "M2",
     "NAME": "MEGA FRANK",
-    "VERSION": "1.02"
+    "VERSION": "1.00"
   },
   "tuning_profiles": {
     "meta": {
