@@ -151,7 +151,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:1174"
+		(symbol "FRANK:Battery_CR1220"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -168,7 +168,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "1174"
+			(property "Value" "Battery_CR1220"
 				(at 19.05 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -179,7 +179,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "FRANK:Battery_CR2032"
+			(property "Footprint" "FRANK:Battery_CR1220"
 				(at 19.05 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -191,7 +191,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14915"
+			(property "Datasheet" ""
 				(at 19.05 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -203,7 +203,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "Coin Cell Battery Holders Locking Vertical CR2032 Cell Holder-THM"
+			(property "Description" "CR1220 Cell Holder"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -214,7 +214,7 @@
 					)
 				)
 			)
-			(property "Height" "14.33"
+			(property "Height" ""
 				(at 19.05 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -250,7 +250,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Name" "Keystone Electronics"
+			(property "Manufacturer_Name" ""
 				(at 19.05 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -262,7 +262,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "1174"
+			(property "Manufacturer_Part_Number" ""
 				(at 19.05 -794.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -274,7 +274,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "1174_1_1"
+			(symbol "Battery_CR1220_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 17.78 -5.08)
@@ -289,7 +289,7 @@
 				(pin passive line
 					(at 22.86 0 180)
 					(length 5.08)
-					(name "+_1"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -315,24 +315,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -2.54 180)
-					(length 5.08)
-					(name "+_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -481,6 +463,187 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FRANK:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1114,54 +1277,54 @@
 		)
 	)
 	(junction
-		(at 134.62 104.14)
+		(at 137.16 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "702d15f6-efb3-4452-8ee2-e67e439f62a1")
 	)
 	(junction
-		(at 162.56 92.71)
+		(at 162.56 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "967bad3a-f295-4461-ae20-495d261235f8")
+		(uuid "76813995-b2d5-4aa9-b2de-5ef47f5dc47d")
 	)
 	(junction
-		(at 134.62 106.68)
+		(at 137.16 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4b92370-c95c-4a10-9ec4-53223b7b89aa")
 	)
 	(junction
-		(at 156.21 88.9)
+		(at 165.1 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "de8e6bf9-2c06-45d0-b693-e32259c28fe4")
+		(uuid "e5119768-6b1c-4619-8263-ec593f348398")
 	)
 	(no_connect
-		(at 149.86 114.3)
+		(at 152.4 121.92)
 		(uuid "2f8ab5d9-003b-40b0-8f8a-768dd6feea83")
 	)
 	(no_connect
-		(at 175.26 111.76)
+		(at 177.8 119.38)
 		(uuid "52985163-e6bd-4474-aa4c-563440cdcecb")
 	)
 	(no_connect
-		(at 175.26 104.14)
+		(at 177.8 111.76)
 		(uuid "b129e8b0-7429-4a4f-b68f-ff897b36746c")
 	)
 	(wire
 		(pts
-			(xy 160.02 91.44) (xy 160.02 99.06)
+			(xy 147.32 82.55) (xy 147.32 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f96b3e2-1107-4746-8974-4ab63301b531")
+		(uuid "19cd6376-5d07-4b56-a246-c62041a0f715")
 	)
 	(wire
 		(pts
-			(xy 134.62 106.68) (xy 149.86 106.68)
+			(xy 137.16 114.3) (xy 152.4 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1171,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 92.71) (xy 162.56 92.71)
+			(xy 168.91 100.33) (xy 165.1 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1181,7 +1344,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 106.68) (xy 134.62 106.68)
+			(xy 162.56 100.33) (xy 162.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9a085b-9006-457a-a6db-e32acd8584fa")
+	)
+	(wire
+		(pts
+			(xy 128.27 114.3) (xy 137.16 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1191,37 +1364,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 88.9) (xy 156.21 88.9)
+			(xy 147.32 100.33) (xy 162.56 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c9d05a3-f93b-4aee-a050-cf033e6a05f7")
+		(uuid "75da20a5-1710-4baa-aa71-d8f0cf5b3052")
 	)
 	(wire
 		(pts
-			(xy 156.21 88.9) (xy 156.21 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6986f1fa-2a12-4ee3-9e9c-fa72f68ae32c")
-	)
-	(wire
-		(pts
-			(xy 156.21 91.44) (xy 160.02 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e055f59-096e-42eb-ae34-2d5fa9cf0d0d")
-	)
-	(wire
-		(pts
-			(xy 134.62 104.14) (xy 149.86 104.14)
+			(xy 137.16 111.76) (xy 152.4 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1231,7 +1384,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 162.56 99.06)
+			(xy 165.1 100.33) (xy 165.1 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1241,7 +1394,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 102.87) (xy 134.62 104.14)
+			(xy 137.16 110.49) (xy 137.16 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1251,7 +1404,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 127) (xy 162.56 119.38)
+			(xy 165.1 134.62) (xy 165.1 127)
 		)
 		(stroke
 			(width 0)
@@ -1261,7 +1414,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 104.14) (xy 134.62 104.14)
+			(xy 128.27 111.76) (xy 137.16 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1271,7 +1424,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 85.09) (xy 162.56 92.71)
+			(xy 165.1 97.79) (xy 165.1 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1281,7 +1434,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 92.71) (xy 172.72 92.71)
+			(xy 162.56 92.71) (xy 162.56 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c147e52d-9872-4775-aa5e-82cecadf7f07")
+	)
+	(wire
+		(pts
+			(xy 176.53 100.33) (xy 175.26 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1291,7 +1454,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 125.73 106.68 180)
+		(at 128.27 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1302,7 +1465,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 125.73 104.14 180)
+		(at 128.27 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1313,7 +1476,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:GND")
-		(at 162.56 127 0)
+		(at 165.1 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1323,8 +1486,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00a4423e-340d-43dd-965a-622dee2853e4")
-		(property "Reference" "#PWR095"
-			(at 162.56 133.35 0)
+		(property "Reference" "#PWR098"
+			(at 165.1 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1335,7 +1498,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 132.08 0)
+			(at 165.1 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1345,7 +1508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 127 0)
+			(at 165.1 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1356,7 +1519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 127 0)
+			(at 165.1 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1367,7 +1530,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 127 0)
+			(at 165.1 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1383,7 +1546,7 @@
 		(instances
 			(project "frank_mega"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7655862b-5d0e-4f8a-9c77-7db819ebca81"
-					(reference "#PWR095")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -1392,7 +1555,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "FRANK:GND")
-		(at 172.72 92.71 90)
+		(at 175.26 100.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1401,8 +1564,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2714ae25-1f23-4005-b91a-4a84bae1a88b")
-		(property "Reference" "#PWR096"
-			(at 179.07 92.71 0)
+		(property "Reference" "#PWR099"
+			(at 181.61 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1413,7 +1576,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.1142 92.583 0)
+			(at 179.6542 100.203 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1423,7 +1586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 92.71 0)
+			(at 175.26 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1434,7 +1597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 92.71 0)
+			(at 175.26 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1445,7 +1608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 92.71 0)
+			(at 175.26 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1461,7 +1624,7 @@
 		(instances
 			(project "frank_mega"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7655862b-5d0e-4f8a-9c77-7db819ebca81"
-					(reference "#PWR096")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -1469,7 +1632,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:R")
-		(at 134.62 99.06 180)
+		(at 137.16 106.68 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1479,7 +1642,7 @@
 		(dnp no)
 		(uuid "50ddf21f-b7fe-48a9-bce0-afa25532ac06")
 		(property "Reference" "R60"
-			(at 132.334 98.806 90)
+			(at 134.874 106.426 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1489,7 +1652,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 137.16 98.806 90)
+			(at 139.7 106.426 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1499,7 +1662,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:R_0805_2012Metric"
-			(at 136.398 99.06 90)
+			(at 138.938 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1510,7 +1673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 99.06 0)
+			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1521,7 +1684,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 99.06 0)
+			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1532,7 +1695,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 134.62 99.06 0)
+			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1543,7 +1706,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1554,7 +1717,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1565,7 +1728,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1576,7 +1739,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1587,7 +1750,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1598,7 +1761,7 @@
 			)
 		)
 		(property "Attrition Qty" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1609,7 +1772,7 @@
 			)
 		)
 		(property "Category" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1620,7 +1783,7 @@
 			)
 		)
 		(property "Class" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1631,7 +1794,7 @@
 			)
 		)
 		(property "Crystal Type" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1642,7 +1805,7 @@
 			)
 		)
 		(property "Frequency" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1653,7 +1816,7 @@
 			)
 		)
 		(property "Frequency Stability" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1664,7 +1827,7 @@
 			)
 		)
 		(property "Frequency Tolerance" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1675,7 +1838,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1686,7 +1849,7 @@
 			)
 		)
 		(property "Minimum Qty" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1697,7 +1860,7 @@
 			)
 		)
 		(property "Normal Temperature Frequency Tolerance" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1708,7 +1871,7 @@
 			)
 		)
 		(property "Operating Temperature" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1719,7 +1882,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1730,7 +1893,7 @@
 			)
 		)
 		(property "Process" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1741,7 +1904,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1752,7 +1915,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 134.62 99.06 90)
+			(at 137.16 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1779,7 +1942,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:DS3231MZ")
-		(at 162.56 109.22 0)
+		(at 165.1 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1790,7 +1953,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f72f72a-1734-4bcf-a15d-2a025484aaf4")
 		(property "Reference" "U10"
-			(at 164.7033 119.38 0)
+			(at 167.2433 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1801,7 +1964,7 @@
 			)
 		)
 		(property "Value" "DS3231MZ"
-			(at 164.7033 121.92 0)
+			(at 167.2433 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1812,7 +1975,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 162.56 121.92 0)
+			(at 165.1 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1823,7 +1986,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf"
-			(at 162.56 124.46 0)
+			(at 165.1 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1834,7 +1997,7 @@
 			)
 		)
 		(property "Description" "±5ppm, I2C Real-Time Clock SOIC-8"
-			(at 162.56 109.22 0)
+			(at 165.1 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1878,8 +2041,9 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:1174")
-		(at 156.21 66.04 270)
+		(lib_id "FRANK:Conn_01x02_Pin")
+		(at 142.24 82.55 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1887,56 +2051,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6bc27673-a51f-4eb4-b202-09fe76e7d5be")
-		(property "Reference" "H5"
-			(at 147.32 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1174"
-			(at 147.32 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FRANK:Battery_CR2032"
-			(at 61.29 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14915"
-			(at -38.71 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Coin Cell Battery Holders Locking Vertical CR2032 Cell Holder-THM"
-			(at 156.21 66.04 0)
-			(hide yes)
+		(uuid "8c5fca74-95ba-4d19-a2ce-c74ecd65ae0a")
+		(property "Reference" "J8"
+			(at 137.414 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1945,98 +2062,8 @@
 				)
 			)
 		)
-		(property "Height" "14.33"
-			(at -238.71 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -338.71 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -438.71 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Keystone Electronics"
-			(at -538.71 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1174"
-			(at -638.71 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "2d3c9ae9-5449-4752-a205-06fa14daa5ba")
-		)
-		(pin "2"
-			(uuid "e1691019-0b74-45f0-a631-102ad39a5993")
-		)
-		(pin "3"
-			(uuid "c10fc5d5-1ba5-4039-a2b4-525bf7f9d67d")
-		)
-		(instances
-			(project "frank_mega"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7655862b-5d0e-4f8a-9c77-7db819ebca81"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:+3V3")
-		(at 134.62 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a885315d-c778-4b7c-b888-8670d276b9ed")
-		(property "Reference" "#PWR091"
-			(at 134.62 99.06 0)
-			(hide yes)
+		(property "Value" "BAT 3V"
+			(at 137.414 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2045,18 +2072,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 134.62 88.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 95.25 0)
+		(property "Footprint" "FRANK:PinHeader_1x02_P2.54mm_Vertical"
+			(at 142.24 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2067,7 +2084,244 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 95.25 0)
+			(at 142.24 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 142.24 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dac5c575-9525-4f5e-b412-ba250aef6e96")
+		)
+		(pin "1"
+			(uuid "dc7adace-c2ce-4c35-8ac1-52d687ee5a45")
+		)
+		(instances
+			(project "frank_mega"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7655862b-5d0e-4f8a-9c77-7db819ebca81"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:GND")
+		(at 162.56 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9863c295-1dc7-4700-993a-2f799c0f78d2")
+		(property "Reference" "#PWR096"
+			(at 162.56 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb4a42b2-dd64-42fc-9a81-9b55fbc21bec")
+		)
+		(instances
+			(project "frank_mega"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7655862b-5d0e-4f8a-9c77-7db819ebca81"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:GND")
+		(at 147.32 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7bb9c15-4692-4123-97cd-38b47e90c361")
+		(property "Reference" "#PWR095"
+			(at 153.67 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10339679-0a7d-45a0-97e4-dd59951dbac4")
+		)
+		(instances
+			(project "frank_mega"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7655862b-5d0e-4f8a-9c77-7db819ebca81"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:+3V3")
+		(at 137.16 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a885315d-c778-4b7c-b888-8670d276b9ed")
+		(property "Reference" "#PWR093"
+			(at 137.16 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 137.16 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2078,7 +2332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 134.62 95.25 0)
+			(at 137.16 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2094,7 +2348,7 @@
 		(instances
 			(project "frank_mega"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7655862b-5d0e-4f8a-9c77-7db819ebca81"
-					(reference "#PWR091")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -2102,7 +2356,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:+3V3")
-		(at 162.56 85.09 0)
+		(at 165.1 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2111,8 +2365,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba25874e-f386-4a49-aa78-e949db675dd9")
-		(property "Reference" "#PWR094"
-			(at 162.56 88.9 0)
+		(property "Reference" "#PWR097"
+			(at 165.1 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2123,7 +2377,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 162.56 78.74 90)
+			(at 165.1 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2133,7 +2387,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 85.09 0)
+			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2144,7 +2398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 85.09 0)
+			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2155,7 +2409,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 162.56 85.09 0)
+			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2171,15 +2425,15 @@
 		(instances
 			(project "frank_mega"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7655862b-5d0e-4f8a-9c77-7db819ebca81"
-					(reference "#PWR094")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
-		(at 156.21 66.04 180)
+		(lib_id "FRANK:Battery_CR1220")
+		(at 162.56 69.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2188,9 +2442,55 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d07a04c9-930d-4c30-b3ea-03965409c960")
-		(property "Reference" "#PWR093"
-			(at 156.21 59.69 0)
+		(uuid "c836fd7d-cbe7-407b-9232-1f10bb448a8f")
+		(property "Reference" "H5"
+			(at 166.37 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_CR1220"
+			(at 166.37 82.5499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FRANK:Battery_CR1220"
+			(at 67.64 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14915"
+			(at -32.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "CR1220 Cell Holder"
+			(at 162.56 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2200,18 +2500,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 156.21 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 66.04 0)
+		(property "Height" "14.33"
+			(at -232.36 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2219,10 +2509,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Datasheet" ""
-			(at 156.21 66.04 0)
+		(property "Mouser Part Number" ""
+			(at -332.36 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2230,10 +2521,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 66.04 0)
+		(property "Mouser Price/Stock" ""
+			(at -432.36 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2241,15 +2533,43 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at -532.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1174"
+			(at -632.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "1"
-			(uuid "7d606f68-f149-4aee-8d37-277b81097235")
+			(uuid "fed88a5a-ebac-43bb-81a6-ffe9920330bd")
+		)
+		(pin "2"
+			(uuid "a1a5c21d-20cd-4d26-890f-abc1e86e7dec")
 		)
 		(instances
 			(project "frank_mega"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7655862b-5d0e-4f8a-9c77-7db819ebca81"
-					(reference "#PWR093")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -2257,7 +2577,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:C")
-		(at 170.18 92.71 90)
+		(at 172.72 100.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2267,7 +2587,7 @@
 		(dnp no)
 		(uuid "d5f57ed1-8615-4870-a1b0-473b537c3f21")
 		(property "Reference" "C23"
-			(at 171.704 96.52 90)
+			(at 174.244 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2278,7 +2598,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 172.212 88.9 90)
+			(at 174.752 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2289,7 +2609,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:C_0805_2012Metric"
-			(at 173.99 91.7448 0)
+			(at 176.53 99.3648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2300,7 +2620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 92.71 0)
+			(at 172.72 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2311,7 +2631,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 170.18 92.71 0)
+			(at 172.72 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2322,7 +2642,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 170.18 92.71 0)
+			(at 172.72 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2333,7 +2653,7 @@
 			)
 		)
 		(property "Attrition Qty" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2344,7 +2664,7 @@
 			)
 		)
 		(property "Category" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2355,7 +2675,7 @@
 			)
 		)
 		(property "Class" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2366,7 +2686,7 @@
 			)
 		)
 		(property "Crystal Type" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2377,7 +2697,7 @@
 			)
 		)
 		(property "Frequency" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2388,7 +2708,7 @@
 			)
 		)
 		(property "Frequency Stability" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2399,7 +2719,7 @@
 			)
 		)
 		(property "Frequency Tolerance" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2410,7 +2730,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2421,7 +2741,7 @@
 			)
 		)
 		(property "Minimum Qty" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2432,7 +2752,7 @@
 			)
 		)
 		(property "Normal Temperature Frequency Tolerance" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2443,7 +2763,7 @@
 			)
 		)
 		(property "Operating Temperature" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2454,7 +2774,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2465,7 +2785,7 @@
 			)
 		)
 		(property "Process" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2476,7 +2796,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2487,7 +2807,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 170.18 92.71 90)
+			(at 172.72 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2514,7 +2834,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:R")
-		(at 134.62 110.49 0)
+		(at 137.16 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2524,7 +2844,7 @@
 		(dnp no)
 		(uuid "d64f3833-d752-4d54-ae8f-a8e9f590feef")
 		(property "Reference" "R61"
-			(at 136.906 110.744 90)
+			(at 139.446 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2534,7 +2854,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 132.08 110.744 90)
+			(at 134.62 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2544,7 +2864,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:R_0805_2012Metric"
-			(at 132.842 110.49 90)
+			(at 135.382 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2555,7 +2875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 110.49 0)
+			(at 137.16 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2566,7 +2886,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 110.49 0)
+			(at 137.16 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2577,7 +2897,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 134.62 110.49 0)
+			(at 137.16 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2588,7 +2908,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2599,7 +2919,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2610,7 +2930,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2621,7 +2941,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2632,7 +2952,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2643,7 +2963,7 @@
 			)
 		)
 		(property "Attrition Qty" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2654,7 +2974,7 @@
 			)
 		)
 		(property "Category" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2665,7 +2985,7 @@
 			)
 		)
 		(property "Class" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2676,7 +2996,7 @@
 			)
 		)
 		(property "Crystal Type" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2687,7 +3007,7 @@
 			)
 		)
 		(property "Frequency" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2698,7 +3018,7 @@
 			)
 		)
 		(property "Frequency Stability" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2709,7 +3029,7 @@
 			)
 		)
 		(property "Frequency Tolerance" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2720,7 +3040,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2731,7 +3051,7 @@
 			)
 		)
 		(property "Minimum Qty" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2742,7 +3062,7 @@
 			)
 		)
 		(property "Normal Temperature Frequency Tolerance" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2753,7 +3073,7 @@
 			)
 		)
 		(property "Operating Temperature" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2764,7 +3084,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2775,7 +3095,7 @@
 			)
 		)
 		(property "Process" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2786,7 +3106,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2797,7 +3117,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 134.62 110.49 90)
+			(at 137.16 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2824,7 +3144,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:+3V3")
-		(at 134.62 114.3 180)
+		(at 137.16 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2833,8 +3153,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f18db9d3-970b-4f93-97c4-eb1c4cac1177")
-		(property "Reference" "#PWR092"
-			(at 134.62 110.49 0)
+		(property "Reference" "#PWR094"
+			(at 137.16 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2845,7 +3165,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 134.62 120.65 90)
+			(at 137.16 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2855,7 +3175,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 114.3 0)
+			(at 137.16 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2866,7 +3186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 114.3 0)
+			(at 137.16 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2877,7 +3197,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 134.62 114.3 0)
+			(at 137.16 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2893,7 +3213,7 @@
 		(instances
 			(project "frank_mega"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7655862b-5d0e-4f8a-9c77-7db819ebca81"
-					(reference "#PWR092")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
