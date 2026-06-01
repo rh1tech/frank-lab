@@ -9,10 +9,125 @@
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/xtremespb/frank")
+		(comment 1 "https://github.com/rh1tech/protea")
 	)
 	(lib_symbols
-		(symbol "FRANK:C"
+		(symbol "GND_10"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_10_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_10_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Protea:C"
 			(pin_numbers
 				(hide yes)
 			)
@@ -167,7 +282,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:Flash_W25Q128JVS"
+		(symbol "Protea:Flash_W25Q128JVS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -193,7 +308,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FRANK:SOIC-8_Longer"
+			(property "Footprint" "Protea:SOIC-8_Longer"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -398,7 +513,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:GND"
+		(symbol "Protea:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -492,121 +607,6 @@
 				)
 			)
 			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_10"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_10_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_10_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -803,7 +803,7 @@
 		(uuid "f603273f-09e9-4d04-bc49-7766e564a355")
 	)
 	(symbol
-		(lib_id "FRANK:Flash_W25Q128JVS")
+		(lib_id "Protea:Flash_W25Q128JVS")
 		(at 162.56 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -813,7 +813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f531295-c6ba-4b0b-9869-024425c91bd5")
-		(property "Reference" "U8"
+		(property "Reference" "U4"
 			(at 156.21 88.265 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -833,7 +833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:SOIC-8"
+		(property "Footprint" "Protea:SOIC-8_Longer"
 			(at 162.56 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -844,7 +844,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
 			(at 162.56 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -924,7 +924,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d/3907d691-16c9-46b9-8e1c-0399c2dec8f4"
-					(reference "U8")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -932,7 +932,7 @@
 	)
 	(symbol
 		(lib_name "GND_10")
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 162.56 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -942,7 +942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84e67465-f648-420f-b9d8-d4d07e0b6da6")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR052"
 			(at 162.56 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -1002,14 +1002,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d/3907d691-16c9-46b9-8e1c-0399c2dec8f4"
-					(reference "#PWR083")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 175.26 83.82 90)
 		(unit 1)
 		(body_style 1)
@@ -1019,7 +1019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ebf56a0-53a1-4ebb-80a2-675a7ecc7aed")
-		(property "Reference" "C29"
+		(property "Reference" "C23"
 			(at 177.038 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1041,7 +1041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 179.07 82.8548 0)
 			(hide yes)
 			(show_name no)
@@ -1105,14 +1105,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d/3907d691-16c9-46b9-8e1c-0399c2dec8f4"
-					(reference "C29")
+					(reference "C23")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 179.07 83.82 90)
 		(unit 1)
 		(body_style 1)
@@ -1122,7 +1122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdfada5b-496f-4b1e-8994-ee9672dfc566")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR053"
 			(at 185.42 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1182,7 +1182,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d/3907d691-16c9-46b9-8e1c-0399c2dec8f4"
-					(reference "#PWR084")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)

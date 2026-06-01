@@ -9,10 +9,10 @@
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/xtremespb/frank")
+		(comment 1 "https://github.com/rh1tech/protea")
 	)
 	(lib_symbols
-		(symbol "FRANK:C"
+		(symbol "Protea:C"
 			(pin_numbers
 				(hide yes)
 			)
@@ -167,7 +167,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:ESP-PSRAM32"
+		(symbol "Protea:ESP-PSRAM32"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -411,7 +411,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:GND"
+		(symbol "Protea:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -526,7 +526,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:R"
+		(symbol "Protea:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -888,7 +888,7 @@
 		(uuid "f275d437-40f5-4b76-a726-b94dff5b659c")
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 170.18 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -898,7 +898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "186528c2-c55c-4e27-8941-129e810ec949")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR054"
 			(at 170.18 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -959,14 +959,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d/40a93926-f68e-4b17-bd29-d89ea6b5eee8"
-					(reference "#PWR085")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 148.59 81.28 180)
 		(unit 1)
 		(body_style 1)
@@ -976,7 +976,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75276c06-daed-419a-a9f1-5ef50d9a3ad9")
-		(property "Reference" "R36"
+		(property "Reference" "R17"
 			(at 153.8478 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -996,7 +996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:R_0603_1608Metric_HandSolder"
 			(at 150.368 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -1059,14 +1059,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d/40a93926-f68e-4b17-bd29-d89ea6b5eee8"
-					(reference "R36")
+					(reference "R17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 184.15 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -1076,7 +1076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a0f81c8-1ec6-466d-adee-41ec3f6e1df7")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR055"
 			(at 190.5 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1136,14 +1136,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d/40a93926-f68e-4b17-bd29-d89ea6b5eee8"
-					(reference "#PWR086")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:ESP-PSRAM32")
+		(lib_id "Protea:ESP-PSRAM32")
 		(at 167.64 95.25 0)
 		(mirror y)
 		(unit 1)
@@ -1154,7 +1154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb6bbc6d-2af2-4c4d-8695-84d4b5d8a2fb")
-		(property "Reference" "U9"
+		(property "Reference" "U5"
 			(at 176.53 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1176,7 +1176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:SO-8"
+		(property "Footprint" "Protea:SO-8"
 			(at 167.64 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -1247,14 +1247,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d/40a93926-f68e-4b17-bd29-d89ea6b5eee8"
-					(reference "U9")
+					(reference "U5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 180.34 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -1264,7 +1264,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da96faa9-fbb1-4ec3-977b-a5fe2c4c8784")
-		(property "Reference" "C30"
+		(property "Reference" "C24"
 			(at 182.118 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1286,7 +1286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 184.15 77.7748 0)
 			(hide yes)
 			(show_name no)
@@ -1350,7 +1350,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d/40a93926-f68e-4b17-bd29-d89ea6b5eee8"
-					(reference "C30")
+					(reference "C24")
 					(unit 1)
 				)
 			)

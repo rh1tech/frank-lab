@@ -9,10 +9,10 @@
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/rh1tech/frank")
+		(comment 1 "https://github.com/rh1tech/protea")
 	)
 	(lib_symbols
-		(symbol "FRANK:+3V3"
+		(symbol "Protea:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -151,7 +151,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:C"
+		(symbol "Protea:C"
 			(pin_numbers
 				(hide yes)
 			)
@@ -306,7 +306,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:GND"
+		(symbol "Protea:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -421,7 +421,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:Micro_SD_Card"
+		(symbol "Protea:Micro_SD_Card"
 			(pin_names
 				(offset 1.016)
 			)
@@ -826,16 +826,6 @@
 	)
 	(wire
 		(pts
-			(xy 0.0762 8.9662) (xy 29.2862 8.9662)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-		)
-		(uuid "58f97c73-f58e-4a78-9cc3-b84709653624")
-	)
-	(wire
-		(pts
 			(xy 123.19 92.71) (xy 123.19 97.79)
 		)
 		(stroke
@@ -853,26 +843,6 @@
 			(type default)
 		)
 		(uuid "8e89ee5b-2189-4eca-9a9a-fd76c8457d30")
-	)
-	(wire
-		(pts
-			(xy 29.2862 8.9662) (xy 29.2862 0.0762)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-		)
-		(uuid "ea3b944c-8bcf-4246-88cb-adfaa7a5cf9c")
-	)
-	(wire
-		(pts
-			(xy 29.2862 0.0762) (xy 34.3662 0.0762)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-		)
-		(uuid "ff8b52bd-b4b5-4e44-b7b7-518549fc6cdb")
 	)
 	(hierarchical_label "CMD"
 		(shape input)
@@ -919,7 +889,7 @@
 		(uuid "d3cbda62-a18f-4d93-9910-e137aa07d0b5")
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 185.42 113.03 90)
 		(unit 1)
 		(body_style 1)
@@ -930,7 +900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31cb895a-28bc-4f0a-ba8b-84b1493c3675")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0149"
 			(at 191.77 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -991,14 +961,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dbf06091-211f-46b3-925d-d56e297fd0d1"
-					(reference "#PWR0157")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 123.19 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -1008,7 +978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bf4cde7-c4be-4f59-abcf-3be5b9dd886d")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0147"
 			(at 123.19 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1070,14 +1040,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dbf06091-211f-46b3-925d-d56e297fd0d1"
-					(reference "#PWR0155")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 123.19 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -1088,7 +1058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1a2ae57-9656-487c-92dd-1a634bf2fa14")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0146"
 			(at 123.19 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1148,14 +1118,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dbf06091-211f-46b3-925d-d56e297fd0d1"
-					(reference "#PWR0154")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 142.24 102.87 270)
 		(unit 1)
 		(body_style 1)
@@ -1166,7 +1136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb64ad72-0f49-41b6-a9be-7d239255dc4a")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0148"
 			(at 135.89 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1227,14 +1197,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dbf06091-211f-46b3-925d-d56e297fd0d1"
-					(reference "#PWR0156")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 123.19 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -1244,7 +1214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd634246-01ca-4fe8-bc4f-7812ab182c74")
-		(property "Reference" "C64"
+		(property "Reference" "C52"
 			(at 120.269 102.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1266,7 +1236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 122.2248 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1385,14 +1355,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dbf06091-211f-46b3-925d-d56e297fd0d1"
-					(reference "C64")
+					(reference "C52")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:Micro_SD_Card")
+		(lib_id "Protea:Micro_SD_Card")
 		(at 165.1 97.79 0)
 		(unit 1)
 		(body_style 1)
@@ -1423,7 +1393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:MicroSD_SMD_Long"
+		(property "Footprint" "Protea:MicroSD_SMD_Long"
 			(at 194.31 90.17 0)
 			(hide yes)
 			(show_name no)

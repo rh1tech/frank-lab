@@ -9,10 +9,149 @@
 		(date "2025-07-20")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/xtremespb/frank")
+		(comment 1 "https://github.com/rh1tech/protea")
 	)
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "Protea:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Protea:C"
 			(pin_numbers
 				(hide yes)
 			)
@@ -167,7 +306,122 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "Protea:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Protea:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -307,35 +561,33 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:TS3USB221RSER"
+		(symbol "Protea:TS3USB221RSER"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U10"
-				(at 2.1433 12.7 0)
+			(property "Reference" "U"
+				(at -6.35 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "TS3USB221RSER"
-				(at 2.1433 10.16 0)
+				(at 8.89 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "FRANK:UQFN-10"
+			(property "Footprint" "Protea:UQFN-10"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -358,17 +610,6 @@
 				)
 			)
 			(property "Description" "High-Speed USB 2.0 1:2 Multiplexer/Demultiplexer Switch with Single Enable, UQFN-10"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "AliExpress" "https://vi.aliexpress.com/item/1005004217168769.html"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -588,260 +829,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3V3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1093,7 +1080,7 @@
 		(uuid "d34dfdcd-87ad-4018-b949-b887f6381b49")
 	)
 	(symbol
-		(lib_id "FRANK:TS3USB221RSER")
+		(lib_id "Protea:TS3USB221RSER")
 		(at 158.75 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -1104,7 +1091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2237c348-bca0-4127-a670-4d3310f6f0ee")
-		(property "Reference" "U2"
+		(property "Reference" "U11"
 			(at 160.8933 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1126,7 +1113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:UQFN-10"
+		(property "Footprint" "Protea:UQFN-10"
 			(at 158.75 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -1203,14 +1190,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d255f6cc-fc79-4031-a304-0b2f2189d1a2"
-					(reference "U2")
+					(reference "U11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Protea:GND")
 		(at 144.78 101.6 270)
 		(unit 1)
 		(body_style 1)
@@ -1221,7 +1208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54273e8c-93d8-4d47-bc80-8b9a8a5286c7")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR0105"
 			(at 138.43 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1281,14 +1268,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d255f6cc-fc79-4031-a304-0b2f2189d1a2"
-					(reference "#PWR081")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Protea:C")
 		(at 146.05 82.55 90)
 		(unit 1)
 		(body_style 1)
@@ -1298,7 +1285,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fabb538-3bd3-493f-8349-56e7568518c3")
-		(property "Reference" "C1"
+		(property "Reference" "C47"
 			(at 144.8816 79.629 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1320,7 +1307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0805)"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 149.86 81.5848 0)
 			(hide yes)
 			(show_name no)
@@ -1383,14 +1370,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d255f6cc-fc79-4031-a304-0b2f2189d1a2"
-					(reference "C1")
+					(reference "C47")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 158.75 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -1401,7 +1388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "601b8b23-c8da-4fb2-aeb1-d29dad60d828")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR0106"
 			(at 158.75 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1461,14 +1448,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d255f6cc-fc79-4031-a304-0b2f2189d1a2"
-					(reference "#PWR078")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Protea:R")
 		(at 124.46 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -1478,7 +1465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69a1434e-7aa0-4216-a4b9-5e2a0d2528f3")
-		(property "Reference" "R16"
+		(property "Reference" "R34"
 			(at 126.746 94.742 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1500,7 +1487,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0805)"
+		(property "Footprint" "Protea:R_0603_1608Metric"
 			(at 122.682 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -1563,14 +1550,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d255f6cc-fc79-4031-a304-0b2f2189d1a2"
-					(reference "R16")
+					(reference "R34")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 124.46 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -1581,7 +1568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a961a2b9-b706-46d5-a0dd-fcc8e6091844")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR0103"
 			(at 124.46 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1641,14 +1628,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d255f6cc-fc79-4031-a304-0b2f2189d1a2"
-					(reference "#PWR080")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Protea:GND")
 		(at 142.24 82.55 270)
 		(unit 1)
 		(body_style 1)
@@ -1659,7 +1646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bca484b5-21d0-4310-a38d-56990ffaac21")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0104"
 			(at 135.89 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1719,14 +1706,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d255f6cc-fc79-4031-a304-0b2f2189d1a2"
-					(reference "#PWR079")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Protea:GND")
 		(at 158.75 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -1737,7 +1724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd352b0b-7641-497f-a81f-f6c08b6811c0")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0107"
 			(at 158.75 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -1797,7 +1784,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d255f6cc-fc79-4031-a304-0b2f2189d1a2"
-					(reference "#PWR082")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)

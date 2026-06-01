@@ -9,10 +9,10 @@
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/rh1tech/frank")
+		(comment 1 "https://github.com/rh1tech/protea")
 	)
 	(lib_symbols
-		(symbol "FRANK:+1V1"
+		(symbol "Protea:+1V1"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -151,7 +151,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:+3V3"
+		(symbol "Protea:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -290,7 +290,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:C"
+		(symbol "Protea:C"
 			(pin_numbers
 				(hide yes)
 			)
@@ -445,7 +445,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:ESP-PSRAM32"
+		(symbol "Protea:ESP-PSRAM32"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -689,7 +689,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:GND"
+		(symbol "Protea:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -804,7 +804,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:KMR221G_LFS"
+		(symbol "Protea:KMR221G_LFS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -832,7 +832,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "FRANK:KMR_2"
+			(property "Footprint" "Protea:KMR_2"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1014,7 +1014,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:L"
+		(symbol "Protea:L"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1192,7 +1192,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:LED"
+		(symbol "Protea:LED"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1393,7 +1393,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:Oscillator_ASE-xxxMHz"
+		(symbol "Protea:Oscillator_ASE-xxxMHz"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1424,7 +1424,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "FRANK:Oscillator_SMD_4Pin_3.2x2.5mm"
+			(property "Footprint" "Protea:Oscillator_SMD_4Pin_3.2x2.5mm"
 				(at 17.78 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1581,7 +1581,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:R"
+		(symbol "Protea:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1721,7 +1721,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:RP2350A"
+		(symbol "Protea:RP2350A"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1752,7 +1752,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "FRANK:QFN-60_RP2350A"
+			(property "Footprint" "Protea:QFN-60_RP2350A"
 				(at -19.05 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2941,7 +2941,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:R_Small"
+		(symbol "Protea:R_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3082,7 +3082,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:W25Q128JVS"
+		(symbol "Protea:W25Q128JVS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3108,7 +3108,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FRANK:SOIC-8"
+			(property "Footprint" "Protea:SOIC-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6195,7 +6195,7 @@
 		(uuid "fea70130-eb49-46f8-b3ae-7ca43cc0b78b")
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 99.06 100.33 270)
 		(unit 1)
 		(body_style 1)
@@ -6205,7 +6205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "017ed3ad-aef1-47e4-a3c0-5ac4941ee2f6")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR089"
 			(at 92.71 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6265,14 +6265,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0113")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 124.46 50.8 90)
 		(unit 1)
 		(body_style 1)
@@ -6282,7 +6282,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02c18d35-0cdf-4eee-8715-e9b543eb8f35")
-		(property "Reference" "R43"
+		(property "Reference" "R29"
 			(at 123.2916 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6304,7 +6304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
+		(property "Footprint" "Protea:R_0603_1608Metric"
 			(at 124.46 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -6457,14 +6457,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "R43")
+					(reference "R29")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 205.74 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -6474,7 +6474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "044e2cb5-05d5-4433-a87c-ce85d4d0a03f")
-		(property "Reference" "C46"
+		(property "Reference" "C40"
 			(at 208.661 25.5016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6496,7 +6496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 206.7052 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6649,14 +6649,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C46")
+					(reference "C40")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 148.59 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -6666,7 +6666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0583983a-922b-4d6a-9ce6-beec6ed56f26")
-		(property "Reference" "C44"
+		(property "Reference" "C38"
 			(at 151.511 25.5016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6688,7 +6688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 149.5552 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6841,14 +6841,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C44")
+					(reference "C38")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+1V1")
+		(lib_id "Protea:+1V1")
 		(at 101.6 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -6858,7 +6858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "061a91e5-7682-43c7-bac9-1caa63e9ae93")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR090"
 			(at 101.6 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6918,14 +6918,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0114")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 227.33 55.88 270)
 		(unit 1)
 		(body_style 1)
@@ -6935,7 +6935,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "063e0ea2-6079-4476-9a1a-2a0dc5f84bd9")
-		(property "Reference" "R46"
+		(property "Reference" "R32"
 			(at 227.33 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6955,7 +6955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
+		(property "Footprint" "Protea:R_0603_1608Metric"
 			(at 227.33 54.102 90)
 			(hide yes)
 			(show_name no)
@@ -7108,14 +7108,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "R46")
+					(reference "R32")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 228.6 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -7125,7 +7125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "084c6014-92f5-493e-9aea-23297c3a6aff")
-		(property "Reference" "C49"
+		(property "Reference" "C42"
 			(at 231.521 25.5016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7147,7 +7147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 229.5652 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7300,14 +7300,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C49")
+					(reference "C42")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 125.73 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -7317,7 +7317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0afa7ee0-de8d-4326-9722-db9af6335bef")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR092"
 			(at 125.73 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7377,14 +7377,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0116")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 262.89 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -7394,7 +7394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e7f2446-341e-43c9-9083-054dc4539441")
-		(property "Reference" "C52"
+		(property "Reference" "C45"
 			(at 265.811 25.5016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7416,7 +7416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 263.8552 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7569,14 +7569,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C52")
+					(reference "C45")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:ESP-PSRAM32")
+		(lib_id "Protea:ESP-PSRAM32")
 		(at 62.23 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -7586,7 +7586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f14ca00-8c30-4c78-b8d1-55cbe9cb9ab2")
-		(property "Reference" "U11"
+		(property "Reference" "U8"
 			(at 65.786 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7608,7 +7608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:SO-8"
+		(property "Footprint" "Protea:SO-8"
 			(at 62.23 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7779,14 +7779,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "U11")
+					(reference "U8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 39.37 127 0)
 		(unit 1)
 		(body_style 1)
@@ -7796,7 +7796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "200da29a-8582-4026-985e-2ef2ae898dab")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR081"
 			(at 39.37 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7856,14 +7856,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0104")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R_Small")
+		(lib_id "Protea:R_Small")
 		(at 78.74 109.22 180)
 		(unit 1)
 		(body_style 1)
@@ -7873,7 +7873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "234ad280-e69d-4f00-9ec5-e68ce24fa6e5")
-		(property "Reference" "R39"
+		(property "Reference" "R28"
 			(at 83.9978 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7893,7 +7893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
+		(property "Footprint" "Protea:R_0603_1608Metric"
 			(at 78.74 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8046,14 +8046,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "R39")
+					(reference "R28")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 274.32 35.56 0)
 		(mirror y)
 		(unit 1)
@@ -8064,7 +8064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30fe31eb-dafe-43ec-b292-a010f5dbabee")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0102"
 			(at 274.32 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8124,14 +8124,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0132")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 251.46 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -8141,7 +8141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38ec428b-b050-4b44-be0f-b316fdc64638")
-		(property "Reference" "C51"
+		(property "Reference" "C44"
 			(at 254.381 25.5016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8163,7 +8163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 252.4252 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8316,14 +8316,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C51")
+					(reference "C44")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 180.34 158.75 0)
 		(unit 1)
 		(body_style 1)
@@ -8333,7 +8333,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f1c409e-8fad-4172-b32e-94f2770a3180")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0100"
 			(at 180.34 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -8393,14 +8393,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0125")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 240.03 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -8410,7 +8410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "417f4dc8-5c13-47cc-b164-e3ec86ec3882")
-		(property "Reference" "C50"
+		(property "Reference" "C43"
 			(at 242.951 25.5016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8432,7 +8432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 240.9952 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8585,14 +8585,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C50")
+					(reference "C43")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 144.78 184.15 90)
 		(unit 1)
 		(body_style 1)
@@ -8603,7 +8603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43916093-bba0-4274-9a47-48d28ccb4196")
-		(property "Reference" "R45"
+		(property "Reference" "R31"
 			(at 144.78 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8623,7 +8623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
+		(property "Footprint" "Protea:R_0603_1608Metric"
 			(at 144.78 185.928 90)
 			(hide yes)
 			(show_name no)
@@ -8776,14 +8776,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "R45")
+					(reference "R31")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 196.85 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -8793,7 +8793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48faa25f-c5f5-4a09-9d11-6bb1c158bbbb")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0101"
 			(at 196.85 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -8853,14 +8853,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0126")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 227.33 64.77 270)
 		(unit 1)
 		(body_style 1)
@@ -8870,7 +8870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "497fa927-6f31-4da4-98d5-669bdfd4648b")
-		(property "Reference" "R47"
+		(property "Reference" "R33"
 			(at 227.33 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8890,7 +8890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
+		(property "Footprint" "Protea:R_0603_1608Metric"
 			(at 227.33 62.992 90)
 			(hide yes)
 			(show_name no)
@@ -9043,14 +9043,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "R47")
+					(reference "R33")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 119.38 100.33 90)
 		(unit 1)
 		(body_style 1)
@@ -9060,7 +9060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4dc8ca4f-3512-4cf6-b1f2-75154b6d2055")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR091"
 			(at 125.73 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9120,14 +9120,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0115")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 74.93 189.23 0)
 		(unit 1)
 		(body_style 1)
@@ -9137,7 +9137,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c84bd05-f2d4-4a7f-b422-53a845f702af")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR085"
 			(at 74.93 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -9197,14 +9197,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0108")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 31.75 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -9214,7 +9214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67433b47-82d3-4b25-9835-68cff8ede0ae")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR079"
 			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9274,14 +9274,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0102")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 59.69 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -9291,7 +9291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fe30db7-d1be-43e6-8733-315b05f439da")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR082"
 			(at 59.69 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -9352,14 +9352,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0105")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+1V1")
+		(lib_id "Protea:+1V1")
 		(at 157.48 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -9369,7 +9369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71cefca4-48f5-45e1-a452-30a0a617576c")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR097"
 			(at 157.48 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -9429,14 +9429,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0122")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 81.28 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -9446,7 +9446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "722d5abd-641d-47b0-8e95-a8f59c9cedca")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR086"
 			(at 81.28 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -9506,14 +9506,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0109")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 39.37 119.38 0)
 		(unit 1)
 		(body_style 1)
@@ -9523,7 +9523,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "725e42b1-2792-4b3b-ac4e-bf82e93b0cd1")
-		(property "Reference" "C36"
+		(property "Reference" "C31"
 			(at 42.291 118.2116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9545,7 +9545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 40.3352 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9698,14 +9698,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C36")
+					(reference "C31")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 137.16 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -9715,7 +9715,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78196c67-29f2-4430-86c8-e058956aa4a1")
-		(property "Reference" "C43"
+		(property "Reference" "C37"
 			(at 140.081 25.5016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9737,7 +9737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 138.1252 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9890,14 +9890,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C43")
+					(reference "C37")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 151.13 184.15 270)
 		(unit 1)
 		(body_style 1)
@@ -9908,7 +9908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e528d1c-7821-479d-affc-6e34aa1805d8")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR096"
 			(at 147.32 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -9969,14 +9969,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0121")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 217.17 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -9986,7 +9986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87c47613-fbd0-4488-927b-17c8070dd3c0")
-		(property "Reference" "C47"
+		(property "Reference" "C41"
 			(at 220.091 25.5016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10008,7 +10008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 218.1352 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -10161,14 +10161,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C47")
+					(reference "C41")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:W25Q128JVS")
+		(lib_id "Protea:W25Q128JVS")
 		(at 74.93 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -10178,7 +10178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ba50146-5448-4964-a52a-0696cdb3c1f0")
-		(property "Reference" "U12"
+		(property "Reference" "U9"
 			(at 66.04 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10198,7 +10198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:SOIC-8"
+		(property "Footprint" "Protea:SOIC-8"
 			(at 74.93 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10369,14 +10369,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "U12")
+					(reference "U9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:L")
+		(lib_id "Protea:L")
 		(at 116.84 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -10409,7 +10409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:L_pol_2016"
+		(property "Footprint" "Protea:L_pol_2016"
 			(at 116.84 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10569,7 +10569,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 101.6 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -10580,7 +10580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "943fd5c9-dd28-4ad5-9a62-27f86c2e7bb7")
-		(property "Reference" "C39"
+		(property "Reference" "C34"
 			(at 105.41 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10602,7 +10602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 102.5652 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10755,14 +10755,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C39")
+					(reference "C34")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 31.75 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -10773,7 +10773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "946e45cd-2dfc-4900-91ee-781006c2fc17")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR080"
 			(at 31.75 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10833,14 +10833,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0103")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:KMR221G_LFS")
+		(lib_id "Protea:KMR221G_LFS")
 		(at 99.06 97.79 0)
 		(unit 1)
 		(body_style 1)
@@ -10851,7 +10851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a26de51-a9d9-4fdd-82f9-1ad837b00b4e")
-		(property "Reference" "S8"
+		(property "Reference" "S6"
 			(at 109.22 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10871,7 +10871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:KMR_2"
+		(property "Footprint" "Protea:KMR_2"
 			(at 115.57 192.71 0)
 			(hide yes)
 			(show_name no)
@@ -11082,14 +11082,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "S8")
+					(reference "S6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 81.28 156.21 0)
 		(unit 1)
 		(body_style 1)
@@ -11099,7 +11099,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0dda2cb-b01a-4e15-85ac-d734d2d4f148")
-		(property "Reference" "C37"
+		(property "Reference" "C32"
 			(at 84.201 155.0416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11121,7 +11121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 82.2452 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11274,14 +11274,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C37")
+					(reference "C32")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 90.17 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -11291,7 +11291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a98cc021-7b04-498e-be8d-23c6eada2e27")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR087"
 			(at 90.17 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11351,14 +11351,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0111")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 90.17 78.74 0)
 		(mirror y)
 		(unit 1)
@@ -11369,7 +11369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3d5dd93-0031-4870-abfb-add88002cf93")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR088"
 			(at 90.17 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11429,14 +11429,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0112")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 274.32 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -11446,7 +11446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "baf4459f-120f-4d81-b103-52c019933989")
-		(property "Reference" "C53"
+		(property "Reference" "C46"
 			(at 277.241 25.5016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11468,7 +11468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 275.2852 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -11621,14 +11621,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C53")
+					(reference "C46")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 90.17 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -11639,7 +11639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be0dc91b-949d-4e68-a350-a93e57173867")
-		(property "Reference" "C38"
+		(property "Reference" "C33"
 			(at 93.98 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11661,7 +11661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 91.1352 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11814,14 +11814,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C38")
+					(reference "C33")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R_Small")
+		(lib_id "Protea:R_Small")
 		(at 59.69 165.1 0)
 		(unit 1)
 		(body_style 1)
@@ -11831,7 +11831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c57a127c-c1c3-4502-a1d3-811c3788a63d")
-		(property "Reference" "R38"
+		(property "Reference" "R27"
 			(at 54.4322 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11851,7 +11851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
+		(property "Footprint" "Protea:R_0603_1608Metric"
 			(at 59.69 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -12004,14 +12004,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "R38")
+					(reference "R27")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 71.12 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -12022,7 +12022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c98fd2d9-c8f9-428a-abdd-6b19574b0a3e")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR083"
 			(at 71.12 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12082,14 +12082,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0106")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:RP2350A")
+		(lib_id "Protea:RP2350A")
 		(at 180.34 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -12100,7 +12100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc14373d-3e62-4c3e-8400-e75af547202f")
-		(property "Reference" "U14"
+		(property "Reference" "U10"
 			(at 182.4833 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12122,7 +12122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:QFN-60_RP2350A"
+		(property "Footprint" "Protea:QFN-60_RP2350A"
 			(at 161.29 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12452,14 +12452,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "U14")
+					(reference "U10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:Oscillator_ASE-xxxMHz")
+		(lib_id "Protea:Oscillator_ASE-xxxMHz")
 		(at 49.53 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -12490,7 +12490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Oscillator_SMD_4Pin_3.2x2.5mm"
+		(property "Footprint" "Protea:Oscillator_SMD_4Pin_3.2x2.5mm"
 			(at 67.31 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12656,7 +12656,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 127 83.82 270)
 		(unit 1)
 		(body_style 1)
@@ -12666,7 +12666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d43e6e73-008b-4a0e-b390-259c891b560f")
-		(property "Reference" "R44"
+		(property "Reference" "R30"
 			(at 127 78.5622 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12686,7 +12686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
+		(property "Footprint" "Protea:R_0603_1608Metric"
 			(at 127 82.042 90)
 			(hide yes)
 			(show_name no)
@@ -12839,14 +12839,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "R44")
+					(reference "R30")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 31.75 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -12856,7 +12856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9fb5a10-73eb-4964-ab6d-2706839926e3")
-		(property "Reference" "C35"
+		(property "Reference" "C30"
 			(at 24.13 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12878,7 +12878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 32.7152 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13031,14 +13031,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C35")
+					(reference "C30")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:LED")
+		(lib_id "Protea:LED")
 		(at 137.16 184.15 0)
 		(unit 1)
 		(body_style 1)
@@ -13069,7 +13069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:LED_0603_1608Metric"
+		(property "Footprint" "Protea:LED_0603_1608Metric"
 			(at 137.16 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -13240,7 +13240,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 135.89 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -13250,7 +13250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc10c5a4-d4a9-4676-b154-377b22a5535d")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR094"
 			(at 135.89 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13310,14 +13310,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0118")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 133.35 184.15 270)
 		(unit 1)
 		(body_style 1)
@@ -13328,7 +13328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcc834c0-88a3-45f0-9bee-f87bda09d6f9")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR093"
 			(at 127 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -13389,14 +13389,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0117")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 125.73 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -13406,7 +13406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e664c631-4624-4d60-a4a6-e22d18036b50")
-		(property "Reference" "C41"
+		(property "Reference" "C35"
 			(at 128.651 25.5016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13428,7 +13428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 126.6952 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -13581,14 +13581,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C41")
+					(reference "C35")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 39.37 175.26 90)
 		(unit 1)
 		(body_style 1)
@@ -13598,7 +13598,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9df93c8-219a-4813-99d7-326a2fd75af9")
-		(property "Reference" "R37"
+		(property "Reference" "R26"
 			(at 38.2016 173.482 0)
 			(hide yes)
 			(show_name no)
@@ -13621,7 +13621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
+		(property "Footprint" "Protea:R_0603_1608Metric"
 			(at 39.37 177.038 90)
 			(hide yes)
 			(show_name no)
@@ -13774,14 +13774,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "R37")
+					(reference "R26")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 135.89 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -13792,7 +13792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb147992-7cd8-4b94-8db9-941df344b846")
-		(property "Reference" "C42"
+		(property "Reference" "C36"
 			(at 139.7 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13814,7 +13814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 136.8552 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13967,14 +13967,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "C42")
+					(reference "C36")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 74.93 149.86 0)
 		(unit 1)
 		(body_style 1)
@@ -13984,7 +13984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "febf123f-ed7d-4b73-87a4-247818868d5f")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR084"
 			(at 74.93 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -14044,7 +14044,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1cde3cbe-7604-4344-ad17-90859af00707"
-					(reference "#PWR0107")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)

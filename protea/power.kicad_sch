@@ -9,7 +9,7 @@
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/rh1tech/frank")
+		(comment 1 "https://github.com/rh1tech/protea")
 	)
 	(lib_symbols
 		(symbol "C_Small_2"
@@ -168,7 +168,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:+3V3"
+		(symbol "Protea:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -307,7 +307,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:AMS1117-3.3"
+		(symbol "Protea:AMS1117-3.3"
 			(pin_names
 				(offset 0.254)
 			)
@@ -337,7 +337,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "FRANK:SOT-89-3"
+			(property "Footprint" "Protea:SOT-89-3"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -463,7 +463,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:C"
+		(symbol "Protea:C"
 			(pin_numbers
 				(hide yes)
 			)
@@ -618,7 +618,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:C_Polarized_Small"
+		(symbol "Protea:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -796,7 +796,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:C_Small"
+		(symbol "Protea:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -952,7 +952,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:Ferrite_Bead"
+		(symbol "Protea:Ferrite_Bead"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1117,7 +1117,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:GND"
+		(symbol "Protea:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1232,7 +1232,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:LED"
+		(symbol "Protea:LED"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1433,7 +1433,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:R"
+		(symbol "Protea:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1573,7 +1573,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:SK12D07VG3NS"
+		(symbol "Protea:SK12D07VG3NS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1601,7 +1601,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "FRANK:SK12D07VG3NS"
+			(property "Footprint" "Protea:SK12D07VG3NS"
 				(at 19.05 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1765,185 +1765,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "FRANK:USBLC6-2SC6"
+		(symbol "Protea:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
 			)
@@ -1974,7 +1796,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "FRANK:SOT-23-6"
+			(property "Footprint" "Protea:SOT-23-6"
 				(at 1.27 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2406,7 +2228,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:USB_C"
+		(symbol "Protea:USB_C"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2438,7 +2260,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "FRANK:USB_C_Receptacle"
+			(property "Footprint" "Protea:USB_C_Receptacle"
 				(at 3.81 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2744,7 +2566,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:VBUS"
+		(symbol "Protea:VBUS"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -3185,22 +3007,10 @@
 		(uuid "8563a6de-29a5-4e3d-a382-a7cf000d9003")
 	)
 	(junction
-		(at 160.02 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c940d31e-057f-4e9a-a23b-45067c99c424")
-	)
-	(junction
 		(at 194.31 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0dbb736-64ad-4cde-8f6d-8e5bf3b83c6c")
-	)
-	(junction
-		(at 148.59 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e29e8a38-045d-476c-ba13-a5d6c3ad6767")
 	)
 	(junction
 		(at 115.57 96.52)
@@ -3220,9 +3030,15 @@
 		(color 0 0 0 0)
 		(uuid "ec762159-ffba-47e3-9824-0b6f541ce421")
 	)
+	(junction
+		(at 172.72 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f07bd3c9-bacd-4588-bd9b-e55b8520a7d1")
+	)
 	(no_connect
-		(at 147.32 83.82)
-		(uuid "49c9d60e-7817-414c-9e17-334719c6dc2b")
+		(at 160.02 81.28)
+		(uuid "35cb7bed-966f-4e4c-ac4a-2c732bb2eddb")
 	)
 	(no_connect
 		(at 99.06 114.3)
@@ -3294,16 +3110,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 96.52) (xy 148.59 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fd5c8b6-aeee-45ea-af42-2f8ea87caa54")
-	)
-	(wire
-		(pts
 			(xy 99.06 121.92) (xy 106.68 121.92)
 		)
 		(stroke
@@ -3351,16 +3157,6 @@
 			(type default)
 		)
 		(uuid "309baef7-97df-4ef0-bbd3-91821eda7922")
-	)
-	(wire
-		(pts
-			(xy 147.32 88.9) (xy 148.59 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "369d5a8d-055f-4ab9-a0f4-968fea749b44")
 	)
 	(wire
 		(pts
@@ -3424,26 +3220,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 88.9) (xy 160.02 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b7c90a1-fe4c-4fcf-a220-9bce6ea6b6e7")
-	)
-	(wire
-		(pts
-			(xy 160.02 88.9) (xy 168.91 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce24c76-25fc-4351-bef3-217ddaf0cbbc")
-	)
-	(wire
-		(pts
 			(xy 184.15 114.3) (xy 184.15 113.03)
 		)
 		(stroke
@@ -3451,6 +3227,16 @@
 			(type default)
 		)
 		(uuid "64264dda-e047-4913-a7ab-81b0c562e714")
+	)
+	(wire
+		(pts
+			(xy 172.72 86.36) (xy 181.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6429fe85-31b5-4b08-838c-b216d105dc9d")
 	)
 	(wire
 		(pts
@@ -3494,16 +3280,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 88.9) (xy 160.02 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7148482d-802b-48a1-adc1-8a78bab9b231")
-	)
-	(wire
-		(pts
 			(xy 109.22 110.49) (xy 121.92 110.49)
 		)
 		(stroke
@@ -3531,6 +3307,16 @@
 			(type default)
 		)
 		(uuid "7ce13bb7-51e5-42cc-a7c3-1db3299ded83")
+	)
+	(wire
+		(pts
+			(xy 160.02 86.36) (xy 172.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d391f59-e034-4585-a939-70eba343cf10")
 	)
 	(wire
 		(pts
@@ -3564,6 +3350,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 83.82) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97aaec0a-c30d-4756-acce-af0e73c811d9")
+	)
+	(wire
+		(pts
+			(xy 172.72 86.36) (xy 172.72 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c53047-2919-4237-8897-507c06ffd6e0")
+	)
+	(wire
+		(pts
 			(xy 99.06 104.14) (xy 111.76 104.14)
 		)
 		(stroke
@@ -3584,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 96.52) (xy 120.65 96.52)
+			(xy 115.57 96.52) (xy 138.43 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3614,13 +3420,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 96.52) (xy 148.59 96.52)
+			(xy 189.23 86.36) (xy 191.77 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c16ba46a-f033-4815-a6ff-3558b7a337eb")
+		(uuid "b963dbae-0fe7-445d-a814-73ed90bf58f9")
 	)
 	(wire
 		(pts
@@ -3654,16 +3460,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 86.36) (xy 157.48 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2c39ad3-468f-44ab-90d4-316292b764b3")
-	)
-	(wire
-		(pts
 			(xy 109.22 110.49) (xy 109.22 111.76)
 		)
 		(stroke
@@ -3684,16 +3480,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 88.9) (xy 179.07 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f411fa99-ca3f-40b6-b6d9-1a3a85b68f8c")
-	)
-	(wire
-		(pts
 			(xy 111.76 104.14) (xy 111.76 107.95)
 		)
 		(stroke
@@ -3703,14 +3489,24 @@
 		(uuid "fdd21959-c362-4350-a959-2aaa5ac9731c")
 	)
 	(label "VBUS_IN"
-		(at 157.48 86.36 180)
+		(at 170.18 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "aa5bcdf1-cc12-4bf7-a41a-f56383385d61")
+		(uuid "3680cfce-afc2-47eb-9c60-8e9169ef0523")
+	)
+	(label "VBUS_IN"
+		(at 138.43 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9852f233-dbf5-4a0f-b51e-b434453e310a")
 	)
 	(hierarchical_label "D+"
 		(shape input)
@@ -3735,7 +3531,153 @@
 		(uuid "666e3bbe-e922-4b3a-b3ee-8da90b665888")
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:SK12D07VG3NS")
+		(at 160.02 88.9 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "008959fd-0c49-486f-a97d-f30c712c618a")
+		(property "Reference" "S3"
+			(at 154.94 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK12D07VG3NS"
+			(at 154.94 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Protea:SK12D07VG3NS_PWR"
+			(at 140.97 -6.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1432/sk.pdf"
+			(at 140.97 -106.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Direct Insert Single Pole Double Throw (SPDT) 30V Plugin Slide Switches ROHS"
+			(at 160.02 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.7"
+			(at 140.97 -306.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "611-SK12D07VG3NS"
+			(at 140.97 -406.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/SK12D07VG3NS?qs=Gufeu08L%2Fl1%252BoOFGqR6EIw%3D%3D"
+			(at 140.97 -506.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 140.97 -606.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SK12D07VG3NS"
+			(at 140.97 -706.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "4010a048-d579-432b-a3dc-f891551ea7f4")
+		)
+		(pin "1"
+			(uuid "7054631f-7173-4d8e-82c6-89a922aa051a")
+		)
+		(pin "2"
+			(uuid "2da79140-5747-4444-a014-ebbed1a9a4c2")
+		)
+		(instances
+			(project "protea"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Protea:+3V3")
 		(at 201.93 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -3746,7 +3688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1086dcd6-1a8c-4934-be7a-85bae8c2e56f")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR026"
 			(at 201.93 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3806,14 +3748,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR055")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:LED")
+		(lib_id "Protea:LED")
 		(at 160.02 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -3824,7 +3766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1109fa7e-53b9-437b-8f4b-7356c37e4ba5")
-		(property "Reference" "LD4"
+		(property "Reference" "LD2"
 			(at 158.4325 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3844,7 +3786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:LED_0603_1608Metric"
+		(property "Footprint" "Protea:LED_0603_1608Metric"
 			(at 160.02 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4008,14 +3950,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "LD4")
+					(reference "LD2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C_Polarized_Small")
+		(lib_id "Protea:C_Polarized_Small")
 		(at 166.37 110.49 0)
 		(unit 1)
 		(body_style 1)
@@ -4025,7 +3967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14b84d90-12f5-4d21-a9ec-1d64af6fbe47")
-		(property "Reference" "C6"
+		(property "Reference" "C1"
 			(at 163.83 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4045,7 +3987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:CP_Tantalum_3528-12"
+		(property "Footprint" "Protea:CP_Tantalum_3528-12"
 			(at 166.37 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4178,14 +4120,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "C6")
+					(reference "C1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 194.31 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -4195,7 +4137,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19356067-83eb-4051-a914-d663d750cf74")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR025"
 			(at 194.31 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4255,14 +4197,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR054")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 106.68 121.92 90)
 		(unit 1)
 		(body_style 1)
@@ -4272,7 +4214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a8ee83e-ee1f-4368-a966-178f24fb57eb")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR013"
 			(at 113.03 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4333,46 +4275,48 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR031")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:SolderJumper_2_Open")
-		(at 125.73 96.52 0)
+		(lib_id "Protea:C")
+		(at 172.72 76.2 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1d3d7210-d7f0-4ed5-8cbb-8c0b6fd60aac")
-		(property "Reference" "JP3"
-			(at 125.73 93.98 0)
+		(uuid "1e23f1a8-addd-48bc-9052-2a6c51dbab04")
+		(property "Reference" "C2"
+			(at 171.45 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "VBUS_IN Dbg"
-			(at 125.73 91.44 0)
+		(property "Value" "100n"
+			(at 173.99 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 125.73 96.52 0)
+		(property "Footprint" "Protea:C_0603_1608Metric"
+			(at 173.6852 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4383,7 +4327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 88.9 0)
+			(at 172.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4393,8 +4337,8 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 125.73 91.44 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 172.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4404,23 +4348,311 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "64cde465-51f6-40f5-bc62-db20f2632e97")
+		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 172.72 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 172.72 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 172.72 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 172.72 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 172.72 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 172.72 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 172.72 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 172.72 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 172.72 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Crystal Type" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Frequency" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Frequency Stability" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Frequency Tolerance" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Load Capacitance" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Normal Temperature Frequency Tolerance" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "866268cc-a404-43bb-a541-3c71d39bd0fc")
+			(uuid "4526aacc-9928-4bad-95e6-f2fec4e1c12c")
+		)
+		(pin "2"
+			(uuid "ea8383df-2649-4edc-916e-acdc616be74d")
 		)
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "JP3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 104.14 116.84 90)
 		(unit 1)
 		(body_style 1)
@@ -4430,7 +4662,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ea83630-ec8c-4eb8-9ae4-eeaa734a9bf5")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR012"
 			(at 110.49 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4491,94 +4723,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR030")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:VBUS")
-		(at 179.07 88.9 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "227138b5-e371-468a-ac87-787a26496ee2")
-		(property "Reference" "#PWR058"
-			(at 175.26 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 182.88 88.9001 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 179.07 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65604593-5555-4e0f-8c84-46f193ab953d")
-		)
-		(instances
-			(project "protea"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 139.7 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -4588,7 +4740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2486575e-764e-4201-9f00-e83ed55535cd")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR016"
 			(at 139.7 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4648,85 +4800,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:GND")
-		(at 160.02 74.93 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27512f6e-fb49-45c0-abf7-e0ad9f02be8a")
-		(property "Reference" "#PWR052"
-			(at 160.02 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32703903-aadf-4717-96e2-672f48cca135")
-		)
-		(instances
-			(project "protea"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR052")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4734,7 +4808,7 @@
 	)
 	(symbol
 		(lib_name "C_Small_2")
-		(lib_id "FRANK:C_Small")
+		(lib_id "Protea:C_Small")
 		(at 172.72 110.49 0)
 		(mirror x)
 		(unit 1)
@@ -4745,7 +4819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3306a1ed-192b-45ae-a028-978821a6db26")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 173.482 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4767,7 +4841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 172.72 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4996,14 +5070,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 104.14 93.98 90)
 		(unit 1)
 		(body_style 1)
@@ -5013,7 +5087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3397a833-d25d-43b0-8349-2a79451c653e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR010"
 			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5074,14 +5148,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR028")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:VBUS")
+		(lib_id "Protea:VBUS")
 		(at 137.16 101.6 90)
 		(unit 1)
 		(body_style 1)
@@ -5091,7 +5165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a36c44e-bd0b-406c-9ba3-598893a55ec0")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR015"
 			(at 140.97 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5152,14 +5226,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR038")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:USB_C")
+		(lib_id "Protea:USB_C")
 		(at 96.52 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -5169,7 +5243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43342b20-834a-4121-8e84-fa7c3893540c")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 90.17 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5192,7 +5266,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:USB_C_Receptacle"
+		(property "Footprint" "Protea:USB_C_Receptacle"
 			(at 100.33 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5389,14 +5463,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 125.73 110.49 270)
 		(mirror x)
 		(unit 1)
@@ -5407,7 +5481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "446ee1cf-3810-497e-b71d-5f9c8e8ed2ad")
-		(property "Reference" "R25"
+		(property "Reference" "R8"
 			(at 129.286 112.776 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5427,7 +5501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
+		(property "Footprint" "Protea:R_0603_1608Metric"
 			(at 125.73 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -5747,15 +5821,15 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "R25")
+					(reference "R8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
-		(at 160.02 78.74 0)
+		(lib_id "Protea:VBUS")
+		(at 191.77 86.36 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5764,9 +5838,21 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "549f076e-36f7-465f-8253-ff43b21d12b3")
-		(property "Reference" "C9"
-			(at 158.75 80.264 90)
+		(fields_autoplaced yes)
+		(uuid "475f11e6-52a3-4e99-9c55-21f5c09df579")
+		(property "Reference" "#PWR024"
+			(at 187.96 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 195.58 86.3601 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5776,19 +5862,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 161.29 80.264 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
-			(at 160.9852 74.93 0)
+		(property "Footprint" ""
+			(at 191.77 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5799,7 +5874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 78.74 0)
+			(at 191.77 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5809,296 +5884,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 160.02 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 160.02 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 160.02 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 160.02 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 160.02 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 160.02 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 160.02 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 160.02 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 160.02 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Crystal Type" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Frequency" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Frequency Stability" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Frequency Tolerance" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Load Capacitance" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Normal Temperature Frequency Tolerance" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" ""
-			(at 160.02 78.74 0)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 191.77 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6109,22 +5896,110 @@
 			)
 		)
 		(pin "1"
-			(uuid "6207be9f-bc0d-427d-a6f4-beab4f928c71")
-		)
-		(pin "2"
-			(uuid "482c5791-1a83-4de5-8bb9-9081d70b800c")
+			(uuid "31e5cc3b-31f5-4e8d-b638-b0bffc658a2d")
 		)
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "C9")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:Ferrite_Bead")
+		(at 185.42 86.36 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4fc46765-d06a-407b-b6eb-a73d727d89a6")
+		(property "Reference" "L1"
+			(at 185.42 81.788 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 185.42 79.248 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Protea:L_0603_1608Metric"
+			(at 185.42 88.138 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 185.42 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005265371362.html"
+			(at 185.42 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6c945db1-00ef-4b38-a03f-8a98fb67093c")
+		)
+		(pin "1"
+			(uuid "b96845e1-b428-40f5-8477-3d1e075b4cad")
+		)
+		(instances
+			(project "protea"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Protea:+3V3")
 		(at 173.99 132.08 270)
 		(unit 1)
 		(body_style 1)
@@ -6135,7 +6010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5946d400-d340-4114-b119-4a55fd5f07d4")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR022"
 			(at 170.18 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6196,14 +6071,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR042")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C_Small")
+		(lib_id "Protea:C_Small")
 		(at 201.93 110.49 0)
 		(mirror x)
 		(unit 1)
@@ -6214,7 +6089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e5c43a4-643a-430e-8328-d426181ea68a")
-		(property "Reference" "C11"
+		(property "Reference" "C5"
 			(at 202.692 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6236,7 +6111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "Protea:C_0603_1608Metric"
 			(at 201.93 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6465,14 +6340,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "C11")
+					(reference "C5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 167.64 132.08 90)
 		(unit 1)
 		(body_style 1)
@@ -6483,7 +6358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73909a68-5cda-4233-87b0-19da4d5e8038")
-		(property "Reference" "R27"
+		(property "Reference" "R9"
 			(at 167.64 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6503,7 +6378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
+		(property "Footprint" "Protea:R_0603_1608Metric"
 			(at 167.64 133.858 90)
 			(hide yes)
 			(show_name no)
@@ -6666,14 +6541,92 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "R27")
+					(reference "R9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
+		(at 172.72 72.39 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "781a6822-05c9-40eb-943c-e623f8f432da")
+		(property "Reference" "#PWR020"
+			(at 172.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ea878cf-2722-4297-b51a-22f10a2c54d5")
+		)
+		(instances
+			(project "protea"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Protea:GND")
 		(at 106.68 124.46 90)
 		(unit 1)
 		(body_style 1)
@@ -6683,7 +6636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98e091a8-067b-4d1d-9f2d-1f0fdd53ac0e")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR014"
 			(at 113.03 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6743,14 +6696,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR032")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 104.14 101.6 90)
 		(unit 1)
 		(body_style 1)
@@ -6760,7 +6713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99347a43-f9f5-4312-b22a-19836b601c0a")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR011"
 			(at 110.49 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6821,7 +6774,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR029")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6829,7 +6782,7 @@
 	)
 	(symbol
 		(lib_name "R_Small_3")
-		(lib_id "FRANK:R_Small")
+		(lib_id "Protea:R_Small")
 		(at 101.6 101.6 270)
 		(unit 1)
 		(body_style 1)
@@ -6839,7 +6792,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9aab643b-89a8-45ef-b564-817df37178fd")
-		(property "Reference" "R21"
+		(property "Reference" "R5"
 			(at 101.6 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6859,7 +6812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
+		(property "Footprint" "Protea:R_0603_1608Metric"
 			(at 101.6 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7023,105 +6976,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "R21")
+					(reference "R5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:Ferrite_Bead")
-		(at 172.72 88.9 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c26254a-4d58-465a-9391-a3f97a85f1f6")
-		(property "Reference" "L1"
-			(at 172.72 84.328 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 172.72 81.788 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:L_0603_1608Metric"
-			(at 172.72 90.678 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 172.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005005265371362.html"
-			(at 172.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8b169610-3f5b-499c-aea3-03b779819c30")
-		)
-		(pin "1"
-			(uuid "f186e54f-5bfe-4722-9319-e15ff5c90e67")
-		)
-		(instances
-			(project "protea"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 184.15 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -7131,7 +6993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4ef39ad-4b94-42a6-9ec6-996534d97eda")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR023"
 			(at 184.15 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7191,7 +7053,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR050")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7199,7 +7061,7 @@
 	)
 	(symbol
 		(lib_name "R_Small_2")
-		(lib_id "FRANK:R_Small")
+		(lib_id "Protea:R_Small")
 		(at 101.6 116.84 270)
 		(unit 1)
 		(body_style 1)
@@ -7209,7 +7071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a61df389-8b0b-4e8e-bd08-9e3bcfcdaae9")
-		(property "Reference" "R22"
+		(property "Reference" "R6"
 			(at 101.6 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7229,7 +7091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
+		(property "Footprint" "Protea:R_0603_1608Metric"
 			(at 101.6 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7393,14 +7255,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "R22")
+					(reference "R6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:USBLC6-2SC6")
+		(lib_id "Protea:USBLC6-2SC6")
 		(at 139.7 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -7410,7 +7272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae02427e-6fbd-45c6-b9ce-3119026ecc3a")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 141.3511 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7432,7 +7294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:SOT-23-6"
+		(property "Footprint" "Protea:SOT-23-6"
 			(at 140.97 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7745,14 +7607,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 166.37 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -7762,7 +7624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b80139e5-ee7d-4c37-a4b4-64b411dcd37e")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR019"
 			(at 166.37 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7822,14 +7684,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR046")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:VBUS")
+		(lib_id "Protea:VBUS")
 		(at 166.37 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -7840,7 +7702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c04c67ce-37a1-4e6a-985f-bdec03ae14fb")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR018"
 			(at 166.37 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7900,14 +7762,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR045")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 172.72 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -7917,7 +7779,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c16b37c2-5a08-4356-bd1a-bb7f701c2f75")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR021"
 			(at 172.72 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7977,14 +7839,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR047")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C_Polarized_Small")
+		(lib_id "Protea:C_Polarized_Small")
 		(at 194.31 110.49 0)
 		(unit 1)
 		(body_style 1)
@@ -7994,7 +7856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7a10d2b-cbe5-444d-9d22-495a892aca17")
-		(property "Reference" "C10"
+		(property "Reference" "C4"
 			(at 197.358 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8014,7 +7876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:CP_Tantalum_3528-12"
+		(property "Footprint" "Protea:CP_Tantalum_3528-12"
 			(at 194.31 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8147,14 +8009,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "C10")
+					(reference "C4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:AMS1117-3.3")
+		(lib_id "Protea:AMS1117-3.3")
 		(at 184.15 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -8165,7 +8027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7e12b68-3ded-4a1b-a405-425284fb132f")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 184.15 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8185,7 +8047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:SOT-89-3"
+		(property "Footprint" "Protea:SOT-89-3"
 			(at 184.15 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8230,14 +8092,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "U6")
+					(reference "U2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 156.21 132.08 270)
 		(unit 1)
 		(body_style 1)
@@ -8248,7 +8110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d01f7c50-4820-4da3-afcf-062624520b5d")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR017"
 			(at 149.86 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8309,14 +8171,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR037")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 201.93 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -8326,7 +8188,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0a31d23-e495-48d6-940b-9c4f107aac2c")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR027"
 			(at 201.93 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8386,160 +8248,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR056")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:SK12D07VG3NS")
-		(at 147.32 91.44 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d59cb942-5253-491b-bc3c-d0f0d4cf68ad")
-		(property "Reference" "S5"
-			(at 142.24 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SK12D07VG3NS"
-			(at 142.24 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FRANK:SK12D07VG3NS_PWR"
-			(at 128.27 -3.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1432/sk.pdf"
-			(at 128.27 -103.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Direct Insert Single Pole Double Throw (SPDT) 30V Plugin Slide Switches ROHS"
-			(at 147.32 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4.7"
-			(at 128.27 -303.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "611-SK12D07VG3NS"
-			(at 128.27 -403.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/SK12D07VG3NS?qs=Gufeu08L%2Fl1%252BoOFGqR6EIw%3D%3D"
-			(at 128.27 -503.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "C & K COMPONENTS"
-			(at 128.27 -603.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SK12D07VG3NS"
-			(at 128.27 -703.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3"
-			(uuid "9cf5f1ac-0f67-4fab-b203-b5027a8be5cc")
-		)
-		(pin "1"
-			(uuid "d54d5d03-df7d-42eb-a5f3-a693ad576450")
-		)
-		(pin "2"
-			(uuid "1f4909ea-5c6c-4476-9247-5df2bf2d067a")
-		)
-		(instances
-			(project "protea"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "S5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 125.73 107.95 270)
 		(mirror x)
 		(unit 1)
@@ -8550,7 +8266,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed376c95-1bd2-4658-97b3-677927e76e3a")
-		(property "Reference" "R24"
+		(property "Reference" "R7"
 			(at 129.032 105.918 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8570,7 +8286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
+		(property "Footprint" "Protea:R_0603_1608Metric"
 			(at 125.73 109.728 90)
 			(hide yes)
 			(show_name no)
@@ -8890,7 +8606,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "R24")
+					(reference "R7")
 					(unit 1)
 				)
 			)

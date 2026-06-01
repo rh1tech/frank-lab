@@ -9,10 +9,240 @@
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/xtremespb/frank")
+		(comment 1 "https://github.com/rh1tech/protea")
 	)
 	(lib_symbols
-		(symbol "FRANK:+3.3VP"
+		(symbol "GND_11"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_11_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_11_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_12"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_12_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_12_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Protea:+3.3VP"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -151,7 +381,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:+3V3"
+		(symbol "Protea:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -290,7 +520,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:Antenna_Shield"
+		(symbol "Protea:Antenna_Shield"
 			(pin_numbers
 				(hide yes)
 			)
@@ -506,7 +736,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:C"
+		(symbol "Protea:C"
 			(pin_numbers
 				(hide yes)
 			)
@@ -661,7 +891,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:C_Small"
+		(symbol "Protea:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -817,7 +1047,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:Crystal_GND24"
+		(symbol "Protea:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1089,7 +1319,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:ESP32-D0WD-V3"
+		(symbol "Protea:ESP32-D0WD-V3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1117,7 +1347,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "FRANK:QFN35P500X500X90-49N-D"
+			(property "Footprint" "Protea:QFN35P500X500X90-49N-D"
 				(at 41.91 -84.76 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2109,7 +2339,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:GND"
+		(symbol "Protea:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2224,7 +2454,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:L_Small"
+		(symbol "Protea:L_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2404,7 +2634,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:R"
+		(symbol "Protea:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2544,7 +2774,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:UMH3N"
+		(symbol "Protea:UMH3N"
 			(pin_names
 				(hide yes)
 			)
@@ -2575,7 +2805,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "FRANK:SOT-363"
+			(property "Footprint" "Protea:SOT-363"
 				(at 0.127 -11.176 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2829,236 +3059,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_11"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_11_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_11_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_12"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_12_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_12_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4887,7 +4887,7 @@
 		(uuid "fc78ba06-771e-42b0-8bff-f8a5c790a490")
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 156.21 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -4897,7 +4897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05a9f9f4-7af8-474d-8ad4-4d46c4cd0f66")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR039"
 			(at 156.21 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4957,14 +4957,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR070")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C_Small")
+		(lib_id "Protea:C_Small")
 		(at 208.28 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -4974,7 +4974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09064532-1e9e-4e1e-a9a2-7040f905e46c")
-		(property "Reference" "C22"
+		(property "Reference" "C16"
 			(at 205.486 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4994,7 +4994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 208.28 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5068,7 +5068,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C22")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -5076,7 +5076,7 @@
 	)
 	(symbol
 		(lib_name "GND_12")
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 251.46 82.55 90)
 		(unit 1)
 		(body_style 1)
@@ -5086,7 +5086,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0972648c-aa43-4349-b71b-8d6a2691bc42")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR050"
 			(at 257.81 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5146,14 +5146,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR081")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 59.69 80.01 0)
 		(unit 1)
 		(body_style 1)
@@ -5163,7 +5163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a8864af-1e5d-46fa-ab27-74d50efa571a")
-		(property "Reference" "C15"
+		(property "Reference" "C9"
 			(at 55.626 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5185,7 +5185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 60.6552 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5249,14 +5249,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C15")
+					(reference "C9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 233.68 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -5266,7 +5266,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bf907c1-020c-4242-99c7-6e7fc6b45e47")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR046"
 			(at 233.68 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5326,14 +5326,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR077")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:Crystal_GND24")
+		(lib_id "Protea:Crystal_GND24")
 		(at 245.11 82.55 90)
 		(unit 1)
 		(body_style 1)
@@ -5364,7 +5364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Protea:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 245.11 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5441,7 +5441,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 233.68 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -5451,7 +5451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "187ca4e6-9782-4fb4-9df5-9ffc63b6c564")
-		(property "Reference" "C24"
+		(property "Reference" "C18"
 			(at 227.33 120.904 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5473,7 +5473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 234.6452 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5537,14 +5537,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C24")
+					(reference "C18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 185.42 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -5554,7 +5554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bdc051d-87be-490e-af08-adddfa7a4be9")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR042"
 			(at 185.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5614,14 +5614,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR073")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 220.98 157.48 0)
 		(unit 1)
 		(body_style 1)
@@ -5631,7 +5631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d094e7f-0018-42e4-91bf-887c81e648b0")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR045"
 			(at 220.98 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5691,14 +5691,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR076")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 245.11 148.59 270)
 		(unit 1)
 		(body_style 1)
@@ -5708,7 +5708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "258a327d-0993-4636-9a4a-9ad817928c6e")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR049"
 			(at 238.76 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5768,14 +5768,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR080")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 140.97 54.61 180)
 		(unit 1)
 		(body_style 1)
@@ -5785,7 +5785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25956872-72b0-447f-aaef-921850df20eb")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR036"
 			(at 140.97 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5845,14 +5845,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR067")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 71.12 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -5862,7 +5862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27e0b0d5-bfa6-4e98-94e3-05dd7160becc")
-		(property "Reference" "C18"
+		(property "Reference" "C12"
 			(at 67.056 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5884,7 +5884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 72.0852 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5948,14 +5948,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C18")
+					(reference "C12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 60.96 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -5965,7 +5965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28b24203-2b2a-44c0-807f-12d489319167")
-		(property "Reference" "C16"
+		(property "Reference" "C10"
 			(at 56.896 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5987,7 +5987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 61.9252 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6051,14 +6051,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C16")
+					(reference "C10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 185.42 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -6068,7 +6068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e98188d-8149-4e97-8e88-94c53b6cef85")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR041"
 			(at 185.42 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6128,14 +6128,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR072")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 208.28 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -6145,7 +6145,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33753d39-a3c5-4a17-bc82-0c0e610cfaf7")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR043"
 			(at 208.28 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6205,14 +6205,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR074")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 208.28 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -6222,7 +6222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35bf7821-e46e-4d9a-9f1f-2b37b00b0590")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR044"
 			(at 208.28 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6282,14 +6282,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR075")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:ESP32-D0WD-V3")
+		(lib_id "Protea:ESP32-D0WD-V3")
 		(at 130.81 72.39 0)
 		(unit 1)
 		(body_style 1)
@@ -6300,7 +6300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37e3c0d2-9f5d-42f3-b6b1-1632155f6f80")
-		(property "Reference" "U7"
+		(property "Reference" "U3"
 			(at 165.9733 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6322,7 +6322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:QFN35P500X500X90-49N-D"
+		(property "Footprint" "Protea:QFN35P500X500X90-49N-D"
 			(at 172.72 157.15 0)
 			(hide yes)
 			(show_name no)
@@ -6567,14 +6567,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "U7")
+					(reference "U3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:L_Small")
+		(lib_id "Protea:L_Small")
 		(at 227.33 146.05 270)
 		(unit 1)
 		(body_style 1)
@@ -6605,7 +6605,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Inductor_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:Inductor_0603_1608Metric_HandSolder"
 			(at 227.33 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6665,7 +6665,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 204.47 71.12 180)
 		(unit 1)
 		(body_style 1)
@@ -6675,7 +6675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4965e59b-5462-4a54-bb47-7e457742e62c")
-		(property "Reference" "R33"
+		(property "Reference" "R14"
 			(at 202.438 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6695,7 +6695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:R_0603_1608Metric_HandSolder"
 			(at 206.248 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -6758,14 +6758,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "R33")
+					(reference "R14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 176.53 74.93 270)
 		(unit 1)
 		(body_style 1)
@@ -6776,7 +6776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4db79207-516e-4538-bcf5-1a32d7c97dd7")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR040"
 			(at 172.72 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6837,14 +6837,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR071")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 41.91 80.01 0)
 		(unit 1)
 		(body_style 1)
@@ -6854,7 +6854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e90449e-febe-47d3-b9d6-d9667f787422")
-		(property "Reference" "C13"
+		(property "Reference" "C7"
 			(at 37.846 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6876,7 +6876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 42.8752 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6940,14 +6940,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C13")
+					(reference "C7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 130.81 72.39 90)
 		(unit 1)
 		(body_style 1)
@@ -6958,7 +6958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6630e033-8e68-4321-8415-c9e200fb5452")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR033"
 			(at 134.62 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7019,14 +7019,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR064")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 266.7 72.39 180)
 		(unit 1)
 		(body_style 1)
@@ -7036,7 +7036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69f42c8b-d8cd-4a5e-b1c4-5261ee90ce87")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR051"
 			(at 266.7 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7096,14 +7096,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR082")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C_Small")
+		(lib_id "Protea:C_Small")
 		(at 185.42 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -7113,7 +7113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "728382b8-2b72-4682-922c-4f5118c4a72a")
-		(property "Reference" "C21"
+		(property "Reference" "C15"
 			(at 182.626 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7133,7 +7133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 185.42 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7207,14 +7207,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C21")
+					(reference "C15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 68.58 80.01 0)
 		(unit 1)
 		(body_style 1)
@@ -7224,7 +7224,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a19c14d-392b-4a79-bd5b-b5d1a6f1622c")
-		(property "Reference" "C17"
+		(property "Reference" "C11"
 			(at 64.516 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7246,7 +7246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 69.5452 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7310,14 +7310,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C17")
+					(reference "C11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 151.13 128.27 180)
 		(unit 1)
 		(body_style 1)
@@ -7327,7 +7327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7befc64e-1327-4219-83e3-5d4d6154d865")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR038"
 			(at 151.13 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7387,14 +7387,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR069")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C_Small")
+		(lib_id "Protea:C_Small")
 		(at 220.98 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -7404,7 +7404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c72287d-2325-40c8-aada-f26559e293db")
-		(property "Reference" "C23"
+		(property "Reference" "C17"
 			(at 219.456 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7424,7 +7424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 220.98 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7498,14 +7498,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C23")
+					(reference "C17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 242.57 118.11 90)
 		(unit 1)
 		(body_style 1)
@@ -7515,7 +7515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80cbd189-ef08-4964-9ca1-ba8f32ee386a")
-		(property "Reference" "C26"
+		(property "Reference" "C20"
 			(at 241.554 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7537,7 +7537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 246.38 117.1448 0)
 			(hide yes)
 			(show_name no)
@@ -7601,14 +7601,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C26")
+					(reference "C20")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 81.28 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -7618,7 +7618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8218ab57-7c82-4328-8e84-8b7853f9ae2a")
-		(property "Reference" "C20"
+		(property "Reference" "C14"
 			(at 77.216 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7640,7 +7640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 82.2452 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7704,14 +7704,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C20")
+					(reference "C14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 185.42 34.29 180)
 		(unit 1)
 		(body_style 1)
@@ -7721,7 +7721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8442c52c-d343-46d7-abc4-ed81c6125cf3")
-		(property "Reference" "R31"
+		(property "Reference" "R12"
 			(at 183.388 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7741,7 +7741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:R_0603_1608Metric_HandSolder"
 			(at 187.198 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -7804,14 +7804,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "R31")
+					(reference "R12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 161.29 41.91 180)
 		(unit 1)
 		(body_style 1)
@@ -7821,7 +7821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ae88085-e463-457b-b19b-6c9c19fef204")
-		(property "Reference" "R29"
+		(property "Reference" "R10"
 			(at 159.258 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7841,7 +7841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:R_0603_1608Metric_HandSolder"
 			(at 163.068 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -7904,14 +7904,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "R29")
+					(reference "R10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 242.57 109.22 270)
 		(unit 1)
 		(body_style 1)
@@ -7921,7 +7921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fc95703-0e17-4330-a8b3-a784fe19b9e7")
-		(property "Reference" "R35"
+		(property "Reference" "R16"
 			(at 242.57 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7941,7 +7941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:R_0603_1608Metric_HandSolder"
 			(at 242.57 107.442 90)
 			(hide yes)
 			(show_name no)
@@ -8004,14 +8004,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "R35")
+					(reference "R16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:UMH3N")
+		(lib_id "Protea:UMH3N")
 		(at 48.26 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -8044,7 +8044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:SOT-363"
+		(property "Footprint" "Protea:SOT-363"
 			(at 48.387 131.826 0)
 			(hide yes)
 			(show_name no)
@@ -8126,7 +8126,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 50.8 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -8136,7 +8136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93707aa8-3fc8-4653-b84b-87ea96530b40")
-		(property "Reference" "C14"
+		(property "Reference" "C8"
 			(at 46.736 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8158,7 +8158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 51.7652 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8222,14 +8222,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C14")
+					(reference "C8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 40.64 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -8239,7 +8239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94606305-dce1-4ee4-9efd-2cea15911a92")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR029"
 			(at 40.64 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8299,14 +8299,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR060")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 208.28 34.29 180)
 		(unit 1)
 		(body_style 1)
@@ -8316,7 +8316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9790b1ba-b3df-4d0b-9c90-e05b6c217956")
-		(property "Reference" "R34"
+		(property "Reference" "R15"
 			(at 206.248 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8336,7 +8336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:R_0603_1608Metric_HandSolder"
 			(at 210.058 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -8399,14 +8399,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "R34")
+					(reference "R15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 260.35 74.93 90)
 		(unit 1)
 		(body_style 1)
@@ -8416,7 +8416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "986cd63c-6121-4f8b-92b7-b4e19e726eec")
-		(property "Reference" "C27"
+		(property "Reference" "C21"
 			(at 259.1816 72.009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8438,7 +8438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 264.16 73.9648 0)
 			(hide yes)
 			(show_name no)
@@ -8502,14 +8502,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C27")
+					(reference "C21")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 40.64 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -8519,7 +8519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d2b59cf-6859-47ed-8e42-c40bb40fe43f")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR028"
 			(at 40.64 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8579,14 +8579,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR059")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:L_Small")
+		(lib_id "Protea:L_Small")
 		(at 228.6 90.17 90)
 		(unit 1)
 		(body_style 1)
@@ -8616,7 +8616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Inductor_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:Inductor_0603_1608Metric_HandSolder"
 			(at 228.6 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8665,7 +8665,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:Antenna_Shield")
+		(lib_id "Protea:Antenna_Shield")
 		(at 250.19 146.05 270)
 		(unit 1)
 		(body_style 1)
@@ -8697,7 +8697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Antenna_2.4GHz"
+		(property "Footprint" "Protea:Antenna_2.4GHz"
 			(at 252.73 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8756,7 +8756,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3.3VP")
+		(lib_id "Protea:+3.3VP")
 		(at 130.81 80.01 90)
 		(unit 1)
 		(body_style 1)
@@ -8767,7 +8767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9df47fd-de83-4da9-be14-fbcfdaec967c")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR035"
 			(at 132.08 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8828,14 +8828,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR066")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 194.31 71.12 180)
 		(unit 1)
 		(body_style 1)
@@ -8845,7 +8845,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af2502f2-81f5-40d1-9d9c-c479debecbcc")
-		(property "Reference" "R32"
+		(property "Reference" "R13"
 			(at 192.278 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8865,7 +8865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:R_0603_1608Metric_HandSolder"
 			(at 196.088 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -8928,14 +8928,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "R32")
+					(reference "R13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 41.91 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -8945,7 +8945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4e004a6-35c3-4e23-a668-f599d01283d0")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR031"
 			(at 41.91 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9005,14 +9005,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR062")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 148.59 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -9022,7 +9022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b773b0db-9c65-497c-a2e5-2da79d77178c")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR037"
 			(at 148.59 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9082,14 +9082,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR068")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:L_Small")
+		(lib_id "Protea:L_Small")
 		(at 50.8 76.2 270)
 		(unit 1)
 		(body_style 1)
@@ -9120,7 +9120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Inductor_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:Inductor_0603_1608Metric_HandSolder"
 			(at 50.8 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9180,7 +9180,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 77.47 80.01 0)
 		(unit 1)
 		(body_style 1)
@@ -9190,7 +9190,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9fb0dc0-4c05-4e41-83e6-3ce69762cede")
-		(property "Reference" "C19"
+		(property "Reference" "C13"
 			(at 73.406 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9212,7 +9212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 78.4352 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9276,14 +9276,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C19")
+					(reference "C13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 40.64 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -9293,7 +9293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbb7098d-5735-423f-871b-76f89e998082")
-		(property "Reference" "C12"
+		(property "Reference" "C6"
 			(at 36.068 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9315,7 +9315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 41.6052 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9379,14 +9379,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C12")
+					(reference "C6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C_Small")
+		(lib_id "Protea:C_Small")
 		(at 233.68 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -9396,7 +9396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c09b038a-72ed-4b91-8670-3fcc264eb5ee")
-		(property "Reference" "C25"
+		(property "Reference" "C19"
 			(at 232.156 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9416,7 +9416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 233.68 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9490,14 +9490,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C25")
+					(reference "C19")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3.3VP")
+		(lib_id "Protea:+3.3VP")
 		(at 41.91 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -9507,7 +9507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5853b73-9463-483a-810d-159181ba2e10")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR030"
 			(at 45.72 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9567,14 +9567,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR061")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:R")
+		(lib_id "Protea:R")
 		(at 184.15 105.41 90)
 		(unit 1)
 		(body_style 1)
@@ -9584,7 +9584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de7af0a1-6bac-47fa-b7c2-e76c137878f2")
-		(property "Reference" "R30"
+		(property "Reference" "R11"
 			(at 184.15 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9604,7 +9604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:R_0603_1608Metric_HandSolder"
 			(at 184.15 107.188 90)
 			(hide yes)
 			(show_name no)
@@ -9667,14 +9667,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "R30")
+					(reference "R11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 233.68 157.48 0)
 		(unit 1)
 		(body_style 1)
@@ -9684,7 +9684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e236bcf5-1477-44ad-9fb7-2460e1c18cea")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR047"
 			(at 233.68 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9744,14 +9744,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR078")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
+		(lib_id "Protea:C")
 		(at 260.35 90.17 90)
 		(unit 1)
 		(body_style 1)
@@ -9761,7 +9761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eabb9232-2d7a-4676-831e-c229a7efd768")
-		(property "Reference" "C28"
+		(property "Reference" "C22"
 			(at 259.334 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9783,7 +9783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_HandSolder"
+		(property "Footprint" "Protea:C_0603_1608Metric_HandSolder"
 			(at 264.16 89.2048 0)
 			(hide yes)
 			(show_name no)
@@ -9847,7 +9847,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "C28")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9855,7 +9855,7 @@
 	)
 	(symbol
 		(lib_name "GND_11")
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 238.76 82.55 270)
 		(unit 1)
 		(body_style 1)
@@ -9865,7 +9865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f08c8ca7-88e4-4349-8148-3ba339b855b0")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR048"
 			(at 232.41 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9925,14 +9925,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR079")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3V3")
+		(lib_id "Protea:+3V3")
 		(at 68.58 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -9942,7 +9942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2f1cb01-7201-411e-8dd8-2472689960ff")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR032"
 			(at 68.58 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10002,14 +10002,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR063")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:+3.3VP")
+		(lib_id "Protea:+3.3VP")
 		(at 130.81 77.47 90)
 		(unit 1)
 		(body_style 1)
@@ -10020,7 +10020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7a137ad-86d4-4c96-811f-a00e4f2977aa")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR034"
 			(at 132.08 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10081,14 +10081,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6ffc8eb2-26a4-4e0a-a8e8-79eef59e436d"
-					(reference "#PWR065")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:UMH3N")
+		(lib_id "Protea:UMH3N")
 		(at 76.2 120.65 0)
 		(unit 2)
 		(body_style 1)
@@ -10121,7 +10121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:SOT-363"
+		(property "Footprint" "Protea:SOT-363"
 			(at 76.327 131.826 0)
 			(hide yes)
 			(show_name no)

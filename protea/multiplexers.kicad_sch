@@ -177,7 +177,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FRANK:74HC4052D653"
+			(property "Footprint" ""
 				(at 21.59 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -653,6 +653,17 @@
 					)
 				)
 			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "C_0_1"
 				(polyline
 					(pts
@@ -900,6 +911,17 @@
 				)
 			)
 			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1569,7 +1591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0395da48-73fa-43da-8c25-aaaa811249a5")
-		(property "Reference" "R17"
+		(property "Reference" "R35"
 			(at 169.164 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1591,7 +1613,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
+		(property "Footprint" "Protea:R_0603_1608Metric_Small"
 			(at 173.228 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -1654,7 +1676,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "R17")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -1672,7 +1694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cfdf09c-844f-40ea-98d1-748baa0630ef")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR0112"
 			(at 115.57 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -1733,7 +1755,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR060")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -1751,7 +1773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "352b7d41-302c-4024-a90f-87b658428c34")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR0127"
 			(at 189.23 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -1812,7 +1834,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR075")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -1830,7 +1852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "425e5f3c-05bb-4190-9a54-bcf5b1f7f609")
-		(property "Reference" "U5"
+		(property "Reference" "U13"
 			(at 152.4 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1840,7 +1862,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC4052D"
+		(property "Value" "74HC4052"
 			(at 152.4 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1850,7 +1872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:SOP-16"
+		(property "Footprint" "Protea:SOP65P640X110-16N"
 			(at 161.29 207.95 0)
 			(hide yes)
 			(show_name no)
@@ -2007,7 +2029,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "U5")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -2025,7 +2047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "508ebe48-238f-48eb-bd7e-a8d289b77acc")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0111"
 			(at 115.57 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2086,7 +2108,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR059")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -2104,7 +2126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "516db9a2-be23-4a9f-b8f0-be47a423ee04")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0118"
 			(at 171.45 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2164,7 +2186,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR066")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -2182,7 +2204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a9ca7ae-cac8-427d-b020-4cee4a0e6e0b")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0116"
 			(at 115.57 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -2243,7 +2265,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR064")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -2261,7 +2283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bffe848-0805-4e2d-876a-26e08bd18705")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0109"
 			(at 115.57 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2322,7 +2344,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR057")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -2340,7 +2362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73f42392-53f4-4967-a2e6-aef3447fb725")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0122"
 			(at 179.07 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2401,7 +2423,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR091")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -2419,7 +2441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78d9b411-dda4-419e-b291-2b6cac4c31e3")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR0113"
 			(at 115.57 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2480,7 +2502,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR061")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -2498,7 +2520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bce574b-5a13-4796-a79f-c1b4a0bb048b")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR0128"
 			(at 189.23 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -2559,7 +2581,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR076")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -2576,7 +2598,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8abb75ca-b66d-49e6-88bc-8100f12cff60")
-		(property "Reference" "C2"
+		(property "Reference" "C48"
 			(at 174.371 52.1716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2598,7 +2620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0603, S)"
+		(property "Footprint" "Protea:C_0603_1608Metric_Small"
 			(at 172.4152 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -2661,7 +2683,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "C2")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -2679,7 +2701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b3e2e14-f0b8-4213-998a-223e85a3fb05")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR0124"
 			(at 189.23 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2740,7 +2762,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR072")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -2757,7 +2779,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d6b27d6-de89-4e92-a688-17a025dd33b0")
-		(property "Reference" "C4"
+		(property "Reference" "C49"
 			(at 174.371 105.5116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2779,7 +2801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0603, S)"
+		(property "Footprint" "Protea:C_0603_1608Metric_Small"
 			(at 172.4152 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2842,7 +2864,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "C4")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -2860,7 +2882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a832e7b0-2275-4fec-b47f-bf9c00590ab1")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0120"
 			(at 171.45 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2920,7 +2942,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR068")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -2938,7 +2960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9faa0ea-5fb3-4fb7-ba84-0e4023b8ec55")
-		(property "Reference" "U4"
+		(property "Reference" "U12"
 			(at 152.4 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2948,7 +2970,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC4052D"
+		(property "Value" "74HC4052"
 			(at 152.4 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2958,7 +2980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:SOP-16"
+		(property "Footprint" "Protea:SOP65P640X110-16N"
 			(at 161.29 154.61 0)
 			(hide yes)
 			(show_name no)
@@ -3115,7 +3137,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "U4")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -3133,7 +3155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba511432-3e5a-4da8-95b3-7375f8ad4310")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR0108"
 			(at 115.57 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3194,7 +3216,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR056")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -3212,7 +3234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd0afd61-c86a-48e1-9e06-0b026ead64b3")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0110"
 			(at 115.57 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3273,7 +3295,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR058")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -3291,7 +3313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c15a7e9f-dfdc-4995-b784-94a78bb306f0")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR0119"
 			(at 171.45 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3351,7 +3373,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR067")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -3369,7 +3391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c853d6df-477d-48b0-9b9a-f6fdfa1ca3e5")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR0115"
 			(at 115.57 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3430,7 +3452,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR063")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -3448,7 +3470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce3eef1a-277c-4852-8e33-5ca3190ee32a")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0126"
 			(at 179.07 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3509,7 +3531,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR092")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -3527,7 +3549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d77b24c0-c5d6-42cc-8d91-f298ccac07f2")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR0117"
 			(at 115.57 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3588,7 +3610,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR065")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -3606,7 +3628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dabd006c-387a-4875-84bf-7f13248b1f4f")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0123"
 			(at 189.23 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3667,7 +3689,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR071")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -3685,7 +3707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0a0487b-9ad0-40ff-b4a0-a114f0bfff39")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0125"
 			(at 189.23 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3746,7 +3768,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR073")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -3764,7 +3786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3ecb4d2-4b35-4326-afdf-04894536fea2")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR0114"
 			(at 115.57 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3825,7 +3847,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR062")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -3842,7 +3864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e92f9558-e010-4df9-815a-e903387c86b2")
-		(property "Reference" "R18"
+		(property "Reference" "R36"
 			(at 169.164 137.668 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,7 +3886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
+		(property "Footprint" "Protea:R_0603_1608Metric_Small"
 			(at 173.228 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -3927,7 +3949,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "R18")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -3945,7 +3967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f161cd30-e1c1-428f-aa44-8ebfeb3400fe")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0121"
 			(at 171.45 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4005,7 +4027,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR069")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -4023,7 +4045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f41e1423-0718-4274-960b-bd9a832c85d8")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0129"
 			(at 189.23 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4084,7 +4106,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d08308c4-806e-41a9-af8c-3d489c1d31c1"
-					(reference "#PWR077")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)

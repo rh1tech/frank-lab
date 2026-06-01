@@ -338,6 +338,320 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Protea:2N7000"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7000"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET Logic-Level"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2N7000_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N7000_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Protea:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -407,6 +721,17 @@
 				)
 			)
 			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -493,8 +818,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J10"
-				(at 0.635 7.62 0)
+			(property "Reference" "J"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -504,7 +829,7 @@
 				)
 			)
 			(property "Value" "Conn_01x03_Pin"
-				(at 0.635 5.08 0)
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -746,7 +1071,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1083,7 +1408,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "LIBS:DSUB-9"
+			(property "Footprint" "Protea:DSUB-9_Male_TopMount"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1117,6 +1442,17 @@
 				)
 			)
 			(property "ki_keywords" "connector male D-SUB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DSUB*Male*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1655,7 +1991,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FRANK:SOP-16"
+			(property "Footprint" "Protea:SOP-16"
 				(at 26.67 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2129,6 +2465,17 @@
 					)
 				)
 			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "R_0_1"
 				(rectangle
 					(start -1.016 -2.54)
@@ -2321,52 +2668,40 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:2N7000"
-			(pin_names
+		(symbol "R_1"
+			(pin_numbers
 				(hide yes)
+			)
+			(pin_names
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "R"
+				(at 2.032 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "2N7000"
-				(at 5.08 0 0)
+			(property "Value" "R"
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-				(at 5.08 -3.81 0)
+			(property "Footprint" ""
+				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2374,10 +2709,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2388,7 +2722,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET Logic-Level"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2399,7 +2733,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2410,166 +2744,23 @@
 					)
 				)
 			)
-			(symbol "2N7000_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+				)
+			)
+			(symbol "R_1_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -2577,11 +2768,11 @@
 					)
 				)
 			)
-			(symbol "2N7000_1_1"
+			(symbol "R_1_1_1"
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2596,10 +2787,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2614,17 +2805,139 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_2_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_2_1_1"
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3891,7 +4204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0826bdf5-67e8-4f33-b4e8-e8c7eab693c0")
-		(property "Reference" "R3"
+		(property "Reference" "R18"
 			(at 86.614 146.558 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,7 +4226,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
+		(property "Footprint" "Protea:R_0603_1608Metric_Small"
 			(at 90.678 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -3976,7 +4289,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "R3")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3994,7 +4307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b1ec8ee-32aa-4f24-b5e6-40485109cd2d")
-		(property "Reference" "C33"
+		(property "Reference" "C27"
 			(at 96.5263 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4014,7 +4327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0603, S)"
+		(property "Footprint" "Protea:C_0603_1608Metric_Small"
 			(at 96.52 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4088,7 +4401,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "C33")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -4106,7 +4419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10586c3f-4e4a-495a-a931-de28563b0dea")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR064"
 			(at 102.87 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4167,7 +4480,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR043")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4185,7 +4498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2797fb34-d563-40b4-82de-33629b905267")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 201.295 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4205,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Protea:PinHeader_1x06_P2.54mm_Vertical"
 			(at 200.66 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4216,7 +4529,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4270,7 +4583,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4288,7 +4601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33074e52-aa68-4c99-abd5-ba75c74350d3")
-		(property "Reference" "C32"
+		(property "Reference" "C26"
 			(at 85.0963 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4308,7 +4621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0603, S)"
+		(property "Footprint" "Protea:C_0603_1608Metric_Small"
 			(at 85.09 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4382,7 +4695,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "C32")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -4400,7 +4713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34d7bc49-041f-45f8-b55b-d25610d744ac")
-		(property "Reference" "C34"
+		(property "Reference" "C28"
 			(at 143.5163 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4420,7 +4733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0603, S)"
+		(property "Footprint" "Protea:C_0603_1608Metric_Small"
 			(at 143.51 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4494,7 +4807,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "C34")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -4512,7 +4825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dfaa118-dcda-47bc-ab7b-8fbf16103fc1")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR070"
 			(at 156.21 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4573,7 +4886,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR049")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -4590,7 +4903,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "436cf32a-c466-4da3-9a4a-7f2013f4eeb3")
-		(property "Reference" "R40"
+		(property "Reference" "R22"
 			(at 154.94 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4610,7 +4923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
+		(property "Footprint" "Protea:R_0603_1608Metric_Small"
 			(at 154.178 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -4673,7 +4986,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "R40")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4691,7 +5004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "445f401a-20cb-4116-a73b-b68025e2ac7f")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR074"
 			(at 234.95 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4752,7 +5065,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR053")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -4769,7 +5082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53ac9e3c-cfd5-4761-b18a-deff3723accc")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR062"
 			(at 88.9 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -4830,7 +5143,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR041")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4847,7 +5160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "599f0f48-a57a-4591-90d4-fb4655b07c8f")
-		(property "Reference" "C31"
+		(property "Reference" "C25"
 			(at 83.82 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4867,7 +5180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0603, S)"
+		(property "Footprint" "Protea:C_0603_1608Metric_Small"
 			(at 83.82 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4941,14 +5254,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "C31")
+					(reference "C25")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
+		(lib_id "Protea:2N7000")
 		(at 86.36 158.75 0)
 		(unit 1)
 		(body_style 1)
@@ -4980,7 +5293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:SOT-23"
+		(property "Footprint" "Protea:SOT-23"
 			(at 91.44 160.655 0)
 			(hide yes)
 			(show_name no)
@@ -5046,7 +5359,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
+		(lib_id "Protea:2N7000")
 		(at 149.86 149.86 0)
 		(unit 1)
 		(body_style 1)
@@ -5078,7 +5391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:SOT-23"
+		(property "Footprint" "Protea:SOT-23"
 			(at 154.94 151.765 0)
 			(hide yes)
 			(show_name no)
@@ -5144,7 +5457,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
+		(lib_id "Protea:2N7000")
 		(at 102.87 149.86 0)
 		(unit 1)
 		(body_style 1)
@@ -5176,7 +5489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:SOT-23"
+		(property "Footprint" "Protea:SOT-23"
 			(at 107.95 151.765 0)
 			(hide yes)
 			(show_name no)
@@ -5253,7 +5566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "681d1ad5-d9c3-452a-92ee-660cb40d4ed1")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR069"
 			(at 153.67 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5314,7 +5627,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR048")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -5331,7 +5644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d338727-703e-4bf2-97b4-06f53fa5278d")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR066"
 			(at 135.89 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -5392,7 +5705,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR045")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -5410,7 +5723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b5d2d73-a7eb-48b1-891c-0ebb5845be2a")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR071"
 			(at 199.39 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5471,7 +5784,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR050")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -5488,7 +5801,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86044c18-54bf-4d99-a3c6-6dfd362aae98")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 88.9 69.088 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5508,7 +5821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Diode (SOD-323)"
+		(property "Footprint" "Protea:D_SOD-323_Alt"
 			(at 88.9 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5593,13 +5906,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "R_2")
 		(lib_id "Protea:R")
 		(at 135.89 144.78 180)
 		(unit 1)
@@ -5610,7 +5924,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d0ca1a0-5270-463c-8437-ccdc54e8dbd3")
-		(property "Reference" "R6"
+		(property "Reference" "R21"
 			(at 133.604 146.558 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5632,7 +5946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
+		(property "Footprint" "Protea:R_0603_1608Metric_Small"
 			(at 137.668 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -5654,7 +5968,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 135.89 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5695,7 +6009,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "R6")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5713,7 +6027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99df74fe-0fe1-44ba-a4ae-52bffa1a4d26")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 142.24 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5733,7 +6047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Diode (SOD-323)"
+		(property "Footprint" "Protea:D_SOD-323_Alt"
 			(at 142.24 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5818,7 +6132,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5835,7 +6149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ecef648-ce54-4f4b-bac5-9ee4139f471d")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR068"
 			(at 152.4 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -5896,7 +6210,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR047")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -5914,7 +6228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8efa1a1-804b-44dd-a62e-3505379bac6c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR065"
 			(at 135.89 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5974,7 +6288,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR044")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5992,7 +6306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1d175ad-018e-4be8-a4d1-ea365b8fccaa")
-		(property "Reference" "U10"
+		(property "Reference" "U6"
 			(at 133.35 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6012,7 +6326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:SOP-16"
+		(property "Footprint" "Protea:SOP-16"
 			(at 144.78 193.98 0)
 			(hide yes)
 			(show_name no)
@@ -6179,7 +6493,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "U10")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6197,7 +6511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b51b2a24-beab-4101-87ad-80360dd17b52")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR060"
 			(at 69.85 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6257,7 +6571,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR039")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -6274,7 +6588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b90abb9a-a2f4-4a37-a81d-14fa2b6fa071")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR072"
 			(at 212.09 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6335,7 +6649,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR051")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -6352,7 +6666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba79c69e-349b-4794-81f9-8566f3a83057")
-		(property "Reference" "R4"
+		(property "Reference" "R19"
 			(at 101.6 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6372,7 +6686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
+		(property "Footprint" "Protea:R_0603_1608Metric_Small"
 			(at 100.838 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -6435,7 +6749,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "R4")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6452,7 +6766,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c55ae1db-e240-4bf8-9a33-4f96e7b990f9")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR067"
 			(at 154.94 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6513,7 +6827,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR046")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -6531,7 +6845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7cda1a1-8ff3-4814-80d8-ec964babcb14")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 88.9 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6551,7 +6865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Diode (SOD-323)"
+		(property "Footprint" "Protea:D_SOD-323_Alt"
 			(at 88.9 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6636,7 +6950,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6654,7 +6968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd5da8ae-fa06-4420-845d-f36c6c8ad7ea")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR073"
 			(at 234.95 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6715,13 +7029,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR052")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "R_1")
 		(lib_id "Protea:R")
 		(at 152.4 138.43 180)
 		(unit 1)
@@ -6732,7 +7047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d59783b7-1551-4442-8b96-5ad54fbaf018")
-		(property "Reference" "R41"
+		(property "Reference" "R23"
 			(at 150.114 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6753,7 +7068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
+		(property "Footprint" "Protea:R_0603_1608Metric_Small"
 			(at 154.178 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -6775,7 +7090,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 152.4 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6816,7 +7131,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "R41")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6833,7 +7148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da187427-7065-4e17-b325-50303cc3a6c6")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 142.24 69.088 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6853,7 +7168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Diode (SOD-323)"
+		(property "Footprint" "Protea:D_SOD-323_Alt"
 			(at 142.24 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6938,7 +7253,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6956,7 +7271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0d7672e-f01c-481d-9e2a-72f62c11a2ef")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR061"
 			(at 88.9 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7016,14 +7331,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR040")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
+		(lib_id "Protea:2N7000")
 		(at 133.35 158.75 0)
 		(unit 1)
 		(body_style 1)
@@ -7055,7 +7370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:SOT-23"
+		(property "Footprint" "Protea:SOT-23"
 			(at 138.43 160.655 0)
 			(hide yes)
 			(show_name no)
@@ -7131,7 +7446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea378a35-d447-4a28-bee4-4e3a78c0d3a3")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR063"
 			(at 105.41 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7192,7 +7507,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "#PWR042")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -7209,7 +7524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb3d1a94-6e27-4b80-9788-d69acbf1409b")
-		(property "Reference" "R5"
+		(property "Reference" "R20"
 			(at 103.124 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7230,7 +7545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
+		(property "Footprint" "Protea:R_0603_1608Metric_Small"
 			(at 107.188 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -7293,7 +7608,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "R5")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7310,7 +7625,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb8354d3-9f22-4f3d-ae1f-7d6ba9068109")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 232.41 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7332,7 +7647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:D-SUB (9 pin, male, top mount)"
+		(property "Footprint" "Protea:DSUB-9_Male_TopMount"
 			(at 231.14 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7406,7 +7721,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7424,7 +7739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc407c66-48d8-4dec-90a8-ff7fe553f196")
-		(property "Reference" "JP4"
+		(property "Reference" "JP1"
 			(at 234.315 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7444,7 +7759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Protea:PinHeader_1x03_P2.54mm_Vertical"
 			(at 233.68 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7500,7 +7815,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/61631a11-7412-4c50-ad72-40b1e1ef4d5c"
-					(reference "JP4")
+					(reference "JP1")
 					(unit 1)
 				)
 			)

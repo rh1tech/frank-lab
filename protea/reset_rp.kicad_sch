@@ -9,10 +9,10 @@
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/rh1tech/frank")
+		(comment 1 "https://github.com/rh1tech/protea")
 	)
 	(lib_symbols
-		(symbol "FRANK:GND"
+		(symbol "Protea:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -127,7 +127,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:KMR221G_LFS"
+		(symbol "Protea:KMR221G_LFS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -155,7 +155,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "FRANK:KMR_2"
+			(property "Footprint" "Protea:KMR_2"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -361,7 +361,7 @@
 		(uuid "c8969cd8-62fa-4d11-abc1-1542ba6d318c")
 	)
 	(symbol
-		(lib_id "FRANK:KMR221G_LFS")
+		(lib_id "Protea:KMR221G_LFS")
 		(at 147.32 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -372,7 +372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d27afd8-35b4-415e-811d-ed7df11c83a9")
-		(property "Reference" "S4"
+		(property "Reference" "S2"
 			(at 157.48 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -392,7 +392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:KMR_2"
+		(property "Footprint" "Protea:KMR_2"
 			(at 163.83 188.9 0)
 			(hide yes)
 			(show_name no)
@@ -603,14 +603,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d9683ed1-f40a-41e2-8d5a-33de35a935e4"
-					(reference "S4")
+					(reference "S2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 147.32 96.52 270)
 		(unit 1)
 		(body_style 1)
@@ -620,7 +620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee4e4a7e-3cbe-4ea3-aa22-cdc1d2a65ca4")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR08"
 			(at 140.97 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -681,14 +681,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d9683ed1-f40a-41e2-8d5a-33de35a935e4"
-					(reference "#PWR016")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 167.64 96.52 90)
 		(unit 1)
 		(body_style 1)
@@ -698,7 +698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f931fc20-f603-46f0-a29d-63372ddadc03")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR09"
 			(at 173.99 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -759,7 +759,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d9683ed1-f40a-41e2-8d5a-33de35a935e4"
-					(reference "#PWR017")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)

@@ -9,10 +9,220 @@
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/rh1tech/frank")
+		(comment 1 "https://github.com/rh1tech/protea")
 	)
 	(lib_symbols
-		(symbol "FRANK:GND"
+		(symbol "KMR221G_LFS_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KMR221G_LFS"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Protea:KMR_2"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/KMR221G LFS.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "C & K COMPONENTS - KMR221G LFS - SWITCH, SPST, 0.05A, 32VDC, SMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "611-KMR221G-LFS"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=611-KMR221G-LFS"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "C & K COMPONENTS"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "KMR221G LFS"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "KMR221G_LFS_1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Protea:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -127,7 +337,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:KMR221G_LFS"
+		(symbol "Protea:KMR221G_LFS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -155,7 +365,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "FRANK:KMR_2"
+			(property "Footprint" "Protea:KMR_2"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -383,7 +593,7 @@
 		(uuid "f8acb7a0-cb92-4b7f-ab77-4132cbc31990")
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 170.18 121.92 90)
 		(unit 1)
 		(body_style 1)
@@ -393,7 +603,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c3acb46-a58f-4ce2-a23a-d1a408c37dee")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR059"
 			(at 176.53 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -454,14 +664,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6b6a9768-d263-48b1-b95b-0ebb6152887f"
-					(reference "#PWR090")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 149.86 121.92 270)
 		(unit 1)
 		(body_style 1)
@@ -471,7 +681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3286b88a-e6b2-4960-9b9d-33c46e42df67")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR057"
 			(at 143.51 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -532,14 +742,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6b6a9768-d263-48b1-b95b-0ebb6152887f"
-					(reference "#PWR088")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 149.86 106.68 270)
 		(unit 1)
 		(body_style 1)
@@ -549,7 +759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61e86cf1-8641-4ed4-bcce-2ad13075f0ca")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR056"
 			(at 143.51 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -610,14 +820,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6b6a9768-d263-48b1-b95b-0ebb6152887f"
-					(reference "#PWR087")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
+		(lib_id "Protea:GND")
 		(at 170.18 106.68 90)
 		(unit 1)
 		(body_style 1)
@@ -627,7 +837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65e27be2-1006-49c7-aa58-6d2861b707d3")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR058"
 			(at 176.53 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -688,14 +898,14 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6b6a9768-d263-48b1-b95b-0ebb6152887f"
-					(reference "#PWR089")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:KMR221G_LFS")
+		(lib_id "Protea:KMR221G_LFS")
 		(at 149.86 119.38 0)
 		(unit 1)
 		(body_style 1)
@@ -705,7 +915,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c20975f-608e-424d-a6b1-9e59b917557d")
-		(property "Reference" "S7"
+		(property "Reference" "S5"
 			(at 160.02 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -725,7 +935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:KMR_2"
+		(property "Footprint" "Protea:KMR_2"
 			(at 166.37 214.3 0)
 			(hide yes)
 			(show_name no)
@@ -936,14 +1146,15 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6b6a9768-d263-48b1-b95b-0ebb6152887f"
-					(reference "S7")
+					(reference "S5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FRANK:KMR221G_LFS")
+		(lib_name "KMR221G_LFS_1")
+		(lib_id "Protea:KMR221G_LFS")
 		(at 149.86 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -953,7 +1164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccbcf063-bdc5-4eb8-b1ff-bfa31c3681e3")
-		(property "Reference" "S6"
+		(property "Reference" "S4"
 			(at 160.02 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -973,7 +1184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:KMR_2"
+		(property "Footprint" "Protea:KMR_2"
 			(at 166.37 199.06 0)
 			(hide yes)
 			(show_name no)
@@ -1184,7 +1395,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6b6a9768-d263-48b1-b95b-0ebb6152887f"
-					(reference "S6")
+					(reference "S4")
 					(unit 1)
 				)
 			)
