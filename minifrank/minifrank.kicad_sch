@@ -919,11 +919,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:VBUS"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "FRANK:SW_DIP_x02"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -933,143 +929,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_DIP_x02"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 6.35 0)
+			(property "Reference" "S8"
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1079,7 +940,7 @@
 				)
 			)
 			(property "Value" "SW_DIP_x02"
-				(at 0 -3.81 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1088,7 +949,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "xt8086:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1292,6 +1153,145 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FRANK:VBUS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3267,7 +3267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Pin Header (1x03)"
+		(property "Footprint" "FRANK:PinHeader_1x03_P2.54mm"
 			(at 175.26 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4442,7 +4442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Mounting Hole (2.7mm)"
+		(property "Footprint" "FRANK:MountingHole_2.7mm"
 			(at 160.02 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -4674,7 +4674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Mounting Hole (2.7mm)"
+		(property "Footprint" "FRANK:MountingHole_2.7mm"
 			(at 160.02 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -4827,7 +4827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Mounting Hole (2.7mm)"
+		(property "Footprint" "FRANK:MountingHole_2.7mm"
 			(at 160.02 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -5059,7 +5059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Mounting Hole (2.7mm)"
+		(property "Footprint" "FRANK:MountingHole_2.7mm"
 			(at 160.02 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -5361,7 +5361,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x02")
+		(lib_id "FRANK:SW_DIP_x02")
 		(at 213.36 64.77 0)
 		(unit 1)
 		(body_style 1)

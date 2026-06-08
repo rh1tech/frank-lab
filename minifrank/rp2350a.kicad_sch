@@ -1752,7 +1752,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "FRANK:QFN 60 (RP2350A)"
+			(property "Footprint" "FRANK:QFN-60_RP2350A"
 				(at -19.05 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5725,16 +5725,6 @@
 	)
 	(wire
 		(pts
-			(xy 0.0762 2.0957) (xy 14.0462 2.0957)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc2b5ed5-bbd2-4f26-8a06-17bf9c22315c")
-	)
-	(wire
-		(pts
 			(xy 128.27 50.8) (xy 135.89 50.8)
 		)
 		(stroke
@@ -5842,16 +5832,6 @@
 			(justify right bottom)
 		)
 		(uuid "33033368-6320-4400-8846-2815df3e375d")
-	)
-	(label "GPIO11"
-		(at 1.3462 2.0957 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "358fac28-df45-4c73-b47f-8c058be4437a")
 	)
 	(label "QSPI_SD3"
 		(at 83.82 121.92 0)
@@ -12686,7 +12666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:QFN 60 (RP2350A)"
+		(property "Footprint" "FRANK:QFN-60_RP2350A"
 			(at 161.29 105.41 0)
 			(hide yes)
 			(show_name no)
