@@ -60,12 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "net_conflict|151800000|55055000|04f06e3c-858b-429e-8501-887d49a345b6|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -278,7 +273,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1727200|876300|5c5f7ae2-2217-4a51-9fe7-03e377f45857|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|482600|762000|c68f5f70-247d-4ee9-9e12-35a49604ec08|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78a1f433-7c49-4b5c-9ba7-9db1058b1d05|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78a1f433-7c49-4b5c-9ba7-9db1058b1d05|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|609600|990600|5913e40f-7683-482b-9dbf-3fadd7572885|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78a1f433-7c49-4b5c-9ba7-9db1058b1d05|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78a1f433-7c49-4b5c-9ba7-9db1058b1d05|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -1128,11 +1136,11 @@
     ]
   ],
   "text_variables": {
-    "BOARD": "RM2P2",
-    "DATE": "2025-10-07",
+    "DATE": "2026-06-09",
     "MODEL": "TurboSound",
-    "NAME": "EXT SOUND",
-    "VERSION": "1.00"
+    "NAME": "FRANK",
+    "TYPE": "Sound Card",
+    "VERSION": "2.00"
   },
   "tuning_profiles": {
     "meta": {
