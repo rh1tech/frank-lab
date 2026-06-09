@@ -60,7 +60,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|143528248|85271751|802c9aa0-a85b-4238-9db8-666b976bbe69|f29bd891-9533-4e33-aa47-a3aba362e4c8|B.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -1122,7 +1127,7 @@
         "uuid": "8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
       }
     ],
-    "used_designators": "X1,U1-5,S1,C1-8,D1-2,Q1,LD1-2,R1-39",
+    "used_designators": "H1-4,X1,U1-5,S1,C1-8,D1-2,Q1,LD1-2,R1-39",
     "variants": []
   },
   "sheets": [
