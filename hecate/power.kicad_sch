@@ -5,7 +5,7 @@
 	(uuid "177bde90-bd8a-463b-bdae-e9d72a38388c")
 	(paper "A4")
 	(title_block
-		(title "${NAME} ${MODEL}")
+		(title "${NAME}")
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
@@ -307,339 +307,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Hecate:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Hecate:C_Polarized_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_Small"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized capacitor, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_0_1"
-				(rectangle
-					(start -1.524 0.6858)
-					(end 1.524 0.3048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.524 -0.3048)
-					(end 1.524 -0.6858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.8542)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.8542)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Hecate:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -778,171 +445,6 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Hecate:FerriteBead"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
 					(name ""
 						(effects
 							(font
@@ -1896,469 +1398,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Hecate:USBLC6-2SC6"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0.635 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USBLC6-2SC6"
-				(at 0.635 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 1.27 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-				(at 1.27 -8.255 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "usb ethernet video"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "USBLC6-2SC6_0_0"
-				(circle
-					(center -1.524 0)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.508 2.032)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.508 -4.572)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.508 2.032)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.508 -4.572)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.524 -2.54)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USBLC6-2SC6_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -3.048) (xy -1.016 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.524) (xy -2.032 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
-						(xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -3.048) (xy 2.032 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USBLC6-2SC6_1_1"
-				(rectangle
-					(start -2.54 2.794)
-					(end 2.54 -5.334)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "I/O1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "I/O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "I/O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "I/O1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Hecate:VBUS"
 			(power global)
 			(pin_numbers
@@ -2509,7 +1548,7 @@
 		(at 139.7 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34d1d6ee-00ce-40ba-a28f-bb1b89d04cd2")
+		(uuid "428e6c4c-57c8-4010-9492-7054757d6fe8")
 	)
 	(junction
 		(at 201.93 120.65)
@@ -2530,16 +1569,16 @@
 		(uuid "94cc8cea-f58c-4eb5-83f5-9c64d4b441c7")
 	)
 	(junction
+		(at 144.78 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d2b0dbe-0e6f-4f11-851c-f4413c9b8cc6")
+	)
+	(junction
 		(at 133.35 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa15658c-9f4e-49ab-a7f2-aa4cad45dcfa")
-	)
-	(junction
-		(at 128.27 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c940d31e-057f-4e9a-a23b-45067c99c424")
 	)
 	(junction
 		(at 194.31 120.65)
@@ -2554,6 +1593,16 @@
 	(no_connect
 		(at 123.19 71.12)
 		(uuid "f80da418-baa9-4e02-bec3-64ccc14d17d0")
+	)
+	(wire
+		(pts
+			(xy 144.78 68.58) (xy 151.13 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "062c411a-1b56-44c7-a27c-a5426b167054")
 	)
 	(wire
 		(pts
@@ -2577,7 +1626,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 82.55) (xy 171.45 82.55)
+			(xy 167.64 82.55) (xy 179.07 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2627,7 +1676,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 116.84) (xy 134.62 116.84)
+			(xy 168.91 97.79) (xy 171.45 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2654,16 +1703,6 @@
 			(type default)
 		)
 		(uuid "309baef7-97df-4ef0-bbd3-91821eda7922")
-	)
-	(wire
-		(pts
-			(xy 115.57 129.54) (xy 128.27 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "369d5a8d-055f-4ab9-a0f4-968fea749b44")
 	)
 	(wire
 		(pts
@@ -2727,26 +1766,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 129.54) (xy 128.27 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b7c90a1-fe4c-4fcf-a220-9bce6ea6b6e7")
-	)
-	(wire
-		(pts
-			(xy 128.27 129.54) (xy 137.16 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce24c76-25fc-4351-bef3-217ddaf0cbbc")
-	)
-	(wire
-		(pts
 			(xy 184.15 129.54) (xy 184.15 128.27)
 		)
 		(stroke
@@ -2777,7 +1796,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 80.01) (xy 171.45 80.01)
+			(xy 167.64 80.01) (xy 179.07 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2837,6 +1856,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 57.15) (xy 144.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83bbdf1f-f139-4a9a-874c-07e42368e681")
+	)
+	(wire
+		(pts
 			(xy 172.72 123.19) (xy 172.72 120.65)
 		)
 		(stroke
@@ -2867,7 +1896,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 68.58) (xy 168.91 68.58)
+			(xy 139.7 68.58) (xy 144.78 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2897,16 +1926,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 82.55) (xy 189.23 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2528b1e-bf13-4133-bf1a-a208c41f15bc")
-	)
-	(wire
-		(pts
 			(xy 166.37 123.19) (xy 166.37 120.65)
 		)
 		(stroke
@@ -2914,16 +1933,6 @@
 			(type default)
 		)
 		(uuid "c4cced5e-c7da-4bb4-9ec2-6a923512c917")
-	)
-	(wire
-		(pts
-			(xy 176.53 72.39) (xy 176.53 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6e646d5-3e05-4dfb-96ad-2511c8214cdb")
 	)
 	(wire
 		(pts
@@ -2947,23 +1956,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 80.01) (xy 189.23 80.01)
+			(xy 144.78 63.5) (xy 144.78 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edc3ef1c-767c-49e7-b5e5-397ad0db4b76")
-	)
-	(wire
-		(pts
-			(xy 144.78 129.54) (xy 147.32 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f411fa99-ca3f-40b6-b6d9-1a3a85b68f8c")
+		(uuid "e9d5c44d-2a0d-4092-b653-f9a79984c56b")
 	)
 	(wire
 		(pts
@@ -2975,29 +1974,9 @@
 		)
 		(uuid "fdd21959-c362-4350-a959-2aaa5ac9731c")
 	)
-	(label "VBUS_IN"
-		(at 115.57 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "85c8c697-eece-4bdd-bb73-f4393bb8ea2c")
-	)
-	(label "VBUS_IN"
-		(at 168.91 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b8b8fcb6-ce6b-4b26-b9e4-1e20991dd555")
-	)
 	(hierarchical_label "D+"
 		(shape input)
-		(at 189.23 82.55 0)
+		(at 179.07 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3008,7 +1987,7 @@
 	)
 	(hierarchical_label "D-"
 		(shape input)
-		(at 189.23 80.01 0)
+		(at 179.07 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3016,6 +1995,264 @@
 			(justify left)
 		)
 		(uuid "a4d45195-d42e-409b-be84-1c654c902241")
+	)
+	(symbol
+		(lib_id "Hecate:C_Small")
+		(at 194.31 125.73 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "083fcd9c-1f37-4c2e-9d35-21cb134cc8e6")
+		(property "Reference" "C25"
+			(at 195.072 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 195.326 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Hecate:C_0603_1608Metric"
+			(at 194.31 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 194.31 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
+			(at 194.31 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Crystal Type" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Frequency" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Frequency Stability" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Frequency Tolerance" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Load Capacitance" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Normal Temperature Frequency Tolerance" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 194.31 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b79f8ecf-daa7-4d8e-a62b-606ff4ba1cc4")
+		)
+		(pin "2"
+			(uuid "0d9327b4-ea91-4509-afb7-e2e246ae7024")
+		)
+		(instances
+			(project "hecate"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Hecate:+3V3")
@@ -3029,7 +2266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1086dcd6-1a8c-4934-be7a-85bae8c2e56f")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR050"
 			(at 201.93 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3089,7 +2326,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR053")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3097,7 +2334,7 @@
 	)
 	(symbol
 		(lib_id "Hecate:LED")
-		(at 120.65 116.84 0)
+		(at 157.48 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3108,7 +2345,7 @@
 		(fields_autoplaced yes)
 		(uuid "1109fa7e-53b9-437b-8f4b-7356c37e4ba5")
 		(property "Reference" "LD2"
-			(at 119.0625 110.49 0)
+			(at 155.8925 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3118,7 +2355,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 119.0625 113.03 0)
+			(at 155.8925 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3128,7 +2365,7 @@
 			)
 		)
 		(property "Footprint" "Hecate:LED_0603_1608Metric"
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3139,7 +2376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3150,7 +2387,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3161,7 +2398,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005007252088951.html"
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3172,7 +2409,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3183,7 +2420,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3193,7 +2430,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3203,7 +2440,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3213,7 +2450,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3223,7 +2460,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3233,7 +2470,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3243,7 +2480,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3253,7 +2490,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3263,7 +2500,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3273,7 +2510,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 120.65 116.84 0)
+			(at 157.48 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3298,8 +2535,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Hecate:C_Polarized_Small")
+		(lib_id "Hecate:C_Small")
 		(at 166.37 125.73 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3307,28 +2545,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "14b84d90-12f5-4d21-a9ec-1d64af6fbe47")
+		(uuid "1455fb03-149c-4390-b76b-edf159bf5249")
 		(property "Reference" "C23"
-			(at 163.83 122.936 0)
+			(at 167.132 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "22u"
-			(at 164.084 127.762 0)
+		(property "Value" "10u"
+			(at 167.386 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Hecate:CP_EIA-3528-12_Kemet-T"
+		(property "Footprint" "Hecate:C_0603_1608Metric"
 			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3350,7 +2590,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3372,8 +2612,9 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 166.37 125.73 0)
+		(property "Attrition Qty" ""
+			(at 166.37 125.73 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3382,8 +2623,9 @@
 				)
 			)
 		)
-		(property "Check_prices" ""
-			(at 166.37 125.73 0)
+		(property "Category" ""
+			(at 166.37 125.73 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3392,8 +2634,9 @@
 				)
 			)
 		)
-		(property "Description_1" ""
-			(at 166.37 125.73 0)
+		(property "Class" ""
+			(at 166.37 125.73 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3402,8 +2645,9 @@
 				)
 			)
 		)
-		(property "MF" ""
-			(at 166.37 125.73 0)
+		(property "Crystal Type" ""
+			(at 166.37 125.73 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3412,8 +2656,9 @@
 				)
 			)
 		)
-		(property "MP" ""
-			(at 166.37 125.73 0)
+		(property "Frequency" ""
+			(at 166.37 125.73 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3422,8 +2667,9 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 166.37 125.73 0)
+		(property "Frequency Stability" ""
+			(at 166.37 125.73 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3432,8 +2678,9 @@
 				)
 			)
 		)
-		(property "Price" ""
-			(at 166.37 125.73 0)
+		(property "Frequency Tolerance" ""
+			(at 166.37 125.73 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3442,8 +2689,86 @@
 				)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 166.37 125.73 0)
+		(property "Load Capacitance" ""
+			(at 166.37 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" ""
+			(at 166.37 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Normal Temperature Frequency Tolerance" ""
+			(at 166.37 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" ""
+			(at 166.37 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" ""
+			(at 166.37 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" ""
+			(at 166.37 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" ""
+			(at 166.37 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 166.37 125.73 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3453,10 +2778,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "23ec911a-7e41-489e-97c3-acfd3872c81a")
+			(uuid "401c3d34-0373-4b8c-9c05-f8f89dec2599")
 		)
 		(pin "2"
-			(uuid "53e135ba-b131-4fc4-a9a9-6a2f8e10aa71")
+			(uuid "d594d849-0b6e-42a2-8878-608f459126be")
 		)
 		(instances
 			(project "hecate"
@@ -3478,7 +2803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19356067-83eb-4051-a914-d663d750cf74")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR049"
 			(at 194.31 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3538,7 +2863,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR052")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3555,7 +2880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a8ee83e-ee1f-4368-a966-178f24fb57eb")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR039"
 			(at 137.16 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3616,7 +2941,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR042")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3633,7 +2958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ea83630-ec8c-4eb8-9ae4-eeaa734a9bf5")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR038"
 			(at 134.62 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3694,86 +3019,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hecate:VBUS")
-		(at 147.32 129.54 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "227138b5-e371-468a-ac87-787a26496ee2")
-		(property "Reference" "#PWR045"
-			(at 143.51 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 151.13 129.5399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 147.32 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65604593-5555-4e0f-8c84-46f193ab953d")
-		)
-		(instances
-			(project "hecate"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR045")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3781,7 +3027,7 @@
 	)
 	(symbol
 		(lib_id "Hecate:GND")
-		(at 176.53 87.63 0)
+		(at 144.78 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3789,86 +3035,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2486575e-764e-4201-9f00-e83ed55535cd")
-		(property "Reference" "#PWR050"
-			(at 176.53 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 92.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c4141bd-4493-4928-a121-4a9bf7dd3190")
-		)
-		(instances
-			(project "hecate"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hecate:GND")
-		(at 128.27 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27512f6e-fb49-45c0-abf7-e0ad9f02be8a")
+		(uuid "225b7b7b-753a-496d-993a-c3b83aabb908")
 		(property "Reference" "#PWR041"
-			(at 128.27 149.86 0)
+			(at 144.78 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3879,7 +3048,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 147.32 0)
+			(at 144.78 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3889,7 +3058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 143.51 0)
+			(at 144.78 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3900,7 +3069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 143.51 0)
+			(at 144.78 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3911,7 +3080,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 143.51 0)
+			(at 144.78 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3922,7 +3091,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "32703903-aadf-4717-96e2-672f48cca135")
+			(uuid "79f0c2b1-c26c-4a90-a1d7-44b951e18a43")
 		)
 		(instances
 			(project "hecate"
@@ -4099,17 +3268,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 172.72 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Minimum Qty" ""
 			(at 172.72 125.73 90)
 			(hide yes)
@@ -4213,7 +3371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3397a833-d25d-43b0-8349-2a79451c653e")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 134.62 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4274,85 +3432,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hecate:VBUS")
-		(at 176.53 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3a36c44e-bd0b-406c-9ba3-598893a55ec0")
-		(property "Reference" "#PWR049"
-			(at 176.53 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 176.022 68.326 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 176.53 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb9ac8f2-6d53-4e64-9fb3-062e7f09aa88")
-		)
-		(instances
-			(project "hecate"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR049")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4607,7 +3687,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "446ee1cf-3810-497e-b71d-5f9c8e8ed2ad")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 167.386 84.836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4850,17 +3930,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 163.83 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Minimum Qty" ""
 			(at 163.83 82.55 90)
 			(hide yes)
@@ -4947,376 +4016,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hecate:C")
-		(at 128.27 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "549f076e-36f7-465f-8253-ff43b21d12b3")
-		(property "Reference" "C22"
-			(at 127 138.176 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 129.54 138.176 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Hecate:C_0603_1608Metric"
-			(at 129.2352 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 128.27 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 128.27 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 128.27 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 128.27 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 128.27 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 128.27 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 128.27 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 128.27 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 128.27 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Crystal Type" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Frequency" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Frequency Stability" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Frequency Tolerance" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Load Capacitance" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Normal Temperature Frequency Tolerance" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" ""
-			(at 128.27 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6207be9f-bc0d-427d-a6f4-beab4f928c71")
-		)
-		(pin "2"
-			(uuid "482c5791-1a83-4de5-8bb9-9081d70b800c")
-		)
-		(instances
-			(project "hecate"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "C22")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5333,7 +4033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "559839b3-2767-403c-8816-43848406f481")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR040"
 			(at 137.16 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5394,7 +4094,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR043")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5402,7 +4102,7 @@
 	)
 	(symbol
 		(lib_id "Hecate:+3V3")
-		(at 134.62 116.84 270)
+		(at 171.45 97.79 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5412,8 +4112,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5946d400-d340-4114-b119-4a55fd5f07d4")
-		(property "Reference" "#PWR044"
-			(at 130.81 116.84 0)
+		(property "Reference" "#PWR046"
+			(at 167.64 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5424,7 +4124,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 138.43 116.8399 90)
+			(at 175.26 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5435,7 +4135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 116.84 0)
+			(at 171.45 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5446,7 +4146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 116.84 0)
+			(at 171.45 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5457,7 +4157,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 134.62 116.84 0)
+			(at 171.45 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5473,7 +4173,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5645,17 +4345,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 201.93 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Minimum Qty" ""
 			(at 201.93 125.73 90)
 			(hide yes)
@@ -5749,8 +4438,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Hecate:R")
-		(at 128.27 116.84 90)
+		(lib_id "Hecate:C_Small")
+		(at 144.78 60.96 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5758,30 +4448,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73909a68-5cda-4233-87b0-19da4d5e8038")
-		(property "Reference" "R12"
-			(at 128.27 110.49 90)
+		(uuid "6f54e858-fbbc-4f69-bf78-8bd8b5584ca0")
+		(property "Reference" "C22"
+			(at 144.018 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 128.27 113.03 90)
+		(property "Value" "100n"
+			(at 143.764 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Hecate:R_0603_1608Metric"
-			(at 128.27 118.618 90)
+		(property "Footprint" "Hecate:C_0603_1608Metric"
+			(at 144.78 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5792,7 +4483,263 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 116.84 0)
+			(at 144.78 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 144.78 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
+			(at 144.78 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Crystal Type" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Frequency" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Frequency Stability" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Frequency Tolerance" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Load Capacitance" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Normal Temperature Frequency Tolerance" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 144.78 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc013420-bc5c-494c-bfd9-91d4d566ac35")
+		)
+		(pin "2"
+			(uuid "b9519ca3-5797-4ce2-a793-1ebdd51e7e87")
+		)
+		(instances
+			(project "hecate"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hecate:R")
+		(at 165.1 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73909a68-5cda-4233-87b0-19da4d5e8038")
+		(property "Reference" "R14"
+			(at 165.1 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 165.1 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hecate:R_0603_1608Metric"
+			(at 165.1 99.568 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5803,7 +4750,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 116.84 0)
+			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5814,7 +4761,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 128.27 116.84 0)
+			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5825,7 +4772,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 128.27 116.84 0)
+			(at 165.1 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5835,7 +4782,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 128.27 116.84 0)
+			(at 165.1 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5845,7 +4792,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 128.27 116.84 0)
+			(at 165.1 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5855,7 +4802,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 128.27 116.84 0)
+			(at 165.1 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5865,7 +4812,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 128.27 116.84 0)
+			(at 165.1 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5875,7 +4822,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 128.27 116.84 0)
+			(at 165.1 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5885,7 +4832,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 128.27 116.84 0)
+			(at 165.1 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5895,7 +4842,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 128.27 116.84 0)
+			(at 165.1 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5905,7 +4852,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 128.27 116.84 0)
+			(at 165.1 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5915,7 +4862,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 128.27 116.84 0)
+			(at 165.1 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5925,7 +4872,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 128.27 116.84 0)
+			(at 165.1 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5943,7 +4890,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5960,7 +4907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99347a43-f9f5-4312-b22a-19836b601c0a")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 134.62 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6021,7 +4968,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6229,96 +5176,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Hecate:FerriteBead")
-		(at 140.97 129.54 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c26254a-4d58-465a-9391-a3f97a85f1f6")
-		(property "Reference" "L1"
-			(at 140.97 134.112 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 140.97 136.652 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hecate:L_0603_1608Metric"
-			(at 140.97 127.762 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 140.97 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005005265371362.html"
-			(at 140.97 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8b169610-3f5b-499c-aea3-03b779819c30")
-		)
-		(pin "1"
-			(uuid "f186e54f-5bfe-4722-9319-e15ff5c90e67")
-		)
-		(instances
-			(project "hecate"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Hecate:GND")
 		(at 184.15 129.54 0)
 		(unit 1)
@@ -6329,7 +5186,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4ef39ad-4b94-42a6-9ec6-996534d97eda")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR048"
 			(at 184.15 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -6389,7 +5246,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR051")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6597,358 +5454,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Hecate:USBLC6-2SC6")
-		(at 176.53 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ae02427e-6fbd-45c6-b9ce-3119026ecc3a")
-		(property "Reference" "U4"
-			(at 178.1811 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USBLC6-2SC6"
-			(at 178.1811 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Hecate:SOT-23-6"
-			(at 177.8 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 177.8 88.265 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 176.53 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 176.53 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 176.53 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 176.53 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 176.53 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 176.53 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 176.53 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 176.53 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Crystal Type" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Frequency" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Frequency Stability" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Frequency Tolerance" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Load Capacitance" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Normal Temperature Frequency Tolerance" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" ""
-			(at 176.53 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "827bfcb9-446d-4d64-ac1f-4c26d24be351")
-		)
-		(pin "6"
-			(uuid "92a35859-4372-4186-a342-2236e971d75c")
-		)
-		(pin "4"
-			(uuid "b217400d-39c7-4456-b515-31786c83b9da")
-		)
-		(pin "1"
-			(uuid "97fadbfe-6a0d-4999-998b-1324998186da")
-		)
-		(pin "3"
-			(uuid "ff41415e-61d7-4456-a6f6-78a2d044c601")
-		)
-		(pin "5"
-			(uuid "66552cea-b93e-4c24-9630-4371c7b99a37")
-		)
-		(instances
-			(project "hecate"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Hecate:GND")
 		(at 166.37 129.54 0)
 		(unit 1)
@@ -6959,7 +5464,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b80139e5-ee7d-4c37-a4b4-64b411dcd37e")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR045"
 			(at 166.37 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7019,7 +5524,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR047")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7037,7 +5542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c04c67ce-37a1-4e6a-985f-bdec03ae14fb")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR044"
 			(at 166.37 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7097,7 +5602,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR046")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -7114,7 +5619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c16b37c2-5a08-4356-bd1a-bb7f701c2f75")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 172.72 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7174,177 +5679,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hecate:C_Polarized_Small")
-		(at 194.31 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c7a10d2b-cbe5-444d-9d22-495a892aca17")
-		(property "Reference" "C25"
-			(at 197.358 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22u"
-			(at 197.104 123.444 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hecate:CP_EIA-3528-12_Kemet-T"
-			(at 194.31 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 194.31 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 194.31 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 194.31 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 194.31 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 194.31 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 194.31 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 194.31 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 194.31 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 194.31 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 194.31 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fdd26a50-a3b9-4372-9f43-ee6f98726807")
-		)
-		(pin "2"
-			(uuid "da747d50-ac46-49e3-adcc-323558cc0307")
-		)
-		(instances
-			(project "hecate"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "C25")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7435,7 +5770,7 @@
 	)
 	(symbol
 		(lib_id "Hecate:GND")
-		(at 116.84 116.84 270)
+		(at 153.67 97.79 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7445,8 +5780,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d01f7c50-4820-4da3-afcf-062624520b5d")
-		(property "Reference" "#PWR037"
-			(at 110.49 116.84 0)
+		(property "Reference" "#PWR043"
+			(at 147.32 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7457,7 +5792,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 116.8399 90)
+			(at 149.86 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7468,7 +5803,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 116.84 0)
+			(at 153.67 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7479,7 +5814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 116.84 0)
+			(at 153.67 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7490,7 +5825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 116.84 0)
+			(at 153.67 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7506,7 +5841,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR037")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7523,7 +5858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0a31d23-e495-48d6-940b-9c4f107aac2c")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR051"
 			(at 201.93 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7583,7 +5918,86 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "#PWR054")
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hecate:VBUS")
+		(at 151.13 68.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec8e4dfa-48fa-4d4c-9ecc-f58ebaa6e6df")
+		(property "Reference" "#PWR042"
+			(at 147.32 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 154.94 68.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 151.13 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "106a10b4-8bf6-4b1f-bd4f-eb68a61942be")
+		)
+		(instances
+			(project "hecate"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7601,7 +6015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed376c95-1bd2-4658-97b3-677927e76e3a")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 167.132 77.978 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7844,17 +6258,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 163.83 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Minimum Qty" ""
 			(at 163.83 80.01 90)
 			(hide yes)
@@ -7941,7 +6344,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/78d5c544-834d-4a96-8a2a-0aeed8e3ae15"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)

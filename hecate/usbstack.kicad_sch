@@ -5,7 +5,7 @@
 	(uuid "c326cd3a-5e0e-4f9d-aedd-01b162fbbdf0")
 	(paper "A3")
 	(title_block
-		(title "${NAME} ${MODEL}")
+		(title "${NAME}")
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
@@ -1363,7 +1363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bdfeba4-77f8-4615-bb7d-148f012d4d0e")
-		(property "Reference" "USB1"
+		(property "Reference" "U4"
 			(at 196.85 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1447,7 +1447,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "USB1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -1706,7 +1706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "408ea11a-0d89-4d7a-a6a9-976b1fa2a90c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 210.82 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -1766,7 +1766,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1783,7 +1783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c893dd3-6e15-40ff-afe6-95f360e54ae5")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 240.03 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -1843,7 +1843,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1940,7 +1940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7676a6d-a984-4841-9bd6-c39ae7845892")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 251.46 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -2000,7 +2000,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2097,7 +2097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec15ef34-0187-4cea-8701-0eeb491628d5")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 217.17 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2157,7 +2157,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2175,7 +2175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0b9bdf3-09d1-480f-95c0-72aac9717088")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 196.85 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -2235,7 +2235,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)

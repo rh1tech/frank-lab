@@ -5,7 +5,7 @@
 	(uuid "89436cb3-9c2a-46c8-a8dc-fe1b3db40d59")
 	(paper "A4")
 	(title_block
-		(title "${NAME} ${MODEL}")
+		(title "${NAME}")
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
@@ -620,7 +620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee4e4a7e-3cbe-4ea3-aa22-cdc1d2a65ca4")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 139.7 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -681,7 +681,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/ac6b78b5-4834-4437-82a7-7ffcc21b224d"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -698,7 +698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f931fc20-f603-46f0-a29d-63372ddadc03")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 172.72 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -759,7 +759,7 @@
 		(instances
 			(project "hecate"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/ac6b78b5-4834-4437-82a7-7ffcc21b224d"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
