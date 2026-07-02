@@ -1522,6 +1522,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FRANK:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FRANK:MW7211A"
 			(pin_names
 				(offset 1.016)
@@ -4152,6 +4353,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 38.1) (xy 60.96 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e88f346-5a89-45fb-83bd-c75d669dfa92")
+	)
+	(wire
+		(pts
 			(xy 85.09 157.48) (xy 90.17 157.48)
 		)
 		(stroke
@@ -4659,6 +4870,16 @@
 			(type default)
 		)
 		(uuid "910295ac-8711-4129-9b73-3a5afcd160ed")
+	)
+	(wire
+		(pts
+			(xy 76.2 38.1) (xy 77.47 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942ab2b8-8435-416c-9b64-1061b6a387a1")
 	)
 	(wire
 		(pts
@@ -5313,7 +5534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "014da25e-12c4-440c-9faa-217f3df8adce")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 171.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5374,7 +5595,86 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR035")
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:GND")
+		(at 59.69 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03a2bf03-e535-46f2-b27e-6f5a65f86506")
+		(property "Reference" "#PWR017"
+			(at 53.34 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36939624-887b-475e-9445-951345efd812")
+		)
+		(instances
+			(project "easyfrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5720,6 +6020,275 @@
 		)
 	)
 	(symbol
+		(lib_id "FRANK:+3V3")
+		(at 77.47 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0bce6413-06e8-4c5d-afe8-718643488bf1")
+		(property "Reference" "#PWR021"
+			(at 73.66 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 81.28 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 77.47 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1248e4c-3c59-485e-a547-8a2dbcd2b35b")
+		)
+		(instances
+			(project "easyfrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:R")
+		(at 72.39 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cd3fa0f-368c-467d-9d97-3fdffd872b2c")
+		(property "Reference" "R8"
+			(at 72.39 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 72.39 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:Combined_0805_RE"
+			(at 72.39 39.878 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+			(at 72.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 72.39 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 72.39 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 72.39 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 72.39 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 72.39 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 72.39 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 72.39 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 72.39 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 72.39 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 72.39 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a858064-f907-4622-9ee3-a08347b2e1e6")
+		)
+		(pin "2"
+			(uuid "4a8b0e57-b2ba-4fe9-8814-99828eb81ae5")
+		)
+		(instances
+			(project "easyfrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:VBUS")
 		(at 95.25 140.97 0)
 		(unit 1)
@@ -5730,7 +6299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16e52cbb-cb95-43b9-9c65-1061addcb85d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 95.25 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5790,7 +6359,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5808,7 +6377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e32c1c0-7642-47c5-8cda-f44ccb961aae")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 220.98 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5869,7 +6438,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6244,7 +6813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20bba70b-6c3f-4e17-8010-b40fc0bdbe28")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 213.106 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6397,7 +6966,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6492,7 +7061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2349bf2e-f937-494a-a237-0ceed93e4f6e")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 151.892 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6832,7 +7401,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7210,7 +7779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "244e3c51-d0fe-4545-ad4c-86b3b2b3d5c2")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 76.2 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7271,7 +7840,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7728,7 +8297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3542c05c-8093-465f-9125-f0a15be9da9f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 125.73 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7788,7 +8357,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8195,7 +8764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a491c4d-eee8-41e2-8ffe-dd81c52285df")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 220.98 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8256,7 +8825,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8274,7 +8843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c3dae36-c103-4cc8-ba9d-eefa8d90bfb5")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 152.146 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8614,7 +9183,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8632,7 +9201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "403fd1a9-67d7-4044-9bab-7eb9789f4514")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 220.98 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8693,7 +9262,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8880,7 +9449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48396cb8-5fab-4e8d-a551-abab38613361")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 125.73 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9064,7 +9633,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9263,7 +9832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56a1b38f-eabc-4c57-9bbd-27c24b7a7300")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 139.7 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9323,7 +9892,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9472,7 +10041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ba230e2-30dc-4763-b9ee-c79ef056e3d5")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 134.62 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9533,7 +10102,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9550,7 +10119,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c4af260-7b2b-4a70-a742-07a4b82ede9e")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 228.6 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9613,7 +10182,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -9631,7 +10200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64427d13-774c-4f7a-bd7b-2bf773e50bf9")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 207.01 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9692,7 +10261,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9710,7 +10279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6964546b-f205-461f-a4ba-e28ba73cc49c")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 214.63 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9770,7 +10339,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9889,7 +10458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f97e0aa-607f-4e8d-91ac-ab32d6745ad6")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR050"
 			(at 218.44 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -9950,7 +10519,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR048")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -9967,7 +10536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75fdb8c7-6748-4a82-bd44-73b426855032")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 171.45 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10028,7 +10597,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10200,7 +10769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85344cf8-b5d3-4a83-a735-5cd6672450d0")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 125.73 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10260,7 +10829,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10277,7 +10846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c60ecb2-f31b-4645-9651-fc28e22ecdb2")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 77.47 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10337,7 +10906,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10884,7 +11453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9497f440-657e-4a7a-8eff-66e64043c319")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 134.62 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10945,7 +11514,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10962,7 +11531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95b49466-8705-43a7-9357-1c4ebad99293")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 134.62 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11023,7 +11592,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11193,7 +11762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9929b103-68cb-46b2-bb90-0db027103baa")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 137.16 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11254,7 +11823,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11271,7 +11840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99b0e6f1-fb05-4067-99c2-8acc4b6f32d5")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 137.16 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11332,7 +11901,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11350,7 +11919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f3893cf-a998-4b67-bff9-75fb897394a5")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 88.9 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11513,7 +12082,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11531,7 +12100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2650ad5-2e82-463d-b4ff-9c207f256470")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR051"
 			(at 218.44 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11591,7 +12160,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR049")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -11609,7 +12178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a31d1ff5-b6e2-4a1b-a5e5-2e34274083bf")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11670,7 +12239,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11687,7 +12256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa080f0c-3a5e-48e7-9f91-b9f7e61d8664")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 171.45 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11748,7 +12317,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12034,7 +12603,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c026852c-747c-42f8-9f6a-d4f991c75e0b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12094,7 +12663,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12111,7 +12680,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0802927-bbf4-41d6-a5dc-d04dc50f7f5c")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 125.73 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12295,7 +12864,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12313,7 +12882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c131121d-2d8f-4355-ac0a-88a9eaf59327")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12374,7 +12943,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -12843,7 +13412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9c369b2-ed91-40de-8446-3354b7c1051c")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 171.45 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12904,7 +13473,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -12922,7 +13491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd94d9c6-cc89-4f9a-a8ca-77795ccc1bca")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 88.9 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13085,7 +13654,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -13103,7 +13672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cde79b0d-68ae-4e97-8f8c-cf7d9b6617d4")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 85.09 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13163,7 +13732,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13181,7 +13750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d407b6ff-134d-41a2-939e-4197bbc1e1c2")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 88.9 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13344,7 +13913,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13361,7 +13930,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6fb9ed2-6e5e-44af-bde7-22d2fec9b8e5")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 210.82 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -13421,7 +13990,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13438,7 +14007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da76ac4b-5f25-492c-90e1-9648cf2f25f1")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 69.85 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13498,7 +14067,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13697,7 +14266,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd1f0220-11c1-41df-984a-ee7399bbeb93")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 88.9 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -13757,7 +14326,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13774,7 +14343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df6aca4e-41a7-4c03-8829-2f08ab9f0410")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 228.6 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13837,7 +14406,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -13854,7 +14423,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e33dbd73-af3f-4ea1-ab9a-7c0f4e7b65cf")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 238.76 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13917,7 +14486,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -13934,7 +14503,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e563cdc3-ebdf-4c07-8c9b-28ecd3e9a599")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 85.09 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13994,7 +14563,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -14012,7 +14581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7d86b2e-8e4a-4342-8266-393d7ca4d1e9")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 74.93 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -14072,7 +14641,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -14090,7 +14659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea89edd5-7b35-4c2f-9b77-4277731be83f")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 210.82 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -14150,7 +14719,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -14314,6 +14883,208 @@
 		)
 	)
 	(symbol
+		(lib_id "FRANK:LED")
+		(at 64.77 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed828c4b-3133-4e92-b6f9-65c8be00c7ba")
+		(property "Reference" "LD2"
+			(at 63.1825 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 63.1825 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:Combined_0805_LED"
+			(at 64.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 64.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007252088951.html"
+			(at 64.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 64.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 64.77 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 64.77 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 64.77 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 64.77 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 64.77 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 64.77 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 64.77 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 64.77 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 64.77 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 64.77 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e53aab4-5175-46ee-9a6f-2eb83a5d96a1")
+		)
+		(pin "2"
+			(uuid "b681a83f-dc08-432b-bb72-305baba70d2a")
+		)
+		(instances
+			(project "easyfrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
+					(reference "LD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:R")
 		(at 93.98 157.48 270)
 		(mirror x)
@@ -14325,7 +15096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5fdbe16-c3bd-4c8e-8dce-159941fce6db")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 88.9 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14488,7 +15259,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14772,7 +15543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fad35ad4-ed2d-4d26-ade1-db2998635f5f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 171.45 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -14833,7 +15604,7 @@
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/08e2953e-22d8-4982-a5c0-f96fdec7b45d"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
