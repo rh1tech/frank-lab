@@ -355,8 +355,12 @@
 		)
 	)
 	(no_connect
-		(at 182.88 90.17)
-		(uuid "415f47ae-496a-49c6-bf91-31d52593372a")
+		(at 179.07 99.06)
+		(uuid "ebfce633-47a1-4dd2-9075-e1727889f710")
+	)
+	(no_connect
+		(at 179.07 101.6)
+		(uuid "eca53e5e-25e3-44f6-a411-ec04e91f3d8f")
 	)
 	(wire
 		(pts
@@ -367,6 +371,16 @@
 			(type default)
 		)
 		(uuid "1960206f-4b18-40c7-affd-9760890a374f")
+	)
+	(wire
+		(pts
+			(xy 167.64 96.52) (xy 179.07 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cfe8486-f702-4d4f-b769-1c8889c23524")
 	)
 	(wire
 		(pts
@@ -390,23 +404,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 99.06) (xy 187.96 93.98)
+			(xy 167.64 104.14) (xy 179.07 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bca5849-a32b-47c1-8b47-17abfbaa78a8")
-	)
-	(wire
-		(pts
-			(xy 147.32 101.6) (xy 176.53 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c966a58-7050-450b-9086-2e85c131c434")
+		(uuid "60498e2c-be38-4696-8f90-a2061068057b")
 	)
 	(wire
 		(pts
@@ -430,16 +434,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 93.98) (xy 176.53 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91097916-3cfe-4b24-a917-2bb0c52b368a")
-	)
-	(wire
-		(pts
 			(xy 116.84 114.3) (xy 132.08 114.3)
 		)
 		(stroke
@@ -447,16 +441,6 @@
 			(type default)
 		)
 		(uuid "99b9ad04-14ab-429c-a222-8224279f72b6")
-	)
-	(wire
-		(pts
-			(xy 147.32 99.06) (xy 147.32 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99fadc32-bdea-4ee0-afc4-e9a505913773")
 	)
 	(wire
 		(pts
@@ -488,36 +472,6 @@
 		)
 		(uuid "a2c073a9-aaf1-444a-84bb-bd2f71a9078c")
 	)
-	(wire
-		(pts
-			(xy 187.96 106.68) (xy 176.53 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "add5c08b-c598-477d-b0d8-6bce12de7d32")
-	)
-	(wire
-		(pts
-			(xy 176.53 99.06) (xy 176.53 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4efbf1d-b843-47b5-b3d1-b512f8b7ee14")
-	)
-	(label "AMP_OUTR"
-		(at 176.53 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "13552f6a-0cd2-4007-ac1a-d29d70bae1d8")
-	)
 	(label "TDA_L"
 		(at 118.11 106.68 0)
 		(effects
@@ -548,15 +502,15 @@
 		)
 		(uuid "619b7155-ddf1-4cad-86e2-c354e55c8a32")
 	)
-	(label "AMP_OUTL"
-		(at 176.53 93.98 180)
+	(label "AMP_OUTR"
+		(at 167.64 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "6b3763ea-3ca3-4145-9995-5b970328c110")
+		(uuid "7100f79e-c3f9-4a9b-9fc7-596c3de5ecb1")
 	)
 	(label "TDA_R"
 		(at 118.11 111.76 0)
@@ -587,6 +541,16 @@
 			(justify left bottom)
 		)
 		(uuid "dd310acb-b3a5-41d0-93f3-98f76bfa53ae")
+	)
+	(label "AMP_OUTL"
+		(at 167.64 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef1f9153-5cf6-4816-9b34-fbb69d130e39")
 	)
 	(hierarchical_label "TDA_SCLK"
 		(shape input)
@@ -622,86 +586,8 @@
 		(uuid "32067d36-56bb-4702-8183-7a889688452d")
 	)
 	(symbol
-		(lib_id "FRANK:GND")
-		(at 176.53 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3b820610-6871-46d3-8f04-789cc958f2d0")
-		(property "Reference" "#PWR052"
-			(at 176.53 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.657 112.3442 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "143b22f6-ca05-433e-bdf2-1fc8577d1c38")
-		)
-		(instances
-			(project "easyfrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c459dc46-a7cf-48ca-8577-a2dbbf1c0ae2"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FRANK:SJ1-3525N")
-		(at 187.96 99.06 0)
-		(mirror y)
+		(at 179.07 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -709,9 +595,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "548d90bd-1dfc-40c9-9d58-b92cb64d6bbc")
-		(property "Reference" "J6"
-			(at 195.0719 95.0503 0)
+		(uuid "8459fa57-38b3-4149-a1e2-b7285601bf89")
+		(property "Reference" "J8"
+			(at 171.9581 92.5103 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -722,7 +608,7 @@
 			)
 		)
 		(property "Value" "SJ1-3525N Green"
-			(at 185.42 87.63 0)
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -733,8 +619,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:AudioJack_3.5mm_SJ1-3525N"
-			(at 187.96 99.06 0)
+		(property "Footprint" "FRANK:AudioJack_3.5mm_SJ1-3525N_Green"
+			(at 179.07 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -745,7 +631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 99.06 0)
+			(at 179.07 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -756,7 +642,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 99.06 0)
+			(at 179.07 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -767,7 +653,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/4001158231104.html"
-			(at 187.96 99.06 0)
+			(at 179.07 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -778,7 +664,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 187.96 99.06 0)
+			(at 179.07 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -788,7 +674,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 187.96 99.06 0)
+			(at 179.07 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -798,7 +684,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 187.96 99.06 0)
+			(at 179.07 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -808,7 +694,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 187.96 99.06 0)
+			(at 179.07 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -818,7 +704,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 187.96 99.06 0)
+			(at 179.07 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -828,7 +714,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 187.96 99.06 0)
+			(at 179.07 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -838,7 +724,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 187.96 99.06 0)
+			(at 179.07 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -848,7 +734,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 187.96 99.06 0)
+			(at 179.07 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -858,24 +744,101 @@
 			)
 		)
 		(pin "1"
-			(uuid "862f1daa-31a4-4fea-8a5f-967425e68738")
+			(uuid "1a4959ca-451b-45d7-8901-f0f6e803c01e")
 		)
 		(pin "2"
-			(uuid "89fb1314-6587-4d93-acaf-5a45c58c4cc7")
+			(uuid "2bc2c34f-0032-4084-9e6b-e44c318a4f49")
 		)
 		(pin "3"
-			(uuid "1b81f4a6-cae6-4820-b9d4-5c45865d3ec7")
+			(uuid "0160e983-1583-4023-bbc4-6c7c65d4c079")
 		)
 		(pin "10"
-			(uuid "e0d58887-7402-4bf6-8e6e-296dc3a92fda")
+			(uuid "4f51e3b2-f74f-459e-a81b-8f72bdd9cb06")
 		)
 		(pin "11"
-			(uuid "e2056f5c-6d38-49aa-ba65-31573ec6173e")
+			(uuid "ea67ce1d-9a0c-4b92-aa9d-b970b0a5a6dc")
 		)
 		(instances
 			(project "easyfrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c459dc46-a7cf-48ca-8577-a2dbbf1c0ae2"
-					(reference "J6")
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:GND")
+		(at 219.71 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae63031a-d950-4ed2-b539-38b56fd7d7db")
+		(property "Reference" "#PWR063"
+			(at 226.06 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.1042 96.393 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e743b73f-a6f5-469c-9b47-6bf7590bf9d7")
+		)
+		(instances
+			(project "easyfrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c459dc46-a7cf-48ca-8577-a2dbbf1c0ae2"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
