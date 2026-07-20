@@ -9,7 +9,7 @@
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/rh1tech/protea")
+		(comment 1 "https://github.com/rh1tech/frank")
 	)
 	(lib_symbols
 		(symbol "FRANK:+3.3VP"
@@ -2434,6 +2434,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FRANK:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FRANK:L_Small"
 			(pin_numbers
 				(hide yes)
@@ -3311,6 +3512,12 @@
 		(uuid "30722aab-b2c8-462a-9b33-5d5f4aca3e56")
 	)
 	(junction
+		(at 189.23 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a57bd9a-802b-4ef9-9a36-4157a2b899d7")
+	)
+	(junction
 		(at 233.68 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3556,6 +3763,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 105.41) (xy 208.28 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21197d54-5b2b-4c8f-94ab-1f583b08d7e4")
+	)
+	(wire
+		(pts
 			(xy 246.38 109.22) (xy 246.38 118.11)
 		)
 		(stroke
@@ -3786,7 +4003,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 105.41) (xy 187.96 105.41)
+			(xy 187.96 105.41) (xy 189.23 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3996,6 +4213,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 105.41) (xy 190.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d21e12-acba-44d2-a199-b4dbb90a58f3")
+	)
+	(wire
+		(pts
 			(xy 71.12 50.8) (xy 81.28 50.8)
 		)
 		(stroke
@@ -4083,6 +4310,16 @@
 			(type default)
 		)
 		(uuid "acc07caf-cc9e-4114-8d99-507ae1ca9671")
+	)
+	(wire
+		(pts
+			(xy 189.23 105.41) (xy 189.23 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba68e17e-8ff5-46ce-b24a-9a17323ba3a8")
 	)
 	(wire
 		(pts
@@ -4193,6 +4430,16 @@
 			(type default)
 		)
 		(uuid "d347b9a1-8449-4a72-a175-623c96316eb2")
+	)
+	(wire
+		(pts
+			(xy 200.66 105.41) (xy 198.12 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c2feab-3736-455d-b9d7-904d303ef9f9")
 	)
 	(wire
 		(pts
@@ -4384,6 +4631,16 @@
 		)
 		(uuid "63982d8c-d0ee-49fd-bd84-14838fa88cb2")
 	)
+	(label "GPIO16"
+		(at 107.95 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75f62d4f-8e6d-45e1-8556-67efdb9300ae")
+	)
 	(label "XTAL_N"
 		(at 153.67 30.48 270)
 		(effects
@@ -4433,6 +4690,16 @@
 			(justify right bottom)
 		)
 		(uuid "dcb38c0d-2a69-4d84-9a62-06d1e3aa2e58")
+	)
+	(label "GPIO16"
+		(at 189.23 109.22 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3fb6389-0dd3-4cf4-ad10-43780f78a254")
 	)
 	(hierarchical_label "DTR"
 		(shape input)
@@ -4929,17 +5196,6 @@
 		)
 		(uuid "c048158b-dbc3-402f-a9bd-7dd70e4b5a9d")
 	)
-	(hierarchical_label "GPIO16"
-		(shape input)
-		(at 191.77 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c37da2cd-7932-4a3f-bc92-0c10816dc5b7")
-	)
 	(hierarchical_label "CHIP_PU"
 		(shape input)
 		(at 240.03 45.72 180)
@@ -5038,17 +5294,6 @@
 			(justify right)
 		)
 		(uuid "dbe557db-18d4-4538-b7de-4d5e4765d723")
-	)
-	(hierarchical_label "GPIO16"
-		(shape input)
-		(at 107.95 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dd693396-bbea-444f-8fb4-17a82cb53981")
 	)
 	(hierarchical_label "SWP{slash}SD3"
 		(shape input)
@@ -5171,7 +5416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05a9f9f4-7af8-474d-8ad4-4d46c4cd0f66")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR076"
 			(at 156.21 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5231,7 +5476,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR077")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -5258,7 +5503,7 @@
 				)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "1nF"
 			(at 211.074 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5448,7 +5693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 57.9374 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5814,7 +6059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 227.33 123.2154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5906,7 +6151,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bdc051d-87be-490e-af08-adddfa7a4be9")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR079"
 			(at 185.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5966,7 +6211,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR080")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -6044,6 +6289,83 @@
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:GND")
+		(at 210.82 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e386d78-bcdb-4462-b517-2f1a9fa7685b")
+		(property "Reference" "#PWR082"
+			(at 217.17 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.884 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9978cdc9-3fcc-4fc2-8ed6-0f28d6c1a0c6")
+		)
+		(instances
+			(project "frank_next"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -6386,7 +6708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25956872-72b0-447f-aaef-921850df20eb")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR073"
 			(at 140.97 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6446,7 +6768,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR074")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -6474,7 +6796,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 69.3674 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6577,7 +6899,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 59.2074 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6669,7 +6991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e98188d-8149-4e97-8e88-94c53b6cef85")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR078"
 			(at 185.42 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6729,7 +7051,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR079")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -6746,7 +7068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33753d39-a3c5-4a17-bc82-0c0e610cfaf7")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR080"
 			(at 208.28 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6806,7 +7128,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR081")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -6823,7 +7145,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35bf7821-e46e-4d9a-9f1f-2b37b00b0590")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR081"
 			(at 208.28 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6883,7 +7205,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR082")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -7377,7 +7699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4db79207-516e-4538-bcf5-1a32d7c97dd7")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR077"
 			(at 172.72 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7438,7 +7760,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR078")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -7466,7 +7788,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 40.1574 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7559,7 +7881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6630e033-8e68-4321-8415-c9e200fb5452")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR070"
 			(at 134.62 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7620,7 +7942,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR071")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7802,7 +8124,7 @@
 				)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "1nF"
 			(at 188.214 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7893,6 +8215,207 @@
 		)
 	)
 	(symbol
+		(lib_id "FRANK:LED")
+		(at 204.47 105.41 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "781bb61b-2440-4f2a-bf61-72866b158f42")
+		(property "Reference" "LD2"
+			(at 203.2 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Blue"
+			(at 203.2 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:LED_0603_1608Metric"
+			(at 204.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 204.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007252088951.html"
+			(at 204.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 204.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 204.47 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 204.47 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 204.47 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 204.47 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 204.47 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 204.47 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 204.47 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 204.47 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 204.47 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 204.47 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11097d3e-6a16-4d2d-9ac7-5163c739cb1a")
+		)
+		(pin "2"
+			(uuid "d7f7ae5a-6f21-409e-8b87-f8f16527fb5a")
+		)
+		(instances
+			(project "frank_next"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
+					(reference "LD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:C")
 		(at 68.58 80.01 0)
 		(unit 1)
@@ -7914,7 +8437,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 66.8274 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8006,7 +8529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7befc64e-1327-4219-83e3-5d4d6154d865")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR075"
 			(at 151.13 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8066,7 +8589,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR076")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -8205,7 +8728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3n"
+		(property "Value" "3.3nF"
 			(at 243.8654 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8308,7 +8831,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 79.5274 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8400,7 +8923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8442c52c-d343-46d7-abc4-ed81c6125cf3")
-		(property "Reference" "R20"
+		(property "Reference" "R19"
 			(at 183.388 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8483,7 +9006,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8500,7 +9023,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ae88085-e463-457b-b19b-6c9c19fef204")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 159.258 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8583,7 +9106,107 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "R18")
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:R")
+		(at 194.31 105.41 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d6997f3-16d9-4b4e-b871-b5ac08b8d9a6")
+		(property "Reference" "R21"
+			(at 194.31 107.442 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 194.31 103.124 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:R_0603_1608Metric"
+			(at 194.31 103.632 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+			(at 194.31 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 194.31 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 194.31 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1b682b5-ccd1-4e45-badd-037aecb60064")
+		)
+		(pin "2"
+			(uuid "c352aaf6-1ffd-44eb-bb21-689d1ea7183d")
+		)
+		(instances
+			(project "frank_next"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8826,7 +9449,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "100pF"
 			(at 49.0474 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8918,7 +9541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94606305-dce1-4ee4-9efd-2cea15911a92")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR066"
 			(at 40.64 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8978,7 +9601,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR067")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -9106,7 +9729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "12pF"
 			(at 261.493 72.009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9198,7 +9821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d2b59cf-6859-47ed-8e42-c40bb40fe43f")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR065"
 			(at 40.64 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9258,7 +9881,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR066")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -9365,7 +9988,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Antenna_Shield"
+		(property "Value" "Antenna"
 			(at 257.302 147.574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9446,7 +10069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9df47fd-de83-4da9-be14-fbcfdaec967c")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR072"
 			(at 132.08 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9507,7 +10130,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR073")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -9524,7 +10147,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af2502f2-81f5-40d1-9d9c-c479debecbcc")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 192.278 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9607,7 +10230,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9624,7 +10247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4e004a6-35c3-4e23-a668-f599d01283d0")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR068"
 			(at 41.91 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9684,7 +10307,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR069")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -9701,7 +10324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b773b0db-9c65-497c-a2e5-2da79d77178c")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR074"
 			(at 148.59 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9761,7 +10384,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR075")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -9880,7 +10503,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 75.7174 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9983,7 +10606,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 38.3794 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10264,7 +10887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5853b73-9463-483a-810d-159181ba2e10")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR067"
 			(at 45.72 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10324,7 +10947,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR068")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -10419,7 +11042,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de7af0a1-6bac-47fa-b7c2-e76c137878f2")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 184.15 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10502,7 +11125,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10856,7 +11479,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "12pF"
 			(at 261.6454 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11026,7 +11649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2f1cb01-7201-411e-8dd8-2472689960ff")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR069"
 			(at 68.58 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11086,7 +11709,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR070")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -11104,7 +11727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7a137ad-86d4-4c96-811f-a00e4f2977aa")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR071"
 			(at 132.08 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -11165,7 +11788,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR072")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
