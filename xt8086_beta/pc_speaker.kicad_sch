@@ -228,7 +228,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "FRANK:AudioJack_3.5mm_PJ320D_AudioOut"
+			(property "Footprint" "xt8086:AudioJack_3.5mm_PJ320D_AudioOut"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1811,7 +1811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f7c25cb-e5b7-4d0d-b576-21b55ec8d5ca")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 133.096 107.442 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2144,15 +2144,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3e569cf-0542-49a3-83c1-fe2d9390cced")
+			(uuid "60eb6449-587d-4531-a1c2-fae328ea67df")
 		)
 		(pin "2"
-			(uuid "5c6292f1-28db-429d-911b-8eb4f042657c")
+			(uuid "c45a5131-0964-4800-8b93-8f96d5d79b32")
 		)
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/128bfa67-3568-45ab-9ac5-06e6eea36fac"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2259,13 +2259,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "739ecfd3-fe7d-4833-81b5-43bb6a2f09c8")
+			(uuid "50fa960f-97ff-421c-b709-d4b7def5de26")
 		)
 		(pin "2"
-			(uuid "1abfe682-a5f5-4cfa-a738-b608c4f28cf9")
+			(uuid "53bd11d6-ab1f-4cf0-bc41-1921014cb69e")
 		)
 		(pin "1"
-			(uuid "9fbb914f-645a-4bf6-b30f-0bda8b991f32")
+			(uuid "9384a161-a123-47fe-98ab-75ce545e0c8c")
 		)
 		(instances
 			(project "xt8086_beta"
@@ -2384,10 +2384,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a5d4881-39ce-4d2d-8224-83d4f83e586d")
+			(uuid "516f1a35-6d91-4bd1-a74a-bbeb05424487")
 		)
 		(pin "2"
-			(uuid "94d993d4-1552-4e27-b786-51870b255c82")
+			(uuid "3923d763-d7b9-474c-82cf-31b0b0d754f1")
 		)
 		(instances
 			(project "xt8086_beta"
@@ -2409,7 +2409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "545925d1-2564-4d0e-9221-837f4dcd49ad")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 118.872 115.824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2742,15 +2742,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "68490747-4356-42d9-bb8d-34366b2b5ae5")
+			(uuid "e1cfa44b-29bc-4f1d-b78e-614b8ffeda78")
 		)
 		(pin "2"
-			(uuid "6f43a199-1856-4bf0-864b-ed45057be886")
+			(uuid "c0b0677f-9b33-460e-a025-957280048200")
 		)
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/128bfa67-3568-45ab-9ac5-06e6eea36fac"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2916,16 +2916,16 @@
 			)
 		)
 		(pin "R"
-			(uuid "7a84419f-63dd-4e7d-bfbd-4f562967b901")
+			(uuid "e476d84a-5341-48a3-87c3-9535c331592f")
 		)
 		(pin "S"
-			(uuid "2d8b7e3c-cbc0-4259-9ed2-93567e43c3a6")
+			(uuid "58f25a8f-53bb-4571-8ea6-9b6ac729f326")
 		)
 		(pin "T"
-			(uuid "3c1f7d31-b126-4c07-8c88-c374326a46df")
+			(uuid "1b3e4a91-3504-4d4e-870b-07d7bb64816f")
 		)
 		(pin "RN"
-			(uuid "028ae7b6-137c-48aa-b437-33e87c0d793a")
+			(uuid "f13f4b2e-76a6-40c6-bd36-d3a4dbef9cc9")
 		)
 		(instances
 			(project "xt8086_beta"
@@ -2948,7 +2948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "969f0c3a-669c-4a7e-8853-40ab9f9214a3")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 130.81 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3003,12 +3003,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "daea01f7-3a6d-4cf9-827d-1bf03d0f8b7e")
+			(uuid "4c5d0f94-6b00-4029-a5e6-0ca59558c50c")
 		)
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/128bfa67-3568-45ab-9ac5-06e6eea36fac"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3026,7 +3026,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99e8161f-332c-49d9-b25d-3f863354cad7")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR039"
 			(at 190.5 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3081,12 +3081,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "251d2990-0e11-4b76-a627-93302892050e")
+			(uuid "f5406077-d829-473c-8de3-f4eadb16e81f")
 		)
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/128bfa67-3568-45ab-9ac5-06e6eea36fac"
-					(reference "#PWR036")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3104,7 +3104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9acce1b2-baff-41b6-b11e-75251c72d6e6")
-		(property "Reference" "JP1"
+		(property "Reference" "JP4"
 			(at 149.86 118.7449 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,15 +3160,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6fcbca80-361e-498d-847e-0232ccb418b2")
+			(uuid "f8e73f91-b210-4e59-8bce-3f3324dcb441")
 		)
 		(pin "1"
-			(uuid "9fa9c987-49f9-46a6-9009-b04f5dbf6a03")
+			(uuid "13b86c75-7b82-438f-b354-01cf8f68d99d")
 		)
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/128bfa67-3568-45ab-9ac5-06e6eea36fac"
-					(reference "JP1")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -3186,7 +3186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9d9f08d-62aa-4fab-a612-218ada765c75")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 130.81 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3241,12 +3241,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d5d3e80c-9ccd-46a5-bfd9-b430a0e1e187")
+			(uuid "d182398b-5fea-45ff-8789-376c0f3ede6a")
 		)
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/128bfa67-3568-45ab-9ac5-06e6eea36fac"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3390,10 +3390,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d083c0e7-6bab-418c-925c-a76088469752")
+			(uuid "f2c0ac45-ec53-4b99-857e-60d9a064b71c")
 		)
 		(pin "2"
-			(uuid "6a00c078-bd1e-4349-a556-4404ec65fc49")
+			(uuid "cfe1c846-2e91-4376-9666-35b37909314f")
 		)
 		(instances
 			(project "xt8086_beta"

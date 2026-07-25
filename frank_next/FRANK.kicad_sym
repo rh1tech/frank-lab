@@ -1189,7 +1189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Oscillator_SMD_3225_4Pin"
+		(property "Footprint" "FRANK:Oscillator_SMD_3225-4Pin_3.2x2.5mm"
 			(at 17.78 -8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1591,7 +1591,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:AudioJack_3.5mm_PJ320D"
+		(property "Footprint" "FRANK:AudioJack_3.5mm_PJ320D_AudioOut"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2231,7 +2231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:SOIC127P600X175-14N"
+		(property "Footprint" "FRANK:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6720,7 +6720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:QFN35P500X500X90-49N-D"
+		(property "Footprint" "FRANK:QFN-48-1EP_5x5mm_P0.35mm_EP3.75x3.75mm"
 			(at 41.91 -84.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9640,105 +9640,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "MountingHole"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "H"
-			(at 0 5.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 0 3.175 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "mounting hole"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "MountingHole*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "MountingHole_0_1"
-			(circle
-				(center 0 0)
-				(radius 1.27)
-				(stroke
-					(width 1.27)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "MountingHole_Pad"
 		(pin_numbers
 			(hide yes)
@@ -12644,7 +12545,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "FRANK:SK12D07VG3NS"
+		(property "Footprint" "FRANK:Switch_Slide_SK12D07VG3NS_PWR"
 			(at 19.05 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15005,7 +14906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:USB_A_Single"
+		(property "Footprint" "FRANK:USB_A_Short"
 			(at 3.81 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15828,7 +15729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:SON127P600X500X80-9N-D"
+		(property "Footprint" "FRANK:WSON-8-1EP_6x5mm_P1.27mm_EP3.45x4.35mm"
 			(at 46.99 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)
