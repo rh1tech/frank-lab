@@ -2724,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 160.02) (xy 64.77 160.02)
+			(xy 62.23 148.59) (xy 64.77 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2751,16 +2751,6 @@
 			(type default)
 		)
 		(uuid "121941ff-c3e1-4805-b440-058e93a20b4d")
-	)
-	(wire
-		(pts
-			(xy 215.9 124.46) (xy 223.52 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "143463ae-08d6-4432-8e3d-b41351002644")
 	)
 	(wire
 		(pts
@@ -2854,16 +2844,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 119.38) (xy 215.9 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4536124f-a07b-4a1c-ac3e-3ad34e3a6a2b")
-	)
-	(wire
-		(pts
 			(xy 45.72 135.89) (xy 46.99 135.89)
 		)
 		(stroke
@@ -2944,16 +2924,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 116.84) (xy 215.9 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5380bc17-9d42-4d61-a225-f89260bd8f2e")
-	)
-	(wire
-		(pts
 			(xy 205.74 67.31) (xy 233.68 67.31)
 		)
 		(stroke
@@ -2984,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 116.84) (xy 215.9 116.84)
+			(xy 218.44 120.65) (xy 228.6 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3274,17 +3244,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 111.76) (xy 223.52 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a93cad79-f8bb-4014-b4a9-1879ebbb687d")
-	)
-	(wire
-		(pts
-			(xy 213.36 119.38) (xy 215.9 119.38)
+			(xy 218.44 123.19) (xy 228.6 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3633,7 +3593,7 @@
 		(uuid "ff2eb6d0-61ef-4147-aff7-61733e78a13e")
 	)
 	(label "SPEAKER"
-		(at 222.25 96.52 180)
+		(at 231.14 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3653,7 +3613,7 @@
 		(uuid "0c91fc8d-9f13-40a1-a039-5e0db5b04290")
 	)
 	(label "HDMI_AUDIO"
-		(at 222.25 99.06 180)
+		(at 231.14 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3773,7 +3733,7 @@
 		(uuid "4020afa1-5390-4d45-9646-c2cb35d37078")
 	)
 	(label "SPEAKER"
-		(at 223.52 127 180)
+		(at 228.6 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4033,7 +3993,7 @@
 		(uuid "d69c4ca6-e5fb-4d15-af63-e4fa3a010de9")
 	)
 	(label "SPEAKER"
-		(at 223.52 109.22 180)
+		(at 228.6 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4442,7 +4402,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:GND")
-		(at 245.11 99.06 90)
+		(at 207.01 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4452,7 +4412,7 @@
 		(dnp no)
 		(uuid "106b78a4-9005-4ab1-9f54-e7522947169c")
 		(property "Reference" "#PWR018"
-			(at 251.46 99.06 0)
+			(at 213.36 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4463,7 +4423,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 99.06 90)
+			(at 212.09 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4473,7 +4433,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 99.06 0)
+			(at 207.01 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4484,7 +4444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 99.06 0)
+			(at 207.01 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4495,7 +4455,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 99.06 0)
+			(at 207.01 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6344,7 +6304,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:+3V3")
-		(at 64.77 160.02 270)
+		(at 64.77 148.59 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6355,7 +6315,7 @@
 		(fields_autoplaced yes)
 		(uuid "30c0f405-0e7a-47c7-a13d-a875c42d0469")
 		(property "Reference" "#PWR07"
-			(at 60.96 160.02 0)
+			(at 60.96 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6366,7 +6326,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 68.58 160.0199 90)
+			(at 68.58 148.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6377,7 +6337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 160.02 0)
+			(at 64.77 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6388,7 +6348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 160.02 0)
+			(at 64.77 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6399,7 +6359,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 64.77 160.02 0)
+			(at 64.77 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6691,7 +6651,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:R")
-		(at 58.42 160.02 90)
+		(at 58.42 148.59 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6702,7 +6662,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d2774cf-a348-4b1a-bea2-f7dfb7072196")
 		(property "Reference" "R4"
-			(at 58.42 153.67 90)
+			(at 58.42 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6712,7 +6672,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 58.42 156.21 90)
+			(at 58.42 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6722,7 +6682,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:R_0603_1608Metric"
-			(at 58.42 161.798 90)
+			(at 58.42 150.368 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6733,7 +6693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 160.02 0)
+			(at 58.42 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6744,7 +6704,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 58.42 160.02 0)
+			(at 58.42 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6755,7 +6715,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 58.42 160.02 0)
+			(at 58.42 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6766,7 +6726,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 58.42 160.02 0)
+			(at 58.42 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6776,7 +6736,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 58.42 160.02 0)
+			(at 58.42 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6786,7 +6746,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 58.42 160.02 0)
+			(at 58.42 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6796,7 +6756,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 58.42 160.02 0)
+			(at 58.42 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6806,7 +6766,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 58.42 160.02 0)
+			(at 58.42 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6816,7 +6776,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 58.42 160.02 0)
+			(at 58.42 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6826,7 +6786,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 58.42 160.02 0)
+			(at 58.42 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6836,7 +6796,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 58.42 160.02 0)
+			(at 58.42 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6846,7 +6806,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 58.42 160.02 0)
+			(at 58.42 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6856,7 +6816,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 58.42 160.02 0)
+			(at 58.42 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6866,7 +6826,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 58.42 160.02 0)
+			(at 58.42 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7341,7 +7301,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:VBUS")
-		(at 245.11 96.52 270)
+		(at 207.01 99.06 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7351,7 +7311,7 @@
 		(dnp no)
 		(uuid "6eb10b5f-4c52-42e4-a0a4-c84e465ed6d1")
 		(property "Reference" "#PWR017"
-			(at 241.3 96.52 0)
+			(at 203.2 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7362,7 +7322,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 247.65 96.5201 90)
+			(at 209.55 99.0601 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7373,7 +7333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 96.52 0)
+			(at 207.01 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7384,7 +7344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 96.52 0)
+			(at 207.01 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7395,7 +7355,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 245.11 96.52 0)
+			(at 207.01 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7419,7 +7379,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:Conn_01x02_Pin")
-		(at 228.6 127 180)
+		(at 233.68 125.73 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7429,7 +7389,7 @@
 		(dnp no)
 		(uuid "791feef6-3117-4261-98b4-bd38943c66a1")
 		(property "Reference" "JP3"
-			(at 229.2351 128.27 90)
+			(at 234.95 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7440,7 +7400,7 @@
 			)
 		)
 		(property "Value" "Speaker In"
-			(at 226.6951 128.27 0)
+			(at 231.7751 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7451,7 +7411,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 228.6 127 0)
+			(at 233.68 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7462,7 +7422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 127 0)
+			(at 233.68 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7473,7 +7433,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 228.6 127 0)
+			(at 233.68 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7500,7 +7460,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:Conn_01x02_Pin")
-		(at 228.6 111.76 180)
+		(at 233.68 120.65 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7510,7 +7470,7 @@
 		(dnp no)
 		(uuid "79bc43bd-6934-4e24-b27a-e3c63581d2df")
 		(property "Reference" "JP2"
-			(at 229.2351 113.03 90)
+			(at 234.95 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7521,7 +7481,7 @@
 			)
 		)
 		(property "Value" "Jack In"
-			(at 226.6951 113.03 0)
+			(at 231.14 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7532,7 +7492,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 228.6 111.76 0)
+			(at 233.68 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7543,7 +7503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 111.76 0)
+			(at 233.68 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7554,7 +7514,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 228.6 111.76 0)
+			(at 233.68 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8072,7 +8032,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:Conn_01x02_Pin")
-		(at 227.33 99.06 180)
+		(at 236.22 102.87 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8082,7 +8042,7 @@
 		(dnp no)
 		(uuid "b1ee0186-8059-4020-a2e9-361a7ea33c0f")
 		(property "Reference" "JP1"
-			(at 227.9651 100.33 90)
+			(at 236.8551 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8093,7 +8053,7 @@
 			)
 		)
 		(property "Value" "HDMI Audio"
-			(at 225.4251 100.33 0)
+			(at 234.3151 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8104,7 +8064,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 227.33 99.06 0)
+			(at 236.22 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8115,7 +8075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 99.06 0)
+			(at 236.22 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8126,7 +8086,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 227.33 99.06 0)
+			(at 236.22 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8414,7 +8374,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:Conn_01x03_Pin")
-		(at 240.03 99.06 0)
+		(at 201.93 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8424,7 +8384,7 @@
 		(dnp no)
 		(uuid "c0bf3461-4e7c-4e5a-851c-cd98297c549c")
 		(property "Reference" "J2"
-			(at 240.792 103.886 0)
+			(at 202.692 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8434,7 +8394,7 @@
 			)
 		)
 		(property "Value" "PWR"
-			(at 241.3 106.68 0)
+			(at 203.2 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8444,7 +8404,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:PinHeader_1x03_P2.54mm_Vertical"
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8455,7 +8415,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/154/basics-us_2-54mm-125848.pdf"
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8466,7 +8426,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8477,7 +8437,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005007039504981.html"
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8488,7 +8448,7 @@
 			)
 		)
 		(property "Attrition Qty" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8499,7 +8459,7 @@
 			)
 		)
 		(property "Category" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8510,7 +8470,7 @@
 			)
 		)
 		(property "Class" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8521,7 +8481,7 @@
 			)
 		)
 		(property "Crystal Type" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8532,7 +8492,7 @@
 			)
 		)
 		(property "Frequency" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8543,7 +8503,7 @@
 			)
 		)
 		(property "Frequency Stability" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8554,7 +8514,7 @@
 			)
 		)
 		(property "Frequency Tolerance" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8565,7 +8525,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8576,7 +8536,7 @@
 			)
 		)
 		(property "Minimum Qty" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8587,7 +8547,7 @@
 			)
 		)
 		(property "Normal Temperature Frequency Tolerance" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8598,7 +8558,7 @@
 			)
 		)
 		(property "Operating Temperature" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8609,7 +8569,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8620,7 +8580,7 @@
 			)
 		)
 		(property "Process" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8631,7 +8591,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8642,7 +8602,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 240.03 99.06 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,7 +8988,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:LED")
-		(at 50.8 160.02 0)
+		(at 50.8 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9039,7 +8999,7 @@
 		(fields_autoplaced yes)
 		(uuid "d86f28c9-29c3-4447-baa5-23f3dc6e9b19")
 		(property "Reference" "LD2"
-			(at 49.2125 153.67 0)
+			(at 49.2125 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9049,7 +9009,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 49.2125 156.21 0)
+			(at 49.2125 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9059,7 +9019,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9070,7 +9030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9081,7 +9041,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9092,7 +9052,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005007252088951.html"
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9103,7 +9063,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9114,7 +9074,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9124,7 +9084,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9134,7 +9094,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9144,7 +9104,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9154,7 +9114,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9164,7 +9124,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9174,7 +9134,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9184,7 +9144,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9194,7 +9154,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9204,7 +9164,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9214,7 +9174,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 50.8 160.02 0)
+			(at 50.8 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9565,7 +9525,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:+3V3")
-		(at 245.11 101.6 270)
+		(at 207.01 104.14 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9576,7 +9536,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee0891b4-c607-4d6c-af38-b39b53b12564")
 		(property "Reference" "#PWR019"
-			(at 241.3 101.6 0)
+			(at 203.2 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9587,7 +9547,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 248.92 101.5999 90)
+			(at 210.82 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9598,7 +9558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 101.6 0)
+			(at 207.01 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9609,7 +9569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 101.6 0)
+			(at 207.01 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9620,7 +9580,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 245.11 101.6 0)
+			(at 207.01 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9721,7 +9681,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:GND")
-		(at 46.99 160.02 270)
+		(at 46.99 148.59 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9732,7 +9692,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4e70f63-bf2e-4d24-8ee2-b24615f481ea")
 		(property "Reference" "#PWR06"
-			(at 40.64 160.02 0)
+			(at 40.64 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9743,7 +9703,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 160.0199 90)
+			(at 43.18 148.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9754,7 +9714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 160.02 0)
+			(at 46.99 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9765,7 +9725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 160.02 0)
+			(at 46.99 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9776,7 +9736,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 160.02 0)
+			(at 46.99 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10012,7 +9972,7 @@
 		)
 	)
 	(sheet
-		(at 199.39 115.57)
+		(at 204.47 119.38)
 		(size 13.97 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10027,7 +9987,7 @@
 		)
 		(uuid "128bfa67-3568-45ab-9ac5-06e6eea36fac")
 		(property "Sheetname" "Audio"
-			(at 198.12 120.65 90)
+			(at 203.2 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10038,7 +9998,7 @@
 			)
 		)
 		(property "Sheetfile" "pc_speaker.kicad_sch"
-			(at 199.39 121.2346 0)
+			(at 204.47 125.0446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10050,7 +10010,7 @@
 			)
 		)
 		(pin "JACK_IN" input
-			(at 213.36 116.84 0)
+			(at 218.44 120.65 0)
 			(uuid "d7ecaa62-9baa-488d-b9e4-313c9cba4cfd")
 			(effects
 				(font
@@ -10060,7 +10020,7 @@
 			)
 		)
 		(pin "SPK_IN" input
-			(at 213.36 119.38 0)
+			(at 218.44 123.19 0)
 			(uuid "353b07c7-f2f9-45de-9fd1-4c4d555b035e")
 			(effects
 				(font
