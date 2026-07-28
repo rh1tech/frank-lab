@@ -3039,7 +3039,7 @@
 		(at 102.87 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09f33870-baed-43f9-ab9c-e3e71aad7b0a")
+		(uuid "07597f98-a4c3-4d26-b3ba-8b34a2637ace")
 	)
 	(junction
 		(at 62.23 74.93)
@@ -3078,12 +3078,6 @@
 		(uuid "56e77175-e379-47ac-8e5b-40ec9c0dd150")
 	)
 	(junction
-		(at 102.87 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cd3d896-f222-4171-9bb5-48b832ad498a")
-	)
-	(junction
 		(at 241.3 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3120,16 +3114,16 @@
 		(uuid "ab70bcea-4e40-4a8c-9c8e-e7637924ea5c")
 	)
 	(junction
-		(at 102.87 114.3)
+		(at 102.87 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac307614-f485-4a49-9212-cc63146bcfa2")
+		(uuid "b066830c-8ff6-4dd0-8b60-4b3064bc3052")
 	)
 	(junction
 		(at 102.87 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad8bc775-3ea0-40fc-a2cd-fe38571aec39")
+		(uuid "bf8980a7-ed74-41ca-bf90-c21e082f9a2c")
 	)
 	(junction
 		(at 204.47 87.63)
@@ -3148,6 +3142,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0f4503c-f07e-4c55-aa0a-088fb2ba2597")
+	)
+	(junction
+		(at 102.87 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1dadfa0-0813-4b9e-9c37-346f5354cacc")
 	)
 	(junction
 		(at 201.93 127)
@@ -3445,7 +3445,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 106.68) (xy 102.87 106.68)
+			(xy 115.57 106.68) (xy 102.87 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3505,7 +3505,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 146.05) (xy 102.87 146.05)
+			(xy 115.57 146.05) (xy 102.87 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3625,7 +3625,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 153.67) (xy 102.87 153.67)
+			(xy 115.57 153.67) (xy 102.87 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4135,7 +4135,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 114.3) (xy 102.87 114.3)
+			(xy 115.57 114.3) (xy 102.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5063,7 +5063,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:C")
-		(at 113.03 110.49 0)
+		(at 115.57 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5073,7 +5073,7 @@
 		(dnp no)
 		(uuid "1bdc2127-ac56-4c38-a89b-27e8d8cfedd3")
 		(property "Reference" "C29"
-			(at 115.951 109.3216 0)
+			(at 118.491 109.3216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5084,7 +5084,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 115.951 111.633 0)
+			(at 118.491 111.633 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5095,7 +5095,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:C_0603_1608Metric"
-			(at 113.9952 114.3 0)
+			(at 116.5352 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5106,7 +5106,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
-			(at 113.03 110.49 0)
+			(at 115.57 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5117,7 +5117,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 110.49 0)
+			(at 115.57 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5128,7 +5128,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 113.03 110.49 0)
+			(at 115.57 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5139,7 +5139,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 113.03 110.49 0)
+			(at 115.57 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7030,7 +7030,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:C")
-		(at 113.03 149.86 0)
+		(at 115.57 149.86 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7041,7 +7041,7 @@
 		(dnp no)
 		(uuid "6f28d2c8-ad3f-41f4-8716-18e97040d2b7")
 		(property "Reference" "C30"
-			(at 115.951 151.0284 0)
+			(at 118.491 151.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7052,7 +7052,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 115.951 148.717 0)
+			(at 118.491 148.717 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7063,7 +7063,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:C_0603_1608Metric"
-			(at 113.9952 146.05 0)
+			(at 116.5352 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7074,7 +7074,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
-			(at 113.03 149.86 0)
+			(at 115.57 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7085,7 +7085,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 149.86 0)
+			(at 115.57 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,7 +7096,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 113.03 149.86 0)
+			(at 115.57 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7107,7 +7107,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 113.03 149.86 0)
+			(at 115.57 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
