@@ -12,6 +12,12 @@
 
 #include <string.h>
 
+/* Doorbell patience for this session. */
+static inline uint32_t hs_timeout(const link_session_t *s) {
+    return s->handshake_timeout_us ? s->handshake_timeout_us
+                                   : LINK_HANDSHAKE_TIMEOUT_US;
+}
+
 /* Time budget for a bulk phase, derived from the current wire rate with
  * a 4x cushion so a slow divider or a stalled peer still fails cleanly
  * instead of hanging the diagnostic. */
@@ -37,7 +43,7 @@ bool link_m_send_ctrl(link_session_t *s, uint16_t op,
 
     /* "Master ready to send." */
     link_db_set(s->link, true);
-    if (!link_db_wait(s->link, true, LINK_HANDSHAKE_TIMEOUT_US)) {
+    if (!link_db_wait(s->link, true, hs_timeout(s))) {
         link_db_set(s->link, false);
         return false;
     }
@@ -46,7 +52,7 @@ bool link_m_send_ctrl(link_session_t *s, uint16_t op,
     bool ok = link_tx_finish(s->link, LINK_CTRL_TIMEOUT_US);
 
     link_db_set(s->link, false);
-    if (!link_db_wait(s->link, false, LINK_HANDSHAKE_TIMEOUT_US)) return false;
+    if (!link_db_wait(s->link, false, hs_timeout(s))) return false;
 
     return ok;
 }
@@ -57,7 +63,7 @@ bool link_m_recv_ctrl(link_session_t *s) {
     link_rx_arm(s->link, s->ctrl_rx, LINK_CTRL_BYTES);
 
     link_db_set(s->link, true);
-    if (!link_db_wait(s->link, true, LINK_HANDSHAKE_TIMEOUT_US)) {
+    if (!link_db_wait(s->link, true, hs_timeout(s))) {
         link_db_set(s->link, false);
         link_rx_abort(s->link);
         return false;
@@ -66,7 +72,7 @@ bool link_m_recv_ctrl(link_session_t *s) {
     bool ok = (link_rx_wait(s->link, LINK_CTRL_TIMEOUT_US) == 0);
 
     link_db_set(s->link, false);
-    link_db_wait(s->link, false, LINK_HANDSHAKE_TIMEOUT_US);
+    link_db_wait(s->link, false, hs_timeout(s));
 
     return ok && link_frame_check(s->ctrl_rx);
 }
@@ -198,6 +204,12 @@ bool link_m_integrity_recv(link_session_t *s, uint32_t blocks,
     int64_t us = absolute_time_diff_us(t0, get_absolute_time());
     out->elapsed_us = us > 0 ? (uint32_t)us : 0;
     return true;
+}
+
+void link_m_request_slave_reset(link_session_t *s) {
+    link_fs_set(s->link, true);
+    busy_wait_us(LINK_RESET_PULSE_MS * 1000u);
+    link_fs_set(s->link, false);
 }
 
 bool link_m_ping(link_session_t *s, uint32_t rounds, uint32_t *avg_ns) {

@@ -25,6 +25,13 @@ set(PICO_BOARD "frank_core2_master" CACHE STRING "Pico board type" FORCE)
 #                  ON  -> USB HID host keyboard on J8, console on UART0 (J2)
 option(USB_HID_ENABLED "Enable USB HID host keyboard (console moves to UART)" OFF)
 
+# This revision's GPIO43 -> slave RUN net is broken in the schematic, but
+# a single wire from R3 pin 1 to S4 pin 1 restores it. Turn this on once
+# that wire is fitted and the master can hard-reset the slave, including
+# out of lockup. Safe to leave off with the wire fitted (the pin simply
+# stays an input) and safe to turn on without it (the pulse goes nowhere).
+option(SLAVE_RESET_BODGE "GPIO43 is bodged to the slave's RUN pin" OFF)
+
 set(CPU_SPEED   "252" CACHE STRING "CPU clock in MHz")
 set(PSRAM_SPEED "133" CACHE STRING "PSRAM max frequency in MHz")
 set(FLASH_SPEED "66"  CACHE STRING "Flash target max frequency in MHz")
@@ -98,6 +105,7 @@ target_compile_definitions(frank-core2-master PRIVATE
     # the run.
     PICO_STDIO_USB_CONNECTION_WITHOUT_DTR=1
     PICO_STDIO_USB_STDOUT_TIMEOUT_US=20000
+    SLAVE_RESET_BODGE=$<BOOL:${SLAVE_RESET_BODGE}>
 
     # HDMI_hstx.c and the pico_hdmi subtree key off this.
     HDMI_HSTX=1

@@ -53,4 +53,17 @@ void diag_link_run(diag_link_result_t *out);
 /* Repaint the link table from a previous run (used after a redraw). */
 void diag_link_render(const diag_link_result_t *r);
 
+/* Cheap "is the slave there yet?" probe for the idle loop.
+ *
+ * The master cannot reset the slave in hardware (see README), so a slave
+ * that boots late, is reflashed, or reboots on its own has to be picked
+ * up by the master noticing rather than by the master power-cycling it.
+ * Uses a short doorbell timeout so a genuinely absent slave costs a
+ * blink rather than a stalled foreground, and pulses FS to ask a wedged
+ * slave to reboot itself before giving up on this attempt.
+ *
+ * Returns true when the slave answered — the caller should then re-run
+ * the full diagnostic. */
+bool diag_link_try_reconnect(void);
+
 #endif /* DIAG_LINK_H */

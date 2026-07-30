@@ -99,6 +99,7 @@ target_link_libraries(frank-core2-slave
     hardware_pio
     hardware_sync
     hardware_vreg
+    hardware_watchdog
     hardware_xip_cache
 )
 

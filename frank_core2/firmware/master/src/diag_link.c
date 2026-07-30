@@ -60,6 +60,36 @@ static uint8_t g_ctrl_rx[LINK_CTRL_BYTES] __attribute__((aligned(4)));
 static uint8_t g_bulk_tx[LINK_BULK_BYTES] LINK_BULK_ALIGN;
 static uint8_t g_bulk_rx[LINK_BULK_BYTES] LINK_BULK_ALIGN;
 
+#if SLAVE_RESET_BODGE
+/* Optional hardware reset of the slave.
+ *
+ * This revision's GPIO43 -> slave RUN net is broken (see README), but the
+ * two ends are both accessible pads: R3 pin 1 sits on the GPIO43 net and
+ * S4 pin 1 sits on the slave's RUN net, so one wire restores the link.
+ * Build with -DSLAVE_RESET_BODGE=ON once that wire is in.
+ *
+ * The pin is driven open-drain and NEVER driven high: to assert reset we
+ * turn it into a low output, to release we return it to an input and let
+ * R3's 10K pull-up do the work. Driving it high would fight S4 — which
+ * shorts RUN to ground — and put the whole pin drive current through the
+ * button every time somebody pressed it.
+ *
+ * Idle state is therefore also the safe state: at power-on, before any
+ * firmware runs, the pin is an input and the slave is released. */
+static void slave_reset_pin_init(void) {
+    gpio_init(M_LINK_SLAVE_RUN);
+    gpio_put(M_LINK_SLAVE_RUN, 0);          /* output register stays 0 */
+    gpio_set_dir(M_LINK_SLAVE_RUN, GPIO_IN);/* ...but Hi-Z until we assert */
+}
+
+static void slave_reset_pulse(void) {
+    gpio_set_dir(M_LINK_SLAVE_RUN, GPIO_OUT);   /* pull RUN low */
+    sleep_ms(2);                                 /* RP2350 needs microseconds */
+    gpio_set_dir(M_LINK_SLAVE_RUN, GPIO_IN);    /* release to the pull-up */
+    sleep_ms(5);
+}
+#endif
+
 void diag_link_init(void) {
     link_init(&g_link, LINK_PIO,
               M_LINK_A_DATA_BASE,   /* we transmit on bus A */
@@ -78,6 +108,11 @@ void diag_link_init(void) {
     g_session.bulk_tx = g_bulk_tx;
     g_session.bulk_rx = g_bulk_rx;
     g_session.seq     = 0;
+    g_session.handshake_timeout_us = 0;
+
+#if SLAVE_RESET_BODGE
+    slave_reset_pin_init();
+#endif
 }
 
 /* Ask the slave to switch to `q88` and follow it there. The slave
@@ -230,6 +265,49 @@ void diag_link_run(diag_link_result_t *out) {
 
     diag_link_render(out);
     heartbeat_set(out->all_passed ? HB_OK : HB_ERROR);
+}
+
+bool diag_link_try_reconnect(void) {
+    static uint32_t fails;
+
+    /* Short patience: this runs from the idle loop several times a
+     * minute, and two seconds per doorbell would make the console feel
+     * wedged whenever no slave is fitted. */
+    g_session.handshake_timeout_us = 200000u;   /* 200 ms */
+
+    bool alive = link_m_send_ctrl(&g_session, LINK_OP_HELLO, 0, 0, NULL, 0) &&
+                 link_m_recv_ctrl(&g_session) &&
+                 ((const link_hdr_t *)g_ctrl_rx)->op == LINK_OP_HELLO_ACK;
+
+    g_session.handshake_timeout_us = 0;   /* back to the default */
+
+    if (alive) {
+        fails = 0;
+        return true;
+    }
+
+    /* Escalate rather than reaching for the biggest hammer immediately.
+     * The three mechanisms recover different failures and none of them
+     * subsumes the others:
+     *
+     *   do nothing   a slave that is merely still booting, or absent
+     *   FS request   a slave whose foreground is stuck — its timer
+     *                interrupt still runs, so it can reboot itself
+     *   reset pulse  a slave in lockup with interrupts off, which no
+     *                amount of software on either side can reach
+     *
+     * The slave's own 8 s watchdog runs underneath all of this. */
+    fails++;
+
+    if ((fails % 2) == 0)
+        link_m_request_slave_reset(&g_session);
+
+#if SLAVE_RESET_BODGE
+    if ((fails % 4) == 0)
+        slave_reset_pulse();
+#endif
+
+    return false;
 }
 
 void diag_link_render(const diag_link_result_t *r) {

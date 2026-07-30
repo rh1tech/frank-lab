@@ -48,6 +48,12 @@ typedef struct {
     uint8_t  *bulk_tx;    /* LINK_BULK_BYTES, LINK_BULK_ALIGN */
     uint8_t  *bulk_rx;
     uint32_t  seq;
+
+    /* Doorbell patience, in microseconds. 0 selects the default. The
+     * idle-loop reconnect probe drops this to a few hundred
+     * milliseconds so a missing slave costs a blink rather than two
+     * seconds of a stalled foreground. */
+    uint32_t  handshake_timeout_us;
 } link_session_t;
 
 /* Default timeouts. Control frames are 128 bytes even at the slowest
@@ -89,6 +95,24 @@ bool link_m_integrity_recv(link_session_t *s, uint32_t blocks,
 /* Round-trip time of a 128-byte control frame each way, in
  * microseconds, averaged over `rounds`. Returns false on any timeout. */
 bool link_m_ping(link_session_t *s, uint32_t rounds, uint32_t *avg_ns);
+
+/* Ask the slave to reboot itself by holding FS high.
+ *
+ * Master GPIO43 is labelled as slave reset in the schematic but does not
+ * reach the slave's RUN pin (see README), so there is no hardware reset
+ * path. FS is wired, tested and otherwise unused, and the slave samples
+ * it from a timer interrupt — so this still works when the slave's main
+ * loop is stuck, which is exactly when it is worth having.
+ *
+ * Returns after the pulse; the slave needs roughly a second to come back
+ * and rerun its self-test. */
+void link_m_request_slave_reset(link_session_t *s);
+
+/* How long the master holds FS to request a reset, and how long the
+ * slave must observe it before acting. The slave's threshold is shorter
+ * so a marginally-timed pulse is still caught. */
+#define LINK_RESET_PULSE_MS  250u
+#define LINK_RESET_DETECT_MS 120u
 
 /* ---------------- Slave side ---------------- */
 

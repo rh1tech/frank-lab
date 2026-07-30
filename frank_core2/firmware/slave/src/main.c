@@ -33,6 +33,7 @@
 #include "mem_test.h"
 
 #include "hardware/clocks.h"
+#include "hardware/watchdog.h"
 #include "hardware/structs/sysinfo.h"
 #include "hardware/vreg.h"
 #include "pico/stdio_usb.h"
@@ -48,6 +49,41 @@
 /* pio0 for the link, matching the master. The slave has no video or
  * audio, so nothing competes for it. */
 #define LINK_PIO pio0
+
+/* Watchdog window. Comfortably longer than the slowest legitimate blocking
+ * operation the serve loop performs — a bulk phase at the slowest swept
+ * divider is ~1 s including its own timeout cushion — while still being
+ * short enough that a genuine hang self-clears in a few seconds.
+ *
+ * This is the slave's half of working around the missing hardware reset
+ * line: the master cannot power-cycle us, so we have to be able to
+ * recover on our own. */
+#define SLAVE_WATCHDOG_MS 8000u
+
+/* FS (master GPIO40 -> slave GPIO21) doubles as a reset request. Sampled
+ * from a timer interrupt rather than the main loop, so a master can
+ * recover a slave whose foreground is wedged — which is the whole point.
+ * Requires several consecutive samples so a glitch cannot reboot us. */
+#define FS_POLL_MS 40u
+
+static repeating_timer_t g_fs_timer;
+static link_t           *g_fs_link;
+
+static bool fs_watch_tick(repeating_timer_t *t) {
+    (void)t;
+    static uint8_t high_ticks;
+
+    if (g_fs_link && link_fs_get(g_fs_link)) {
+        if (++high_ticks * FS_POLL_MS >= LINK_RESET_DETECT_MS) {
+            /* Reboot via the watchdog: it works from interrupt context
+             * and does not depend on the main loop being healthy. */
+            watchdog_reboot(0, 0, 0);
+        }
+    } else {
+        high_ticks = 0;
+    }
+    return true;
+}
 
 static link_t         g_link;
 static link_session_t g_session;
@@ -146,14 +182,27 @@ int main(void) {
     g_session.bulk_rx = g_bulk_rx;
     g_session.seq     = 0;
 
+    /* Watch FS for a master-issued reset request, and arm the watchdog.
+     * Both only start now: the self-test above legitimately takes about
+     * a second, and arming earlier would reboot us mid-PSRAM-sweep. */
+    g_fs_link = &g_link;
+    add_repeating_timer_ms(-(int32_t)FS_POLL_MS, fs_watch_tick, NULL, &g_fs_timer);
+    watchdog_enable(SLAVE_WATCHDOG_MS, true /* pause while halted by a debugger */);
+
     bool healthy = g_mem.flash_ok && g_mem.psram_ok;
     heartbeat_set(healthy ? HB_WAITING : HB_ERROR);
-    printf("slave: link ready, waiting for master\n");
+    printf("slave: link ready, waiting for master (watchdog %u ms, FS reset armed)\n",
+           (unsigned)SLAVE_WATCHDOG_MS);
+
+    if (watchdog_caused_reboot())
+        printf("slave: previous boot ended in a watchdog reset\n");
 
     uint32_t served = 0;
     while (true) {
         /* One-second wait so an idle slave drops back to the waiting
          * beat instead of looking busy forever. */
+        watchdog_update();
+
         uint16_t op = link_s_serve(&g_session, 1000000u, &g_info, &g_mem);
 
         if (op) {

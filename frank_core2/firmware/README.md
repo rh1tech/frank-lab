@@ -39,8 +39,12 @@ iterating fastest — and `picotool reboot -u` will not recover a target
 that has faulted into lockup. SWD does not care what the target is
 doing, and it gives you `pc` when something stops.
 
-Then reset the slave (S4) first, then the master (S2). The master reports
-the link as down if the slave is not already serving when the sweep runs.
+Reset order does not matter. The master reports `LINK DOWN` if the slave
+is not serving when the sweep runs, then keeps probing and re-runs the
+diagnostic on its own as soon as the slave answers.
+
+If the slave is wedged, the master pulses FS to ask it to reboot. If the
+slave is in lockup, use SWD on J3 — see the hardware note below.
 
 ## Build options
 
@@ -221,19 +225,101 @@ failure.
 
 ## Hardware notes
 
-### The master cannot reset the slave
+### Hardware bug: GPIO43 does not reach the slave's RUN pin
 
-The schematic labels master GPIO43 as `RUNA/SR` — slave reset — but the
-net only reaches a 10K pull-up to +3V3 (R3). It does **not** connect to
-the slave's RUN pin (U6.26), which sees only the S4 reset button.
+The schematic draws master GPIO43 through R3 and on to the slave's `RUN`
+sheet pin, and the wire and junction geometry are correct. The net still
+does not exist.
 
-So the two MCUs must be reset and flashed independently, which is why
-`flash_all.sh` is a guided prompt rather than a single command. The
-firmware never assumes it can restart the peer; it detects an absent
-slave by doorbell timeout and reports the link as down.
+**Root cause:** `rp2350a_slave.kicad_sch` declares hierarchical labels
+for `GPIO1`..`GPIO29` but not for `RUN` — inside the slave sheet, `RUN`
+is only a plain local label. A parent sheet pin binds to a *hierarchical*
+label in the child, so the connection stops dead at the sheet boundary.
+The netlist and the PCB agree:
 
-If a future board revision wires GPIO43 to U6.26, the firmware can drive
-a slave reset before the handshake and `flash_all.sh` can be automated.
+```
+/RP2350A/RUN                      pads: S4.1, S4.3, U6.26   (button only)
+/RP2350{slash}43B{slash}RUNA{slash}SR   pads: U3.54, R3.1   (pull-up only)
+```
+
+So on this revision **the master cannot reset the slave in hardware.**
+GPIO43 is an input with a 10K pull-up and the firmware never drives it.
+
+*Fix for the next revision: add a hierarchical label `RUN` in the slave
+sheet and re-route. One label.*
+
+#### Bodge for this revision (optional)
+
+Both ends of the missing net are accessible pads, so one wire restores
+it — no QFN pin work:
+
+```
+R3 pin 1  ---->  S4 pin 1
+(GPIO43 net)     (slave RUN net)
+```
+
+**R3 pin 1, not pin 2.** Pin 2 is +3V3; wiring that to RUN shorts 3V3 to
+ground through S4 every time the reset button is pressed.
+
+Then build the master with the wire declared:
+
+```bash
+cmake -S master -B master/build -DSLAVE_RESET_BODGE=ON
+```
+
+The pin is driven **open-drain and never driven high**: asserting reset
+makes it a low output, releasing returns it to an input and lets R3's
+10K pull-up do the work. Driving it high would fight S4 — which shorts
+RUN to ground — and put the full pin drive current through the button.
+Idle is therefore also the safe state, including at power-on before any
+firmware runs.
+
+Both build configurations are safe against operator error: the flag off
+with the wire fitted just leaves the pin an input, and the flag on
+without the wire just sends the pulse nowhere.
+
+#### How the firmware works around it
+
+Three mechanisms replace what the missing trace would have provided.
+None of them needs the trace, so they stay useful afterwards.
+
+**Startup ordering — never depended on it.** The doorbell handshake is
+built so neither side needs the other to be at a known point in time:
+`DB_MS` means "master ready", `DB_SM` means "slave ready", every phase
+raises both and drops both. The slave can boot seconds after the master
+and still join cleanly.
+
+**The master keeps looking.** While the link is down, the idle loop
+probes for the slave every five seconds with a 200 ms doorbell timeout,
+and re-runs the whole diagnostic unprompted the moment it answers. A
+slave that boots late, gets reflashed, or reboots on its own is picked
+up without a keypress.
+
+**The slave can reset itself, and the master can ask it to.** FS
+(master GPIO40 → slave GPIO21) is wired, tested and otherwise unused, so
+it doubles as a reset request: the master holds it high for 250 ms and
+the slave reboots via its watchdog. The slave samples FS from a *timer
+interrupt*, not the main loop, so this still works when the slave's
+foreground is stuck — which is exactly when it is worth having. The
+slave also arms an 8 s watchdog it kicks in the serve loop, so it
+recovers from a hang whether or not the master notices.
+
+#### Recovery escalates
+
+The reconnect probe escalates rather than reaching for the biggest
+hammer first, because the mechanisms recover different failures and none
+subsumes the others:
+
+| Failed probes | Action | Recovers |
+|---|---|---|
+| 1 | none — just probe again | a slave still booting, or absent |
+| 2, 6, 10… | FS reset request | a slave whose foreground is stuck |
+| 4, 8, 12… | reset pulse (bodge builds only) | a slave in lockup, interrupts off |
+
+The slave's watchdog runs underneath all of it. The software path is
+kept even in bodge builds: FS is the cleaner reboot when the slave is
+still executing, and it is the only one that works on an unmodified
+board.
 
 ### RP2350B GPIO window
 
@@ -301,6 +387,15 @@ binary. Both firmwares also repeat a banner for two seconds at startup:
 USB CDC enumeration plus getting a terminal open reliably takes longer
 than the diagnostic takes to run, and a report you missed is a report
 you do not have.
+
+Recovery, in increasing order of severity:
+
+| Symptom | Action |
+|---|---|
+| Slave not answering | Nothing — the master retries every 5 s and pulses FS |
+| Slave firmware hung | Its own 8 s watchdog reboots it |
+| Slave core in lockup | `./swd_flash.sh slave --reset-only` |
+| Master wedged | `./swd_flash.sh master --reset-only` |
 
 With a probe attached, `pc` tells you the rest:
 

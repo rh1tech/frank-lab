@@ -441,6 +441,16 @@ int main(void) {
                        ? (g_link_result.all_passed ? "OK" : "DEGRADED")
                        : "DOWN");
             next_tick = make_timeout_time_ms(5000);
+
+            /* Nothing on this board lets the master power-cycle the
+             * slave, so a slave that boots late or reboots on its own
+             * has to be noticed rather than forced into step. Keep
+             * probing while the link is down; the moment it answers,
+             * re-run the whole diagnostic unprompted. */
+            if (!g_link_result.contacted && diag_link_try_reconnect()) {
+                printf("[idle] slave appeared - re-running diagnostic\n");
+                run_full_diagnostic();
+            }
         }
 
         sleep_ms(5);
