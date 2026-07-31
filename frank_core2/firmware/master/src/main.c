@@ -43,7 +43,12 @@
 #include "audio_i2s.pio.h"
 #include "hardware/structs/sysinfo.h"
 #include "hardware/vreg.h"
+/* Only on the CDC build: pico_enable_stdio_usb(0) drops the library
+ * from the include path entirely, so an unconditional include breaks
+ * the USB_HID_ENABLED configuration. */
+#if !defined(USB_HID_ENABLED)
 #include "pico/stdio_usb.h"
+#endif
 #include "pico/stdlib.h"
 
 #include <stdio.h>
@@ -369,7 +374,7 @@ static void run_full_diagnostic(void) {
         console_flush();
     }
 
-    console_log(C_DIM, "press any key to re-run");
+    console_log(C_DIM, "any key = re-run,  r = reset slave via FS");
 }
 
 /* Boot progress marker.
@@ -441,6 +446,17 @@ int main(void) {
 
     run_full_diagnostic();
 
+#if FS_RESET_SELFTEST
+    /* One-shot bench check of the FS slave-reset path. Runs last so its
+     * lines are the ones left visible in the scrolling log region on
+     * HDMI — useful when there is no serial console attached. */
+    {
+        console_log(C_TITLE, "--- FS slave-reset self-test ---");
+        bool r = diag_link_reset_slave();
+        console_log(r ? C_OK : C_FAIL, "FS RESET TEST: %s", r ? "PASS" : "FAIL");
+    }
+#endif
+
     /* Idle: keep USB HID serviced and re-run on any key. The heartbeat
      * runs off its own timer, so the LED keeps moving regardless.
      *
@@ -459,7 +475,16 @@ int main(void) {
         bool rerun = usbhid_wrapper_get_key(&pressed, &key) && pressed;
 
         int ch = getchar_timeout_us(0);
-        if (ch != PICO_ERROR_TIMEOUT) rerun = true;
+        if (ch == 'r' || ch == 'R') {
+            /* 'r' asks the slave to reboot over FS. Worth having beyond
+             * the test: on this board revision it is the only way to
+             * restart the slave without touching it. */
+            diag_link_reset_slave();
+            run_full_diagnostic();
+            rerun = false;
+        } else if (ch != PICO_ERROR_TIMEOUT) {
+            rerun = true;
+        }
 
         if (rerun) run_full_diagnostic();
 

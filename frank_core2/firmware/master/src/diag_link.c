@@ -356,6 +356,53 @@ bool diag_link_try_reconnect(void) {
     return false;
 }
 
+/* Short-timeout HELLO, used by the reconnect probe and the reset test. */
+static bool slave_answers(void) {
+    g_session.handshake_timeout_us = 200000u;   /* 200 ms */
+    bool alive = link_m_send_ctrl(&g_session, LINK_OP_HELLO, 0, 0, NULL, 0) &&
+                 link_m_recv_ctrl(&g_session) &&
+                 ((const link_hdr_t *)g_ctrl_rx)->op == LINK_OP_HELLO_ACK;
+    g_session.handshake_timeout_us = 0;
+    return alive;
+}
+
+bool diag_link_reset_slave(void) {
+    if (!slave_answers()) {
+        console_log(C_WARN, "reset: slave not answering to begin with");
+        return false;
+    }
+    console_log(C_DIM, "reset: slave alive, pulsing FS for %u ms...",
+                (unsigned)LINK_RESET_PULSE_MS);
+
+    link_m_request_slave_reset(&g_session);
+
+    /* It has to actually stop answering, or we have proved nothing. */
+    bool went_away = false;
+    for (int i = 0; i < 30 && !went_away; i++) {
+        if (!slave_answers()) went_away = true;
+        else sleep_ms(50);
+    }
+    if (!went_away) {
+        console_log(C_FAIL, "reset: slave never stopped answering - FS ignored");
+        return false;
+    }
+    console_log(C_OK, "reset: slave went down");
+
+    /* Back within a few seconds: it skips its console-attach window
+     * after a watchdog reboot but still reruns its whole self-test. */
+    absolute_time_t t0 = get_absolute_time();
+    for (int i = 0; i < 100; i++) {
+        if (slave_answers()) {
+            int64_t ms = absolute_time_diff_us(t0, get_absolute_time()) / 1000;
+            console_log(C_OK, "reset: slave back after %u ms", (unsigned)ms);
+            return true;
+        }
+        sleep_ms(100);
+    }
+    console_log(C_FAIL, "reset: slave did not come back");
+    return false;
+}
+
 void diag_link_render(const diag_link_result_t *r) {
     char a[16], b[16], c[16];
 

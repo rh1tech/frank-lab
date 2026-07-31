@@ -32,6 +32,11 @@ option(USB_HID_ENABLED "Enable USB HID host keyboard (console moves to UART)" OF
 # stays an input) and safe to turn on without it (the pulse goes nowhere).
 option(SLAVE_RESET_BODGE "GPIO43 is bodged to the slave's RUN pin" OFF)
 
+# Bench check: pulse FS once at boot and confirm the slave reboots.
+# Off by default — it deliberately knocks the slave over, which is not
+# something a normal run should do.
+option(FS_RESET_SELFTEST "Run the FS slave-reset check once at boot" OFF)
+
 set(CPU_SPEED   "252" CACHE STRING "CPU clock in MHz")
 set(PSRAM_SPEED "133" CACHE STRING "PSRAM max frequency in MHz")
 set(FLASH_SPEED "66"  CACHE STRING "Flash target max frequency in MHz")
@@ -106,6 +111,7 @@ target_compile_definitions(frank-core2-master PRIVATE
     PICO_STDIO_USB_CONNECTION_WITHOUT_DTR=1
     PICO_STDIO_USB_STDOUT_TIMEOUT_US=20000
     SLAVE_RESET_BODGE=$<BOOL:${SLAVE_RESET_BODGE}>
+    FS_RESET_SELFTEST=$<BOOL:${FS_RESET_SELFTEST}>
 
     # HDMI_hstx.c and the pico_hdmi subtree key off this.
     HDMI_HSTX=1

@@ -36,7 +36,12 @@
 #include "hardware/watchdog.h"
 #include "hardware/structs/sysinfo.h"
 #include "hardware/vreg.h"
+/* Only on the CDC build: pico_enable_stdio_usb(0) drops the library
+ * from the include path entirely, so an unconditional include breaks
+ * the USB_HID_ENABLED configuration. */
+#if !defined(USB_HID_ENABLED)
 #include "pico/stdio_usb.h"
+#endif
 #include "pico/stdlib.h"
 
 #include <stdio.h>

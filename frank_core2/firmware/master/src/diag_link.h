@@ -67,4 +67,14 @@ void diag_link_render(const diag_link_result_t *r);
  * the full diagnostic. */
 bool diag_link_try_reconnect(void);
 
+/* Ask the slave to reboot and prove that it did.
+ *
+ * Confirms the slave is answering, pulses FS, then watches for it to
+ * stop answering and come back. "Stopped answering" is the part that
+ * matters: without it a slave that simply never rebooted is
+ * indistinguishable from one that rebooted too fast to notice.
+ *
+ * Returns true only if the slave went away and returned. */
+bool diag_link_reset_slave(void);
+
 #endif /* DIAG_LINK_H */
