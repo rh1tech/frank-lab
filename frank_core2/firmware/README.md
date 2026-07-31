@@ -238,6 +238,28 @@ answered from the 8 KiB XIP cache, so a missing chip would look present
 and an aliasing address would look like it isn't. Throughput uses the
 cached window, because that is how real code reaches these devices.
 
+## Audio
+
+Three tones per run: **440 Hz left, 880 Hz right, 660 Hz both**, ~0.2 s
+each, at about 27% of full scale.
+
+Separate channels at distinct pitches are deliberate. A single mono tone
+cannot tell a working stereo path from a stuck LRCK or a dead channel —
+all three sound the same, which is to say they all sound like success.
+
+`I2S:ok` on screen means only that the state machine consumed its
+samples, i.e. SCLK and LRCK are clocking. It says nothing about the
+TDA1387 converting, the analogue path through U7 to J6, or whether U8 is
+even fitted — a board with no DAC at all still reports `I2S:ok`. There
+is no loopback, so past GPIO 9/10/11 your ears (or a scope on J6) are
+the only instrument.
+
+That label was briefly worse than useless: `audio_i2s_program_init()`
+configures the state machine but does not call `pio_gpio_init()` — the
+frank-msx driver did that separately inside `i2s_init()`. Replacing that
+driver with direct PIO calls dropped it, so the pads never left SIO
+mode. The FIFO drained, the probe passed, and nothing reached the DAC.
+
 ## Heartbeats
 
 Both LEDs are driven from a timer IRQ, not the main loop, so they keep

@@ -225,6 +225,26 @@ static void audio_init_once(void) {
     g_audio_pio = pio1;
     g_audio_sm  = pio_claim_unused_sm(g_audio_pio, true);
 
+    /* Route the pads to the PIO.
+     *
+     * audio_i2s_program_init() sets up the state machine but does NOT
+     * call pio_gpio_init() — the frank-msx driver did that separately
+     * inside i2s_init(), and dropping those calls when this replaced it
+     * is why the FIFO drained happily, the probe reported "I2S:ok", and
+     * absolutely nothing reached the DAC. The pins never left SIO mode.
+     *
+     * Which is the lesson in the "I2S:ok" label too: it only ever meant
+     * "the state machine consumed samples". */
+    const uint audio_pins[] = {
+        I2S_DATA_PIN,               /* U8.3 DATA */
+        I2S_CLOCK_PIN_BASE,         /* U8.1 SCLK */
+        I2S_CLOCK_PIN_BASE + 1,     /* U8.2 LRCK */
+    };
+    for (unsigned i = 0; i < count_of(audio_pins); i++) {
+        pio_gpio_init(g_audio_pio, audio_pins[i]);
+        gpio_set_drive_strength(audio_pins[i], GPIO_DRIVE_STRENGTH_12MA);
+    }
+
     uint offset = pio_add_program(g_audio_pio, &audio_i2s_program);
     audio_i2s_program_init(g_audio_pio, g_audio_sm, offset,
                            I2S_DATA_PIN, I2S_CLOCK_PIN_BASE);
@@ -239,44 +259,53 @@ static void audio_init_once(void) {
     g_audio_up = true;
 }
 
-/* Push a short tone through the TDA1387 so the I2S clocks, the DAC and
- * the analogue path all get exercised. Anything audible means SCLK,
- * LRCK and DATA on GPIO 10/11/9 are all moving.
+/* Push tones through the TDA1387 so the I2S clocks, the DAC and the
+ * analogue path all get exercised.
  *
- * Feeds the PIO FIFO directly rather than going through the driver's
- * i2s_dma_write(). That call blocks until its DMA completion IRQ frees
- * a buffer, and on this firmware the HSTX video path already owns the
- * DMA interrupt, so the buffer is never released and the whole
- * diagnostic wedges here — silently, with the report half-drawn.
+ * Left and right are played separately at different pitches. A single
+ * mono tone cannot tell a working stereo path from a stuck LRCK or a
+ * dead channel — both sound identical, which is to say both sound like
+ * success. Two distinct pitches from two sides cannot be confused.
  *
- * The deeper rule: no single probe may be able to hang the run. A
- * diagnostic that stops at the first unhappy peripheral cannot report
- * on the ones after it, which is precisely when you need it most.
- * Everything here is bounded by a deadline and degrades to a warning. */
-static bool test_audio(void) {
-    audio_init_once();
+ * Everything is bounded by a deadline and degrades to a warning: no
+ * single probe may be able to hang the run.
+ */
+static bool play_tone(uint32_t hz, bool left, bool right, uint32_t ms) {
+    const uint32_t frames = (AUDIO_SAMPLE_RATE * ms) / 1000u;
+    const uint32_t half   = AUDIO_SAMPLE_RATE / (2u * hz);
+    const int16_t  amp    = 9000;          /* ~27% of full scale */
 
-    /* Roughly 0.2 s of a square wave a little above 1 kHz. */
-    const uint32_t frames = AUDIO_SAMPLE_RATE / 5;   /* ~0.2 s */
-    absolute_time_t deadline = make_timeout_time_ms(600);
+    absolute_time_t deadline = make_timeout_time_ms(ms * 4u + 200u);
 
     for (uint32_t i = 0; i < frames; i++) {
-        int16_t s = (int16_t)(((i / 11) & 1) ? 6000 : -6000);
-        uint32_t stereo = ((uint32_t)(uint16_t)s << 16) | (uint16_t)s;
+        int16_t v = ((i / half) & 1u) ? amp : (int16_t)-amp;
+
+        /* MSB-first 32-bit frame: high half is the left channel. */
+        uint32_t w = ((uint32_t)(uint16_t)(left  ? v : 0) << 16)
+                   |  (uint32_t)(uint16_t)(right ? v : 0);
 
         while (pio_sm_is_tx_fifo_full(g_audio_pio, g_audio_sm)) {
             if (absolute_time_diff_us(get_absolute_time(), deadline) < 0) {
-                console_log(C_WARN,
-                            "audio: I2S FIFO not draining - no bit clock?");
+                console_log(C_WARN, "audio: I2S FIFO stalled - no bit clock?");
                 return false;
             }
         }
-        pio_sm_put(g_audio_pio, g_audio_sm, stereo);
+        pio_sm_put(g_audio_pio, g_audio_sm, w);
     }
-
-    console_log(C_OK, "audio: TDA1387 tone sent on GPIO %d/%d/%d",
-                I2S_DATA_PIN, I2S_CLOCK_PIN_BASE, I2S_CLOCK_PIN_BASE + 1);
     return true;
+}
+
+static bool test_audio(void) {
+    audio_init_once();
+
+    bool ok = play_tone(440,  true,  false, 200)    /* A4  , left  */
+           && play_tone(880,  false, true,  200)    /* A5  , right */
+           && play_tone(660,  true,  true,  200);   /* E5  , both  */
+
+    if (ok)
+        console_log(C_OK, "audio: L 440Hz, R 880Hz, both 660Hz on GPIO %d/%d/%d",
+                    I2S_DATA_PIN, I2S_CLOCK_PIN_BASE, I2S_CLOCK_PIN_BASE + 1);
+    return ok;
 }
 
 static void render_peripherals(const char *sd_status) {
