@@ -6263,16 +6263,6 @@
 		)
 		(uuid "5b1c9b9f-f3b6-4e1b-8125-f688e865930d")
 	)
-	(label "RUN"
-		(at 134.62 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6011fe7f-986a-412d-be93-a9550982fcf6")
-	)
 	(label "QSPI_SD0"
 		(at 134.62 87.63 0)
 		(effects
@@ -6422,6 +6412,16 @@
 			(justify right bottom)
 		)
 		(uuid "cc85d762-ed45-4b86-9bb3-41274d08eb87")
+	)
+	(label "RUN"
+		(at 146.05 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d355d7c7-1a0e-42d4-b3ec-8b215986fa8c")
 	)
 	(label "QSPI_SCLK"
 		(at 83.82 119.38 0)
@@ -6581,6 +6581,17 @@
 			(justify left)
 		)
 		(uuid "497f0e48-d7cf-4a13-998a-d4b0a139fa5b")
+	)
+	(hierarchical_label "RUN"
+		(shape input)
+		(at 134.62 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c24d0fd-1431-48e7-8d75-397f1550f044")
 	)
 	(hierarchical_label "GPIO21"
 		(shape input)
