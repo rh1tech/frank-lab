@@ -12,7 +12,12 @@
 
 /* All formatting goes through integer maths. Pulling in the soft-float
  * printf for a handful of one-decimal figures would cost several KB of
- * flash and make the numbers no more accurate. */
+ * flash and make the numbers no more accurate.
+ *
+ * Rates are binary (MiB/s) and labelled as such. They used to say "MB/s"
+ * while dividing by 1048576, which made every measurement look 4.8%
+ * below the predicted decimal-MB figure and sent me hunting for a
+ * shortfall that did not exist. sys_clk/4 = 63.0 MB/s = 60.1 MiB/s. */
 
 void report_format_size(char *buf, uint32_t buf_len, uint64_t bytes) {
     if (bytes == 0) {
@@ -37,7 +42,7 @@ void report_format_rate(char *buf, uint32_t buf_len,
     /* bytes/us * 1e6 = bytes/s, then scaled by 10 for one decimal.
      * Done in one expression so the truncation happens once, at the end. */
     uint64_t tenths = (bytes * 10000000ull) / ((uint64_t)elapsed_us * 1048576ull);
-    snprintf(buf, buf_len, "%u.%u MB/s",
+    snprintf(buf, buf_len, "%u.%u MiB/s",
              (unsigned)(tenths / 10), (unsigned)(tenths % 10));
 }
 
@@ -47,7 +52,7 @@ void report_format_kbps(char *buf, uint32_t buf_len, uint32_t kbps) {
         return;
     }
     uint32_t tenths = (uint32_t)(((uint64_t)kbps * 10u) / 1024u);
-    snprintf(buf, buf_len, "%u.%u MB/s", (unsigned)(tenths / 10), (unsigned)(tenths % 10));
+    snprintf(buf, buf_len, "%u.%u MiB/s", (unsigned)(tenths / 10), (unsigned)(tenths % 10));
 }
 
 void report_format_bps(char *buf, uint32_t buf_len, uint32_t bytes_per_s) {
@@ -56,5 +61,5 @@ void report_format_bps(char *buf, uint32_t buf_len, uint32_t bytes_per_s) {
         return;
     }
     uint32_t tenths = (uint32_t)(((uint64_t)bytes_per_s * 10u) / 1048576u);
-    snprintf(buf, buf_len, "%u.%u MB/s", (unsigned)(tenths / 10), (unsigned)(tenths % 10));
+    snprintf(buf, buf_len, "%u.%u MiB/s", (unsigned)(tenths / 10), (unsigned)(tenths % 10));
 }

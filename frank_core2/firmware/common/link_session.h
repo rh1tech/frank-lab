@@ -96,6 +96,17 @@ bool link_m_integrity_recv(link_session_t *s, uint32_t blocks,
  * microseconds, averaged over `rounds`. Returns false on any timeout. */
 bool link_m_ping(link_session_t *s, uint32_t rounds, uint32_t *avg_ns);
 
+/* Return both sides to a known idle state after a failed exchange.
+ *
+ * A control frame that fails mid-handshake leaves the two doorbells out
+ * of step: the master has given up while the slave is still waiting for
+ * the other half of the sequence. Everything after that fails for
+ * reasons that look unrelated to the original fault. Dropping our
+ * doorbell and idling for longer than the slave's own worst-case
+ * timeout lets its pending waits expire and both sides converge on
+ * "both doorbells low, nothing in flight". */
+void link_m_resync(link_session_t *s);
+
 /* Ask the slave to reboot itself by holding FS high.
  *
  * Master GPIO43 is labelled as slave reset in the schematic but does not

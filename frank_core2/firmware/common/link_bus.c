@@ -24,7 +24,7 @@
  * frame and turn the round-trip figure into a measurement of our own
  * padding. Four bytes plus a generous margin. */
 static inline uint32_t tx_drain_us(const link_t *l) {
-    float cycles = 4.0f * (float)LINK_PIO_CYCLES_PER_BYTE * l->clkdiv;
+    float cycles = 4.0f * (float)LINK_PIO_CYCLES_PER_BYTE * l->applied_clkdiv;
     float us = (cycles * 1000000.0f) / (float)clock_get_hz(clk_sys);
     return (uint32_t)us + 2u;
 }
@@ -45,7 +45,8 @@ void link_init(link_t *l, PIO pio,
     l->db_in        = db_in;
     l->fs           = fs;
     l->fs_is_output = fs_is_output;
-    l->clkdiv       = 1.0f;
+    l->bulk_clkdiv    = 1.0f;
+    l->applied_clkdiv = LINK_CTRL_CLKDIV;
 
 #if PICO_PIO_USE_GPIO_BASE
     /* An RP2350B PIO instance can only see 32 consecutive GPIOs, chosen
@@ -69,9 +70,13 @@ void link_init(link_t *l, PIO pio,
      * would otherwise produce a link that looks wired but reads garbage
      * off whichever low GPIOs the high pins aliased onto. */
     hard_assert(link_tx_program_init(pio, l->sm_tx, l->off_tx,
-                                     tx_data_base, l->clkdiv) == PICO_OK);
+                                     tx_data_base, l->applied_clkdiv) == PICO_OK);
+    /* The receiver is edge-driven: it must always run as fast as it can,
+     * because its three-instruction loop has to complete inside the
+     * peer's byte period. Dividing it would eat the very margin the
+     * sweep is trying to measure. */
     hard_assert(link_rx_program_init(pio, l->sm_rx, l->off_rx,
-                                     rx_data_base, l->clkdiv) == PICO_OK);
+                                     rx_data_base, 1.0f) == PICO_OK);
 
     /* VALID we drive, VALID the peer drives. Both are plain SIO. */
     gpio_init(l->tx_valid);
@@ -111,20 +116,26 @@ void link_init(link_t *l, PIO pio,
     pio_sm_set_enabled(pio, l->sm_rx, false);
 }
 
-void link_set_clkdiv(link_t *l, float clkdiv) {
+void link_set_bulk_clkdiv(link_t *l, float clkdiv) {
     if (clkdiv < 1.0f) clkdiv = 1.0f;
-    l->clkdiv = clkdiv;
+    l->bulk_clkdiv = clkdiv;
+}
 
-    /* Only the transmitter is divided. The receiver is edge-driven, so
-     * it must always run as fast as it can — its three-instruction loop
-     * needs to complete inside the peer's byte period, and slowing it
-     * down would eat exactly the margin the sweep is trying to measure. */
+/* Program the transmit divider. Only touched when it changes, and only
+ * ever between transfers — the SM is then stalled inside `out` with an
+ * empty FIFO, so a clkdiv restart cannot land mid-byte. */
+static void apply_clkdiv(link_t *l, float clkdiv) {
+    if (clkdiv == l->applied_clkdiv) return;
+    l->applied_clkdiv = clkdiv;
     pio_sm_set_clkdiv(l->pio, l->sm_tx, clkdiv);
     pio_sm_clkdiv_restart(l->pio, l->sm_tx);
 }
 
+void link_use_ctrl_rate(link_t *l) { apply_clkdiv(l, LINK_CTRL_CLKDIV); }
+void link_use_bulk_rate(link_t *l) { apply_clkdiv(l, l->bulk_clkdiv);   }
+
 uint32_t link_byte_rate(const link_t *l) {
-    float hz = (float)clock_get_hz(clk_sys) / l->clkdiv;
+    float hz = (float)clock_get_hz(clk_sys) / l->bulk_clkdiv;
     return (uint32_t)(hz / (float)LINK_PIO_CYCLES_PER_BYTE);
 }
 

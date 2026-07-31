@@ -48,8 +48,22 @@ typedef struct {
     bool  fs_is_output;  /* master drives FS, slave reads it */
 
     int   dma_tx, dma_rx;
-    float clkdiv;
+    float bulk_clkdiv;      /* what the sweep is currently testing */
+    float applied_clkdiv;   /* what the TX state machine is set to  */
 } link_t;
+
+/* Control frames always run at this divider regardless of what the sweep
+ * is testing.
+ *
+ * Measured on the first assembled board: the wire is error-free at 1.50x
+ * and starts corrupting at 1.25x. Running 128-byte control frames at the
+ * rate under test means a marginal rate does not just produce a bad
+ * throughput number, it corrupts the protocol that is trying to measure
+ * it — a failed CRC desynchronises both sides and the run collapses into
+ * "slave refused divider" and lost replies. Control traffic is a
+ * rounding error in time (128 bytes is ~4 us even here), so it buys
+ * robustness for nothing. */
+#define LINK_CTRL_CLKDIV 2.0f
 
 /* Claim two SMs on `pio`, load both programs, configure the pins and
  * grab two DMA channels. Starts at clkdiv 1.0 (maximum rate). */
@@ -57,12 +71,18 @@ void link_init(link_t *l, PIO pio,
                uint tx_data_base, uint rx_data_base,
                uint db_out, uint db_in, uint fs, bool fs_is_output);
 
-/* Change the link rate. Both SMs are re-divided together; call this
- * only while the link is idle. Divider is the PIO fractional divider,
- * so 1.0 = sys_clk/4 bytes per second, 2.0 = sys_clk/8, and so on. */
-void link_set_clkdiv(link_t *l, float clkdiv);
+/* Set the divider used for bulk transfers. Only the transmitter is
+ * divided — the receiver is edge-driven and always runs flat out.
+ * 1.0 = sys_clk/5 bytes per second, 2.0 = sys_clk/10, and so on. */
+void link_set_bulk_clkdiv(link_t *l, float clkdiv);
 
-/* Theoretical byte rate implied by the current divider and sys_clk. */
+/* Select which rate the next transmit uses. Cheap and idempotent: the
+ * divider is only touched when it actually changes, and only ever
+ * between transfers when the state machine is stalled on an empty FIFO. */
+void link_use_ctrl_rate(link_t *l);
+void link_use_bulk_rate(link_t *l);
+
+/* Theoretical byte rate implied by the bulk divider and sys_clk. */
 uint32_t link_byte_rate(const link_t *l);
 
 /* ---- Transmit ---- */

@@ -17,18 +17,40 @@
 ;
 ; Wire timing at clkdiv = 1.0 (one PIO cycle == one sys_clk cycle):
 ;
-;     cycle:   0     1     2     3     0     1
-;     DATA:  <--- byte N --------><--- byte N+1 ...
-;     CLK:   ____________/‾‾‾‾‾‾‾‾‾‾‾‾\________/‾‾
-;                        ^ RX samples here
+;     cycle:   0     1     2     3     4     0     1
+;     DATA:  <--------- byte N -------------><--- byte N+1 ...
+;     CLK:   ____________/‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\________/‾‾
+;                           ^ RX samples here (t=3)
 ;
-; 4 sys_clk cycles per byte, 50% duty. Data is driven at the falling
-; edge and sampled at the rising edge, so the receiver gets two full
-; cycles of setup and two of hold. At 252 MHz that is 63.0 MB/s per
-; direction; both directions run concurrently for 126 MB/s aggregate.
+; 5 sys_clk cycles per byte: 2 low, 3 high. Both numbers are forced.
 ;
-; Raising the SM clock divider slows the link down proportionally,
-; which is what the speed sweep in the test firmware walks.
+; The receiver samples one cycle after it *observes* the rising edge —
+; `wait 1 pin` completes on the edge and `in pins` runs the cycle after —
+; so the sample always lands at (rising edge + 1). And the receive loop
+; only inspects the low phase during a single cycle of each iteration,
+; so a low phase shorter than 2 cycles is intermittently missed, which
+; drops a byte and desynchronises the 32-bit word framing.
+;
+; Those two facts together rule out a 4-cycle period. 2 low + 2 high puts
+; the sample at t=3 with the next data change at t=4: 3 cycles of setup
+; but only 1 cycle (3.97 ns at 252 MHz) of hold. That is what produced
+; ~139k byte errors per 8 MiB at full rate on the first assembled board.
+; Shrinking the low phase to 1 cycle to centre the sample fixes the hold
+; margin and breaks edge detection instead — the throughput runs still
+; report a number because ring DMA never checks how many bytes actually
+; arrived, while every verified transfer fails outright.
+;
+; 5 cycles gives 3 setup and 2 hold: the worst case doubles from 1 cycle
+; to 2, and the low phase keeps the 2 cycles the receiver needs. The cost
+; is top speed — sys_clk/5 rather than sys_clk/4.
+;
+; At 252 MHz that is 50.4 MB/s (48.1 MiB/s) per direction, both
+; directions concurrently for 100.8 MB/s (96.1 MiB/s) aggregate.
+;
+; Raising the SM clock divider slows the link down proportionally, which
+; is what the speed sweep in the test firmware walks. Note that only
+; integer dividers are jitter-free; fractional ones make the period
+; alternate between N and N+1 cycles, eating into the margins above.
 
 ; ---------------------------------------------------------------------
 ; link_tx — drive 8 data lines plus a clock.
@@ -45,8 +67,8 @@
 .side_set 1
 
 .wrap_target
-    out pins, 8      side 0 [1]   ; drive byte, clock low  (2 cycles)
-    nop              side 1 [1]   ; clock high             (2 cycles)
+    out pins, 8      side 0 [1]    ; drive byte, clock low  (2 cycles)
+    nop              side 1 [2]    ; clock high             (3 cycles)
 .wrap
 
 ; ---------------------------------------------------------------------
@@ -58,7 +80,9 @@
 ; The loop is three instructions against a four-cycle byte period, so
 ; there is always one cycle of slack and the SM re-synchronises to the
 ; incoming clock on every single byte. Explicitly waiting for the low
-; phase makes a double-sample impossible even if the transmitter stalls.
+; phase makes a double-sample impossible even if the transmitter stalls,
+; and it is what locks the sample to the middle of the eye given the
+; transmitter's 1-low/3-high clock.
 ; ---------------------------------------------------------------------
 .program link_rx
 
@@ -73,12 +97,12 @@
 #include "hardware/gpio.h"
 
 /* Cycles of SM clock consumed per byte by the programs above. */
-#define LINK_PIO_CYCLES_PER_BYTE 4
+#define LINK_PIO_CYCLES_PER_BYTE 5
 
 /* Configure a transmit state machine.
  *
  * data_base — first of the 8 data GPIOs; CLK is assumed at data_base+8.
- * clkdiv    — SM clock divider; 1.0 gives sys_clk/4 bytes per second. */
+ * clkdiv    — SM clock divider; 1.0 gives sys_clk/5 bytes per second. */
 /* Returns PICO_OK, or PICO_ERROR_BAD_ALIGNMENT if the pins are outside
  * this PIO instance's 32-GPIO window (see pio_set_gpio_base). */
 static inline int link_tx_program_init(PIO pio, uint sm, uint offset,

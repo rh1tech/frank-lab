@@ -8,6 +8,7 @@
 
 #include "link_session.h"
 
+#include "pico/stdlib.h"
 #include "pico/time.h"
 
 #include <string.h>
@@ -48,6 +49,7 @@ bool link_m_send_ctrl(link_session_t *s, uint16_t op,
         return false;
     }
 
+    link_use_ctrl_rate(s->link);
     link_tx_start(s->link, s->ctrl_tx, LINK_CTRL_BYTES);
     bool ok = link_tx_finish(s->link, LINK_CTRL_TIMEOUT_US);
 
@@ -87,6 +89,7 @@ bool link_m_bulk_send(link_session_t *s, uint32_t blocks, uint32_t *elapsed_us) 
         return false;
     }
 
+    link_use_bulk_rate(s->link);
     absolute_time_t t0 = get_absolute_time();
     link_tx_start_ring(s->link, s->bulk_tx, LINK_BULK_RING_BITS,
                        (size_t)blocks * LINK_BULK_BYTES);
@@ -136,6 +139,7 @@ bool link_m_duplex(link_session_t *s, uint32_t blocks, uint32_t *elapsed_us) {
         return false;
     }
 
+    link_use_bulk_rate(s->link);
     absolute_time_t t0 = get_absolute_time();
     link_tx_start_ring(s->link, s->bulk_tx, LINK_BULK_RING_BITS, total);
 
@@ -161,6 +165,7 @@ bool link_m_integrity_send(link_session_t *s, uint32_t blocks) {
             return false;
         }
 
+        link_use_bulk_rate(s->link);
         link_tx_start(s->link, s->bulk_tx, LINK_BULK_BYTES);
         bool ok = link_tx_finish(s->link, tmo);
 
@@ -204,6 +209,18 @@ bool link_m_integrity_recv(link_session_t *s, uint32_t blocks,
     int64_t us = absolute_time_diff_us(t0, get_absolute_time());
     out->elapsed_us = us > 0 ? (uint32_t)us : 0;
     return true;
+}
+
+void link_m_resync(link_session_t *s) {
+    link_db_set(s->link, false);
+    link_rx_abort(s->link);
+    link_use_ctrl_rate(s->link);
+
+    /* Longer than the slave's LINK_HANDSHAKE_TIMEOUT_US so any wait it
+     * is parked in has definitely expired before we speak again. */
+    sleep_ms(LINK_HANDSHAKE_TIMEOUT_US / 1000u + 500u);
+
+    link_db_wait(s->link, false, LINK_HANDSHAKE_TIMEOUT_US);
 }
 
 void link_m_request_slave_reset(link_session_t *s) {
@@ -255,6 +272,7 @@ static bool slave_put_ctrl(link_session_t *s, uint16_t op,
 
     if (!link_db_wait(s->link, true, LINK_HANDSHAKE_TIMEOUT_US)) return false;
 
+    link_use_ctrl_rate(s->link);
     link_tx_start(s->link, s->ctrl_tx, LINK_CTRL_BYTES);
     bool ok = link_tx_finish(s->link, LINK_CTRL_TIMEOUT_US);
 
@@ -290,12 +308,12 @@ uint16_t link_s_serve(link_session_t *s, uint32_t timeout_us,
         break;
 
     case LINK_OP_RATE: {
-        /* arg0 is the divider in 8.8 fixed point. Acknowledge at the OLD
-         * rate first, then switch — otherwise the ack goes out at a rate
-         * the master is not yet listening for. */
+        /* arg0 is the divider in 8.8 fixed point. Only bulk traffic is
+         * affected: control frames stay at LINK_CTRL_CLKDIV so a rate
+         * under test can never corrupt the protocol negotiating it. */
         uint32_t q88 = h->arg0;
         slave_put_ctrl(s, LINK_OP_RATE_ACK, q88, 0, NULL, 0);
-        link_set_clkdiv(s->link, (float)q88 / 256.0f);
+        link_set_bulk_clkdiv(s->link, (float)q88 / 256.0f);
         break;
     }
 
@@ -328,6 +346,7 @@ uint16_t link_s_serve(link_session_t *s, uint32_t timeout_us,
         /* Master arms, then raises DB_MS to say "go". */
         if (!link_db_wait(s->link, true, LINK_HANDSHAKE_TIMEOUT_US)) break;
 
+        link_use_bulk_rate(s->link);
         link_tx_start_ring(s->link, s->bulk_tx, LINK_BULK_RING_BITS,
                            (size_t)blocks * LINK_BULK_BYTES);
         link_tx_finish(s->link, tmo);
@@ -345,6 +364,7 @@ uint16_t link_s_serve(link_session_t *s, uint32_t timeout_us,
         link_rx_arm_ring(s->link, s->bulk_rx, LINK_BULK_RING_BITS, total);
         link_db_set(s->link, true);              /* "both armed" */
 
+        link_use_bulk_rate(s->link);
         link_tx_start_ring(s->link, s->bulk_tx, LINK_BULK_RING_BITS, total);
 
         absolute_time_t t0 = get_absolute_time();
@@ -400,6 +420,7 @@ uint16_t link_s_serve(link_session_t *s, uint32_t timeout_us,
         for (uint32_t i = 0; i < blocks; i++) {
             if (!link_db_wait(s->link, true, LINK_HANDSHAKE_TIMEOUT_US)) break;
 
+            link_use_bulk_rate(s->link);
             link_tx_start(s->link, s->bulk_tx, LINK_BULK_BYTES);
             link_tx_finish(s->link, tmo);
 

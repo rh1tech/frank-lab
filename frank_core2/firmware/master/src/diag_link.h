@@ -32,7 +32,8 @@ typedef struct {
         uint32_t m2s_bytes_per_s;
         uint32_t s2m_bytes_per_s;
         uint32_t duplex_bytes_per_s;
-        uint32_t errors;               /* from the verified pass         */
+        uint32_t byte_errors;          /* bytes that came back wrong     */
+        bool     verify_ran;           /* the verified pass completed    */
         bool     ok;
     } sweep[4];
     int  sweep_count;

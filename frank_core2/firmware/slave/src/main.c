@@ -124,19 +124,32 @@ int main(void) {
 
     stdio_init_all();
 
-    /* USB CDC enumeration takes far longer than a couple of hundred
-     * milliseconds; without this wait the whole boot log is lost. */
-#if !defined(USB_HID_ENABLED)
-    for (int i = 0; i < 60 && !stdio_usb_connected(); i++) sleep_ms(50);
-#endif
-    sleep_ms(100);
+    /* A reboot the master asked for must come back fast.
+     *
+     * The console waits below cost up to five seconds, which is longer
+     * than the master's reconnect interval — so a slave that reboots on
+     * request would still be waiting for a terminal when the master
+     * gave up and reset it again, forever. When we got here from a
+     * watchdog reset there is already an operator watching, so skip
+     * straight to serving. */
+    const bool woke_from_reset = watchdog_caused_reboot();
 
-    /* Attach window — same reasoning as the master: the slave's whole
-     * self-test log is emitted in the first second, and a console that
-     * attaches after that sees an idle board with nothing to say. */
-    for (int i = 0; i < 8; i++) {
-        printf("FRANK Core 2 slave - waiting for console (%d/8)\n", i + 1);
-        sleep_ms(250);
+    if (!woke_from_reset) {
+#if !defined(USB_HID_ENABLED)
+        /* USB CDC enumeration takes far longer than a couple of hundred
+         * milliseconds; without this wait the whole boot log is lost. */
+        for (int i = 0; i < 60 && !stdio_usb_connected(); i++) sleep_ms(50);
+#endif
+        sleep_ms(100);
+
+        /* Attach window — same reasoning as the master: the slave's whole
+         * self-test log is emitted in the first second, and a console
+         * that attaches after that sees an idle board with nothing to
+         * say. */
+        for (int i = 0; i < 8; i++) {
+            printf("FRANK Core 2 slave - waiting for console (%d/8)\n", i + 1);
+            sleep_ms(250);
+        }
     }
 
     printf("\nFRANK Core 2 slave firmware v%s\n", FIRMWARE_VERSION);
@@ -194,7 +207,7 @@ int main(void) {
     printf("slave: link ready, waiting for master (watchdog %u ms, FS reset armed)\n",
            (unsigned)SLAVE_WATCHDOG_MS);
 
-    if (watchdog_caused_reboot())
+    if (woke_from_reset)
         printf("slave: previous boot ended in a watchdog reset\n");
 
     uint32_t served = 0;

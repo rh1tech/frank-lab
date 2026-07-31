@@ -2,7 +2,8 @@
 
 Bring-up and link-characterisation firmware for the FRANK Core 2 board:
 an RP2350B master (U3, QFN-80) and an RP2350 slave (U6, QFN-60) joined by
-two 8-bit source-synchronous parallel buses.
+two 8-bit source-synchronous parallel buses running at a measured
+96.1 MiB/s aggregate, error-free.
 
 The master brings up HDMI, prints a full diagnostic report on screen,
 runs its own flash and PSRAM tests, then interrogates the slave over the
@@ -54,14 +55,14 @@ passes them to both halves so the two firmwares stay matched:
 | Variable | Default | Meaning |
 |---|---|---|
 | `USB_HID` | `0` | `0` = USB CDC serial console. `1` = USB HID host keyboard on the master, console moves to UART |
-| `CPU_SPEED` | `252` | System clock in MHz. Sets the link's ceiling: one byte per 4 clocks |
+| `CPU_SPEED` | `252` | System clock in MHz. Sets the link's ceiling: one byte per 5 clocks |
 | `PSRAM_SPEED` | `133` | PSRAM clock ceiling in MHz |
 | `FLASH_SPEED` | `66` | Flash clock ceiling in MHz |
 | `CLEAN` | `0` | `1` wipes the build directory first |
 
 ```bash
 USB_HID=1 ./build_all.sh              # HID keyboard, UART console
-CPU_SPEED=300 CLEAN=1 ./build_all.sh  # push the link to 75 MB/s per direction
+CPU_SPEED=300 CLEAN=1 ./build_all.sh  # push the link to ~57 MiB/s per direction
 ```
 
 **Build both halves at the same `CPU_SPEED`.** The receiving PIO state
@@ -107,34 +108,65 @@ either direction on either chip.
 
 ### Wire protocol
 
-Transmit is two PIO instructions, four system clocks per byte:
+Transmit is two PIO instructions, five system clocks per byte:
 
 ```
-cycle:   0     1     2     3     0     1
-DATA:  <--- byte N --------><--- byte N+1 ...
-CLK:   ____________/‾‾‾‾‾‾‾‾‾‾‾‾\________/‾‾
-                   ^ receiver samples here
+cycle:   0     1     2     3     4     0     1
+DATA:  <--------- byte N -------------><--- byte N+1 ...
+CLK:   ____________/‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\________/‾‾
+                      ^ receiver samples here (t=3)
 ```
 
-Data changes on the falling edge and is sampled on the rising edge, so
-the receiver gets two full clocks of setup and two of hold. Receive is a
-three-instruction loop against that four-cycle period, leaving one cycle
-of slack and re-synchronising to the incoming clock on every byte.
+Two low, three high. Both numbers are forced by the receiver, and the
+reasoning is worth keeping because the obvious 4-cycle version looks
+correct and is not:
 
-At 252 MHz that is **63.0 MB/s per direction, 126 MB/s aggregate** with
-both buses running at once.
+- The sample always lands at **rising edge + 1**. `wait 1 pin` completes
+  on the edge; `in pins` runs the cycle after.
+- The receive loop inspects the low phase during **one cycle** of each
+  iteration, so a low phase shorter than 2 cycles is intermittently
+  missed — which drops a byte and desynchronises the 32-bit word
+  framing.
 
-Four cycles per byte is the floor for this receiver, not an arbitrary
-choice: the loop needs three cycles, and three-against-three would leave
-no margin at all. Going faster would need a fundamentally different
-receiver — two state machines ping-ponging on alternate edges, for
-instance — which is a bigger change than a bring-up firmware warrants.
+Together those rule out a 4-cycle period. 2 low + 2 high samples at t=3
+with the next data change at t=4: three cycles of setup but **one cycle
+of hold**, 3.97 ns at 252 MHz. Shrinking the low phase to 1 cycle to
+centre the sample fixes hold and breaks edge detection instead.
 
-Frame boundaries come from the arm-before-send ordering rather than from
-the wire: the receiver restarts its state machine (resetting the input
-shift counter) before the sender starts, which is what keeps 32-bit
-autopush words aligned with the sender's autopull words. Byte boundaries
-are inherent — one clock edge is exactly one byte.
+Five cycles gives 3 setup and 2 hold. The worst case doubles, the low
+phase keeps the two cycles the receiver needs, and the cost is top speed:
+sys_clk/5 rather than sys_clk/4.
+
+### Measured, not calculated
+
+On the first assembled board at 252 MHz, both halves matched:
+
+| Divider | Per direction | Duplex aggregate | Byte errors |
+|---|---|---|---|
+| 1.00x | 48.0 MiB/s | **96.1 MiB/s** | 0 |
+| 1.25x | 38.4 MiB/s | 76.9 MiB/s | 0 |
+| 1.50x | 32.0 MiB/s | 64.0 MiB/s | 0 |
+| 2.00x | 24.0 MiB/s | 48.0 MiB/s | 0 |
+
+Control round-trip: 139.7 us.
+
+Getting there took one controlled experiment worth recording. With the
+master on 5-cycle timing and the slave still on 4-cycle, the same wire
+carried both:
+
+| Direction | TX timing | 48 MiB/s | 60 MiB/s |
+|---|---|---|---|
+| M→S | 5-cycle | 0 errors | n/a |
+| S→M | 4-cycle | 20819 bad bytes | 99551 bad bytes |
+
+At the *same* 48 MiB/s one timing is clean and the other is not, which
+rules out signal integrity and points squarely at the hold margin.
+Fractional dividers make it worse again: only integer dividers are
+jitter-free, and 1.25x makes the period alternate between N and N+1
+cycles, eating into margins that are already only two cycles wide.
+
+Going faster than sys_clk/5 needs a different receiver — two state
+machines ping-ponging on alternate edges, say — not a faster clock.
 
 ### Handshake
 
@@ -153,22 +185,22 @@ Chip ID       E661...           E661...
 Package/rev   QFN-80 B / rev 2  QFN-60 A / rev 2
 Sys clock     252 MHz           252 MHz
 Flash ID      EF4018 16 MB      EF4018 16 MB
-Flash read    59.8 MB/s         59.6 MB/s
+Flash read    31.8 MiB/s        33.5 MiB/s
 Flash CRC32   1A2B3C4D          9F8E7D6C
 PSRAM         8 MB ok           8 MB ok
-PSRAM write   41.2 MB/s         41.0 MB/s
-PSRAM read    54.7 MB/s         54.5 MB/s
+PSRAM write   12.9 MiB/s        13.4 MiB/s
+PSRAM read    30.1 MiB/s        32.9 MiB/s
 PSRAM errors  0                 0
 -----------------------------------------------------
  SD:29.7 GB   USB:cdc   I2S:ok   HDMI:640x480@60
 -----------------------------------------------------
  rate     M->S        S->M        duplex      err
- 1.00x    63.0 MB/s   63.0 MB/s   125.9 MB/s  0
- 1.25x    50.4 MB/s   50.4 MB/s   100.7 MB/s  0
- 1.50x    42.0 MB/s   42.0 MB/s   83.9 MB/s   0
- 2.00x    31.5 MB/s   31.5 MB/s   62.9 MB/s   0
- round-trip 12.40 us    peak duplex 125.9 MB/s
- LINK OK - error free to 125.9 MB/s aggregate
+ 1.00x    48.0 MiB/s  48.0 MiB/s  96.1 MiB/s  0
+ 1.25x    38.4 MiB/s  38.4 MiB/s  76.9 MiB/s  0
+ 1.50x    32.0 MiB/s  32.0 MiB/s  64.0 MiB/s  0
+ 2.00x    24.0 MiB/s  24.0 MiB/s  48.0 MiB/s  0
+ round-trip 139.71 us   peak duplex 96.1 MiB/s
+ LINK OK - error free to 96.1 MiB/s aggregate
 ```
 
 ### Throughput and integrity are measured separately
@@ -181,6 +213,9 @@ PSRAM errors  0                 0
 Mixing them would either understate the speed (verification in the hot
 path) or overstate the confidence (unverified bytes). The `err` column
 comes from the integrity pass; a row is only marked OK when it is zero.
+A structural failure shows as `no-run` rather than a small error count —
+conflating "the exchange never completed" with "two bytes were wrong"
+sends you hunting for signal integrity problems that are not there.
 
 Each side generates the same pattern from the same seed, so neither has
 to send reference data across the link it is trying to test.

@@ -123,7 +123,7 @@ static bool set_rate(uint16_t q88) {
     if (!link_m_recv_ctrl(&g_session)) return false;
     if (((const link_hdr_t *)g_ctrl_rx)->op != LINK_OP_RATE_ACK) return false;
 
-    link_set_clkdiv(&g_link, (float)q88 / 256.0f);
+    link_set_bulk_clkdiv(&g_link, (float)q88 / 256.0f);
     return true;
 }
 
@@ -169,11 +169,17 @@ void diag_link_run(diag_link_result_t *out) {
         console_log(C_WARN, "link: slave self-test timed out");
     }
 
-    /* ---- Latency, measured at full rate ---- */
+    /* ---- Latency ---- */
     if (link_m_ping(&g_session, PING_ROUNDS, &out->rtt_ns)) {
         console_log(C_DIM, "link: ctrl round-trip %u.%02u us",
                     (unsigned)(out->rtt_ns / 1000),
                     (unsigned)((out->rtt_ns % 1000) / 10));
+    } else {
+        /* Used to fail silently, which mattered: a half-finished ping
+         * leaves the doorbells out of step and the next exchange fails
+         * for reasons that look unrelated. */
+        console_log(C_WARN, "link: ping failed - resyncing");
+        link_m_resync(&g_session);
     }
 
     /* ---- Rate sweep ---- */
@@ -225,8 +231,15 @@ void diag_link_run(diag_link_result_t *out) {
             out->all_passed = false;
         }
 
-        /* Verified pass at the same rate: this is what decides "ok". */
+        /* Verified pass at the same rate: this is what decides "ok".
+         *
+         * A structural failure (the exchange never completed) is tracked
+         * separately from byte errors rather than folded in as "+1".
+         * Conflating them made a broken handshake look like two stray
+         * bits, which is exactly the wrong conclusion to hand someone
+         * chasing signal integrity. */
         uint32_t errors = 0;
+        bool ran = true;
         link_bulk_result_t vr;
 
         if (link_m_send_ctrl(&g_session, LINK_OP_VERIFY_M2S, VERIFY_BLOCKS, 0, NULL, 0) &&
@@ -235,20 +248,33 @@ void diag_link_run(diag_link_result_t *out) {
             ((const link_hdr_t *)g_ctrl_rx)->op == LINK_OP_VERIFY_M2S_ACK) {
             memcpy(&vr, g_ctrl_rx + sizeof(link_hdr_t), sizeof(vr));
             errors += vr.byte_errors + vr.timeouts;
+            if (vr.byte_errors)
+                console_log(C_WARN, "link: M->S %u bad bytes in %u KiB",
+                            (unsigned)vr.byte_errors,
+                            (unsigned)(vr.bytes / 1024u));
         } else {
-            errors += 1;
+            ran = false;
+            console_log(C_FAIL, "link: M->S verify did not complete");
+            link_m_resync(&g_session);
         }
 
         if (link_m_send_ctrl(&g_session, LINK_OP_VERIFY_S2M, VERIFY_BLOCKS, 0, NULL, 0) &&
             link_m_integrity_recv(&g_session, VERIFY_BLOCKS, &vr) &&
             link_m_recv_ctrl(&g_session)) {
             errors += vr.byte_errors + vr.timeouts;
+            if (vr.byte_errors)
+                console_log(C_WARN, "link: S->M %u bad bytes in %u KiB",
+                            (unsigned)vr.byte_errors,
+                            (unsigned)(vr.bytes / 1024u));
         } else {
-            errors += 1;
+            ran = false;
+            console_log(C_FAIL, "link: S->M verify did not complete");
+            link_m_resync(&g_session);
         }
 
-        out->sweep[i].errors = errors;
-        out->sweep[i].ok = (errors == 0) &&
+        out->sweep[i].byte_errors = errors;
+        out->sweep[i].verify_ran  = ran;
+        out->sweep[i].ok = ran && (errors == 0) &&
                            out->sweep[i].m2s_bytes_per_s &&
                            out->sweep[i].s2m_bytes_per_s;
 
@@ -267,8 +293,14 @@ void diag_link_run(diag_link_result_t *out) {
     heartbeat_set(out->all_passed ? HB_OK : HB_ERROR);
 }
 
+/* Idle ticks to skip after issuing a reset, at 5 s per tick. The slave
+ * needs a second or two to boot and self-test; three ticks is generous
+ * without making a genuinely absent slave slow to notice. */
+#define RECONNECT_BACKOFF_TICKS 3
+
 bool diag_link_try_reconnect(void) {
     static uint32_t fails;
+    static uint32_t backoff;
 
     /* Short patience: this runs from the idle loop several times a
      * minute, and two seconds per doorbell would make the console feel
@@ -283,6 +315,7 @@ bool diag_link_try_reconnect(void) {
 
     if (alive) {
         fails = 0;
+        backoff = 0;
         return true;
     }
 
@@ -299,12 +332,25 @@ bool diag_link_try_reconnect(void) {
      * The slave's own 8 s watchdog runs underneath all of this. */
     fails++;
 
-    if ((fails % 2) == 0)
+    /* Back off after asking for a reset. The slave needs a moment to
+     * boot and run its self-test, and probing again before it is ready
+     * just resets it a second time — at the wrong interval that becomes
+     * a reboot loop the operator sees as "the slave never comes up". */
+    if (backoff) {
+        backoff--;
+        return false;
+    }
+
+    if ((fails % 2) == 0) {
         link_m_request_slave_reset(&g_session);
+        backoff = RECONNECT_BACKOFF_TICKS;
+    }
 
 #if SLAVE_RESET_BODGE
-    if ((fails % 4) == 0)
+    if ((fails % 4) == 0) {
         slave_reset_pulse();
+        backoff = RECONNECT_BACKOFF_TICKS;
+    }
 #endif
 
     return false;
@@ -329,9 +375,14 @@ void diag_link_render(const diag_link_result_t *r) {
         report_format_bps(c, sizeof(c), r->sweep[i].duplex_bytes_per_s);
 
         uint8_t col = r->sweep[i].ok ? C_TEXT : C_FAIL;
-        console_at(row, 0, col, " %u.%02ux  %-11s %-11s %-11s %u",
-                   q >> 8, ((q & 0xFF) * 100) >> 8, a, b, c,
-                   (unsigned)r->sweep[i].errors);
+        char err[12];
+        if (!r->sweep[i].verify_ran)
+            snprintf(err, sizeof(err), "no-run");
+        else
+            snprintf(err, sizeof(err), "%u", (unsigned)r->sweep[i].byte_errors);
+
+        console_at(row, 0, col, " %u.%02ux  %-11s %-11s %-11s %s",
+                   q >> 8, ((q & 0xFF) * 100) >> 8, a, b, c, err);
     }
 
     console_clear_row(R_LINK_VERIFY);
