@@ -65,7 +65,16 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "footprint_symbol_field_mismatch|146561622|104200000|b6b6af1f-ceea-48a1-97db-051884745c77|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_symbol_field_mismatch|146561622|86300000|47855989-b718-4995-994e-858e01247833|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -1182,7 +1191,7 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2026-08-03",
+    "DATE": "2026-08-07",
     "NAME": "FRANK Core 2U",
     "VERSION": "1.00"
   },
