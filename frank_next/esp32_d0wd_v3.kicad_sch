@@ -3803,7 +3803,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 45.72) (xy 161.29 54.61)
+			(xy 161.29 41.91) (xy 161.29 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3930,6 +3930,16 @@
 			(type default)
 		)
 		(uuid "4b25194b-01b9-4734-8358-9b85ce75d4c7")
+	)
+	(wire
+		(pts
+			(xy 176.53 102.87) (xy 176.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d210b3-3f77-4b2f-93d5-d9c9e2d61bec")
 	)
 	(wire
 		(pts
@@ -4130,16 +4140,6 @@
 			(type default)
 		)
 		(uuid "851efdee-dc65-4f9e-87f6-a1d7935a680c")
-	)
-	(wire
-		(pts
-			(xy 161.29 34.29) (xy 161.29 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85be2660-2178-425e-8507-d0729dbcdc50")
 	)
 	(wire
 		(pts
@@ -5231,7 +5231,7 @@
 	)
 	(hierarchical_label "U0TXD"
 		(shape input)
-		(at 161.29 34.29 90)
+		(at 161.29 41.91 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5416,7 +5416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05a9f9f4-7af8-474d-8ad4-4d46c4cd0f66")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR079"
 			(at 156.21 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5476,7 +5476,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR076")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -5493,7 +5493,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09064532-1e9e-4e1e-a9a2-7040f905e46c")
-		(property "Reference" "C44"
+		(property "Reference" "C47"
 			(at 205.486 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5587,7 +5587,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C44")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -5605,7 +5605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0972648c-aa43-4349-b71b-8d6a2691bc42")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR094"
 			(at 257.81 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5665,7 +5665,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR090")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -5682,7 +5682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a8864af-1e5d-46fa-ab27-74d50efa571a")
-		(property "Reference" "C37"
+		(property "Reference" "C39"
 			(at 55.626 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5768,7 +5768,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C37")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -5785,7 +5785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bf907c1-020c-4242-99c7-6e7fc6b45e47")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR088"
 			(at 233.68 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5845,7 +5845,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR084")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -5970,7 +5970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16e38fa7-5d50-4400-94d3-478487b18c39")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR092"
 			(at 234.95 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6031,7 +6031,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR088")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -6048,7 +6048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "187ca4e6-9782-4fb4-9df5-9ffc63b6c564")
-		(property "Reference" "C46"
+		(property "Reference" "C49"
 			(at 227.33 120.904 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6134,7 +6134,110 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C46")
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:C")
+		(at 176.53 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1afb618a-9dee-488b-a469-c01b765e30b2")
+		(property "Reference" "C45"
+			(at 172.974 109.982 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 180.34 109.728 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FRANK:C_0603_1608Metric"
+			(at 175.5648 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
+			(at 176.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C63339"
+			(at 176.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec537fb3-59ec-4f49-b929-6ab57c64aa92")
+		)
+		(pin "2"
+			(uuid "db09c718-bc2a-4bce-b552-4c44ccf44397")
+		)
+		(instances
+			(project "frank_next"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -6151,7 +6254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bdc051d-87be-490e-af08-adddfa7a4be9")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR083"
 			(at 185.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6211,7 +6314,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR079")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -6228,7 +6331,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d094e7f-0018-42e4-91bf-887c81e648b0")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR087"
 			(at 220.98 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -6288,7 +6391,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR083")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -6305,7 +6408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e386d78-bcdb-4462-b517-2f1a9fa7685b")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR086"
 			(at 217.17 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6365,7 +6468,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR082")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -6631,7 +6734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "258a327d-0993-4636-9a4a-9ad817928c6e")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR093"
 			(at 238.76 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6691,7 +6794,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR089")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -6708,7 +6811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25956872-72b0-447f-aaef-921850df20eb")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR076"
 			(at 140.97 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6768,7 +6871,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR073")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -6785,7 +6888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27e0b0d5-bfa6-4e98-94e3-05dd7160becc")
-		(property "Reference" "C40"
+		(property "Reference" "C42"
 			(at 67.056 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6871,7 +6974,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C40")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -6888,7 +6991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28b24203-2b2a-44c0-807f-12d489319167")
-		(property "Reference" "C38"
+		(property "Reference" "C40"
 			(at 56.896 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6974,7 +7077,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C38")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -6991,7 +7094,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e98188d-8149-4e97-8e88-94c53b6cef85")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR082"
 			(at 185.42 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7051,7 +7154,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR078")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -7068,7 +7171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33753d39-a3c5-4a17-bc82-0c0e610cfaf7")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR084"
 			(at 208.28 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7128,7 +7231,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR080")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -7145,7 +7248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35bf7821-e46e-4d9a-9f1f-2b37b00b0590")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR085"
 			(at 208.28 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7205,7 +7308,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR081")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -7699,7 +7802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4db79207-516e-4538-bcf5-1a32d7c97dd7")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR080"
 			(at 172.72 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7760,7 +7863,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR077")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -7777,7 +7880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e90449e-febe-47d3-b9d6-d9667f787422")
-		(property "Reference" "C35"
+		(property "Reference" "C37"
 			(at 37.846 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7863,7 +7966,84 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C35")
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:GND")
+		(at 176.53 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "52cae4e7-965e-49b5-89f6-74c6c2f52c9c")
+		(property "Reference" "#PWR081"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 119.634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14a9cac8-3e59-4c04-ba55-28111a7a4503")
+		)
+		(instances
+			(project "frank_next"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -7881,7 +8061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6630e033-8e68-4321-8415-c9e200fb5452")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR073"
 			(at 134.62 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7942,7 +8122,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR070")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -7959,7 +8139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67b78328-ed1a-4992-8cbc-ef72f8524312")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR095"
 			(at 266.7 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8020,7 +8200,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR091")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -8037,7 +8217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69f42c8b-d8cd-4a5e-b1c4-5261ee90ce87")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR097"
 			(at 266.7 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8097,7 +8277,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR093")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -8114,7 +8294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "728382b8-2b72-4682-922c-4f5118c4a72a")
-		(property "Reference" "C43"
+		(property "Reference" "C46"
 			(at 182.626 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8124,7 +8304,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "100nF"
 			(at 188.214 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8208,7 +8388,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C43")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -8426,7 +8606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a19c14d-392b-4a79-bd5b-b5d1a6f1622c")
-		(property "Reference" "C39"
+		(property "Reference" "C41"
 			(at 64.516 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8512,7 +8692,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C39")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -8529,7 +8709,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7befc64e-1327-4219-83e3-5d4d6154d865")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR078"
 			(at 151.13 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8589,7 +8769,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR075")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -8606,7 +8786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c72287d-2325-40c8-aada-f26559e293db")
-		(property "Reference" "C45"
+		(property "Reference" "C48"
 			(at 219.456 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8700,7 +8880,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C45")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -8717,7 +8897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80cbd189-ef08-4964-9ca1-ba8f32ee386a")
-		(property "Reference" "C48"
+		(property "Reference" "C51"
 			(at 241.554 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8803,7 +8983,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C48")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -8820,7 +9000,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8218ab57-7c82-4328-8e84-8b7853f9ae2a")
-		(property "Reference" "C42"
+		(property "Reference" "C44"
 			(at 77.216 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8906,7 +9086,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C42")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -9007,106 +9187,6 @@
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:R")
-		(at 161.29 41.91 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8ae88085-e463-457b-b19b-6c9c19fef204")
-		(property "Reference" "R17"
-			(at 159.258 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "499R"
-			(at 163.576 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
-			(at 163.068 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 161.29 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 161.29 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 161.29 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2edb43d4-7409-4495-a5ae-f2221812fcf7")
-		)
-		(pin "2"
-			(uuid "04fd6944-2592-4432-9fe5-afb62680ffdc")
-		)
-		(instances
-			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9438,7 +9518,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93707aa8-3fc8-4653-b84b-87ea96530b40")
-		(property "Reference" "C36"
+		(property "Reference" "C38"
 			(at 46.736 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9524,7 +9604,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C36")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -9541,7 +9621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94606305-dce1-4ee4-9efd-2cea15911a92")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR069"
 			(at 40.64 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9601,7 +9681,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR066")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9718,7 +9798,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "986cd63c-6121-4f8b-92b7-b4e19e726eec")
-		(property "Reference" "C49"
+		(property "Reference" "C52"
 			(at 259.1816 72.009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9804,7 +9884,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C49")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -9821,7 +9901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d2b59cf-6859-47ed-8e42-c40bb40fe43f")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR068"
 			(at 40.64 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9881,7 +9961,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR065")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -10069,7 +10149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9df47fd-de83-4da9-be14-fbcfdaec967c")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR075"
 			(at 132.08 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -10130,7 +10210,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR072")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -10247,7 +10327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4e004a6-35c3-4e23-a668-f599d01283d0")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR071"
 			(at 41.91 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10307,7 +10387,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR068")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -10324,7 +10404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b773b0db-9c65-497c-a2e5-2da79d77178c")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR077"
 			(at 148.59 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10384,7 +10464,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR074")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -10492,7 +10572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9fb0dc0-4c05-4e41-83e6-3ce69762cede")
-		(property "Reference" "C41"
+		(property "Reference" "C43"
 			(at 73.406 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10578,7 +10658,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C41")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -10595,7 +10675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbb7098d-5735-423f-871b-76f89e998082")
-		(property "Reference" "C34"
+		(property "Reference" "C36"
 			(at 36.068 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10681,7 +10761,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C34")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -10698,7 +10778,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf0df702-a8c1-40bb-b910-41cd9458f1e1")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR091"
 			(at 234.95 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10759,7 +10839,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR087")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -10776,7 +10856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c09b038a-72ed-4b91-8670-3fcc264eb5ee")
-		(property "Reference" "C47"
+		(property "Reference" "C50"
 			(at 232.156 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10870,7 +10950,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C47")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -10887,7 +10967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5853b73-9463-483a-810d-159181ba2e10")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR070"
 			(at 45.72 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10947,7 +11027,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR067")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -10964,7 +11044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdad4a8a-386b-4a77-bce9-0f13696a07e4")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR096"
 			(at 266.7 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11025,7 +11105,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR092")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -11142,7 +11222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e236bcf5-1477-44ad-9fb7-2460e1c18cea")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR089"
 			(at 233.68 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11202,7 +11282,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR085")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -11468,8 +11548,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eabb9232-2d7a-4676-831e-c229a7efd768")
-		(property "Reference" "C50"
-			(at 259.334 96.52 0)
+		(property "Reference" "C53"
+			(at 259.08 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11480,7 +11560,7 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 261.6454 96.52 0)
+			(at 261.3914 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11554,7 +11634,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "C50")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -11572,7 +11652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f08c8ca7-88e4-4349-8148-3ba339b855b0")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR090"
 			(at 232.41 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11632,7 +11712,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR086")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -11649,7 +11729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2f1cb01-7201-411e-8dd8-2472689960ff")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR072"
 			(at 68.58 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11709,7 +11789,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR069")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -11727,7 +11807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7a137ad-86d4-4c96-811f-a00e4f2977aa")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR074"
 			(at 132.08 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -11788,7 +11868,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/35eeb9a2-3167-4e32-a714-d51b0f604d86"
-					(reference "#PWR071")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
