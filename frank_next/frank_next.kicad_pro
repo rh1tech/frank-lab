@@ -65,20 +65,7 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [
-        [
-          "annular_width|134525000|102850000|6622a247-e9d2-48c9-b8bd-c6fc62eacad4|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|131900000|96000000|c56aa12d-1891-4653-9b92-2812302cc003|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "solder_mask_bridge|134327494|102400000|805b5414-a7ce-44f7-8714-5392133bde40|a7e50ec7-8a82-43ef-9bbb-c20430abfde2",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -295,6 +282,10 @@
       ],
       [
         "lib_symbol_mismatch|889000|1625600|17da76f9-1522-448c-8923-dcdc798bec52|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "pin_not_driven|2247900|1003300|995b314f-732e-4524-8390-4573ace5f651|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8add5a37-def3-463f-a5fe-02872c49aeb0|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8add5a37-def3-463f-a5fe-02872c49aeb0|",
         ""
       ],
       [
@@ -1116,7 +1107,7 @@
         "uuid": "8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
       }
     ],
-    "used_designators": "#PWR199",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -1147,10 +1138,6 @@
     [
       "3907d691-16c9-46b9-8e1c-0399c2dec8f4",
       "ESP32-FLASH"
-    ],
-    [
-      "40a93926-f68e-4b17-bd29-d89ea6b5eee8",
-      "ESP32-PSRAM"
     ],
     [
       "0aecf4d9-d6ed-4626-8fb7-7f8f2ec3e04f",

@@ -12,6 +12,189 @@
 		(comment 1 "https://github.com/rh1tech/frank")
 	)
 	(lib_symbols
+		(symbol "CH217K_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U13"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CH217K"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at -6.35 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -6.35 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CH217K_1_0_1"
+				(rectangle
+					(start -6.35 5.08)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CH217K_1_1_1"
+				(pin power_out line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "FLAG#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "EN#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "ISET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FRANK:+3V3"
 			(power global)
 			(pin_numbers
@@ -534,7 +717,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FRANK:SOT-23-6"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 				(at -6.35 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -616,7 +799,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin open_collector line
 					(at -8.89 -2.54 0)
 					(length 2.54)
 					(name "FLAG#"
@@ -5634,12 +5817,6 @@
 		(uuid "0e8169fb-48fd-4dbd-a073-c8861dacce29")
 	)
 	(junction
-		(at 242.57 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11fc2186-fd6c-4aa1-928f-a8630f388845")
-	)
-	(junction
 		(at 220.98 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5778,6 +5955,12 @@
 		(uuid "7074712a-304f-4dc5-8abd-f0498c179d78")
 	)
 	(junction
+		(at 243.84 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79dff096-18e3-4a56-b700-006bef098fb8")
+	)
+	(junction
 		(at 63.5 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5794,6 +5977,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96331626-659b-4092-9f0e-6a083b499324")
+	)
+	(junction
+		(at 238.76 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96828dd8-418c-41a9-bf28-0dfd40bf118b")
 	)
 	(junction
 		(at 105.41 100.33)
@@ -6095,6 +6284,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 22.86) (xy 243.84 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3f9d01-dd38-4c42-ab2d-31090679c6c3")
+	)
+	(wire
+		(pts
 			(xy 67.31 82.55) (xy 77.47 82.55)
 		)
 		(stroke
@@ -6365,7 +6564,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 22.86) (xy 242.57 22.86)
+			(xy 236.22 22.86) (xy 238.76 22.86)
 		)
 		(stroke
 			(width 0)
@@ -7105,6 +7304,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 22.86) (xy 264.16 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85e6b68-d170-4758-b0da-378f1e330ca7")
+	)
+	(wire
+		(pts
 			(xy 148.59 153.67) (xy 160.02 153.67)
 		)
 		(stroke
@@ -7592,16 +7801,6 @@
 			(type default)
 		)
 		(uuid "ecd8cdeb-c16b-4c47-852b-83b683ca1162")
-	)
-	(wire
-		(pts
-			(xy 242.57 22.86) (xy 264.16 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed208dca-e77d-47d2-b51d-499a6bfddd9b")
 	)
 	(wire
 		(pts
@@ -8198,7 +8397,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 93.98 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -8336,7 +8535,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_4")
 		(lib_id "FRANK:R_Small")
 		(at 121.92 172.72 270)
 		(mirror x)
@@ -11352,7 +11550,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:C")
-		(at 242.57 26.67 0)
+		(at 238.76 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11362,7 +11560,7 @@
 		(dnp no)
 		(uuid "31eba4e3-4bd7-4182-a8a8-1abe773cb017")
 		(property "Reference" "C73"
-			(at 245.11 25.4 0)
+			(at 232.41 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11373,7 +11571,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 245.11 27.94 0)
+			(at 231.14 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11384,7 +11582,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric"
-			(at 242.57 26.67 0)
+			(at 238.76 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11395,7 +11593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 26.67 0)
+			(at 238.76 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11405,7 +11603,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 26.67 0)
+			(at 238.76 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11415,7 +11613,7 @@
 			)
 		)
 		(property "LCSC" "C96446"
-			(at 242.57 26.67 0)
+			(at 238.76 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13298,7 +13496,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_1")
 		(lib_id "FRANK:R_Small")
 		(at 121.92 156.21 270)
 		(mirror x)
@@ -13534,7 +13731,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_3")
 		(lib_id "FRANK:R_Small")
 		(at 55.88 26.67 270)
 		(unit 1)
@@ -16407,6 +16603,173 @@
 		)
 	)
 	(symbol
+		(lib_id "FRANK:C")
+		(at 243.84 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1b2c3d4-0000-4000-8000-000000000001")
+		(property "Reference" "C85"
+			(at 246.38 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 246.38 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FRANK:C_0603_1608Metric"
+			(at 243.84 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 243.84 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1b2c3d4-0000-4000-8000-000000000002")
+		)
+		(pin "2"
+			(uuid "a1b2c3d4-0000-4000-8000-000000000003")
+		)
+		(instances
+			(project "frank_next"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8add5a37-def3-463f-a5fe-02872c49aeb0"
+					(reference "C85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:GND")
+		(at 243.84 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1b2c3d4-0000-4000-8000-000000000005")
+		(property "Reference" "#PWR0200"
+			(at 243.84 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1b2c3d4-0000-4000-8000-000000000006")
+		)
+		(instances
+			(project "frank_next"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8add5a37-def3-463f-a5fe-02872c49aeb0"
+					(reference "#PWR0200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:GND")
 		(at 175.26 30.48 0)
 		(unit 1)
@@ -16670,7 +17033,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "100uF"
 			(at 49.149 163.957 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16681,7 +17044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "FRANK:C_1206_3216Metric"
 			(at 51.1048 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18117,6 +18480,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CH217K_1")
 		(lib_id "FRANK:CH217K")
 		(at 100.33 156.21 0)
 		(unit 1)
@@ -18147,7 +18511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 93.98 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18442,7 +18806,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_2")
 		(lib_id "FRANK:R_Small")
 		(at 36.83 88.9 270)
 		(unit 1)
@@ -18665,7 +19028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "100uF"
 			(at 49.149 122.047 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18676,7 +19039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
+		(property "Footprint" "FRANK:C_1206_3216Metric"
 			(at 51.1048 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -19163,7 +19526,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:GND")
-		(at 242.57 30.48 0)
+		(at 238.76 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19173,7 +19536,7 @@
 		(dnp no)
 		(uuid "daff7d3b-ea07-4153-b73a-360e077f36a2")
 		(property "Reference" "#PWR0159"
-			(at 242.57 30.48 0)
+			(at 238.76 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19184,7 +19547,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 34.29 0)
+			(at 238.76 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19194,7 +19557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 30.48 0)
+			(at 238.76 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19204,7 +19567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 30.48 0)
+			(at 238.76 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19214,7 +19577,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 30.48 0)
+			(at 238.76 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19472,7 +19835,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_2")
 		(lib_id "FRANK:R_Small")
 		(at 55.88 41.91 270)
 		(unit 1)
@@ -20628,7 +20990,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_3")
 		(lib_id "FRANK:R_Small")
 		(at 36.83 73.66 270)
 		(unit 1)
