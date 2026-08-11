@@ -479,7 +479,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 1.27 -11.43 90)
 					(length 7.62)
 					(name "G"
@@ -497,7 +497,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -10.16 1.27 0)
 					(length 7.62)
 					(name "S"
@@ -515,7 +515,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 1.27 180)
 					(length 7.62)
 					(name "D"
@@ -5877,6 +5877,12 @@
 		(uuid "291d818e-2db8-4cef-9f8f-37abb7941300")
 	)
 	(junction
+		(at 132.08 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3679ce94-508e-4d91-8f93-2e5aa3c2ee18")
+	)
+	(junction
 		(at 46.99 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6354,6 +6360,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 45.72) (xy 132.08 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263cd03b-57e6-46e0-8da2-36e10110beed")
+	)
+	(wire
+		(pts
 			(xy 149.86 69.85) (xy 158.75 69.85)
 		)
 		(stroke
@@ -6414,7 +6430,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 22.86) (xy 196.85 22.86)
+			(xy 158.75 22.86) (xy 196.85 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6504,7 +6520,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 48.26) (xy 151.13 48.26)
+			(xy 151.13 48.26) (xy 158.75 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6631,6 +6647,16 @@
 			(type default)
 		)
 		(uuid "5dcc630d-269b-44fd-a90e-0784cf7d3f47")
+	)
+	(wire
+		(pts
+			(xy 158.75 48.26) (xy 158.75 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f533dbf-1367-4860-8991-2379c07dfe49")
 	)
 	(wire
 		(pts
@@ -6974,6 +7000,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 48.26) (xy 143.51 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e9c9ad-6940-4af4-9cb9-e3c61bcf3349")
+	)
+	(wire
+		(pts
 			(xy 33.02 184.15) (xy 33.02 177.8)
 		)
 		(stroke
@@ -7271,16 +7307,6 @@
 			(type default)
 		)
 		(uuid "a6e64b28-dfd8-4cbc-a040-097c680a34c0")
-	)
-	(wire
-		(pts
-			(xy 143.51 48.26) (xy 132.08 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a73acc3a-469e-483c-8c83-d96879588f5e")
 	)
 	(wire
 		(pts
@@ -8281,6 +8307,16 @@
 			(justify right bottom)
 		)
 		(uuid "ceaf90f9-cfd9-4f7c-9d1d-210ba940d752")
+	)
+	(label "+5V_BUCK"
+		(at 158.75 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2122cc2-08d7-4ab8-8a7e-df7ce320d43e")
 	)
 	(label "DH-"
 		(at 180.34 153.67 0)
@@ -10165,81 +10201,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:VBUS")
-		(at 171.45 22.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20ba36cb-d9fd-490b-b59e-5caf65233250")
-		(property "Reference" "#PWR0150"
-			(at 171.45 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 167.64 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e57cc715-8a2c-4616-b3a9-eb90d648635c")
-		)
-		(instances
-			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8add5a37-def3-463f-a5fe-02872c49aeb0"
-					(reference "#PWR0150")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FRANK:GND")
 		(at 40.64 161.29 180)
 		(unit 1)
@@ -10891,85 +10852,6 @@
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8add5a37-def3-463f-a5fe-02872c49aeb0"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:VBUS")
-		(at 157.48 48.26 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2a8ba598-68c7-4fd2-9769-574eb1975618")
-		(property "Reference" "#PWR0145"
-			(at 153.67 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 160.5641 48.2591 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 157.48 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1d046c4-8026-4a24-835f-7c82380a2b2a")
-		)
-		(instances
-			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8add5a37-def3-463f-a5fe-02872c49aeb0"
-					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -16687,6 +16569,85 @@
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8add5a37-def3-463f-a5fe-02872c49aeb0"
 					(reference "C85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:VBUS")
+		(at 132.08 45.72 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1b2c3d4-0000-4000-8000-000000000004")
+		(property "Reference" "#PWR0201"
+			(at 132.08 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 132.0791 42.6359 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 132.08 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1b2c3d4-0000-4000-8000-000000000007")
+		)
+		(instances
+			(project "frank_next"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8add5a37-def3-463f-a5fe-02872c49aeb0"
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
