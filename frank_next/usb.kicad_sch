@@ -38,7 +38,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "FRANK:SOT-23-6"
 				(at -6.35 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -363,7 +363,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SOT-23-3L_AOS"
+			(property "Footprint" "FRANK:SOT-23-3L_AOS"
 				(at 1.016 -5.842 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -717,7 +717,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "FRANK:SOT-23-6"
 				(at -6.35 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3055,7 +3055,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(property "Footprint" "FRANK:SOT-23-5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5943,12 +5943,6 @@
 		(uuid "51b8ac00-520b-4515-9b3b-0f1a64cf0b35")
 	)
 	(junction
-		(at 185.42 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52c7dd0e-09c9-4b8d-9482-292cb5f55ae5")
-	)
-	(junction
 		(at 72.39 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5997,6 +5991,12 @@
 		(uuid "9a9ea6ad-cceb-430b-b8cd-30b79f8f08c1")
 	)
 	(junction
+		(at 172.72 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f7eb270-a1ff-475e-a8e5-0d0160a3895d")
+	)
+	(junction
 		(at 105.41 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6009,16 +6009,16 @@
 		(uuid "aa1d4dab-8f0e-4931-8979-5640b5a93400")
 	)
 	(junction
-		(at 175.26 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b10f769e-c0e8-4a88-b9d6-7e004f74e405")
-	)
-	(junction
 		(at 252.73 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b521ef55-06e7-4508-b92f-ce0d59fa436d")
+	)
+	(junction
+		(at 162.56 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5cdaf3d-333f-4a3a-9b7e-620d4fc19733")
 	)
 	(junction
 		(at 105.41 90.17)
@@ -6037,6 +6037,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "beff8ea1-b2cb-46e4-b5a2-07df5dd56828")
+	)
+	(junction
+		(at 184.15 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3945000-e651-4597-80f2-17de2d6126ef")
 	)
 	(junction
 		(at 148.59 153.67)
@@ -6427,16 +6433,6 @@
 			(type default)
 		)
 		(uuid "2af5a1f5-62bd-48e2-9a95-acac03100eb4")
-	)
-	(wire
-		(pts
-			(xy 158.75 22.86) (xy 196.85 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cda1830-f972-4deb-8035-fbc7f9d49b46")
 	)
 	(wire
 		(pts
@@ -6840,6 +6836,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 22.86) (xy 162.56 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fc004f-8281-40eb-ab57-71eee21cb649")
+	)
+	(wire
+		(pts
 			(xy 44.45 78.74) (xy 44.45 82.55)
 		)
 		(stroke
@@ -7037,6 +7043,16 @@
 			(type default)
 		)
 		(uuid "8cc100b5-7c75-4f68-b573-71aa905b4216")
+	)
+	(wire
+		(pts
+			(xy 184.15 22.86) (xy 196.85 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d76493e-1d43-4b2e-bb0c-ce595879393b")
 	)
 	(wire
 		(pts
@@ -7317,6 +7333,16 @@
 			(type default)
 		)
 		(uuid "a74321fd-f859-424a-a22e-5f508fdd1fc0")
+	)
+	(wire
+		(pts
+			(xy 162.56 22.86) (xy 172.72 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a783f834-d4a9-4b0a-9e01-2a5c49f1c21d")
 	)
 	(wire
 		(pts
@@ -7747,6 +7773,16 @@
 			(type default)
 		)
 		(uuid "e123c719-dc84-4325-91f4-66a015b78c11")
+	)
+	(wire
+		(pts
+			(xy 172.72 22.86) (xy 184.15 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3edde42-3963-4d05-b82b-d2781e181d5d")
 	)
 	(wire
 		(pts
@@ -8309,12 +8345,12 @@
 		(uuid "ceaf90f9-cfd9-4f7c-9d1d-210ba940d752")
 	)
 	(label "+5V_BUCK"
-		(at 158.75 22.86 0)
+		(at 158.75 22.86 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d2122cc2-08d7-4ab8-8a7e-df7ce320d43e")
 	)
@@ -8433,7 +8469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "FRANK:SOT-23-6"
 			(at 93.98 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -9788,7 +9824,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 37.719 122.047 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10930,6 +10966,96 @@
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8add5a37-def3-463f-a5fe-02872c49aeb0"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:C")
+		(at 184.15 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2bbc9848-24b0-4272-b193-88c5d5325d97")
+		(property "Reference" "C86"
+			(at 186.69 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 186.69 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FRANK:C_0603_1608Metric"
+			(at 184.15 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 184.15 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b183cd4b-6591-475e-bf73-22269d11e299")
+		)
+		(pin "2"
+			(uuid "178758a0-1bfc-434b-a793-16c317c29a4b")
+		)
+		(instances
+			(project "frank_next"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8add5a37-def3-463f-a5fe-02872c49aeb0"
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -14648,7 +14774,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:C")
-		(at 185.42 26.67 0)
+		(at 172.72 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14658,7 +14784,7 @@
 		(dnp no)
 		(uuid "85f05989-4668-4823-8ebc-9c33dbba9c50")
 		(property "Reference" "C70"
-			(at 187.96 25.4 0)
+			(at 175.26 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14669,7 +14795,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 187.96 27.94 0)
+			(at 175.26 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14680,7 +14806,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric"
-			(at 185.42 26.67 0)
+			(at 172.72 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14691,7 +14817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 26.67 0)
+			(at 172.72 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14701,7 +14827,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 26.67 0)
+			(at 172.72 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14711,7 +14837,7 @@
 			)
 		)
 		(property "LCSC" "C96446"
-			(at 185.42 26.67 0)
+			(at 172.72 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14815,7 +14941,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:C")
-		(at 175.26 26.67 0)
+		(at 162.56 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14825,7 +14951,7 @@
 		(dnp no)
 		(uuid "86493589-5654-4055-9851-5d69531db337")
 		(property "Reference" "C69"
-			(at 177.8 25.4 0)
+			(at 165.1 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14836,7 +14962,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 177.8 27.94 0)
+			(at 165.1 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14847,7 +14973,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric"
-			(at 175.26 26.67 0)
+			(at 162.56 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14858,7 +14984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 26.67 0)
+			(at 162.56 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14868,7 +14994,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 26.67 0)
+			(at 162.56 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14878,7 +15004,7 @@
 			)
 		)
 		(property "LCSC" "C96446"
-			(at 175.26 26.67 0)
+			(at 162.56 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16121,6 +16247,80 @@
 		)
 	)
 	(symbol
+		(lib_id "FRANK:GND")
+		(at 184.15 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9bf875da-563d-4ab2-8519-1de9846506f6")
+		(property "Reference" "#PWR0153"
+			(at 184.15 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e140f99-25bf-4ca0-a3d8-ecca7a7a1b89")
+		)
+		(instances
+			(project "frank_next"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8add5a37-def3-463f-a5fe-02872c49aeb0"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:C")
 		(at 40.64 165.1 180)
 		(unit 1)
@@ -16142,7 +16342,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 37.719 163.957 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16732,7 +16932,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:GND")
-		(at 175.26 30.48 0)
+		(at 162.56 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16742,7 +16942,7 @@
 		(dnp no)
 		(uuid "a38ed28d-c58f-4741-8435-432375392a0f")
 		(property "Reference" "#PWR0151"
-			(at 175.26 30.48 0)
+			(at 162.56 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16753,7 +16953,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 34.29 0)
+			(at 162.56 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16763,7 +16963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 30.48 0)
+			(at 162.56 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16773,7 +16973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 30.48 0)
+			(at 162.56 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16783,7 +16983,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 30.48 0)
+			(at 162.56 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17443,7 +17643,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 123.444 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18290,7 +18490,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:GND")
-		(at 185.42 30.48 0)
+		(at 172.72 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18300,7 +18500,7 @@
 		(dnp no)
 		(uuid "ba568479-6edb-4875-be9f-5623d57461ba")
 		(property "Reference" "#PWR0152"
-			(at 185.42 30.48 0)
+			(at 172.72 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18311,7 +18511,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 34.29 0)
+			(at 172.72 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18321,7 +18521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 30.48 0)
+			(at 172.72 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18331,7 +18531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 30.48 0)
+			(at 172.72 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18341,7 +18541,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 30.48 0)
+			(at 172.72 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18441,7 +18641,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CH217K_1")
 		(lib_id "FRANK:CH217K")
 		(at 100.33 156.21 0)
 		(unit 1)
@@ -18472,7 +18671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "FRANK:SOT-23-6"
 			(at 93.98 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -20506,7 +20705,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12MHz"
+		(property "Value" "12 MHz"
 			(at 237.49 157.226 90)
 			(show_name no)
 			(do_not_autoplace no)
