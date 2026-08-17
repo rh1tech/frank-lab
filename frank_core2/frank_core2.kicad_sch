@@ -625,16 +625,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 171.45) (xy 41.91 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1314f3b7-5ad1-4a04-b142-df0ab4ce268d")
-	)
-	(wire
-		(pts
 			(xy 81.28 82.55) (xy 110.49 82.55)
 		)
 		(stroke
@@ -795,16 +785,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 168.91) (xy 41.91 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73829977-16d7-40a0-831a-bd8216d2bf97")
-	)
-	(wire
-		(pts
 			(xy 81.28 147.32) (xy 110.49 147.32)
 		)
 		(stroke
@@ -935,7 +915,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 168.91) (xy 81.28 168.91)
+			(xy 54.61 168.91) (xy 81.28 168.91)
 		)
 		(stroke
 			(width 0)
@@ -995,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 171.45) (xy 81.28 171.45)
+			(xy 54.61 171.45) (xy 81.28 171.45)
 		)
 		(stroke
 			(width 0)
@@ -1373,16 +1353,6 @@
 		)
 		(uuid "7085975e-62ff-4c7a-a822-ac51146864f3")
 	)
-	(label "GPIO28{slash}SDA"
-		(at 43.18 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "77070aa0-7bd5-4309-925a-6cc03c6a14d4")
-	)
 	(label "GPIO14{slash}D0N"
 		(at 97.79 54.61 180)
 		(effects
@@ -1472,16 +1442,6 @@
 			(justify left bottom)
 		)
 		(uuid "b126562a-ebe4-4786-a4f5-36283b436c44")
-	)
-	(label "GPIO29{slash}SCL"
-		(at 43.18 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba6b446e-f0f3-4621-9fec-19771ead369d")
 	)
 	(label "RP2350{slash}38B{slash}19A{slash}CLK"
 		(at 82.55 123.19 0)
@@ -3602,7 +3562,7 @@
 		)
 	)
 	(sheet
-		(at 29.21 166.37)
+		(at 41.91 166.37)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3618,7 +3578,7 @@
 		)
 		(uuid "8250c2aa-47db-4ab1-9875-cac59d36fec7")
 		(property "Sheetname" "RTC"
-			(at 29.21 165.6584 0)
+			(at 41.91 165.6584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3629,7 +3589,7 @@
 			)
 		)
 		(property "Sheetfile" "rtc.kicad_sch"
-			(at 29.21 174.5746 0)
+			(at 41.91 174.5746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3641,7 +3601,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 41.91 168.91 0)
+			(at 54.61 168.91 0)
 			(uuid "482a9fd6-51ef-423d-bdf9-6f2aecfb4ead")
 			(effects
 				(font
@@ -3651,7 +3611,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 41.91 171.45 0)
+			(at 54.61 171.45 0)
 			(uuid "12254343-0ee2-4456-941f-c24eb8de088d")
 			(effects
 				(font
