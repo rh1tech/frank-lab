@@ -154,17 +154,6 @@
 		(layer "Dwgs.User")
 		(uuid "9afec0e1-b860-4839-9e39-470dc85cf707")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0.2 -4.35 180)
-		(layer "F.Fab")
-		(uuid "4f25e008-ed3f-4170-bb5e-1686eb55c150")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_rect
 		(start -5.07 -8.67)
 		(end 5.07 -1.55)
@@ -175,6 +164,17 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7c0a44e1-9b3f-4d2e-8a10-000000000006")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 -4.35 180)
+		(layer "F.Fab")
+		(uuid "4f25e008-ed3f-4170-bb5e-1686eb55c150")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "" np_thru_hole circle
 		(at -2.89 -6.25)
