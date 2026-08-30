@@ -17068,7 +17068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "220uF"
 			(at 71.12 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17079,7 +17079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:CP_Elec_6.3x6.0"
+		(property "Footprint" "FRANK:C_Radial_D6.3mm_P2.50mm"
 			(at 68.58 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -17101,7 +17101,7 @@
 				)
 			)
 		)
-		(property "Description" "Shared USB-A VBUS bulk - Kyocera AVX APZ0606101M016R, 100uF 16V aluminium polymer"
+		(property "Description" "Shared USB-A VBUS bulk - 220uF radial electrolytic, D6.3mm 2.5mm pitch"
 			(at 68.58 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -17203,7 +17203,7 @@
 			)
 		)
 	)
-	(text "USB-A shared VBUS bulk: C102 + C103 = 200 uF\nUSB 2.0 7.2.4.1: >= 120 uF per hub, may be shared\nKyocera AVX APZ0606101M016R\n100 uF 16 V aluminium polymer, ESR 30 mOhm"
+	(text "USB-A shared VBUS bulk: C102 = 220 uF\nUSB 2.0 7.2.4.1: >= 120 uF per hub, may be shared across ports\nRadial electrolytic D6.3 mm, 2.5 mm pitch, 7 mm tall\nUse 16 V 105 C. Through-hole: pin 1 lands on the In2 VBUS zone,\npin 2 on the In1 GND plane - no drop vias needed."
 		(exclude_from_sim no)
 		(at 71.12 158.75 0)
 		(effects
@@ -17213,238 +17213,5 @@
 			(justify left)
 		)
 		(uuid "bb1c0102-0001-4c02-9a10-0000usbbulkN")
-	)
-	(symbol
-		(lib_id "FRANK:VBUS")
-		(at 81.28 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc2d0103-0001-4c02-9a10-0000usbbulkV")
-		(property "Reference" "#PWR0704"
-			(at 81.28 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 81.28 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc2d0103-0001-4c02-9a10-0000usbbulkP")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b"
-					(reference "#PWR0704")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:C_Polarized")
-		(at 81.28 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc2d0103-0001-4c02-9a10-0000usbbulk1")
-		(property "Reference" "C103"
-			(at 83.82 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 83.82 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FRANK:CP_Elec_6.3x6.0"
-			(at 81.28 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Shared USB-A VBUS bulk - Kyocera AVX APZ0606101M016R, 100uF 16V aluminium polymer"
-			(at 81.28 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc2d0103-0001-4c02-9a10-0000usbbulkA")
-		)
-		(pin "2"
-			(uuid "cc2d0103-0001-4c02-9a10-0000usbbulkB")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b"
-					(reference "C103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:GND")
-		(at 81.28 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc2d0103-0001-4c02-9a10-0000usbbulkG")
-		(property "Reference" "#PWR0705"
-			(at 81.28 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc2d0103-0001-4c02-9a10-0000usbbulkQ")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b"
-					(reference "#PWR0705")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 81.28 130.81) (xy 81.28 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc2d0103-0001-4c02-9a10-0000usbbulkW1")
-	)
-	(wire
-		(pts
-			(xy 81.28 142.24) (xy 81.28 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc2d0103-0001-4c02-9a10-0000usbbulkW2")
 	)
 )
