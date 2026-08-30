@@ -846,6 +846,12 @@
 		(color 0 0 0 0)
 		(uuid "e5119768-6b1c-4619-8263-ec593f348398")
 	)
+	(junction
+		(at 162.56 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8777a4a-6f5a-4ab0-8833-d8f559dd8919")
+	)
 	(no_connect
 		(at 152.4 121.92)
 		(uuid "2f8ab5d9-003b-40b0-8f8a-768dd6feea83")
@@ -877,6 +883,16 @@
 			(type default)
 		)
 		(uuid "3a9a085b-9006-457a-a6db-e32acd8584fa")
+	)
+	(wire
+		(pts
+			(xy 152.4 96.52) (xy 151.13 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5526f785-adc5-499e-9a0e-ac883cab3ca7")
 	)
 	(wire
 		(pts
@@ -917,6 +933,16 @@
 			(type default)
 		)
 		(uuid "d9204fd4-0b49-4897-aea9-0ab0d5013ed4")
+	)
+	(wire
+		(pts
+			(xy 160.02 96.52) (xy 162.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa40f596-593c-445d-921b-e05bac8278c0")
 	)
 	(hierarchical_label "SDA"
 		(shape input)
@@ -1013,6 +1039,82 @@
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8250c2aa-47db-4ab1-9875-cac59d36fec7"
 					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:GND")
+		(at 151.13 96.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14689909-c79a-48b1-baf3-5fc970b41c28")
+		(property "Reference" "#PWR0238"
+			(at 144.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.7358 96.393 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3783cb51-6546-438b-93c6-3ab04ba2cdba")
+		)
+		(instances
+			(project "frank_core2w"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8250c2aa-47db-4ab1-9875-cac59d36fec7"
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -1201,6 +1303,98 @@
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8250c2aa-47db-4ab1-9875-cac59d36fec7"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:C")
+		(at 156.21 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78af14d2-ed2c-40c4-b4f2-fd55739ca99c")
+		(property "Reference" "C101"
+			(at 157.734 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 158.242 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FRANK:C_0603_1608Metric"
+			(at 160.02 95.5548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
+			(at 156.21 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af97aeb0-5f60-4c3d-9056-8174a58ea19b")
+		)
+		(pin "2"
+			(uuid "7fb78e05-bde7-451c-aac6-acfdc7566f10")
+		)
+		(instances
+			(project "frank_core2w"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8250c2aa-47db-4ab1-9875-cac59d36fec7"
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -1594,189 +1788,5 @@
 				)
 			)
 		)
-	)
-	(symbol
-		(lib_id "FRANK:C")
-		(at 156.21 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c101vbat-0001-4c02-9a10-000000000101")
-		(property "Reference" "C101"
-			(at 157.734 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 158.24200000000002 92.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
-			(at 160.02 95.5548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
-			(at 156.21 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 156.21 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c101vbat-0001-4c02-9a10-00000000pin1")
-		)
-		(pin "2"
-			(uuid "c101vbat-0001-4c02-9a10-00000000pin2")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8250c2aa-47db-4ab1-9875-cac59d36fec7"
-					(reference "C101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:GND")
-		(at 151.13 96.52 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c101vbat-0002-4c02-9a10-000000000238")
-		(property "Reference" "#PWR0238"
-			(at 144.78 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.7358 96.393 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c101vbat-0002-4c02-9a10-00000000pin1")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8250c2aa-47db-4ab1-9875-cac59d36fec7"
-					(reference "#PWR0238")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 160.02 96.52) (xy 162.56 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c101vbat-0004-4c02-9a10-000000000001")
-	)
-	(wire
-		(pts
-			(xy 152.4 96.52) (xy 151.13 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c101vbat-0005-4c02-9a10-000000000002")
-	)
-	(junction
-		(at 162.56 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c101vbat-0003-4c02-9a10-000000000001")
 	)
 )
