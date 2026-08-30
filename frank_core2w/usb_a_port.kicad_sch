@@ -1354,12 +1354,6 @@
 		(uuid "10e1d8d0-9828-42eb-a0de-3641a9a446f0")
 	)
 	(junction
-		(at 129.54 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "191e5c24-044f-4db8-b860-455686c158df")
-	)
-	(junction
 		(at 118.11 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1449,7 +1443,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 87.63) (xy 129.54 87.63)
+			(xy 118.11 87.63) (xy 149.86 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1489,16 +1483,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 86.36) (xy 129.54 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6947fba0-e65c-4bdb-90a5-21a523b2c56c")
-	)
-	(wire
-		(pts
 			(xy 149.86 87.63) (xy 149.86 99.06)
 		)
 		(stroke
@@ -1516,16 +1500,6 @@
 			(type default)
 		)
 		(uuid "8f4f29da-3d29-4acf-af53-bc7bf4429220")
-	)
-	(wire
-		(pts
-			(xy 129.54 87.63) (xy 149.86 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92f63d8d-823c-40ba-b6d2-755eb19cc7f1")
 	)
 	(wire
 		(pts
@@ -1660,91 +1634,6 @@
 			(justify left bottom)
 		)
 		(uuid "ffdbbdcb-f81f-4bfd-b2b3-cc77d7b4032e")
-	)
-	(symbol
-		(lib_id "FRANK:GND")
-		(at 129.54 78.74 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0b1b1d86-dd57-4e70-a4e8-ee1857adb45a")
-		(property "Reference" "#PWR0192"
-			(at 129.54 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc09300c-82d3-4a16-a9a3-e715d602ece9")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/59117b12-5b6b-44b2-a156-736b6d28e254"
-					(reference "#PWR0208")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/d4a81e63-9f27-4c05-b8ea-3f61c07d2a95"
-					(reference "#PWR0192")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/e58c2f74-a038-4d16-c9fb-4a72d18e3b06"
-					(reference "#PWR0200")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "FRANK:GND")
@@ -2407,117 +2296,6 @@
 				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/e58c2f74-a038-4d16-c9fb-4a72d18e3b06"
 					(reference "U24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:C")
-		(at 129.54 82.55 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a9f2d6e2-8970-4460-ae35-4457082254bf")
-		(property "Reference" "C86"
-			(at 126.619 83.7184 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150uF"
-			(at 126.619 81.407 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FRANK:C_1206_3216Metric"
-			(at 128.5748 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590905828243423232"
-			(at 129.54 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 129.54 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 129.54 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C7432784"
-			(at 129.54 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f97177d-c43e-4aa1-9bcc-de199ff7dbdd")
-		)
-		(pin "2"
-			(uuid "2150f907-faf9-4842-984f-43f6f62813f2")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/59117b12-5b6b-44b2-a156-736b6d28e254"
-					(reference "C92")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/d4a81e63-9f27-4c05-b8ea-3f61c07d2a95"
-					(reference "C86")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/e58c2f74-a038-4d16-c9fb-4a72d18e3b06"
-					(reference "C89")
 					(unit 1)
 				)
 			)
