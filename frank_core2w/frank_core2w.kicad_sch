@@ -740,6 +740,190 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FRANK:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 251.46 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c627337-f784-41f3-b63c-317ed98cea22")
 	)
 	(junction
 		(at 119.38 176.53)
@@ -752,6 +936,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd61aa6e-1527-4abb-89f9-dbf323ab2b6e")
+	)
+	(junction
+		(at 204.47 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdd1e2bc-8c3d-47ea-98b6-03b9866abf2c")
 	)
 	(junction
 		(at 146.05 137.16)
@@ -979,6 +1169,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 30.48) (xy 251.46 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555b86fd-76e2-4289-a13f-cb20c98a4255")
+	)
+	(wire
+		(pts
 			(xy 119.38 158.75) (xy 148.59 158.75)
 		)
 		(stroke
@@ -996,6 +1196,16 @@
 			(type default)
 		)
 		(uuid "5a2d7be5-715b-4da0-a255-455193acd162")
+	)
+	(wire
+		(pts
+			(xy 204.47 30.48) (xy 212.09 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa2380c-2425-470b-a3c7-460a7d6792d5")
 	)
 	(wire
 		(pts
@@ -1096,6 +1306,16 @@
 			(type default)
 		)
 		(uuid "72d6b4c8-1eab-41ce-9144-5e55e7eb4451")
+	)
+	(wire
+		(pts
+			(xy 199.39 30.48) (xy 204.47 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7604749c-f43c-4c05-997e-fdf85d792422")
 	)
 	(wire
 		(pts
@@ -1459,6 +1679,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 30.48) (xy 242.57 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed911a4c-dcbd-43a4-ad98-10d34b843d47")
+	)
+	(wire
+		(pts
 			(xy 43.18 45.72) (xy 43.18 52.07)
 		)
 		(stroke
@@ -1598,7 +1828,7 @@
 		(uuid "280d990c-bef4-4962-9ebb-08930437a50d")
 	)
 	(label "UART_SEL"
-		(at 242.57 30.48 0)
+		(at 256.54 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1928,7 +2158,7 @@
 		(uuid "c9c0f5e0-4782-4f82-b853-d0984f64be70")
 	)
 	(label "USB_SEL"
-		(at 212.09 30.48 180)
+		(at 199.39 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2058,7 +2288,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ea65deb-4ae8-4838-84bd-b021c6e5150a")
-		(property "Reference" "S1"
+		(property "Reference" "JP2"
 			(at 227.33 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2181,7 +2411,7 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "S1")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -2198,7 +2428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15c7af6d-20fb-4ff7-824e-493e3b4602aa")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 342.9 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -2259,7 +2489,7 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2440,6 +2670,88 @@
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SolderJumper_2_Open")
+		(at 204.47 35.56 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d825940-6c46-4346-a77b-a06c2f42328e")
+		(property "Reference" "JP1"
+			(at 201.93 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB_SEL Debug"
+			(at 201.93 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "FRANK:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 204.47 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 199.39 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "154ef219-9cfa-4b0a-ad87-f47c26ed66c7")
+		)
+		(pin "2"
+			(uuid "c215ccef-65f5-4745-aa7d-aa5b5604e921")
+		)
+		(instances
+			(project "frank_core2w"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -2713,7 +3025,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76488954-6b1b-4a0e-96e6-544829b33e6d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 236.22 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2774,7 +3086,84 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR03")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:GND")
+		(at 204.47 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d10e9d9-37fa-43e8-9227-c8a05d2e4e5c")
+		(property "Reference" "#PWR02"
+			(at 198.12 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 45.212 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ee49e15-ab69-4487-aa35-cedbabe257ff")
+		)
+		(instances
+			(project "frank_core2w"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2791,7 +3180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "881dc1ed-0934-457a-9c42-e18f5030c6a2")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 342.9 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -2852,7 +3241,7 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3049,7 +3438,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aaf0c386-531e-4698-9473-cc69c9fff6ed")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 342.9 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -3110,7 +3499,84 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR07")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:GND")
+		(at 251.46 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bed0d2a0-1db2-4a5f-a919-cc13b02c2eed")
+		(property "Reference" "#PWR05"
+			(at 245.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 45.212 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8a47619-e66f-4ad0-bfb0-f189b13894ae")
+		)
+		(instances
+			(project "frank_core2w"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3127,7 +3593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8d7fe79-329a-4cc7-b7dd-269ded3ed916")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 218.44 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -3187,7 +3653,89 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR02")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SolderJumper_2_Open")
+		(at 251.46 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e49c7f5a-9146-43e9-9d82-e88421d6c800")
+		(property "Reference" "JP3"
+			(at 254 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "UART SEL Debug"
+			(at 254 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "FRANK:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 251.46 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 256.54 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "666c4cef-9fc3-4679-b582-2d2726601b3a")
+		)
+		(pin "2"
+			(uuid "f082b1af-ae24-4873-97ff-b912fc3fa944")
+		)
+		(instances
+			(project "frank_core2w"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -3204,7 +3752,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efd11cd0-98ed-46af-ba87-2267cb967180")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 342.9 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -3265,7 +3813,7 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
