@@ -954,6 +954,12 @@
 		(uuid "0651e29d-3e84-4a77-96aa-24031286a32c")
 	)
 	(junction
+		(at 149.86 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fc2d3d1-a73c-2ed8-952a-80a25c8c5dd0")
+	)
+	(junction
 		(at 138.43 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -966,6 +972,12 @@
 		(uuid "8712384e-6a33-437c-b218-ccc2eb79e93b")
 	)
 	(junction
+		(at 142.24 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4572915-da7a-1940-f86c-6817c7c6f687")
+	)
+	(junction
 		(at 134.62 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -976,6 +988,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2cc31b2-b0e2-4313-924e-267ca5a82583")
+	)
+	(junction
+		(at 149.86 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4f3f6f7-886b-6259-8013-e858fe976e49")
 	)
 	(junction
 		(at 110.49 90.17)
@@ -1002,6 +1020,16 @@
 			(type default)
 		)
 		(uuid "145602dd-5e5d-49c9-ab25-e3dd44894112")
+	)
+	(wire
+		(pts
+			(xy 149.86 100.33) (xy 149.86 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17633c1f-9974-60e8-a4f9-b7dd324d4a2c")
 	)
 	(wire
 		(pts
@@ -1055,6 +1083,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 74.93) (xy 149.86 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef06c5c-8f37-38a8-da67-5ed0d01f8f72")
+	)
+	(wire
+		(pts
 			(xy 134.62 85.09) (xy 134.62 115.57)
 		)
 		(stroke
@@ -1085,6 +1123,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 123.19) (xy 149.86 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7031b94b-1c4d-38aa-099f-d5a0571c9416")
+	)
+	(wire
+		(pts
 			(xy 124.46 85.09) (xy 134.62 85.09)
 		)
 		(stroke
@@ -1092,6 +1140,16 @@
 			(type default)
 		)
 		(uuid "79dff356-aa1c-4425-8e69-1ed272a068b7")
+	)
+	(wire
+		(pts
+			(xy 149.86 120.65) (xy 149.86 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1d33b5-9db1-eefd-0d67-5afc0e65dff1")
 	)
 	(wire
 		(pts
@@ -1162,6 +1220,16 @@
 			(type default)
 		)
 		(uuid "c16a8025-2582-4eb2-9ba2-da40b0b09414")
+	)
+	(wire
+		(pts
+			(xy 149.86 80.01) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8212ca1-f2e6-7e8e-1abc-de3eb661a52d")
 	)
 	(wire
 		(pts
@@ -1551,6 +1619,83 @@
 	)
 	(symbol
 		(lib_id "FRANK:+3V3")
+		(at 149.86 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89e2686c-a461-47f9-81ea-82b136102f7e")
+		(property "Reference" "#PWR071"
+			(at 149.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 149.86 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 149.86 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4c9257f-5a66-4cfd-8aee-4ceab0c522fb")
+		)
+		(instances
+			(project "frank_core2w"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:+3V3")
 		(at 132.08 123.19 90)
 		(unit 1)
 		(body_style 1)
@@ -1638,7 +1783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1b2c3d4-0000-4000-8000-000000000002")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 203.2 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1698,7 +1843,187 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
-					(reference "#PWR072")
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:R_Small")
+		(at 149.86 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a42126e0-790e-bf12-d236-d190adbda41c")
+		(property "Reference" "R30"
+			(at 151.6194 118.0665 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 148.2 118.1036 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:R_0603_1608Metric"
+			(at 149.86 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8763490791224557568"
+			(at 149.86 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 149.86 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906982"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcc590af-93ec-2e3c-7cba-82749adb5966")
+		)
+		(pin "2"
+			(uuid "afb30945-e109-320e-bf78-7d6a7819c7c6")
+		)
+		(instances
+			(project "frank_core2w"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:R_Small")
+		(at 149.86 77.47 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afb0d377-a241-e89c-e6b2-950812c33cdc")
+		(property "Reference" "R29"
+			(at 151.6194 77.4265 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 148.2 77.4636 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:R_0603_1608Metric"
+			(at 149.86 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8763490791224557568"
+			(at 149.86 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 149.86 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906982"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "110680ec-805c-4542-9e36-a43292432cfa")
+		)
+		(pin "2"
+			(uuid "b0508a7a-7a7c-594f-ff37-91a33a899370")
+		)
+		(instances
+			(project "frank_core2w"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -1894,7 +2219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb64ad72-0f49-41b6-a9be-7d239255dc4a")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 149.86 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1955,7 +2280,7 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -2370,330 +2695,5 @@
 				)
 			)
 		)
-	)
-	(symbol
-		(lib_id "FRANK:R_Small")
-		(at 149.86 118.11 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a42126e0-790e-bf12-d236-d190adbda41c")
-		(property "Reference" "R65"
-			(at 151.6194 118.0665 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 148.2000 118.1036 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
-			(at 149.86 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8763490791224557568"
-			(at 149.86 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 149.86 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2906982"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fcc590af-93ec-2e3c-7cba-82749adb5966")
-		)
-		(pin "2"
-			(uuid "afb30945-e109-320e-bf78-7d6a7819c7c6")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
-					(reference "R65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 149.86 100.33) (xy 149.86 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17633c1f-9974-60e8-a4f9-b7dd324d4a2c")
-	)
-	(wire
-		(pts
-			(xy 149.86 120.65) (xy 149.86 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d1d33b5-9db1-eefd-0d67-5afc0e65dff1")
-	)
-	(junction
-		(at 149.86 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fc2d3d1-a73c-2ed8-952a-80a25c8c5dd0")
-	)
-	(symbol
-		(lib_id "FRANK:R_Small")
-		(at 149.86 77.47 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "afb0d377-a241-e89c-e6b2-950812c33cdc")
-		(property "Reference" "R66"
-			(at 151.6194 77.4265 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 148.2000 77.4636 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
-			(at 149.86 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8763490791224557568"
-			(at 149.86 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 149.86 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2906982"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "110680ec-805c-4542-9e36-a43292432cfa")
-		)
-		(pin "2"
-			(uuid "b0508a7a-7a7c-594f-ff37-91a33a899370")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
-					(reference "R66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 149.86 80.01) (xy 149.86 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8212ca1-f2e6-7e8e-1abc-de3eb661a52d")
-	)
-	(wire
-		(pts
-			(xy 149.86 74.93) (xy 149.86 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ef06c5c-8f37-38a8-da67-5ed0d01f8f72")
-	)
-	(symbol
-		(lib_id "FRANK:+3V3")
-		(at 149.86 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d4fbbed1-ecef-ebc3-b9cf-2b8e448339de")
-		(property "Reference" "#PWR074"
-			(at 149.86 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 149.86 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 149.86 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aef636f0-fa59-a9ac-a9ad-24aebc3a5126")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(junction
-		(at 149.86 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4f3f6f7-886b-6259-8013-e858fe976e49")
-	)
-	(wire
-		(pts
-			(xy 142.24 123.19) (xy 149.86 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7031b94b-1c4d-38aa-099f-d5a0571c9416")
-	)
-	(junction
-		(at 142.24 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4572915-da7a-1940-f86c-6817c7c6f687")
 	)
 )
