@@ -5343,6 +5343,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 172.72) (xy 255.27 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e1f1d0-4209-41eb-b34c-815acfc9bc44")
+	)
+	(wire
+		(pts
 			(xy 86.36 182.88) (xy 86.36 190.5)
 		)
 		(stroke
@@ -5803,6 +5813,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 175.26) (xy 246.38 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86c59e4-1e72-402f-98b9-35b7c3c0d552")
+	)
+	(wire
+		(pts
 			(xy 158.75 195.58) (xy 156.21 195.58)
 		)
 		(stroke
@@ -5810,6 +5830,16 @@
 			(type default)
 		)
 		(uuid "b8e0654c-1e0f-424b-b38f-8c36dd2a8195")
+	)
+	(wire
+		(pts
+			(xy 247.65 172.72) (xy 246.38 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90a0bde-b274-47e3-924b-d72b5a46b407")
 	)
 	(wire
 		(pts
@@ -6090,6 +6120,16 @@
 			(type default)
 		)
 		(uuid "e2568455-9204-423e-83b6-28338e6d8535")
+	)
+	(wire
+		(pts
+			(xy 259.08 175.26) (xy 255.27 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5590942-3468-431d-9277-ca60e4165298")
 	)
 	(wire
 		(pts
@@ -6760,6 +6800,17 @@
 		)
 		(uuid "1c2d6b20-bb76-42a3-a4a4-72fd4bfc3268")
 	)
+	(hierarchical_label "GPIO29"
+		(shape input)
+		(at 259.08 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26e27465-216a-407f-8d60-e90441bbeb6d")
+	)
 	(hierarchical_label "GPIO16"
 		(shape input)
 		(at 246.38 142.24 0)
@@ -6925,6 +6976,17 @@
 		)
 		(uuid "7fd8a066-301a-46e3-a0a1-e414f6664368")
 	)
+	(hierarchical_label "GPIO28"
+		(shape input)
+		(at 259.08 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83ca60c3-f4b5-4a98-b9ba-34d7b304292c")
+	)
 	(hierarchical_label "GPIO40"
 		(shape input)
 		(at 246.38 205.74 0)
@@ -6958,17 +7020,6 @@
 		)
 		(uuid "9843d33d-4dd6-4fa6-9256-e740e1599d86")
 	)
-	(hierarchical_label "GPIO29"
-		(shape input)
-		(at 246.38 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9a37243e-d500-4e22-9964-558208a191e5")
-	)
 	(hierarchical_label "GPIO3"
 		(shape input)
 		(at 246.38 109.22 0)
@@ -6979,17 +7030,6 @@
 			(justify left)
 		)
 		(uuid "a037e9da-607d-4344-bdee-347b623dd5aa")
-	)
-	(hierarchical_label "GPIO28"
-		(shape input)
-		(at 246.38 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a16ace1f-62f2-4418-ae20-94fcace652d7")
 	)
 	(hierarchical_label "GPIO35"
 		(shape input)
@@ -10331,7 +10371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6882b2a3-6a09-4120-8153-698447265c6d")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 256.54 196.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10404,7 +10444,7 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11602,7 +11642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93c418f7-03a2-454d-bcb2-1e7b05e16b5c")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 266.7 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11675,7 +11715,7 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12116,7 +12156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1b2c3d4-0000-4000-8000-000000000006")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 256.54 199.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12189,7 +12229,7 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12466,7 +12506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af2b2b52-fa3a-4f21-888e-54fd896ebea5")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 266.7 95.504 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12539,7 +12579,7 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -13168,7 +13208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf4fefcb-c8a2-4172-99e9-cd847ac3e135")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 288.29 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13230,7 +13270,7 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -13338,6 +13378,186 @@
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:R")
+		(at 251.46 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1939839-4c64-4d95-ae96-f071c3ea81e6")
+		(property "Reference" "R10"
+			(at 256.54 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 251.46 172.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:R_0603_1608Metric"
+			(at 251.46 174.498 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944"
+			(at 251.46 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 251.46 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 0 -25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d8fa9f0-89f8-4fcf-a70e-7074e043a573")
+		)
+		(pin "2"
+			(uuid "7d90ba57-7f86-44e7-9a16-0479a80bea26")
+		)
+		(instances
+			(project "frank_core2w"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:R")
+		(at 251.46 175.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e206975b-1d91-4f26-972e-d480bde7498d")
+		(property "Reference" "R11"
+			(at 256.54 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 251.46 175.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:R_0603_1608Metric"
+			(at 251.46 177.038 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944"
+			(at 251.46 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 251.46 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 0 -25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20d397e4-47a8-413f-8c47-dae7d9f746e4")
+		)
+		(pin "2"
+			(uuid "0c38dfcd-d1e1-4ce6-9449-37ef94befa4e")
+		)
+		(instances
+			(project "frank_core2w"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -13455,7 +13675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f02bed6f-dcff-4c7d-b1a4-4496878cdc5e")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 288.29 224.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13517,7 +13737,7 @@
 		(instances
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
