@@ -6303,7 +6303,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 182.88) (xy 86.36 182.88)
+			(xy 85.09 185.42) (xy 86.36 185.42)
 		)
 		(stroke
 			(width 0)
@@ -9057,7 +9057,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:+3V3")
-		(at 85.09 182.88 90)
+		(at 85.09 185.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9067,7 +9067,7 @@
 		(dnp no)
 		(uuid "39380aa9-afc7-4029-8b3e-e85a7ac68aca")
 		(property "Reference" "#PWR010"
-			(at 88.9 182.88 0)
+			(at 88.9 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9078,7 +9078,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 80.6958 182.499 0)
+			(at 80.6958 185.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9088,7 +9088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 182.88 0)
+			(at 85.09 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9099,7 +9099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 182.88 0)
+			(at 85.09 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9110,7 +9110,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 85.09 182.88 0)
+			(at 85.09 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13821,5 +13821,11 @@
 				)
 			)
 		)
+	)
+	(junction
+		(at 86.36 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77df1708-095b-3bea-f050-7d7442812cdb")
 	)
 )
