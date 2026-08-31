@@ -954,16 +954,10 @@
 		(uuid "0651e29d-3e84-4a77-96aa-24031286a32c")
 	)
 	(junction
-		(at 132.08 123.19)
+		(at 149.86 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "07ea0271-dbf3-4e3e-9367-f7ce87b26274")
-	)
-	(junction
-		(at 142.24 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36fa306b-677d-4ce3-9e42-087d2f56381e")
+		(uuid "0fc2d3d1-a73c-2ed8-952a-80a25c8c5dd0")
 	)
 	(junction
 		(at 138.43 123.19)
@@ -978,16 +972,10 @@
 		(uuid "8712384e-6a33-437c-b218-ccc2eb79e93b")
 	)
 	(junction
-		(at 144.78 100.33)
+		(at 142.24 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a97ff404-26f8-449f-8743-b9dd26e00007")
-	)
-	(junction
-		(at 132.08 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3c72172-a42a-40e6-9693-398f0da8ac2a")
+		(uuid "a4572915-da7a-1940-f86c-6817c7c6f687")
 	)
 	(junction
 		(at 134.62 123.19)
@@ -1000,6 +988,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2cc31b2-b0e2-4313-924e-267ca5a82583")
+	)
+	(junction
+		(at 149.86 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4f3f6f7-886b-6259-8013-e858fe976e49")
 	)
 	(junction
 		(at 110.49 90.17)
@@ -1019,26 +1013,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 82.55) (xy 156.21 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07817e47-eb06-429d-81b1-3fedc9fb5ecc")
-	)
-	(wire
-		(pts
-			(xy 132.08 114.3) (xy 132.08 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0de328c1-84c8-430c-b702-ff08b49f17c7")
-	)
-	(wire
-		(pts
 			(xy 142.24 120.65) (xy 142.24 123.19)
 		)
 		(stroke
@@ -1046,6 +1020,16 @@
 			(type default)
 		)
 		(uuid "145602dd-5e5d-49c9-ab25-e3dd44894112")
+	)
+	(wire
+		(pts
+			(xy 149.86 100.33) (xy 149.86 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17633c1f-9974-60e8-a4f9-b7dd324d4a2c")
 	)
 	(wire
 		(pts
@@ -1079,7 +1063,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 100.33) (xy 156.21 100.33)
+			(xy 124.46 100.33) (xy 156.21 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1096,6 +1080,16 @@
 			(type default)
 		)
 		(uuid "39b1cd4e-5fb0-444b-b816-fd6c9716fe38")
+	)
+	(wire
+		(pts
+			(xy 149.86 74.93) (xy 149.86 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef06c5c-8f37-38a8-da67-5ed0d01f8f72")
 	)
 	(wire
 		(pts
@@ -1129,6 +1123,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 123.19) (xy 149.86 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7031b94b-1c4d-38aa-099f-d5a0571c9416")
+	)
+	(wire
+		(pts
 			(xy 124.46 85.09) (xy 134.62 85.09)
 		)
 		(stroke
@@ -1136,6 +1140,16 @@
 			(type default)
 		)
 		(uuid "79dff356-aa1c-4425-8e69-1ed272a068b7")
+	)
+	(wire
+		(pts
+			(xy 149.86 120.65) (xy 149.86 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1d33b5-9db1-eefd-0d67-5afc0e65dff1")
 	)
 	(wire
 		(pts
@@ -1156,26 +1170,6 @@
 			(type default)
 		)
 		(uuid "8e89ee5b-2189-4eca-9a9a-fd76c8457d30")
-	)
-	(wire
-		(pts
-			(xy 144.78 114.3) (xy 144.78 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9621b0ba-683b-4d5a-a37b-3c345c257dcc")
-	)
-	(wire
-		(pts
-			(xy 144.78 100.33) (xy 144.78 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b80f93a-5aeb-40e7-bdda-a023c15481f4")
 	)
 	(wire
 		(pts
@@ -1219,13 +1213,23 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 82.55) (xy 132.08 82.55)
+			(xy 124.46 82.55) (xy 156.21 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c16a8025-2582-4eb2-9ba2-da40b0b09414")
+	)
+	(wire
+		(pts
+			(xy 149.86 80.01) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8212ca1-f2e6-7e8e-1abc-de3eb661a52d")
 	)
 	(wire
 		(pts
@@ -1239,16 +1243,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 82.55) (xy 132.08 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1f94a1a-92f6-4892-ba59-d757aac927c4")
-	)
-	(wire
-		(pts
 			(xy 124.46 97.79) (xy 142.24 97.79)
 		)
 		(stroke
@@ -1259,16 +1253,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 123.19) (xy 144.78 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e87bc360-9dc1-4fdc-87b3-40a0656aaa87")
-	)
-	(wire
-		(pts
 			(xy 96.52 90.17) (xy 110.49 90.17)
 		)
 		(stroke
@@ -1276,16 +1260,6 @@
 			(type default)
 		)
 		(uuid "ed0de0b2-fefd-460f-9bd2-926a81872b1b")
-	)
-	(wire
-		(pts
-			(xy 124.46 100.33) (xy 144.78 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2fddf24-1fcd-42db-91c5-28a86780243a")
 	)
 	(wire
 		(pts
@@ -1374,7 +1348,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2705e28c-d100-429d-9883-29e85ae72970")
-		(property "Reference" "R12"
+		(property "Reference" "R29"
 			(at 140.1894 111.7165 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1438,109 +1412,9 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 138.43 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 138.43 111.76 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 138.43 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 138.43 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 138.43 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 138.43 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 138.43 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 138.43 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 138.43 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 138.43 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 138.43 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1557,8 +1431,8 @@
 		)
 		(instances
 			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1db8d0bf-f04a-4d9a-82f5-51a5764fc5b6"
-					(reference "R12")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -1575,7 +1449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f800eb1-9545-423b-9151-fd99fdf7a79c")
-		(property "Reference" "R11"
+		(property "Reference" "R28"
 			(at 136.3794 118.0665 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1639,109 +1513,9 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 134.62 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 134.62 118.11 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 134.62 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 134.62 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 134.62 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 134.62 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 134.62 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 134.62 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 134.62 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 134.62 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 134.62 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1758,209 +1532,8 @@
 		)
 		(instances
 			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1db8d0bf-f04a-4d9a-82f5-51a5764fc5b6"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:R_Small")
-		(at 132.08 111.76 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8046c078-721d-4435-8b43-9f04e508fead")
-		(property "Reference" "R10"
-			(at 133.8394 111.7165 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 130.42 111.7536 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
-			(at 132.08 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8763490791224557568"
-			(at 132.08 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 132.08 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2906982"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 132.08 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 132.08 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 132.08 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 132.08 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 132.08 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 132.08 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 132.08 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 132.08 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 132.08 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 132.08 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 132.08 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89a2f253-1e21-4363-b7cd-e3db3f526ddb")
-		)
-		(pin "2"
-			(uuid "9653bc49-d959-4360-b540-84e9d1dd98f2")
-		)
-		(instances
-			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1db8d0bf-f04a-4d9a-82f5-51a5764fc5b6"
-					(reference "R10")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -1978,7 +1551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85b08842-612c-4c9d-bbee-35d265451c66")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR071"
 			(at 110.49 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2037,8 +1610,85 @@
 		)
 		(instances
 			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1db8d0bf-f04a-4d9a-82f5-51a5764fc5b6"
-					(reference "#PWR039")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:+3V3")
+		(at 149.86 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89e2686c-a461-47f9-81ea-82b136102f7e")
+		(property "Reference" "#PWR073"
+			(at 149.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 149.86 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 149.86 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4c9257f-5a66-4cfd-8aee-4ceab0c522fb")
+		)
+		(instances
+			(project "frank_next"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -2055,7 +1705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92d68a71-d705-49df-920c-3c465be9756f")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR072"
 			(at 135.89 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2114,8 +1764,8 @@
 		)
 		(instances
 			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1db8d0bf-f04a-4d9a-82f5-51a5764fc5b6"
-					(reference "#PWR040")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -2133,7 +1783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1b2c3d4-0000-4000-8000-000000000002")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR075"
 			(at 203.2 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2192,8 +1842,188 @@
 		)
 		(instances
 			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1db8d0bf-f04a-4d9a-82f5-51a5764fc5b6"
-					(reference "#PWR0199")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:R_Small")
+		(at 149.86 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a42126e0-790e-bf12-d236-d190adbda41c")
+		(property "Reference" "R32"
+			(at 151.6194 118.0665 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 148.2 118.1036 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:R_0603_1608Metric"
+			(at 149.86 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8763490791224557568"
+			(at 149.86 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 149.86 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906982"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcc590af-93ec-2e3c-7cba-82749adb5966")
+		)
+		(pin "2"
+			(uuid "afb30945-e109-320e-bf78-7d6a7819c7c6")
+		)
+		(instances
+			(project "frank_next"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:R_Small")
+		(at 149.86 77.47 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afb0d377-a241-e89c-e6b2-950812c33cdc")
+		(property "Reference" "R31"
+			(at 151.6194 77.4265 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 148.2 77.4636 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:R_0603_1608Metric"
+			(at 149.86 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8763490791224557568"
+			(at 149.86 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 149.86 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906982"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "110680ec-805c-4542-9e36-a43292432cfa")
+		)
+		(pin "2"
+			(uuid "b0508a7a-7a7c-594f-ff37-91a33a899370")
+		)
+		(instances
+			(project "frank_next"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2210,7 +2040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b01c951c-2211-4b69-84de-c123e0ddcf62")
-		(property "Reference" "R13"
+		(property "Reference" "R30"
 			(at 143.9994 118.0665 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2274,109 +2104,9 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 142.24 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 142.24 118.11 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 142.24 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 142.24 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 142.24 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 142.24 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 142.24 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 142.24 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 142.24 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 142.24 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 142.24 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2393,8 +2123,8 @@
 		)
 		(instances
 			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1db8d0bf-f04a-4d9a-82f5-51a5764fc5b6"
-					(reference "R13")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -2411,7 +2141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1a2ae57-9656-487c-92dd-1a634bf2fa14")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR070"
 			(at 110.49 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2470,8 +2200,8 @@
 		)
 		(instances
 			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1db8d0bf-f04a-4d9a-82f5-51a5764fc5b6"
-					(reference "#PWR038")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -2489,7 +2219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb64ad72-0f49-41b6-a9be-7d239255dc4a")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR074"
 			(at 149.86 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2549,8 +2279,8 @@
 		)
 		(instances
 			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1db8d0bf-f04a-4d9a-82f5-51a5764fc5b6"
-					(reference "#PWR041")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -2567,7 +2297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce0726a6-f369-484f-9219-c31122f03ae7")
-		(property "Reference" "C22"
+		(property "Reference" "C39"
 			(at 93.599 95.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2644,72 +2374,6 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at 96.52 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 96.52 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 96.52 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 96.52 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 96.52 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 96.52 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f494b667-c206-462c-825a-64b18d4a6c82")
 		)
@@ -2718,8 +2382,8 @@
 		)
 		(instances
 			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1db8d0bf-f04a-4d9a-82f5-51a5764fc5b6"
-					(reference "C22")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -2737,7 +2401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc03c42f-e178-4183-aa7f-552e881d1654")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR069"
 			(at 96.52 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2796,209 +2460,8 @@
 		)
 		(instances
 			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1db8d0bf-f04a-4d9a-82f5-51a5764fc5b6"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:R_Small")
-		(at 144.78 111.76 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dcff1089-fd9f-4ac7-8c4c-20dd4daeef07")
-		(property "Reference" "R14"
-			(at 146.5394 111.7165 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 143.12 111.7536 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8763490791224557568"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2906982"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 144.78 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 144.78 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 144.78 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 144.78 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 144.78 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 144.78 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 144.78 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 144.78 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 144.78 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 144.78 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "470007e8-1080-4fd7-a20a-c30f6d25c910")
-		)
-		(pin "2"
-			(uuid "039dc9f4-8116-49cd-828c-8fbd45199fc4")
-		)
-		(instances
-			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1db8d0bf-f04a-4d9a-82f5-51a5764fc5b6"
-					(reference "R14")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3015,7 +2478,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd634246-01ca-4fe8-bc4f-7812ab182c74")
-		(property "Reference" "C23"
+		(property "Reference" "C40"
 			(at 107.569 95.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3092,72 +2555,6 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at 110.49 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 110.49 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 110.49 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 110.49 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 110.49 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 110.49 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "8c3bb8dc-96d2-44d6-9b25-919ec82f35d4")
 		)
@@ -3166,8 +2563,8 @@
 		)
 		(instances
 			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1db8d0bf-f04a-4d9a-82f5-51a5764fc5b6"
-					(reference "C23")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -3185,7 +2582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfd949e8-2da7-4fad-9a77-49c9cbc5d0d9")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 179.705 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3260,72 +2657,6 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at 179.07 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 179.07 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 179.07 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 179.07 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 179.07 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 179.07 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4ec34ec5-cad6-458e-a443-96c42c16e935")
 		)
@@ -3358,8 +2689,8 @@
 		)
 		(instances
 			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1db8d0bf-f04a-4d9a-82f5-51a5764fc5b6"
-					(reference "J4")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
+					(reference "J6")
 					(unit 1)
 				)
 			)

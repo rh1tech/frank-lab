@@ -1,7 +1,7 @@
 (footprint "SOIC-8"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SO, 8 Pin (https://www.ti.com/lit/ml/msop001a/msop001a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "SO SO")
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.76 -3.21)
 		(end -2.76 -2.465)
@@ -146,8 +147,8 @@
 		(uuid "de6ff360-1c11-46ae-8c50-c04e370011d0")
 	)
 	(fp_line
-		(start -2.65 -2.1)
-		(end -1.65 -3.1)
+		(start -2.65 -1.65)
+		(end -1.65 -2.65)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -156,8 +157,8 @@
 		(uuid "8b71f423-0e9a-41eb-b4c6-7d1594a82ae6")
 	)
 	(fp_line
-		(start -2.65 3.1)
-		(end -2.65 -2.1)
+		(start -2.65 2.65)
+		(end -2.65 -1.65)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -166,8 +167,8 @@
 		(uuid "b8e4480f-0dda-4a65-a05f-1b62af4c7094")
 	)
 	(fp_line
-		(start -1.65 -3.1)
-		(end 2.65 -3.1)
+		(start -1.65 -2.65)
+		(end 2.65 -2.65)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -176,8 +177,8 @@
 		(uuid "40ef873e-c15b-4510-b3cf-872559b13266")
 	)
 	(fp_line
-		(start 2.65 -3.1)
-		(end 2.65 3.1)
+		(start 2.65 -2.65)
+		(end 2.65 2.65)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -186,8 +187,8 @@
 		(uuid "6a77db40-e0e3-46a0-8a4e-fe25d946e843")
 	)
 	(fp_line
-		(start 2.65 3.1)
-		(end -2.65 3.1)
+		(start 2.65 2.65)
+		(end -2.65 2.65)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -273,5 +274,45 @@
 		(rotate
 			(xyz 0 0 0)
 		)
+	)
+	(fp_line
+		(start -4.65 -2.9)
+		(end 4.65 -2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c3d1e40-8a52-4b96-9d3f-2e6b048ac000")
+	)
+	(fp_line
+		(start 4.65 -2.9)
+		(end 4.65 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c3d1e40-8a52-4b96-9d3f-2e6b048ac001")
+	)
+	(fp_line
+		(start 4.65 2.9)
+		(end -4.65 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c3d1e40-8a52-4b96-9d3f-2e6b048ac002")
+	)
+	(fp_line
+		(start -4.65 2.9)
+		(end -4.65 -2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c3d1e40-8a52-4b96-9d3f-2e6b048ac003")
 	)
 )

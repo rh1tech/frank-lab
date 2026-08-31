@@ -11,8 +11,8 @@
 		(uuid "5dd58c84-7cb1-4059-8249-12c431a33795")
 		(effects
 			(font
-				(size 0.7 0.7)
-				(thickness 0.14)
+				(size 0.6 0.6)
+				(thickness 0.12)
 				(bold yes)
 			)
 		)
@@ -65,78 +65,37 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -0.91 -1.56)
+		(start -0.5375 -1.56)
 		(end 0.91 -1.56)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4a28ad28-deca-4516-95e1-e8d3a55a74bd")
-	)
-	(fp_line
-		(start -0.91 -1.51)
-		(end -0.91 -1.56)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ed7b9cf8-eea4-4c12-8e35-700ba052cd53")
 	)
 	(fp_line
 		(start -0.91 1.56)
-		(end -0.91 1.51)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "993b5c13-b6d1-48a2-9452-7fca7c6cfb8a")
-	)
-	(fp_line
-		(start 0.91 -1.56)
-		(end 0.91 -1.51)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "856e4d0e-60b5-4cc1-80a9-494e26f288fc")
-	)
-	(fp_line
-		(start 0.91 -0.39)
-		(end 0.91 0.39)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "691c2df9-9368-4767-9e16-3f54f295aa32")
-	)
-	(fp_line
-		(start 0.91 1.51)
 		(end 0.91 1.56)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2e3321a5-f73f-41a5-8137-5df250898c9c")
-	)
-	(fp_line
-		(start 0.91 1.56)
-		(end -0.91 1.56)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4979f3ac-5125-4408-b4ea-ac499e8d4afc")
 	)
 	(fp_poly
 		(pts
-			(xy -1.45 -1.51) (xy -1.69 -1.84) (xy -1.21 -1.84)
+			(xy -0.8 -1.05) (xy -0.4 -1.45) (xy 0.8 -1.45) (xy 0.8 1.45) (xy -0.8 1.45)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_poly
+		(pts
+			(xy -1.1375 -1.51) (xy -1.3775 -1.84) (xy -0.8975 -1.84)
 		)
 		(stroke
 			(width 0.12)
@@ -144,7 +103,6 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "8ac186f5-4d8f-45a3-91f7-c2a674109858")
 	)
 	(fp_line
 		(start -2.05 -1.5)
@@ -305,18 +263,6 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "c2cb1133-5f1a-4c51-8f3b-778f19d678b0")
-	)
-	(fp_poly
-		(pts
-			(xy -0.4 -1.45) (xy 0.8 -1.45) (xy 0.8 1.45) (xy -0.8 1.45) (xy -0.8 -1.05)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "80accf7a-7f7d-4825-8d5a-e3fdf42333e7")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
