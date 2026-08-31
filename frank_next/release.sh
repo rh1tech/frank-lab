@@ -2,8 +2,9 @@
 #
 # release.sh - Automate a FRANK Next hardware release.
 #
-# Bumps the board VERSION and DATE (today), gates on a clean ERC, then
-# produces:
+# Bumps the board VERSION and DATE (today), gates on a clean ERC and DRC
+# (errors, warnings, and schematic/PCB parity - any of it stops the
+# release), then produces:
 #   gerbers/<project>_<major>_<minor>.zip   (gerbers + drill, JLCPCB-ready)
 #   docs/<major>/<minor>/schematics.pdf
 #   docs/<major>/<minor>/assembly.pdf       (via Board2Pdf)
@@ -265,6 +266,47 @@ for sheet in d.get('sheets', []):
 }
 
 # ---------------------------------------------------------------------------
+# DRC gate - stop on ANY error or warning, including schematic/PCB parity.
+#
+# Runs with --refill-zones --save-board: DRC checked against a stale zone
+# fill is checking the wrong copper, and a stale fill left in place would
+# also make its way into the gerbers exported later in this same run. So
+# this step both verifies AND leaves the board with a fresh, saved fill -
+# by design, not a side effect to be surprised by.
+# ---------------------------------------------------------------------------
+check_drc() {
+    step "Running DRC"
+
+    local report="$WORK_DIR/drc.json"
+    "$KICAD_CLI" pcb drc --refill-zones --save-board --schematic-parity \
+        --severity-error --severity-warning --format json \
+        -o "$report" "$PROJECT_PCB" >/dev/null 2>&1 || true
+
+    local v_count u_count p_count count
+    v_count="$(python3 -c "import json; print(len(json.load(open('$report'))['violations']))")"
+    u_count="$(python3 -c "import json; print(len(json.load(open('$report'))['unconnected_items']))")"
+    p_count="$(python3 -c "import json; print(len(json.load(open('$report'))['schematic_parity']))")"
+    count=$((v_count + u_count + p_count))
+
+    if [ "$count" -gt 0 ]; then
+        fail "DRC found $count issue(s) - release stopped"
+        python3 -c "
+import json
+d = json.load(open('$report'))
+for v in d['violations']:
+    print(f\"    [{v['severity']}] {v['type']}: {v['description']}\")
+for u in d['unconnected_items']:
+    print(f\"    [unconnected] {u.get('description')}\")
+for p in d['schematic_parity']:
+    print(f\"    [parity] {p.get('description')}\")
+"
+        exit 1
+    fi
+
+    ok "DRC clean (0 violations, 0 unconnected, 0 parity issues, zone fills refreshed)"
+}
+
+# ---------------------------------------------------------------------------
 # 4. Gerbers + drill -> gerbers/<project>_<major>_<minor>.zip
 # ---------------------------------------------------------------------------
 build_gerbers() {
@@ -498,6 +540,7 @@ main() {
     ask_version
     set_metadata
     check_erc
+    check_drc
     build_gerbers
     build_schematic_pdf
     build_assembly_pdf
