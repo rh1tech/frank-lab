@@ -1511,172 +1511,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FRANK:GND"
 			(power global)
 			(pin_numbers
@@ -4019,145 +3853,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:VBUS"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FRANK:W25Q128JVPIQ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4456,277 +4151,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:WS2812B-2020"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "WS2812B-2020"
-				(at 1.27 -5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "FRANK:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-				(at 1.27 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-				(at 2.54 -9.525 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WS2812B-2020_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "WS2812B-2020_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "WS2812B-2020_1_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(circle
 		(center 144.78 95.885)
@@ -4932,12 +4356,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3282b80f-34a5-4750-9279-552e30bfe84a")
-	)
-	(junction
-		(at 281.94 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3391713a-ce63-4e1c-acb0-12ea8a342ad4")
 	)
 	(junction
 		(at 153.67 152.4)
@@ -5184,10 +4602,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc04c1f3-90b6-4d4e-991d-673a1889e095")
-	)
-	(no_connect
-		(at 289.56 220.98)
-		(uuid "0b7daf6d-dba1-49cd-8e88-866838edd685")
 	)
 	(wire
 		(pts
@@ -5461,16 +4875,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 210.82) (xy 293.37 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bf844b1-f08f-46d4-a62e-18357388efe1")
-	)
-	(wire
-		(pts
 			(xy 100.33 193.04) (xy 100.33 195.58)
 		)
 		(stroke
@@ -5548,16 +4952,6 @@
 			(type default)
 		)
 		(uuid "36dcbadf-c014-4fa8-b6c2-89e87dc58750")
-	)
-	(wire
-		(pts
-			(xy 281.94 200.66) (xy 281.94 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "379fbe1e-cf26-4890-ba03-bb4de4734dbc")
 	)
 	(wire
 		(pts
@@ -6031,16 +5425,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 210.82) (xy 281.94 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e49a169-d6d7-40d2-a641-7d70ce231e6d")
-	)
-	(wire
-		(pts
 			(xy 119.38 85.09) (xy 119.38 93.98)
 		)
 		(stroke
@@ -6161,7 +5545,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 100.33) (xy 274.32 100.33)
+			(xy 269.24 100.33) (xy 269.24 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6301,16 +5685,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 220.98) (xy 270.51 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa16e29c-87b4-4bb4-ba69-2306b8cfe684")
-	)
-	(wire
-		(pts
 			(xy 154.94 59.69) (xy 154.94 60.96)
 		)
 		(stroke
@@ -6318,16 +5692,6 @@
 			(type default)
 		)
 		(uuid "aa1ae168-9503-4943-aa8f-83c359736167")
-	)
-	(wire
-		(pts
-			(xy 246.38 220.98) (xy 262.89 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa522713-55ff-4356-9ae4-ef1664fbb3d1")
 	)
 	(wire
 		(pts
@@ -6459,16 +5823,7 @@
 		)
 		(uuid "b8e0654c-1e0f-424b-b38f-8c36dd2a8195")
 	)
-	(wire
-		(pts
-			(xy 274.32 100.33) (xy 274.32 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b950d424-e690-4e10-87e8-311e1b038c52")
-	)
+
 	(wire
 		(pts
 			(xy 119.38 80.01) (xy 149.86 80.01)
@@ -6551,17 +5906,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 209.55) (xy 281.94 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c61dc123-9330-46fe-9bbe-03266041ed59")
-	)
-	(wire
-		(pts
-			(xy 246.38 101.6) (xy 274.32 101.6)
+			(xy 246.38 101.6) (xy 269.24 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6669,16 +6014,7 @@
 		)
 		(uuid "d2490278-a086-4734-b407-90acb56fc491")
 	)
-	(wire
-		(pts
-			(xy 265.43 106.68) (xy 274.32 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6b1222a-fc85-42d3-af40-60c4e23594a8")
-	)
+
 	(wire
 		(pts
 			(xy 215.9 71.12) (xy 218.44 71.12)
@@ -6871,6 +6207,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 223.52) (xy 246.38 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f57dc9-0e05-4171-b44a-a6d7546c1002")
+	)
+	(wire
+		(pts
 			(xy 157.48 85.09) (xy 157.48 97.79)
 		)
 		(stroke
@@ -6898,16 +6244,6 @@
 			(type default)
 		)
 		(uuid "f2b786c8-0ef2-4e1e-a3bb-01488c1f568b")
-	)
-	(wire
-		(pts
-			(xy 285.75 210.82) (xy 281.94 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f33eda53-1927-482b-a50d-30ca66792195")
 	)
 	(wire
 		(pts
@@ -7290,7 +6626,7 @@
 		(uuid "e6d2c2c1-0e5b-4ac2-80f4-c7b96e8247e3")
 	)
 	(label "GPIO47"
-		(at 246.38 223.52 0)
+		(at 259.08 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7825,6 +7161,17 @@
 		)
 		(uuid "f6d6737e-e194-42ec-ba33-03bf0b060ea7")
 	)
+	(hierarchical_label "GPIO46"
+		(shape input)
+		(at 246.38 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6f6259c-f893-427a-8ec4-e6dd6876b0c8")
+	)
 	(hierarchical_label "GPIO26"
 		(shape input)
 		(at 246.38 167.64 0)
@@ -7846,85 +7193,6 @@
 			(justify left)
 		)
 		(uuid "f865c587-7e31-4eed-9b53-4e3d339a2e7d")
-	)
-	(symbol
-		(lib_id "FRANK:GND")
-		(at 294.64 210.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "011dcf7c-bcd0-4532-b2c7-9bd8b9282547")
-		(property "Reference" "#PWR035"
-			(at 300.99 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 298.45 210.8199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 294.64 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 294.64 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7dc735c7-2043-45b1-a881-30c4d30a785a")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "FRANK:C")
@@ -9665,109 +8933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:C")
-		(at 289.56 210.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "389796c6-dc78-47ac-bc72-f9b3aadca39e")
-		(property "Reference" "C16"
-			(at 288.3916 207.899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 290.703 207.899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FRANK:C_0603_1608Metric"
-			(at 293.37 209.8548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
-			(at 289.56 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 289.56 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 289.56 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 289.56 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f57d471-6890-49c9-a57f-fa8fa1ee86e0")
-		)
-		(pin "2"
-			(uuid "130d3576-8adb-4c3c-96dd-1941d82a6d2c")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FRANK:GND")
 		(at 97.79 121.92 180)
 		(unit 1)
@@ -11150,107 +10315,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:D_Schottky")
-		(at 281.94 205.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "67ed3bb8-63ee-4550-a849-c9986731363a")
-		(property "Reference" "D1"
-			(at 284.48 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819WS"
-			(at 279.4 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:D_SOD-323"
-			(at 281.94 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723919347523584"
-			(at 281.94 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 281.94 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005009666010087.html"
-			(at 281.94 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C191023"
-			(at 281.94 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c11077b-b127-46bd-83ac-e87920c8f831")
-		)
-		(pin "2"
-			(uuid "613335ca-9dd8-4ef5-b559-9aa3c6c38907")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FRANK:R")
 		(at 251.46 198.12 90)
 		(unit 1)
@@ -11953,83 +11017,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:GND")
-		(at 281.94 228.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "79792f4d-3fa0-4d0f-a131-bace51acbe3f")
-		(property "Reference" "#PWR034"
-			(at 281.94 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 282.067 232.9942 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 281.94 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3344b92c-f69f-4607-86e7-d5649115fa8a")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FRANK:APS6404L-3SQR-ZR")
 		(at 81.28 138.43 0)
 		(unit 1)
@@ -12593,108 +11580,6 @@
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:R")
-		(at 266.7 220.98 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "92cfa7a2-3da4-42bd-8a7a-f83433257bf3")
-		(property "Reference" "R14"
-			(at 266.7 215.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 266.7 218.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:R_0603_1608Metric"
-			(at 266.7 222.758 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706223213461504"
-			(at 266.7 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 266.7 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23138"
-			(at -11.43 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 266.7 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "96e828fe-2e55-4e16-b368-8f57fe89c147")
-		)
-		(pin "2"
-			(uuid "9bf52f8b-da34-476f-9818-d9526675d881")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -13377,105 +12262,6 @@
 			(project "frank_core2w"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:WS2812B-2020")
-		(at 281.94 220.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a518437d-5934-4943-a5fc-c422021e5299")
-		(property "Reference" "LD1"
-			(at 295.91 214.5598 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-2020"
-			(at 295.91 217.0998 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 283.21 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 284.48 230.505 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 281.94 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C965555"
-			(at -11.43 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "70242176-ddda-47af-95f0-57cbfa9e6b4a")
-		)
-		(pin "4"
-			(uuid "eccfddbd-90b2-4939-92ad-e3cfe17a9f53")
-		)
-		(pin "2"
-			(uuid "51accb58-ef14-4856-b7da-5df8c702a2d6")
-		)
-		(pin "1"
-			(uuid "0e8002ac-f3cd-4a58-b0f5-7997ada3e96e")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
-					(reference "LD1")
 					(unit 1)
 				)
 			)
@@ -14196,85 +12982,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:VBUS")
-		(at 281.94 200.66 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c077e1ad-43e7-416a-8028-bc126359a015")
-		(property "Reference" "#PWR033"
-			(at 281.94 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 281.94 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 281.94 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d459cac9-1f62-4637-9b8d-0e18b2ec5325")
-		)
-		(instances
-			(project "frank_core2w"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FRANK:C")
 		(at 285.75 55.88 0)
 		(unit 1)
@@ -14888,5 +13595,25 @@
 				)
 			)
 		)
+	)
+	(label "GPIO46"
+		(at 274.32 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f132615-1e7f-17cd-7c64-1c1dc5174907")
+	)
+	(label "GPIO45"
+		(at 274.32 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9db39589-0280-f467-0ca6-3edcb6084e75")
 	)
 )
