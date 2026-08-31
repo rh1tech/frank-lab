@@ -480,187 +480,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FRANK:DS3231MZ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -700,7 +519,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586180066687012864"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -733,7 +552,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* FRANK:SO-8_3.9x4.9mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1137,12 +956,6 @@
 		)
 	)
 	(junction
-		(at 162.56 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76813995-b2d5-4aa9-b2de-5ef47f5dc47d")
-	)
-	(junction
 		(at 165.1 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1162,26 +975,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 82.55) (xy 147.32 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19cd6376-5d07-4b56-a246-c62041a0f715")
-	)
-	(wire
-		(pts
-			(xy 128.27 114.3) (xy 152.4 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "245de9c7-bfc5-4660-9993-bae9e298047a")
-	)
-	(wire
-		(pts
 			(xy 168.91 100.33) (xy 165.1 100.33)
 		)
 		(stroke
@@ -1192,33 +985,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 100.33) (xy 162.56 106.68)
+			(xy 162.56 92.71) (xy 162.56 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a9a085b-9006-457a-a6db-e32acd8584fa")
-	)
-	(wire
-		(pts
-			(xy 147.32 100.33) (xy 162.56 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75da20a5-1710-4baa-aa71-d8f0cf5b3052")
-	)
-	(wire
-		(pts
-			(xy 128.27 111.76) (xy 152.4 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cfa1d04-29bc-473b-9aab-52af3ed716ab")
 	)
 	(wire
 		(pts
@@ -1252,16 +1025,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 162.56 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c147e52d-9872-4775-aa5e-82cecadf7f07")
-	)
-	(wire
-		(pts
 			(xy 176.53 100.33) (xy 175.26 100.33)
 		)
 		(stroke
@@ -1272,7 +1035,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 128.27 114.3 180)
+		(at 152.4 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1283,7 +1046,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 128.27 111.76 180)
+		(at 152.4 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1304,7 +1067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00a4423e-340d-43dd-965a-622dee2853e4")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR0188"
 			(at 165.1 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -1364,7 +1127,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/54b2622d-60f7-4f67-9444-3a32e15be0bd"
-					(reference "#PWR0179")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -1382,7 +1145,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2714ae25-1f23-4005-b91a-4a84bae1a88b")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR0189"
 			(at 181.61 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1442,7 +1205,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/54b2622d-60f7-4f67-9444-3a32e15be0bd"
-					(reference "#PWR0180")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -1460,7 +1223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f72f72a-1734-4bcf-a15d-2a025484aaf4")
-		(property "Reference" "U19"
+		(property "Reference" "U22"
 			(at 167.2433 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1493,7 +1256,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586180066687012864"
 			(at 165.1 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -1506,6 +1269,17 @@
 		)
 		(property "Description" "±5ppm, I2C Real-Time Clock SOIC-8"
 			(at 165.1 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C107410"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1542,87 +1316,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/54b2622d-60f7-4f67-9444-3a32e15be0bd"
-					(reference "U19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:Conn_01x02_Pin")
-		(at 142.24 82.55 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8c5fca74-95ba-4d19-a2ce-c74ecd65ae0a")
-		(property "Reference" "J12"
-			(at 137.414 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT 3V"
-			(at 137.414 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:PinHeader_1x02_P2.54mm_Vertical"
-			(at 142.24 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 142.24 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dac5c575-9525-4f5e-b412-ba250aef6e96")
-		)
-		(pin "1"
-			(uuid "dc7adace-c2ce-4c35-8ac1-52d687ee5a45")
-		)
-		(instances
-			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/54b2622d-60f7-4f67-9444-3a32e15be0bd"
-					(reference "J12")
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -1640,7 +1334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9863c295-1dc7-4700-993a-2f799c0f78d2")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR0186"
 			(at 162.56 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -1700,86 +1394,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/54b2622d-60f7-4f67-9444-3a32e15be0bd"
-					(reference "#PWR0177")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:GND")
-		(at 147.32 80.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7bb9c15-4692-4123-97cd-38b47e90c361")
-		(property "Reference" "#PWR0176"
-			(at 153.67 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 80.0099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10339679-0a7d-45a0-97e4-dd59951dbac4")
-		)
-		(instances
-			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/54b2622d-60f7-4f67-9444-3a32e15be0bd"
-					(reference "#PWR0176")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -1796,7 +1411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba25874e-f386-4a49-aa78-e949db675dd9")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0187"
 			(at 165.1 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1856,7 +1471,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/54b2622d-60f7-4f67-9444-3a32e15be0bd"
-					(reference "#PWR0178")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -1908,7 +1523,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14915"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8603321855239467008"
 			(at -32.36 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1922,6 +1537,17 @@
 		)
 		(property "Description" "CR1220 Cell Holder"
 			(at 162.56 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5199899"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2017,7 +1643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5f57ed1-8615-4870-a1b0-473b537c3f21")
-		(property "Reference" "C74"
+		(property "Reference" "C82"
 			(at 174.244 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2050,7 +1676,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
 			(at 172.72 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2063,6 +1689,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 172.72 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2257,7 +1894,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/54b2622d-60f7-4f67-9444-3a32e15be0bd"
-					(reference "C74")
+					(reference "C82")
 					(unit 1)
 				)
 			)

@@ -43,7 +43,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Antenna with extra pin for shielding"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -56,9 +56,23 @@
 			)
 		)
 	)
+	(property "MANUFACTURER" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b7d4f0a-2c31-4a55-9d0e-3f6a7c81c001")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(net_tie_pad_groups "1,2")
-	(fp_poly
+		(fp_poly
 		(pts
 			(xy 2.45 -2.51) (xy 4.45 -2.51) (xy 4.45 -5.15) (xy 7.15 -5.15) (xy 7.15 -2.51) (xy 9.15 -2.51) (xy 9.15 -5.15)
 			(xy 11.85 -5.15) (xy 11.85 -0.71) (xy 11.35 -0.71) (xy 11.35 -4.65) (xy 9.65 -4.65) (xy 9.65 -2.01)
@@ -98,7 +112,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567890")
+		(uuid "73f87c1a-2adf-4be7-9b7e-acf233739c53")
 	)
 	(fp_line
 		(start -3.05 -5.45)
@@ -249,7 +263,7 @@
 	(pad "2" thru_hole rect
 		(at -2.1 0)
 		(size 0.9 0.5)
-		(drill 0.35)
+		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)

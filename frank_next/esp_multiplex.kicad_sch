@@ -1202,6 +1202,10 @@
 		(color 0 0 0 0)
 		(uuid "fdbf7908-a491-4149-b95d-d757956d4321")
 	)
+	(no_connect
+		(at 173.99 91.44)
+		(uuid "af5b8a6c-fba0-4e33-8681-d8902c0b74fc")
+	)
 	(wire
 		(pts
 			(xy 156.21 81.28) (xy 156.21 83.82)
@@ -1360,7 +1364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17604c16-faac-4029-bfb6-9d459b2d51be")
-		(property "Reference" "U18"
+		(property "Reference" "U21"
 			(at 132.08 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1408,6 +1412,17 @@
 		)
 		(property "Description" "74HC(T)4052 - Dual 4-channel analog multiplexer/demultiplexer@en-us"
 			(at 156.21 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C546999"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1531,7 +1546,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "U18")
+					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -1548,7 +1563,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29fd7d68-5aaf-4a47-9e49-710c7d550d74")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0178"
 			(at 153.67 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -1608,7 +1623,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "#PWR0167")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -1625,7 +1640,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f57477d-3229-434c-8299-0c909352a69d")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0180"
 			(at 156.21 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -1685,7 +1700,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "#PWR0169")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -1784,7 +1799,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a7b86b6-6434-4dd4-b4d0-c7e6df36b2e2")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0175"
 			(at 132.08 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1844,7 +1859,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "#PWR0164")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -1861,7 +1876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ae568dc-37fc-4b8e-b6fd-8f86cfa2734e")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR0183"
 			(at 180.34 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1921,7 +1936,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "#PWR0173")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -1938,7 +1953,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75faffdc-11e5-434a-a7f0-5661d2f94784")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0177"
 			(at 132.08 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1998,7 +2013,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "#PWR0166")
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -2015,7 +2030,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "807c61d0-2707-409a-9086-e60a98975c38")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0182"
 			(at 180.34 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2075,7 +2090,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "#PWR0172")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -2092,7 +2107,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94ab3b26-244f-4dab-93d9-0e3cbf2062cf")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0179"
 			(at 156.21 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2152,7 +2167,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "#PWR0168")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -2169,7 +2184,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1c6c6ee-51cb-4f56-8670-c6a97b28bfd9")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0176"
 			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2229,7 +2244,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "#PWR0165")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
@@ -2246,7 +2261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8609a4a-a98e-48ea-9973-47be93a0de21")
-		(property "Reference" "R37"
+		(property "Reference" "R45"
 			(at 176.276 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,7 +2294,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8763490791224557568"
 			(at 173.99 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2312,7 +2327,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2906982"
 			(at 173.99 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2331,7 +2346,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "R37")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -2348,7 +2363,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c777fe0c-bfab-46c3-8560-4d9f330d2d26")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR0185"
 			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2408,7 +2423,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "#PWR0175")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -2425,7 +2440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d203271e-dd7a-45f9-a337-7a55f01c8596")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0181"
 			(at 153.67 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2485,7 +2500,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "#PWR0170")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -2502,7 +2517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e711b4e2-8125-4542-a046-8489e03924d4")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0174"
 			(at 132.08 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2562,7 +2577,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "#PWR0163")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -2579,7 +2594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1412a72-e049-40bf-bd68-79cca3d4aeec")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0184"
 			(at 173.99 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2639,84 +2654,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "#PWR0174")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FRANK:GND")
-		(at 173.99 91.44 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc4a5769-1aa3-46d2-bb14-4dcf3fa72e95")
-		(property "Reference" "#PWR0171"
-			(at 180.34 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 91.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "575f2431-5cf5-4e51-ad9c-819a6154393c")
-		)
-		(instances
-			(project "frank_next"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "#PWR0171")
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -2733,7 +2671,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffab8098-e48c-4e89-b0c7-ebf86c5c5147")
-		(property "Reference" "C73"
+		(property "Reference" "C81"
 			(at 159.131 73.7616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2799,7 +2737,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
 			(at 156.21 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2818,7 +2756,7 @@
 		(instances
 			(project "frank_next"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0ff92dd2-66f2-4dcd-b9d8-ca7450eeb4c3"
-					(reference "C73")
+					(reference "C81")
 					(unit 1)
 				)
 			)
