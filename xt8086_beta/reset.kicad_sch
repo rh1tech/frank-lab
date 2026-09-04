@@ -5,6 +5,161 @@
 	(uuid "1a1775bb-2866-4a1a-894e-aea56b9d65b1")
 	(paper "A4")
 	(lib_symbols
+		(symbol "xt8086:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "xt8086:GND"
 			(power global)
 			(pin_numbers
@@ -331,6 +486,22 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 152.4 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bb5bbbe-6f2f-540f-8286-f21ad71f8b8f")
+	)
+	(wire
+		(pts
+			(xy 152.4 97.79) (xy 152.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d4722d-32e8-5644-846f-90cc07d4ecb7")
+	)
 	(wire
 		(pts
 			(xy 173.99 97.79) (xy 172.72 97.79)
@@ -372,6 +543,87 @@
 			(justify right)
 		)
 		(uuid "4d32e489-429e-4754-bbbc-1ef225afb0dc")
+	)
+	(symbol
+		(lib_id "xt8086:C")
+		(at 152.4 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "085e598c-2409-5789-a347-a62d892a01aa")
+		(property "Reference" "C42"
+			(at 154.305 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 154.305 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xt8086:C_0603_1608Metric"
+			(at 152.4 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5228b8d-607e-59e2-a6ae-4e2b5ea2e340")
+		)
+		(pin "2"
+			(uuid "89393804-94b9-5514-9b17-3bc94b1bc1da")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/69d580d4-830a-4ad1-89c3-268c1b1da372/f116f564-09bc-474c-8ad3-3a701671535f"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "xt8086:KMR221G_LFS")
@@ -633,7 +885,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3017eb7d-193a-4b67-8502-97c6c173a523")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0102"
 			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -694,7 +946,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/69d580d4-830a-4ad1-89c3-268c1b1da372/f116f564-09bc-474c-8ad3-3a701671535f"
-					(reference "#PWR088")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -711,7 +963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b94fe60-4196-4837-b029-a5f9dfe9e643")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0103"
 			(at 179.07 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -772,7 +1024,85 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/69d580d4-830a-4ad1-89c3-268c1b1da372/f116f564-09bc-474c-8ad3-3a701671535f"
-					(reference "#PWR089")
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xt8086:GND")
+		(at 152.4 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7766bc4-6a5e-56e0-b3c0-f04a5c14f070")
+		(property "Reference" "#PWR0101"
+			(at 152.4 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 78.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "277faa73-ccc0-5bc6-bf84-de64193ff7b1")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/69d580d4-830a-4ad1-89c3-268c1b1da372/f116f564-09bc-474c-8ad3-3a701671535f"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)

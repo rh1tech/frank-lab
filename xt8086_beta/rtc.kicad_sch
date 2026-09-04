@@ -595,187 +595,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "xt8086:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "xt8086:DS3231MZ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1283,12 +1102,6 @@
 		(uuid "1c5c65dd-e834-42c7-8c63-1b9b38031f17")
 	)
 	(junction
-		(at 166.37 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "daabddc1-2bca-41de-b3ac-4586603158f3")
-	)
-	(junction
 		(at 168.91 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1331,16 +1144,6 @@
 			(type default)
 		)
 		(uuid "49d2db5e-ff00-49c1-a125-52197f7efd40")
-	)
-	(wire
-		(pts
-			(xy 151.13 101.6) (xy 166.37 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4daee848-d810-4a7c-a719-10c953044a7d")
 	)
 	(wire
 		(pts
@@ -1394,33 +1197,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 83.82) (xy 151.13 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaeaa4a5-c1b5-4adc-861f-50311614373a")
-	)
-	(wire
-		(pts
-			(xy 166.37 101.6) (xy 166.37 107.95)
+			(xy 166.37 93.98) (xy 166.37 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cc9bed78-8c41-4b2f-9902-800ca23cdc3b")
-	)
-	(wire
-		(pts
-			(xy 166.37 93.98) (xy 166.37 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2d6da0d-b89f-480c-bc4e-eca46c1aecc2")
 	)
 	(wire
 		(pts
@@ -1485,7 +1268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e0efe7c-58b8-4280-8f03-6f398f7a616d")
-		(property "Reference" "R25"
+		(property "Reference" "R30"
 			(at 138.684 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1778,87 +1561,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/373f5307-f619-42ab-a351-203a7917c2e1"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xt8086:Conn_01x02_Pin")
-		(at 146.05 83.82 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e52ccdb-856d-480c-afd1-6ddac3cf50d7")
-		(property "Reference" "J10"
-			(at 141.224 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT 3V"
-			(at 141.224 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "xt8086:PinHeader_1x02_P2.54mm_Vertical"
-			(at 146.05 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 146.05 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c4de4067-0b98-416f-bacd-c83ce1434f36")
-		)
-		(pin "1"
-			(uuid "6aa3d893-6b0e-4eb3-9955-ff967544d362")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/373f5307-f619-42ab-a351-203a7917c2e1"
-					(reference "J10")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -1875,7 +1578,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1042d7a4-da76-40d2-8317-4b048c60ce5e")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0125"
 			(at 140.97 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -1935,7 +1638,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/373f5307-f619-42ab-a351-203a7917c2e1"
-					(reference "#PWR0104")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -1952,7 +1655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1302c9c4-782a-453b-9ba6-f87fb8755ad7")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0128"
 			(at 168.91 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2012,7 +1715,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/373f5307-f619-42ab-a351-203a7917c2e1"
-					(reference "#PWR0107")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -2029,7 +1732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fad7027-ddfc-4f91-865d-ef46adbf292e")
-		(property "Reference" "C45"
+		(property "Reference" "C52"
 			(at 178.054 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2269,7 +1972,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/373f5307-f619-42ab-a351-203a7917c2e1"
-					(reference "C45")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -2287,7 +1990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "491ca8b7-2d50-42fc-864c-146385a256f1")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0130"
 			(at 185.42 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2347,7 +2050,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/373f5307-f619-42ab-a351-203a7917c2e1"
-					(reference "#PWR0109")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -2508,7 +2211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a33741f-6c6b-48c4-9f8d-957076950d01")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0124"
 			(at 140.97 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2568,7 +2271,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/373f5307-f619-42ab-a351-203a7917c2e1"
-					(reference "#PWR0103")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -2585,7 +2288,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "838d29fb-b3e1-43dd-a9c7-2b0bcfab4d58")
-		(property "Reference" "R26"
+		(property "Reference" "R31"
 			(at 143.256 119.634 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2878,86 +2581,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/373f5307-f619-42ab-a351-203a7917c2e1"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xt8086:GND")
-		(at 151.13 81.28 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96ba012b-c8cf-43f9-994f-f3a3f3ae4349")
-		(property "Reference" "#PWR0105"
-			(at 157.48 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 81.2799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a7827cb-0dd8-4593-9b02-af3cf0b012af")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/373f5307-f619-42ab-a351-203a7917c2e1"
-					(reference "#PWR0105")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2975,7 +2599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cb4360a-0234-4739-8cf6-51cf843bc0a9")
-		(property "Reference" "U15"
+		(property "Reference" "U16"
 			(at 171.0533 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3057,7 +2681,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/373f5307-f619-42ab-a351-203a7917c2e1"
-					(reference "U15")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -3075,7 +2699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dca0c501-434e-4ecc-8bdf-8d64e68e4586")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0129"
 			(at 168.91 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3135,7 +2759,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/373f5307-f619-42ab-a351-203a7917c2e1"
-					(reference "#PWR0108")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -3153,7 +2777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcb98893-21da-4f47-96b5-7b75c7727459")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0127"
 			(at 166.37 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3213,7 +2837,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/373f5307-f619-42ab-a351-203a7917c2e1"
-					(reference "#PWR0106")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)

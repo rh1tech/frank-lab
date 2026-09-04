@@ -151,6 +151,284 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "xt8086:+5V_DC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V_DC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V_DC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_DC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_DC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "xt8086:+5V_SEL"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V_SEL"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V_SEL\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_SEL_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_SEL_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "xt8086:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3048,6 +3326,12 @@
 		(uuid "19099242-a1cb-4b36-b84a-ee54c56a6c38")
 	)
 	(junction
+		(at 209.55 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "259b4c39-986b-4df3-a2f4-5a9bc91c0735")
+	)
+	(junction
 		(at 80.01 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3070,12 +3354,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fa08166-f8de-4409-9898-b41f71dc5bb3")
-	)
-	(junction
-		(at 175.26 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56e77175-e379-47ac-8e5b-40ec9c0dd150")
 	)
 	(junction
 		(at 241.3 77.47)
@@ -3102,12 +3380,6 @@
 		(uuid "86fc0aa4-af58-49b5-961f-c697d2714ca6")
 	)
 	(junction
-		(at 209.55 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0251aa7-1519-4709-9481-2de95b7fa6f0")
-	)
-	(junction
 		(at 95.25 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3118,6 +3390,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b066830c-8ff6-4dd0-8b60-4b3064bc3052")
+	)
+	(junction
+		(at 175.26 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba8eeb3c-a0a9-49e5-8db4-044a9856b918")
 	)
 	(junction
 		(at 102.87 106.68)
@@ -3138,22 +3416,10 @@
 		(uuid "ca5d34cb-5f94-4d06-b382-413465e607e3")
 	)
 	(junction
-		(at 167.64 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0f4503c-f07e-4c55-aa0a-088fb2ba2597")
-	)
-	(junction
 		(at 102.87 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1dadfa0-0813-4b9e-9c37-346f5354cacc")
-	)
-	(junction
-		(at 201.93 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eeb8fec4-8a7a-4b37-ba64-e0b97a5a5ae7")
 	)
 	(junction
 		(at 228.6 53.34)
@@ -3176,10 +3442,6 @@
 	(no_connect
 		(at 52.07 77.47)
 		(uuid "67894639-50b4-4573-a4bd-4fa0dc4a071e")
-	)
-	(no_connect
-		(at 265.43 165.1)
-		(uuid "b4a51cfc-dfbb-4a3c-84dd-c31685e04935")
 	)
 	(no_connect
 		(at 165.1 77.47)
@@ -3325,16 +3587,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 127) (xy 167.64 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b250c39-00c9-4529-92e9-9c2d606ca4ab")
-	)
-	(wire
-		(pts
 			(xy 52.07 69.85) (xy 62.23 69.85)
 		)
 		(stroke
@@ -3415,7 +3667,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 128.27) (xy 167.64 127)
+			(xy 163.83 130.81) (xy 163.83 127)
 		)
 		(stroke
 			(width 0)
@@ -3432,6 +3684,16 @@
 			(type default)
 		)
 		(uuid "4b9c60eb-0986-43a8-83b7-eba392d09fd1")
+	)
+	(wire
+		(pts
+			(xy 166.37 104.14) (xy 157.48 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "536a4c86-52fd-5d8b-88b3-26a4746bd967")
 	)
 	(wire
 		(pts
@@ -3465,7 +3727,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 128.27) (xy 201.93 127)
+			(xy 201.93 130.81) (xy 201.93 127)
 		)
 		(stroke
 			(width 0)
@@ -3542,6 +3804,16 @@
 			(type default)
 		)
 		(uuid "68ed6247-7c01-46b6-ba3b-15758cfbb5c2")
+	)
+	(wire
+		(pts
+			(xy 166.37 106.68) (xy 157.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c61b1c2-c0ca-5aea-a68f-f15a76a1b2eb")
 	)
 	(wire
 		(pts
@@ -3665,6 +3937,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 127) (xy 209.55 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e5b09d-50ac-40e5-ac6d-4bf854504775")
+	)
+	(wire
+		(pts
 			(xy 95.25 124.46) (xy 102.87 124.46)
 		)
 		(stroke
@@ -3695,7 +3977,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 128.27) (xy 175.26 127)
+			(xy 175.26 130.81) (xy 175.26 127)
 		)
 		(stroke
 			(width 0)
@@ -3725,16 +4007,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 127) (xy 201.93 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b852681-01b6-4bd6-b601-3e8bfd4b1ab6")
-	)
-	(wire
-		(pts
 			(xy 87.63 137.16) (xy 87.63 129.54)
 		)
 		(stroke
@@ -3752,6 +4024,16 @@
 			(type default)
 		)
 		(uuid "8fb77d6d-692a-4795-b623-b0746aebd5da")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 99.06 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e41478-bd86-5838-9030-b2dcda859d28")
 	)
 	(wire
 		(pts
@@ -3835,23 +4117,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 127) (xy 175.26 127)
+			(xy 163.83 127) (xy 175.26 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b59a4b94-7d0f-447e-a3ae-a4ce893ccd5e")
-	)
-	(wire
-		(pts
-			(xy 209.55 127) (xy 209.55 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdbf04a6-11cb-4297-8237-dc8b984b0e61")
 	)
 	(wire
 		(pts
@@ -4173,16 +4445,6 @@
 		)
 		(uuid "213b9772-7b01-476c-a0e6-dff6f69d47fe")
 	)
-	(label "+5V_LOGIC"
-		(at 52.07 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "21e550f4-bcb4-4206-92fc-bf1d3d0d0904")
-	)
 	(label "UAP"
 		(at 125.73 68.58 0)
 		(effects
@@ -4193,7 +4455,7 @@
 		)
 		(uuid "26b0122a-cf77-4ae6-8919-a6b0bea82b3d")
 	)
-	(label "+5V_LOGIC"
+	(label "+5V_SEL"
 		(at 127 124.46 0)
 		(effects
 			(font
@@ -4202,16 +4464,6 @@
 			(justify left bottom)
 		)
 		(uuid "3d0cba40-d4de-4016-8f7a-423cef2dcdd4")
-	)
-	(label "+5V_LOGIC"
-		(at 162.56 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4a8ff995-5500-45c3-985f-ea0eec974d20")
 	)
 	(label "UAP"
 		(at 157.48 80.01 0)
@@ -4232,6 +4484,16 @@
 			(justify right bottom)
 		)
 		(uuid "5f70ca5c-72d5-4739-8fe9-b0144eea8b63")
+	)
+	(label "VBUS_P2"
+		(at 236.22 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67b4ab5f-cc7b-51b8-bb42-d20094cc1572")
 	)
 	(label "UA1P"
 		(at 157.48 62.23 0)
@@ -4283,6 +4545,16 @@
 		)
 		(uuid "b3b76893-a641-4014-87d9-9949f84cdbf7")
 	)
+	(label "VBUS_P2"
+		(at 157.48 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3d16547-56ce-5dab-ab49-7564168be674")
+	)
 	(label "UCP"
 		(at 125.73 63.5 0)
 		(effects
@@ -4313,7 +4585,7 @@
 		)
 		(uuid "c746c894-8fdc-462d-8237-ccaa559675e2")
 	)
-	(label "+5V_LOGIC"
+	(label "+5V_SEL"
 		(at 90.17 62.23 180)
 		(effects
 			(font
@@ -4343,6 +4615,16 @@
 		)
 		(uuid "ec8e4474-a018-480b-85e0-464b6ba636e5")
 	)
+	(label "VBUS_P1"
+		(at 228.6 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2941e7f-7842-5407-91b0-33e27c21cba5")
+	)
 	(label "UAM"
 		(at 125.73 66.04 0)
 		(effects
@@ -4362,6 +4644,26 @@
 			(justify left bottom)
 		)
 		(uuid "fcc6cf01-c5a8-40ec-839a-a536fd17156b")
+	)
+	(label "VBUS_P1"
+		(at 157.48 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd479e7c-53d9-58c4-9a62-49176e04b74a")
+	)
+	(label "+5V_SEL"
+		(at 52.07 110.49 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fec2f437-bc31-5f05-ac10-a70f3a36431d")
 	)
 	(hierarchical_label "DP"
 		(shape input)
@@ -4398,7 +4700,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:GND")
-		(at 201.93 133.35 0)
+		(at 201.93 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4408,8 +4710,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0642263e-52bb-4e5f-8441-6fa014b55c42")
-		(property "Reference" "#PWR077"
-			(at 201.93 139.7 0)
+		(property "Reference" "#PWR092"
+			(at 201.93 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4420,7 +4722,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 138.43 0)
+			(at 201.93 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4430,7 +4732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 133.35 0)
+			(at 201.93 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4441,7 +4743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 133.35 0)
+			(at 201.93 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4452,7 +4754,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 133.35 0)
+			(at 201.93 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4468,7 +4770,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR077")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -4476,7 +4778,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:C_Small")
-		(at 209.55 130.81 0)
+		(at 209.55 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4485,8 +4787,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bf92800-d2f8-4cf0-a955-a448405ade39")
-		(property "Reference" "C34"
-			(at 210.82 128.27 0)
+		(property "Reference" "C39"
+			(at 210.82 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4497,7 +4799,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 210.82 133.35 0)
+			(at 210.82 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4508,7 +4810,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:C_0603_1608Metric"
-			(at 209.55 130.81 0)
+			(at 209.55 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4519,7 +4821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 130.81 0)
+			(at 209.55 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4530,7 +4832,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 209.55 130.81 0)
+			(at 209.55 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4541,7 +4843,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 209.55 130.81 0)
+			(at 209.55 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4552,7 +4854,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 209.55 130.81 0)
+			(at 209.55 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,7 +4865,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 209.55 130.81 0)
+			(at 209.55 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4574,7 +4876,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 209.55 130.81 0)
+			(at 209.55 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4585,7 +4887,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 209.55 130.81 0)
+			(at 209.55 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4596,7 +4898,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 209.55 130.81 0)
+			(at 209.55 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4607,7 +4909,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 209.55 130.81 90)
+			(at 209.55 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4626,7 +4928,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "C34")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -4634,7 +4936,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:C_Polarized_Small")
-		(at 167.64 130.81 0)
+		(at 163.83 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4643,8 +4945,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10796921-6136-4a18-9bcb-e348016e07f3")
-		(property "Reference" "C31"
-			(at 167.894 128.524 0)
+		(property "Reference" "C36"
+			(at 164.084 131.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4655,7 +4957,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 167.894 132.842 0)
+			(at 164.084 135.382 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4666,7 +4968,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:C_Radial_D6.3mm_P2.50mm"
-			(at 167.64 130.81 0)
+			(at 163.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4677,7 +4979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 130.81 0)
+			(at 163.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4688,7 +4990,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 167.64 130.81 0)
+			(at 163.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4699,7 +5001,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 167.64 130.81 0)
+			(at 163.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4710,7 +5012,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 167.64 130.81 0)
+			(at 163.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4721,7 +5023,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 167.64 130.81 0)
+			(at 163.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4732,7 +5034,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 167.64 130.81 0)
+			(at 163.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4743,7 +5045,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 167.64 130.81 0)
+			(at 163.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4754,7 +5056,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 167.64 130.81 0)
+			(at 163.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4765,7 +5067,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 167.64 130.81 0)
+			(at 163.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4784,7 +5086,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "C31")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -4994,7 +5296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a8ee83e-ee1f-4368-a966-178f24fb57eb")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR079"
 			(at 66.04 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5055,7 +5357,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR065")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -5072,7 +5374,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bdc2127-ac56-4c38-a89b-27e8d8cfedd3")
-		(property "Reference" "C29"
+		(property "Reference" "C34"
 			(at 118.491 109.3216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5157,7 +5459,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "C29")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -5174,7 +5476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ea83630-ec8c-4eb8-9ae4-eeaa734a9bf5")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR078"
 			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5235,7 +5537,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR064")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -5252,7 +5554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3397a833-d25d-43b0-8349-2a79451c653e")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR076"
 			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5313,7 +5615,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR062")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -5330,7 +5632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36a966d2-38e3-42eb-a09c-9c4f9366c285")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR082"
 			(at 90.17 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5390,7 +5692,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR068")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -5408,7 +5710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c7b0b25-8f76-4de8-8713-44f9609351dc")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR099"
 			(at 250.19 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5469,15 +5771,15 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR086")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "xt8086:C_Polarized_Small")
-		(at 201.93 130.81 0)
+		(lib_id "xt8086:C_Small")
+		(at 201.93 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5486,8 +5788,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3cf0742e-c620-4a04-9b4a-e120bd902e26")
-		(property "Reference" "C33"
-			(at 202.184 128.524 0)
+		(property "Reference" "C38"
+			(at 202.184 131.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5498,7 +5800,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 202.184 132.842 0)
+			(at 134.112 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5508,8 +5810,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "xt8086:C_Radial_D6.3mm_P2.50mm"
-			(at 201.93 130.81 0)
+		(property "Footprint" "xt8086:C_1206_3216Metric"
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,7 +5822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 130.81 0)
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5531,7 +5833,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 201.93 130.81 0)
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5542,7 +5844,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 201.93 130.81 0)
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5553,7 +5855,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 201.93 130.81 0)
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5564,7 +5866,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 201.93 130.81 0)
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5575,7 +5877,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 201.93 130.81 0)
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5586,7 +5888,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 201.93 130.81 0)
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5597,7 +5899,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 201.93 130.81 0)
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5608,7 +5910,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 201.93 130.81 0)
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5627,7 +5929,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "C33")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -5644,7 +5946,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3df0f183-444c-441f-8c17-a1c1e0987e28")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR098"
 			(at 241.3 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5705,7 +6007,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR085")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -5722,7 +6024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e3b2357-7229-46c3-aede-62395a50a622")
-		(property "Reference" "C35"
+		(property "Reference" "C40"
 			(at 222.0214 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5888,7 +6190,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "C35")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -6142,7 +6444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "445a6acc-8503-4428-a91b-3e6af6f92056")
-		(property "Reference" "C26"
+		(property "Reference" "C30"
 			(at 86.106 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6483,7 +6785,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "C26")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -6491,7 +6793,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:GND")
-		(at 209.55 133.35 0)
+		(at 209.55 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6501,8 +6803,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a68e6e7-8a83-4ae7-8854-e9c6982b4b71")
-		(property "Reference" "#PWR079"
-			(at 209.55 139.7 0)
+		(property "Reference" "#PWR094"
+			(at 209.55 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6513,7 +6815,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 138.43 0)
+			(at 209.55 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6523,7 +6825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 133.35 0)
+			(at 209.55 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6534,7 +6836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 133.35 0)
+			(at 209.55 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6545,7 +6847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 133.35 0)
+			(at 209.55 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6561,7 +6863,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR079")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -6578,7 +6880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5994b228-7f03-480e-a89a-0d43bb5503ff")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 83.82 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6761,7 +7063,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6769,7 +7071,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:GND")
-		(at 175.26 133.35 0)
+		(at 175.26 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6779,8 +7081,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59e94d3b-420a-4bc3-bb12-f86086792189")
-		(property "Reference" "#PWR075"
-			(at 175.26 139.7 0)
+		(property "Reference" "#PWR090"
+			(at 175.26 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6791,7 +7093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 138.43 0)
+			(at 175.26 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6801,7 +7103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 133.35 0)
+			(at 175.26 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6812,7 +7114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 133.35 0)
+			(at 175.26 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6823,7 +7125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 133.35 0)
+			(at 175.26 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6839,7 +7141,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR075")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -6856,7 +7158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ce6b9d5-7d06-4ac9-8f4b-653fee371802")
-		(property "Reference" "C27"
+		(property "Reference" "C32"
 			(at 105.791 109.3216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6941,7 +7243,84 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "C27")
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xt8086:+5V_SEL")
+		(at 182.88 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "6b34c3d4-39a0-553c-816c-67fcc79183d9")
+		(property "Reference" "#PWR091"
+			(at 182.88 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_SEL"
+			(at 190.5 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V_SEL\""
+			(at 182.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16085402-a3c0-58f2-a41b-dbf0f4f0e7ab")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -6958,7 +7337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bd58c87-d163-4647-8502-02adf013d849")
-		(property "Reference" "JP5"
+		(property "Reference" "JP1"
 			(at 57.7851 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7022,7 +7401,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "JP5")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -7040,7 +7419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f28d2c8-ad3f-41f4-8716-18e97040d2b7")
-		(property "Reference" "C30"
+		(property "Reference" "C35"
 			(at 118.491 151.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7125,7 +7504,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "C30")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -7142,7 +7521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "702989de-15ea-4987-baf8-d2c87d7dcee2")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 83.82 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7325,7 +7704,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7343,7 +7722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "732589ae-95e2-416c-9693-3fbf775033de")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR093"
 			(at 204.47 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7403,7 +7782,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR078")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -7421,7 +7800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "775ecfc8-22fd-4425-a576-3f7da34c2f2c")
-		(property "Reference" "C28"
+		(property "Reference" "C33"
 			(at 105.791 151.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7506,7 +7885,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "C28")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -7514,7 +7893,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:C_Small")
-		(at 175.26 130.81 0)
+		(at 175.26 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7523,8 +7902,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78816164-9ade-4372-9c47-9929ee7efaea")
-		(property "Reference" "C32"
-			(at 176.53 128.27 0)
+		(property "Reference" "C37"
+			(at 176.53 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7535,7 +7914,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 176.53 133.35 0)
+			(at 176.53 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7546,7 +7925,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:C_0603_1608Metric"
-			(at 175.26 130.81 0)
+			(at 175.26 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7557,7 +7936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 130.81 0)
+			(at 175.26 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7568,7 +7947,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 175.26 130.81 0)
+			(at 175.26 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7579,7 +7958,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 175.26 130.81 0)
+			(at 175.26 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7590,7 +7969,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 175.26 130.81 0)
+			(at 175.26 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7601,7 +7980,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 175.26 130.81 0)
+			(at 175.26 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7612,7 +7991,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 175.26 130.81 0)
+			(at 175.26 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7623,7 +8002,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 175.26 130.81 0)
+			(at 175.26 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7634,7 +8013,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 175.26 130.81 0)
+			(at 175.26 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7645,7 +8024,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 175.26 130.81 90)
+			(at 175.26 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7664,85 +8043,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xt8086:VBUS")
-		(at 228.6 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "78ceaf99-a6b6-432e-bdb7-9111895a00ac")
-		(property "Reference" "#PWR082"
-			(at 228.6 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 228.6 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 228.6 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f99d129-a204-4f00-b2f5-19f2b3e603ad")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR082")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -7760,7 +8061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d799704-f378-4d00-ba3d-e19fedd540b0")
-		(property "Reference" "C36"
+		(property "Reference" "C41"
 			(at 242.7986 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7926,7 +8227,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "C36")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -7944,7 +8245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7df16bf7-1ed0-4b2a-b78d-1d3c0563202b")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR086"
 			(at 102.87 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8004,7 +8305,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR071")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -8110,83 +8411,6 @@
 	)
 	(symbol
 		(lib_id "xt8086:GND")
-		(at 190.5 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8b16439e-4213-47b1-a41f-6c194ad720bf")
-		(property "Reference" "#PWR076"
-			(at 190.5 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "808990dc-e19c-4a83-be29-cfe1f12f5d7a")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xt8086:GND")
 		(at 116.84 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -8197,7 +8421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "906885aa-9c99-428a-955a-342a1e350610")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR088"
 			(at 116.84 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8257,7 +8481,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR073")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -8275,7 +8499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98804e19-0a69-44f8-af7e-8954543e6627")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR096"
 			(at 213.36 127 0)
 			(hide yes)
 			(show_name no)
@@ -8336,7 +8560,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR081")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -8355,7 +8579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98cb760a-b0c4-4fd5-803c-d587a3558a5e")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR087"
 			(at 102.87 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8415,7 +8639,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR072")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -8433,7 +8657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98e091a8-067b-4d1d-9f2d-1f0fdd53ac0e")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR080"
 			(at 77.47 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8493,7 +8717,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR066")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -8510,7 +8734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99347a43-f9f5-4312-b22a-19836b601c0a")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR077"
 			(at 63.5 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8571,7 +8795,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR063")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -8588,7 +8812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9aab643b-89a8-45ef-b564-817df37178fd")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 54.61 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8772,14 +8996,14 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "xt8086:VBUS")
+		(lib_id "xt8086:+5V_DC")
 		(at 52.07 113.03 90)
 		(unit 1)
 		(body_style 1)
@@ -8789,7 +9013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d623998-e754-4adb-9130-88ce657ef067")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR075"
 			(at 55.88 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8800,8 +9024,8 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 48.26 113.03 90)
+		(property "Value" "+5V_DC"
+			(at 109.22 90 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8850,7 +9074,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR061")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -8867,7 +9091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a61df389-8b0b-4e8e-bd08-9e3bcfcdaae9")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 54.61 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9051,7 +9275,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9069,7 +9293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a96510fc-96c2-4b68-bd9f-a5097f5e2cb5")
-		(property "Reference" "U13"
+		(property "Reference" "U12"
 			(at 242.9511 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9404,7 +9628,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "U13")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -9412,18 +9636,18 @@
 	)
 	(symbol
 		(lib_id "xt8086:GND")
-		(at 167.64 133.35 0)
+		(at 99.06 54.61 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b0bff79b-32fa-4997-a1f8-923f760d8a90")
-		(property "Reference" "#PWR074"
-			(at 167.64 139.7 0)
+		(uuid "af7870b1-e5be-5b67-9e86-76b4906de663")
+		(property "Reference" "#PWR085"
+			(at 99.06 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9434,7 +9658,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 138.43 0)
+			(at 99.06 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9444,7 +9668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 133.35 0)
+			(at 99.06 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9455,7 +9679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 133.35 0)
+			(at 99.06 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9466,7 +9690,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 133.35 0)
+			(at 99.06 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a31bcda8-cdf6-54b4-851a-c4dedab2101b")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xt8086:GND")
+		(at 163.83 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0bff79b-32fa-4997-a1f8-923f760d8a90")
+		(property "Reference" "#PWR089"
+			(at 163.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9482,7 +9784,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR074")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -9500,7 +9802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba1b1d64-e744-4b27-8573-e74870cb4b42")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR0100"
 			(at 255.27 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9560,7 +9862,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR087")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -9577,7 +9879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfd6a4c1-5db7-460f-a12e-3b76f375b64d")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR097"
 			(at 241.3 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9638,7 +9940,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR084")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -9656,7 +9958,7 @@
 		(dnp no)
 		(uuid "c9b2c65e-953b-4449-bd4e-40aeded584b9")
 		(property "Reference" "U9"
-			(at 91.8211 62.23 0)
+			(at 93.98 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9667,7 +9969,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 91.8211 64.77 0)
+			(at 93.98 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9997,8 +10299,8 @@
 		)
 	)
 	(symbol
-		(lib_id "xt8086:VBUS")
-		(at 236.22 50.8 0)
+		(lib_id "xt8086:C")
+		(at 99.06 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10006,20 +10308,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d3b87c19-2183-4190-9a74-de0e69e0df43")
-		(property "Reference" "#PWR083"
-			(at 236.22 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 236.22 46.99 90)
+		(uuid "cf0bb0dc-f97f-525f-a7bd-3986230d425c")
+		(property "Reference" "C31"
+			(at 101.6 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10029,8 +10320,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 236.22 50.8 0)
+		(property "Value" "100n"
+			(at 101.6 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xt8086:C_0603_1608Metric"
+			(at 99.06 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10041,7 +10343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 50.8 0)
+			(at 99.06 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10051,8 +10353,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 236.22 50.8 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10063,12 +10365,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b2c90177-e1db-4b1c-abd1-a8b924a57206")
+			(uuid "83c75247-fd72-5d88-821b-dd5907a5d168")
+		)
+		(pin "2"
+			(uuid "0ee3bc0b-c6ca-5d9f-9090-505be079c878")
 		)
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR083")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -10087,7 +10392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da9c955e-6e24-4219-b7cf-44e25cf89763")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR081"
 			(at 87.63 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10147,7 +10452,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR067")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -10164,7 +10469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed6c512c-7868-49e8-8150-037bb04ee7b2")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR083"
 			(at 97.79 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10224,14 +10529,14 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR069")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "xt8086:VBUS")
+		(lib_id "xt8086:+5V_DC")
 		(at 95.25 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -10241,7 +10546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed964591-ee53-44e3-8775-eee9b0b21d88")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR084"
 			(at 95.25 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -10252,7 +10557,7 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "+5V_DC"
 			(at 95.25 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10302,101 +10607,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xt8086:AMS1117-3.3")
-		(at 190.5 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f064b67a-70b7-4b65-82e0-41702620f9eb")
-		(property "Reference" "U11"
-			(at 190.5 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-3.3"
-			(at 190.5 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "xt8086:SOT-223-3_TabPin2"
-			(at 190.5 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 193.04 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 190.5 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005008183486246.html"
-			(at 190.5 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "4a9ed8ea-1ec6-437b-86ee-272efea99dd8")
-		)
-		(pin "2"
-			(uuid "d5550c9b-c091-4d50-8272-bcd9c9e507d5")
-		)
-		(pin "1"
-			(uuid "6f8d9d9a-4678-41e9-ab85-a19a05645e3e")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "U11")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -10413,7 +10624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8e948b9-782b-4768-b5cc-feeaa8d4f2b4")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR095"
 			(at 209.55 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10473,7 +10684,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "#PWR080")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -10490,7 +10701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fda6b12f-52e6-42d6-92ef-f7044eebddc5")
-		(property "Reference" "U12"
+		(property "Reference" "U11"
 			(at 242.9511 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10825,7 +11036,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
-					(reference "U12")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -10979,6 +11190,53 @@
 		)
 	)
 	(sheet
+		(at 166.37 111.76)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.5019607843)
+		)
+		(uuid "9b0693e7-49cb-5f09-b0eb-9742186346f7")
+		(property "Sheetname" "3V3 Buck"
+			(at 166.37 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck3v3.kicad_sch"
+			(at 166.37 116.1546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 132.08 58.42)
 		(size 12.7 20.32)
 		(exclude_from_sim no)
@@ -11091,6 +11349,73 @@
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 102.87)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.5019607843)
+		)
+		(uuid "e922aa3b-a7c2-5123-b7ae-6a56da586377")
+		(property "Sheetname" "USB-A Port Power"
+			(at 166.37 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_a_power.kicad_sch"
+			(at 166.37 108.5346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS_P1" output
+			(at 166.37 104.14 180)
+			(uuid "b6e44141-a1c5-5f1f-bc8f-e1fdc41e3247")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_P2" output
+			(at 166.37 106.68 180)
+			(uuid "46e90690-fd64-507f-b2c7-a48566ef1b5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
+					(page "18")
 				)
 			)
 		)
