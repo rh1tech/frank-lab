@@ -3436,10 +3436,6 @@
 		(uuid "4f3c6b4f-0ab1-4fe8-9225-c9c8c4f60dcb")
 	)
 	(no_connect
-		(at 127 134.62)
-		(uuid "5875cb7b-134c-4ee4-b9ea-91883b077f16")
-	)
-	(no_connect
 		(at 52.07 77.47)
 		(uuid "67894639-50b4-4573-a4bd-4fa0dc4a071e")
 	)
@@ -4967,7 +4963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "xt8086:C_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "xt8086:CP_Radial_D6.3mm_P2.50mm"
 			(at 163.83 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -11476,5 +11472,156 @@
 				)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 127.0 134.62) (xy 134.62 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e367de-5a33-5fcc-a486-aa4c6ea423e9")
+	)
+	(label "ST"
+		(at 134.62 134.62 0)
+		(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		(uuid "afacea1c-caa4-52d2-8cf3-c98b14823bdb")
+	)
+	(symbol
+		(lib_id "xt8086:R")
+		(at 72.39 127.0 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b85efc4-9af3-5eff-9806-6d79d3848dfe")
+		(property "Reference" "R54"
+			(at 72.39 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 72.39 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "xt8086:R_0603_1608Metric"
+			(at 72.39 127.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 127.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 127.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5608ef6-4d4b-5804-b7ec-7bffcc0d3eae")
+		)
+		(pin "2"
+			(uuid "3dcc8969-3f02-5eae-8dea-2f867c1d360d")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 76.2 127.0) (xy 80.01 127.0)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b510f3-8644-59f7-93b3-b344fe9ca1bb")
+	)
+	(wire
+		(pts
+			(xy 68.58 127.0) (xy 63.5 127.0)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559c118a-5a00-51f4-bece-f2dc17a2722c")
+	)
+	(label "ST"
+		(at 63.5 127.0 0)
+		(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		(uuid "132bde77-ad2e-5fd3-b7b3-83feaa7cb1a1")
+	)
+	(text "R54: TPS2116 ST -> PR1 hysteresis"
+		(exclude_from_sim no)
+		(at 55.0 146.0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b46f65ba-623f-54fb-9fbc-f7238c484323")
+	)
+	(text "(matches frank_next R56)."
+		(exclude_from_sim no)
+		(at 55.0 149.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89e5a30d-4e09-5329-a2d2-d50ae08b68c0")
 	)
 )
