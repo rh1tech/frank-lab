@@ -332,6 +332,7 @@ build_gerbers() {
         --format excellon \
         --excellon-separate-th \
         --excellon-zeros-format decimal \
+        --excellon-units mm \
         -o "$gdir" "$PROJECT_PCB"
 
     local n_gbr n_drl

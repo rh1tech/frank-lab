@@ -151,6 +151,359 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "dino:74HCT125"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HCT125"
+				(at -7.62 21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "dino:SOIC127P600X175-14N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT125.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Quad buffer with 3-state outputs, TTL-level inputs, SO-14"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "buffer tri-state level shift HCT TTL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm* SO14*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74HCT125_0_1"
+				(rectangle
+					(start -10.16 -13.97)
+					(end 10.16 19.05)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74HCT125_1_1"
+				(pin input line
+					(at -13.97 16.51 0)
+					(length 3.81)
+					(name "~{OE1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 13.97 0)
+					(length 3.81)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 13.97 13.97 180)
+					(length 3.81)
+					(name "Y1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -6.35 0)
+					(length 3.81)
+					(name "~{OE2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 5.08 0)
+					(length 3.81)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 13.97 5.08 180)
+					(length 3.81)
+					(name "Y2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 13.97 2.54 180)
+					(length 3.81)
+					(name "Y3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 2.54 0)
+					(length 3.81)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -8.89 0)
+					(length 3.81)
+					(name "~{OE3}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 13.97 0 180)
+					(length 3.81)
+					(name "Y4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 0 0)
+					(length 3.81)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -11.43 0)
+					(length 3.81)
+					(name "~{OE4}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 22.86 270)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "dino:C"
 			(pin_numbers
 				(hide yes)
@@ -551,6 +904,145 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "dino:VBUS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1385,53 +1877,53 @@
 	)
 	(text "/IORQ, /RFSH, /HALT and /BUSACK are deliberately unconnected.\n/IORQ is redundant: /MREQ low = memory; /MREQ high with /RD or /WR low = I/O;\n/M1 low with /MREQ, /RD and /WR high = interrupt acknowledge.\n/RFSH is redundant: refresh cycles leave both /RD and /WR inactive."
 		(exclude_from_sim no)
-		(at 40.64 102.87 0)
+		(at 40.64 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
 		(uuid "524ef51b-6184-4576-87cd-73d87f22eee8")
 	)
-	(text "Vcc is +3V3 so the bus connects straight to RP2350B GPIO with no level shifters.\nThat is outside Zilog's 5 V spec and costs roughly a third of the rated speed, so\nthe -20 grade lands near 13 MHz against a 3.5 MHz target - margin to spare.\nAny Z84C00 PDIP-40 drops into the socket unchanged; a -06 is a valid fallback at\nabout 4 MHz, i.e. it only just clears 3.5 MHz. CLK is software-defined, so sweep\nit at bring-up to find the real ceiling of whichever part is fitted."
-		(exclude_from_sim no)
-		(at 40.64 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "934fe890-51bc-4157-8d82-507132042624")
-	)
-	(text "R1 holds the CPU in reset while GP29 is hi-Z during RP2350B boot.\nR55-R62 limit fault current if firmware ever drives the data bus against\nthe Z80; fit 0R instead once the bus engine is proven."
+	(text "Vcc is VBUS (5 V), so the Z80 runs fully in Zilog spec and at its rated speed.\nVBUS is downstream of the Q3 load switch and feeds the 3V3 buck, so the CPU and\nthe RP2350B power up and down together - no sequencing hazard.\nThe bus connects straight to GPIO with no level shifters: RP2350B GP0-GP39 are\n5 V fault-tolerant, and the Z80's data and control inputs are TTL (V_IH 2.2 V),\nwhich a 3.3 V GPIO drives cleanly."
 		(exclude_from_sim no)
 		(at 40.64 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
-		(uuid "98dc7ccd-c082-4e02-8464-ec85d583e7ee")
+		(uuid "934fe890-51bc-4157-8d82-507132042624")
 	)
-	(text "The RP2350B generates CLK and can stop it, so the CPU is frozen whenever the\nemulator needs time. That removes all wait-state logic: /WAIT is tied high.\nU1 must therefore be a CMOS, FULLY STATIC part - an NMOS Z8400 loses state\nwhen the clock stops and will not run at 3.3 V.\n/NMI is driven, not tied: stopping the clock freezes the CPU but cannot read\nits registers, so a snapshot save has to vector in through NMI (the Z80 will\nrefuse INT after DI)."
+	(text "R7 holds the CPU in reset while GP29 is hi-Z during RP2350B boot.\nR8-R15 (200R) limit fault current if firmware ever drives the data bus\nagainst the Z80 - that contention is now 5 V vs 3.3 V, so keep them fitted.\nR69 (1K) limits /M1 during the ~1 ms at power-on when VBUS is up but the\n3V3 buck is still soft-starting: /M1 is a driven output and is high in reset."
 		(exclude_from_sim no)
-		(at 40.64 69.85 0)
+		(at 40.64 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left top)
+		)
+		(uuid "98dc7ccd-c082-4e02-8464-ec85d583e7ee")
+	)
+	(text "The RP2350B generates CLK and can stop it, so the CPU is frozen whenever the\nemulator needs time. That removes all wait-state logic: /WAIT is tied high.\nU2 must be a CMOS, FULLY STATIC part - an NMOS Z8400 loses state when the\nclock stops.\nCLK goes through U17 (74HCT125): HCT inputs are TTL (V_IH 2.0 V) so GP28's\n3.3 V drives it, and its push-pull output swings to 5 V, meeting the Z80's\nV_IHC = Vcc-0.6 = 4.4 V. Every parameter is now inside spec.\nR4 holds the buffer input low while GP28 is hi-Z, so the CPU clock parks low.\n/NMI is driven, not tied: stopping the clock freezes the CPU but cannot read\nits registers, so a snapshot save has to vector in through NMI (the Z80 will\nrefuse INT after DI)."
+		(exclude_from_sim no)
+		(at 40.64 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
 		)
 		(uuid "ea4071a1-6df3-423c-884d-4feb749cbfea")
 	)
 	(junction
-		(at 157.48 62.23)
+		(at 99.06 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2f84b915-cb4d-4768-8c8d-4ce8461c14cb")
+		(uuid "25f8e453-177a-46a9-8cc5-0dc8fc2078ba")
 	)
 	(junction
 		(at 165.1 67.31)
@@ -1446,14 +1938,44 @@
 		(uuid "4474493e-3a21-4f91-8ea8-ee78697d3308")
 	)
 	(junction
+		(at 88.9 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69596202-8cf5-4fe0-8efb-ebe330af2eb8")
+	)
+	(junction
 		(at 157.48 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e488a2c-6cbf-478f-816f-a98c1c07d01c")
 	)
+	(junction
+		(at 99.06 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8042fec-2bbb-4de0-8c39-47910462a36f")
+	)
+	(junction
+		(at 88.9 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecb18631-a721-40fc-8712-fbb9f05ce101")
+	)
+	(no_connect
+		(at 132.08 41.91)
+		(uuid "016e1725-0101-45a9-892a-e795456cb14e")
+	)
 	(no_connect
 		(at 208.28 135.89)
 		(uuid "95214478-1f15-4966-8df8-c8587be8d04b")
+	)
+	(no_connect
+		(at 132.08 39.37)
+		(uuid "9dbd64ca-b634-4988-8aa1-99bd6690b530")
+	)
+	(no_connect
+		(at 132.08 36.83)
+		(uuid "bd4233d4-35da-4a98-8bd5-ed0ffe579fd9")
 	)
 	(no_connect
 		(at 208.28 128.27)
@@ -1509,6 +2031,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 41.91) (xy 88.9 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1f5504-ff0f-4a89-870f-23afef368ade")
+	)
+	(wire
+		(pts
 			(xy 208.28 69.85) (xy 241.3 69.85)
 		)
 		(stroke
@@ -1516,6 +2048,16 @@
 			(type default)
 		)
 		(uuid "25cab9e0-0e99-4567-8051-784f6a0f75b8")
+	)
+	(wire
+		(pts
+			(xy 104.14 53.34) (xy 99.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ffe8d51-cbaa-42a6-81fe-10c531893bec")
 	)
 	(wire
 		(pts
@@ -1579,13 +2121,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 62.23) (xy 151.13 62.23)
+			(xy 142.24 49.53) (xy 142.24 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43846eb9-3922-4465-8878-8e48dd152d51")
+		(uuid "467ed4bd-4986-4cc9-87db-ae2a009ff483")
 	)
 	(wire
 		(pts
@@ -1619,6 +2161,26 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 27.94) (xy 93.98 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552766ca-142a-4dab-86a4-dd3a22f4ae89")
+	)
+	(wire
+		(pts
+			(xy 104.14 39.37) (xy 88.9 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4f857d-f2c6-46d8-8fae-1340ffad9372")
+	)
+	(wire
+		(pts
 			(xy 217.17 34.29) (xy 217.17 35.56)
 		)
 		(stroke
@@ -1649,6 +2211,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 48.26) (xy 99.06 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669a43a8-cf35-4bf8-84fa-8aecd036ef9d")
+	)
+	(wire
+		(pts
 			(xy 208.28 72.39) (xy 241.3 72.39)
 		)
 		(stroke
@@ -1656,6 +2228,16 @@
 			(type default)
 		)
 		(uuid "691396a4-934d-4cd5-87ba-ab7b221cab76")
+	)
+	(wire
+		(pts
+			(xy 104.14 36.83) (xy 88.9 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699e2326-2f93-489f-8ff3-d68a921e3708")
 	)
 	(wire
 		(pts
@@ -1789,6 +2371,36 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 19.05) (xy 118.11 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba4c7de-6019-42bc-80e0-085c0d5ad3f6")
+	)
+	(wire
+		(pts
+			(xy 99.06 48.26) (xy 99.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb83b8f-d131-4390-8272-a7636c7daedc")
+	)
+	(wire
+		(pts
+			(xy 104.14 48.26) (xy 99.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10916ff-a2b1-4d1d-83b4-c4f80db09be2")
+	)
+	(wire
+		(pts
 			(xy 172.72 67.31) (xy 151.13 67.31)
 		)
 		(stroke
@@ -1799,13 +2411,33 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 123.19) (xy 241.3 123.19)
+			(xy 151.13 62.23) (xy 157.48 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1cfcab2-37cb-405c-8c01-bb3d56cad53a")
+		(uuid "a8fe3d79-df3d-4122-8803-3f096807cfff")
+	)
+	(wire
+		(pts
+			(xy 208.28 123.19) (xy 220.98 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afed413f-42e4-4d4f-86b8-a2e7c9b18618")
+	)
+	(wire
+		(pts
+			(xy 99.06 25.4) (xy 99.06 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57ddf8e-8041-4f05-8e13-a0e47c1d9c26")
 	)
 	(wire
 		(pts
@@ -1829,6 +2461,26 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 50.8) (xy 99.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad28359-297c-4e5f-8367-52494c13baea")
+	)
+	(wire
+		(pts
+			(xy 118.11 59.69) (xy 118.11 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc3e99a-e0bf-43d1-8517-1c0d46cd9f63")
+	)
+	(wire
+		(pts
 			(xy 208.28 82.55) (xy 241.3 82.55)
 		)
 		(stroke
@@ -1836,6 +2488,26 @@
 			(type default)
 		)
 		(uuid "bf509946-b773-4509-8091-057d0f9feb30")
+	)
+	(wire
+		(pts
+			(xy 166.37 62.23) (xy 172.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04591d2-4a69-4693-8260-11abfbdfa62f")
+	)
+	(wire
+		(pts
+			(xy 88.9 36.83) (xy 88.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2662a3c-9e5b-4e95-8f1a-64e2f7e685da")
 	)
 	(wire
 		(pts
@@ -1869,6 +2541,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 25.4) (xy 99.06 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a787ef-081e-4852-84dc-631ae5500282")
+	)
+	(wire
+		(pts
 			(xy 167.64 140.97) (xy 167.64 144.78)
 		)
 		(stroke
@@ -1886,6 +2568,16 @@
 			(type default)
 		)
 		(uuid "ce66dc2c-de87-49d5-8946-b41e1c29bef6")
+	)
+	(wire
+		(pts
+			(xy 142.24 38.1) (xy 142.24 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3280350-bab1-4d7f-8b07-e30ca89d4e2c")
 	)
 	(wire
 		(pts
@@ -1959,6 +2651,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 27.94) (xy 142.24 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0504be-c57e-46eb-87fa-eafce09b69df")
+	)
+	(wire
+		(pts
 			(xy 208.28 125.73) (xy 241.3 125.73)
 		)
 		(stroke
@@ -1989,6 +2691,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 123.19) (xy 241.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49349b9-c805-4694-86e2-e98bac9d0e0e")
+	)
+	(wire
+		(pts
 			(xy 167.64 135.89) (xy 167.64 140.97)
 		)
 		(stroke
@@ -2006,6 +2718,16 @@
 			(type default)
 		)
 		(uuid "f61a94bb-6aaa-48b3-8f18-6ce283b9a630")
+	)
+	(wire
+		(pts
+			(xy 104.14 41.91) (xy 88.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64e833a-ebbd-43b2-818e-cb9643317898")
 	)
 	(label "D5_Z80"
 		(at 210.82 115.57 0)
@@ -2026,6 +2748,16 @@
 			(justify left bottom)
 		)
 		(uuid "10bf20d8-d747-42db-855f-7113dfbaa926")
+	)
+	(label "CLK_5V"
+		(at 166.37 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "241ba468-840c-45d3-8bbe-24914b0bb2df")
 	)
 	(label "D6_Z80"
 		(at 210.82 118.11 0)
@@ -2057,6 +2789,16 @@
 		)
 		(uuid "a3aedbf1-ee33-4db8-8975-e9ae5c65c045")
 	)
+	(label "CLK"
+		(at 93.98 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2209c73-e024-4e82-81f4-c960bb7c1ed0")
+	)
 	(label "D0_Z80"
 		(at 210.82 102.87 0)
 		(effects
@@ -2066,6 +2808,16 @@
 			(justify left bottom)
 		)
 		(uuid "ca0a4024-1602-4a02-8211-b74694dc4bbc")
+	)
+	(label "CLK_5V"
+		(at 142.24 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4ba8ea8-f19b-4cb8-88e6-ecaa29039681")
 	)
 	(label "D1_Z80"
 		(at 210.82 105.41 0)
@@ -2450,7 +3202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "018ccedd-b130-40fe-8241-8e66ece229ba")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 220.98 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2460,7 +3212,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "200R"
 			(at 226.06 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2512,7 +3264,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2529,7 +3281,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cacd060-41c7-4d01-80ea-c1f395dfa5bf")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR021"
 			(at 157.48 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2589,7 +3341,163 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "#PWR014")
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:R")
+		(at 224.79 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1fcaa8e6-3b0d-4ab7-8d4e-abe6576f4e82")
+		(property "Reference" "R9"
+			(at 217.17 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 233.68 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dino:R_0603_1608Metric"
+			(at 224.79 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 224.79 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5d84ced-7619-470d-8cdb-c64e9e98da82")
+		)
+		(pin "2"
+			(uuid "6b8d0a6c-b6a3-4eed-8b17-15e5a92afcf9")
+		)
+		(instances
+			(project "dino"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:GND")
+		(at 99.06 21.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2106b174-24df-4cc7-8369-1ecfcefb9608")
+		(property "Reference" "#PWR010"
+			(at 99.06 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 99.06 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0405d858-8483-4f55-8fcc-9ee2a8a4ae8e")
+		)
+		(instances
+			(project "dino"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2606,7 +3514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2db56353-d0a6-4fe7-8340-6305da0c5901")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR024"
 			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2666,7 +3574,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "#PWR017")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2683,7 +3591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3030200f-73d0-436c-871f-8ec48687759c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR027"
 			(at 190.5 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -2743,7 +3651,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "#PWR020")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2760,7 +3668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "320a13a5-16d9-4796-829b-b64dc972dc4a")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 232.41 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2770,7 +3678,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "200R"
 			(at 237.49 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2822,7 +3730,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2839,7 +3747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3999012f-01c8-42f3-82a0-de57eebd9afb")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 220.98 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2849,7 +3757,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "200R"
 			(at 226.06 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2901,7 +3809,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2918,7 +3826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3cc393cd-c2fc-4281-8f23-7a964b62b544")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 155.194 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2980,7 +3888,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2997,7 +3905,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e20b882-7c3e-45b0-84d7-a0408395cf05")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR031"
 			(at 229.87 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3057,7 +3965,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "#PWR024")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3074,7 +3982,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3eebb8a5-8a34-4c2e-864e-8a25d65c9474")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR020"
 			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3134,7 +4042,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "#PWR013")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3151,7 +4059,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41557455-35cf-4aa8-80a2-46e10f2061aa")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 220.98 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3161,7 +4069,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "200R"
 			(at 226.06 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3213,7 +4121,199 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "R11")
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:74HCT125")
+		(at 118.11 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f68a72d-23ed-4cc8-8d7d-1cca9685ae38")
+		(property "Reference" "U1"
+			(at 105.41 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HCT125"
+			(at 105.41 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dino:SOIC127P600X175-14N"
+			(at 118.11 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad buffer with 3-state outputs, TTL-level inputs, SO-14"
+			(at 118.11 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "615920bb-23f5-40e7-89e6-6e94ed72e8c6")
+		)
+		(pin "2"
+			(uuid "9d05795a-8be4-4018-87cf-7933d4ab74b7")
+		)
+		(pin "3"
+			(uuid "381be3e7-63c3-4f5b-8916-7efca798533a")
+		)
+		(pin "4"
+			(uuid "3aa88e16-c24f-4e7a-8409-e44945409d97")
+		)
+		(pin "5"
+			(uuid "99ec5f65-7af9-4ffe-8b3a-014d6d85058b")
+		)
+		(pin "6"
+			(uuid "734f3d3a-cd15-487e-8a76-f961b1307673")
+		)
+		(pin "7"
+			(uuid "51f40778-4f43-4b3b-861d-2442372a7bb1")
+		)
+		(pin "8"
+			(uuid "340f3d58-d860-4833-80df-867168aa93ec")
+		)
+		(pin "9"
+			(uuid "200f4f73-afba-4386-848a-eb9950917e26")
+		)
+		(pin "10"
+			(uuid "91fba565-b163-49a9-8010-69923258022e")
+		)
+		(pin "11"
+			(uuid "5d38d0e3-0f67-40c3-838d-109f3b3120f7")
+		)
+		(pin "12"
+			(uuid "a6218003-f7cf-4316-8ff5-4ab94d948310")
+		)
+		(pin "13"
+			(uuid "87076e0a-ada3-4f8d-8f96-b03a837c5d75")
+		)
+		(pin "14"
+			(uuid "1b023dd4-4ae0-4f69-85c8-e1ddf57baa55")
+		)
+		(instances
+			(project "dino"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:GND")
+		(at 88.9 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "653a842f-555c-40fe-8c0a-400b75a4ffac")
+		(property "Reference" "#PWR09"
+			(at 88.9 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 88.9 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "763bbcd1-fa55-44e5-8eca-5adbaa43cfc6")
+		)
+		(instances
+			(project "dino"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3230,7 +4330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66d65e56-42cd-47a9-8ee4-edcbbe5595eb")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 226.06 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3292,7 +4392,84 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "C3")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:GND")
+		(at 118.11 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "71ba1eec-a762-469d-8466-868aeb3f2b4f")
+		(property "Reference" "#PWR013"
+			(at 118.11 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 118.11 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adce6c71-60e0-40f7-898c-45a1d28bf81c")
+		)
+		(instances
+			(project "dino"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3309,7 +4486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a32f003-1358-4f18-89c1-506f450ff364")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR029"
 			(at 217.17 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3369,7 +4546,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "#PWR022")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3386,7 +4563,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d4b8e23-caf1-4ea8-8654-448592b02055")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 162.814 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3448,14 +4625,14 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "dino:+3V3")
+		(lib_id "dino:VBUS")
 		(at 190.5 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -3465,7 +4642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8223449c-a083-4d86-8163-7dbd3e2b3100")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR026"
 			(at 190.5 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3476,7 +4653,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "VBUS"
 			(at 190.5 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3508,7 +4685,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 190.5 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3525,14 +4702,91 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "#PWR019")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "dino:+3V3")
+		(lib_id "dino:VBUS")
+		(at 142.24 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8325ba76-ef1a-40a8-8a9d-dd7013bae56e")
+		(property "Reference" "#PWR015"
+			(at 142.24 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 142.24 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 142.24 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4576ef2-2bac-4530-818e-72167c2a1b7f")
+		)
+		(instances
+			(project "dino"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:VBUS")
 		(at 167.64 144.78 180)
 		(unit 1)
 		(body_style 1)
@@ -3542,7 +4796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d1a5e39-50dc-423f-804c-0293348006c5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR025"
 			(at 167.64 141 0)
 			(hide yes)
 			(show_name no)
@@ -3553,7 +4807,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "VBUS"
 			(at 167.64 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3585,7 +4839,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 167.64 141 0)
 			(hide yes)
 			(show_name no)
@@ -3602,14 +4856,14 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "#PWR018")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "dino:+3V3")
+		(lib_id "dino:VBUS")
 		(at 217.17 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -3619,7 +4873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "943f8d92-db65-4e8e-8a3f-e3126524c5ee")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR028"
 			(at 217.17 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3630,7 +4884,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "VBUS"
 			(at 217.17 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3662,7 +4916,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 217.17 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3679,7 +4933,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "#PWR021")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3696,7 +4950,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97bd2ea1-4957-4f07-8509-ea8b2a36dee2")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 155.194 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3758,7 +5012,163 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "R5")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:C")
+		(at 142.24 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97fe5c6b-7b76-482e-8168-05e311cd6650")
+		(property "Reference" "C1"
+			(at 139.954 45.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 144.78 45.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dino:C_0603_1608Metric"
+			(at 142.24 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48fc7f2b-bf74-44e8-8032-c27b4216533b")
+		)
+		(pin "2"
+			(uuid "29f866c0-2081-4bff-85d8-f6d3e3be4a15")
+		)
+		(instances
+			(project "dino"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:GND")
+		(at 142.24 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98ab4084-e601-409e-8180-d84d34d86e9c")
+		(property "Reference" "#PWR016"
+			(at 142.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bfdc04b-b505-468e-8056-4cacb8b022a5")
+		)
+		(instances
+			(project "dino"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3775,7 +5185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a4cf2dd-d109-4f9d-81e2-3d4fb9470331")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 155.194 50.546 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3837,7 +5247,84 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "R4")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:VBUS")
+		(at 99.06 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b02c5d8c-3973-46b1-8ebc-cee8639ea407")
+		(property "Reference" "#PWR011"
+			(at 99.06 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 99.06 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 99.06 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e8f209a-1da0-45ee-8663-ce2d9f2200a3")
+		)
+		(instances
+			(project "dino"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3854,7 +5341,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b51dfab7-dd92-4fe2-8e43-377dd6bb133e")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 232.41 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,7 +5351,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "200R"
 			(at 237.49 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3916,7 +5403,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3933,7 +5420,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be7db380-b04f-4602-821a-6debbe08b215")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 232.41 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3943,7 +5430,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "200R"
 			(at 237.49 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3995,7 +5482,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4012,7 +5499,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c48c5e63-b5b7-4ecd-8c55-ff705801715c")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 213.36 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4074,7 +5561,84 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "C2")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:VBUS")
+		(at 118.11 15.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ccf68c35-57f8-4882-8559-1da13d805b04")
+		(property "Reference" "#PWR012"
+			(at 118.11 11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 118.11 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 118.11 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27fabb87-6488-4b0b-82e8-f7b560e0c474")
+		)
+		(instances
+			(project "dino"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4091,7 +5655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5d36355-8b55-4751-8c25-a32b3c5d9a22")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 177.8 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4267,7 +5831,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4284,7 +5848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4050c99-43e1-4791-817f-c97fd462dd77")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR019"
 			(at 157.48 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4344,7 +5908,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "#PWR012")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4361,7 +5925,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eda5656d-888c-4c93-84c7-d37763f7a72e")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 220.98 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4371,7 +5935,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "200R"
 			(at 226.06 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4423,14 +5987,14 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "dino:+3V3")
+		(lib_id "dino:VBUS")
 		(at 229.87 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -4440,7 +6004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f378465b-f6e4-44b2-8089-cf4f242e747e")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR030"
 			(at 229.87 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4451,7 +6015,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "VBUS"
 			(at 229.87 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4483,7 +6047,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 229.87 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4500,7 +6064,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "#PWR023")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4517,7 +6081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f609f2bb-3007-4eb2-894f-83e53ff6cfa3")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 232.41 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4527,7 +6091,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "200R"
 			(at 237.49 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4579,7 +6143,7 @@
 		(instances
 			(project "dino"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b1d0c0de-7a80-4a80-9a80-000000000a11"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
