@@ -14,6 +14,8 @@ For production-ready boards, see the main [frank](https://github.com/rh1tech/fra
 |-------|--------|
 | `frank_air` | Work in progress |
 | `frank_core2` | Work in progress — pulled back from the released set |
+| `dino_z80` | Work in progress — pulled back from the released set |
+| `xt8086_beta` | Work in progress — pulled back from the released set |
 | `frank_next_proto` | Prototype — superseded by FRANK Next, released |
 
 `frank_core2u/firmware/` and `frank_core2_proto/firmware/` hold the dual-core firmware sources
@@ -31,8 +33,6 @@ longer maintained here:
 | `frank_core2_proto` | [`hardware/frank_core2_proto`](https://github.com/rh1tech/frank/tree/master/hardware/frank_core2_proto) — published as a prototype |
 | `frank_core2u` | [`hardware/frank_core2u`](https://github.com/rh1tech/frank/tree/master/hardware/frank_core2u) |
 | `oldskoolfrank` | [`hardware/oldskool`](https://github.com/rh1tech/frank/tree/master/hardware/oldskool) |
-| `dino` | [`hardware/dino_z80`](https://github.com/rh1tech/frank/tree/master/hardware/dino_z80) |
-| `xt8086_beta` | [`hardware/xt8086_beta`](https://github.com/rh1tech/frank/tree/master/hardware/xt8086_beta) |
 
 Each carries its KiCad project, gerbers, fabrication docs, 3D-printable case and an assembly
 guide in English and Russian. Board pages with full specifications are on
