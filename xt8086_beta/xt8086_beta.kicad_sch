@@ -2799,6 +2799,309 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "xt8086:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "xt8086:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP2"
+				(at 1.2701 -2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "HDMI Audio"
+				(at -1.2699 -2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 170.18 64.77)
@@ -2819,28 +3122,10 @@
 		(uuid "2f453b07-6547-41c4-aa2c-1390d8c544db")
 	)
 	(junction
-		(at 180.34 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34fd55d0-9b26-5767-88ce-2554cfe07299")
-	)
-	(junction
 		(at 217.17 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62fdf941-dc98-4ca4-a233-41fcf95e1566")
-	)
-	(junction
-		(at 133.35 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa29d949-f929-481b-9ef1-23ac7f525057")
-	)
-	(junction
-		(at 180.34 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7e97287-e609-53d9-a1c9-08e623b89217")
 	)
 	(junction
 		(at 274.32 62.23)
@@ -2982,16 +3267,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 46.99) (xy 128.27 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17f62d25-0b1f-448c-b721-5099dcc19414")
-	)
-	(wire
-		(pts
 			(xy 100.33 49.53) (xy 105.41 49.53)
 		)
 		(stroke
@@ -3022,16 +3297,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 78.74) (xy 133.35 78.74)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "25d06d1f-2986-4797-a1c2-89004f99b0e9")
-	)
-	(wire
-		(pts
 			(xy 60.96 135.89) (xy 73.66 135.89)
 		)
 		(stroke
@@ -3049,16 +3314,6 @@
 			(type default)
 		)
 		(uuid "3062b61b-a134-4565-b846-fcc9b1874af9")
-	)
-	(wire
-		(pts
-			(xy 185.42 132.08) (xy 180.34 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38b2b0c2-bf0f-5de1-9255-ba1272687bae")
 	)
 	(wire
 		(pts
@@ -3149,16 +3404,6 @@
 			(type default)
 		)
 		(uuid "529dd0c4-fa6b-4cb4-8478-62e8ec53e12b")
-	)
-	(wire
-		(pts
-			(xy 180.34 127) (xy 180.34 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5359afae-e8fa-56b6-8a98-c46b93800aa1")
 	)
 	(wire
 		(pts
@@ -3272,16 +3517,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 134.62) (xy 135.89 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "740c5a16-62c7-4a64-9099-b19a0075841b")
-	)
-	(wire
-		(pts
 			(xy 63.5 113.03) (xy 77.47 113.03)
 		)
 		(stroke
@@ -3332,16 +3567,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 127) (xy 217.17 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "846b5ab3-2967-518e-870f-d8dd05dd672a")
-	)
-	(wire
-		(pts
 			(xy 63.5 110.49) (xy 77.47 110.49)
 		)
 		(stroke
@@ -3379,16 +3604,6 @@
 			(type default)
 		)
 		(uuid "907c7c47-09c4-42a3-bafc-1d30fa36e643")
-	)
-	(wire
-		(pts
-			(xy 100.33 137.16) (xy 125.73 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9362c8ce-746b-4171-82b2-2bd4e7670334")
 	)
 	(wire
 		(pts
@@ -3432,16 +3647,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 139.7) (xy 135.89 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a05f9ffc-e416-448f-a7c0-e324d3989a2a")
-	)
-	(wire
-		(pts
 			(xy 100.33 86.36) (xy 105.41 86.36)
 		)
 		(stroke
@@ -3462,26 +3667,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 137.16) (xy 125.73 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a63b2788-b975-49be-991b-afa92d77b51f")
-	)
-	(wire
-		(pts
-			(xy 210.82 132.08) (xy 238.76 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a950832d-a053-502b-a945-033ed4595a12")
-	)
-	(wire
-		(pts
 			(xy 264.16 62.23) (xy 274.32 62.23)
 		)
 		(stroke
@@ -3489,16 +3674,6 @@
 			(type default)
 		)
 		(uuid "a963ceec-89ca-491e-9122-e0e22ef0d354")
-	)
-	(wire
-		(pts
-			(xy 185.42 129.54) (xy 180.34 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7b86086-c5d5-53c5-ac56-6b07b968c110")
 	)
 	(wire
 		(pts
@@ -3599,16 +3774,6 @@
 			(type default)
 		)
 		(uuid "d39cc1c9-ca5a-459f-bb69-cbdeba0775d1")
-	)
-	(wire
-		(pts
-			(xy 133.35 76.2) (xy 133.35 78.74)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "d3d649c5-d5e3-4ae9-affd-097340fc34d8")
 	)
 	(wire
 		(pts
@@ -3722,16 +3887,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 127) (xy 180.34 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee4c24a2-af22-53a1-bb4b-9830fc52a4eb")
-	)
-	(wire
-		(pts
 			(xy 129.54 76.2) (xy 133.35 76.2)
 		)
 		(stroke
@@ -3812,16 +3967,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 129.54) (xy 238.76 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa9d43db-25b8-5787-b3c8-0b6294f72564")
-	)
-	(wire
-		(pts
 			(xy 274.32 66.04) (xy 274.32 62.23)
 		)
 		(stroke
@@ -3849,16 +3994,6 @@
 			(type default)
 		)
 		(uuid "ff2eb6d0-61ef-4147-aff7-61733e78a13e")
-	)
-	(label "JACK_IN"
-		(at 217.17 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0bb9088f-e83c-5ea5-8772-57c74ba5475e")
 	)
 	(label "AD0{slash}GP0"
 		(at 66.04 46.99 0)
@@ -3889,16 +4024,6 @@
 			(justify left bottom)
 		)
 		(uuid "18efc03b-7afe-42e6-9991-639e32b6d331")
-	)
-	(label "SPK_IN"
-		(at 217.17 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d28b057-1adb-53fb-b546-14fe3119005f")
 	)
 	(label "RD{slash}GP21"
 		(at 66.04 100.33 0)
@@ -4010,17 +4135,7 @@
 		)
 		(uuid "63eb5924-46c2-4d54-a268-512b75aa6435")
 	)
-	(label "SPEAKER"
-		(at 180.34 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "64752b10-2e11-502d-b538-cee2073b8965")
-	)
-	(label "SPEAKER"
+	(label "PWM_L"
 		(at 114.3 114.3 180)
 		(effects
 			(font
@@ -4130,7 +4245,7 @@
 		)
 		(uuid "921f7c59-ea39-4840-9baf-bef49ea720b7")
 	)
-	(label "UART0_TX"
+	(label "PWM_R"
 		(at 114.3 134.62 180)
 		(effects
 			(font
@@ -4139,16 +4254,6 @@
 			(justify right bottom)
 		)
 		(uuid "962425e3-17ae-471e-87f1-303438a9f74c")
-	)
-	(label "UART0_RX"
-		(at 114.3 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "96e5482f-897b-4ec1-8413-2ddee8038a9b")
 	)
 	(label "MN{slash}MX"
 		(at 33.02 53.34 0)
@@ -4250,16 +4355,6 @@
 		)
 		(uuid "d69c4ca6-e5fb-4d15-af63-e4fa3a010de9")
 	)
-	(label "HDMI_AUDIO"
-		(at 217.17 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd4717d9-9933-5a30-abb0-e3f1f16a54ce")
-	)
 	(label "INTA{slash}GP23"
 		(at 64.77 105.41 0)
 		(effects
@@ -4270,7 +4365,7 @@
 		)
 		(uuid "e1bb06d8-6347-41d0-91bf-3593cacce08b")
 	)
-	(label "HDMI_AUDIO"
+	(label "HDMI_L"
 		(at 147.32 76.2 180)
 		(effects
 			(font
@@ -4473,356 +4568,6 @@
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xt8086:DS05-127-2-03BK-SMT-TR")
-		(at 198.12 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0b251fec-5fed-5c43-b44c-7332271395fb")
-		(property "Reference" "S2"
-			(at 198.12 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DS05-127-2-03BK-SMT-TR"
-			(at 198.12 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "xt8086:SW_DIP_DS05-127-2-03BK-SMT"
-			(at 198.12 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ds05-127-smt.pdf"
-			(at 198.12 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3 Position, Surface Mount, 1.27 mm Pitch, Flat Slide Actuator, Flat Bottom, SMT Pin, DIP Switch"
-			(at 198.12 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c861d1b-b544-56c6-b213-983fb98500fb")
-		)
-		(pin "2"
-			(uuid "d699b14f-283c-54f3-ac1f-f175759e0954")
-		)
-		(pin "3"
-			(uuid "17e0aac9-1e91-5d89-9720-ee9e895928d5")
-		)
-		(pin "4"
-			(uuid "074e6e47-9f5f-5626-a282-6162f2511c04")
-		)
-		(pin "5"
-			(uuid "f8a81795-fcc9-5d23-80b5-8fbd307af11c")
-		)
-		(pin "6"
-			(uuid "f747297b-b0cd-50a1-9063-935b426147e8")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xt8086:Conn_01x03_Pin")
-		(at 140.97 137.16 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e951d08-df37-4ceb-8b51-3e89130e26ce")
-		(property "Reference" "J1"
-			(at 144.78 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UART"
-			(at 144.272 139.954 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "xt8086:JST_SH_1x03_P1.00mm_Vertical"
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/154/basics-us_2-54mm-125848.pdf"
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005007039504981.html"
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Crystal Type" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Frequency" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Frequency Stability" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Frequency Tolerance" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Load Capacitance" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Normal Temperature Frequency Tolerance" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" ""
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "75ac22e0-ca7a-447a-9b88-c7a1bf92b2aa")
-		)
-		(pin "3"
-			(uuid "53b743cf-883a-4626-b1f6-96de399a7ed2")
-		)
-		(pin "1"
-			(uuid "b3f8fb5f-3472-4c11-955c-63742dad282e")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5082,7 +4827,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "100µF"
 			(at 167.64 53.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5498,85 +5243,6 @@
 	)
 	(symbol
 		(lib_id "xt8086:GND")
-		(at 135.89 137.16 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "234a6c2e-a913-4d30-95e3-305aaccc5c62")
-		(property "Reference" "#PWR09"
-			(at 129.54 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 137.16 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9705609d-a64b-4615-bb39-8edd0f08121f")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xt8086:GND")
 		(at 44.45 135.89 270)
 		(unit 1)
 		(body_style 1)
@@ -5676,7 +5342,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 182.88 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6035,7 +5701,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "100µF"
 			(at 276.86 50.7746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6394,7 +6060,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 256.54 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6908,7 +6574,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1kΩ"
 			(at 57.15 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6929,7 +6595,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 57.15 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -6951,7 +6617,7 @@
 				)
 			)
 		)
-		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+		(property "AliExpress" ""
 			(at 57.15 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7099,7 +6765,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1kΩ"
 			(at 57.15 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7120,7 +6786,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 57.15 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -7142,7 +6808,7 @@
 				)
 			)
 		)
-		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+		(property "AliExpress" ""
 			(at 57.15 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -7324,7 +6990,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1432/sk.pdf"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-ck-slide-sk-series-datasheet?assetguid=b8839b40-326a-4b0a-8ce9-5e9d0637af3f"
 			(at 147.32 239.37 0)
 			(hide yes)
 			(show_name no)
@@ -8206,8 +7872,8 @@
 		)
 	)
 	(symbol
-		(lib_id "xt8086:GND")
-		(at 128.27 49.53 270)
+		(lib_id "xt8086:+3V3")
+		(at 128.27 49.53 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8227,7 +7893,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "+3V3"
 			(at 123.19 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8326,7 +7992,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.futurlec.com/74LS/74LS74.shtml"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ls74a.pdf"
 			(at 256.54 257.15 0)
 			(hide yes)
 			(show_name no)
@@ -8455,267 +8121,6 @@
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xt8086:MountingHole")
-		(at 160.02 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b234f1db-6c54-4ade-b20a-d723ad4d7b2b")
-		(property "Reference" "H3"
-			(at 162.56 186.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Hole 2.7mm"
-			(at 162.56 189.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "xt8086:MountingHole_2.7mm"
-			(at 160.02 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 160.02 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" ""
-			(at 160.02 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xt8086:MountingHole")
-		(at 160.02 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5bcbd9c-b7f6-4b1f-897d-0433365af664")
-		(property "Reference" "H2"
-			(at 162.56 181.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Hole 2.7mm"
-			(at 162.56 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "xt8086:MountingHole_2.7mm"
-			(at 160.02 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 160.02 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" ""
-			(at 160.02 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xt8086:MountingHole")
-		(at 160.02 193.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba009387-7c69-4d58-8d0e-2218d2d5d34e")
-		(property "Reference" "H4"
-			(at 162.56 191.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Hole 2.7mm"
-			(at 162.56 194.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "xt8086:MountingHole_2.7mm"
-			(at 160.02 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 160.02 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" ""
-			(at 160.02 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -9155,7 +8560,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1kΩ"
 			(at 27.94 70.866 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9219,93 +8624,6 @@
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xt8086:MountingHole")
-		(at 160.02 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d053af13-36ce-43bf-978f-c3b31f019440")
-		(property "Reference" "H1"
-			(at 162.56 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Hole 2.7mm"
-			(at 162.56 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "xt8086:MountingHole_2.7mm"
-			(at 160.02 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 160.02 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AliExpress" ""
-			(at 160.02 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -9881,7 +9199,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1kΩ"
 			(at 27.94 55.626 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10550,72 +9868,6 @@
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "D1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 238.76 128.27)
-		(size 13.97 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "128bfa67-3568-45ab-9ac5-06e6eea36fac")
-		(property "Sheetname" "Audio"
-			(at 255.27 133.35 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pc_speaker.kicad_sch"
-			(at 238.76 133.9346 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "JACK_IN" input
-			(at 238.76 129.54 180)
-			(uuid "d7ecaa62-9baa-488d-b9e4-313c9cba4cfd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPK_IN" input
-			(at 238.76 132.08 180)
-			(uuid "353b07c7-f2f9-45de-9fd1-4c4d555b035e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(page "5")
 				)
 			)
 		)
@@ -11959,6 +11211,1122 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 100.33 134.62) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838a6202-20a7-41bd-9be5-5dc4f87db308")
+	)
+
+	(no_connect
+		(at 100.33 137.16)
+		(uuid "8f804a5d-6ddf-4f18-bd06-bb75b303488e")
+	)
+
+	(wire
+		(pts
+			(xy 129.54 78.74) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e9460b-6175-41fb-8b55-5ee44cbeb651")
+	)
+
+	(label "HDMI_R"
+		(at 147.32 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54024eec-3a96-4003-8118-db9cfe676bc3")
+	)
+
+	(sheet
+		(at 139.7 111.76)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3603a3f9-aa53-493b-ae79-e24b3c1f7362")
+		(property "Sheetname" "Sound"
+			(at 139.7 111.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sound.kicad_sch"
+			(at 139.7 124.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWM_L" input
+			(at 139.7 114.3 180)
+			(uuid "6e7bff2f-ad23-46b6-954a-3377206d212a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_R" input
+			(at 139.7 116.84 180)
+			(uuid "b1478c2b-e1c3-4c06-a65b-8ec9d8ced346")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HDMI_L" output
+			(at 161.29 111.76 90)
+			(uuid "764ada2c-d04f-4fa0-b57c-243a3b4d7566")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI_R" output
+			(at 158.75 111.76 90)
+			(uuid "54f954fa-72bd-4c4d-a7fe-702183cc4700")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(page "12")
+				)
+			)
+		)
+	)
+
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 139.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ca04aa-cf34-49a7-84d4-2b8c76b88bd0")
+	)
+
+	(wire
+		(pts
+			(xy 139.7 116.84) (xy 130.81 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59c2db9-250d-4489-87db-d0b1a37f7c94")
+	)
+
+	(label "PWM_R"
+		(at 130.81 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c5aae17-cbbd-4e53-862b-3577c4789dad")
+	)
+
+	(wire
+		(pts
+			(xy 161.29 111.76) (xy 161.29 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1834b255-935f-465b-8d7a-4bddee782dbe")
+	)
+
+	(label "HDMI_L"
+		(at 161.29 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4850a4a0-b613-4090-9b9b-6c8f4b13f973")
+	)
+
+	(wire
+		(pts
+			(xy 158.75 111.76) (xy 158.75 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98c30cd-1ccf-4a6f-bb97-9a81b02af90c")
+	)
+
+	(label "HDMI_R"
+		(at 158.75 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16a8d630-9a8c-48e9-bbee-880a323e346c")
+	)
+
+	(symbol
+		(lib_id "xt8086:SolderJumper_2_Open")
+		(at 124.46 41.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "138b58f2-7f01-430d-aa1f-c0af0aea2582")
+		(property "Reference" "JP3"
+			(at 121.92 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB Test"
+			(at 127 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xt8086:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 124.46 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 124.46 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa5e761e-fb2c-483a-b4e6-24ab36b02c36")
+		)
+		(pin "2"
+			(uuid "2e8a90b3-4a18-4a53-a7a4-811385dfa4c1")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "xt8086:+3V3")
+		(at 124.46 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "465a76e7-a545-4d48-8cc8-e48fdd0701da")
+		(property "Reference" "#PWR0216"
+			(at 124.46 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 124.46 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "369d2d50-f015-4eb8-b4cc-3557bba5fd2f")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(wire
+		(pts
+			(xy 118.11 46.99) (xy 124.46 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c821048-5e75-46d5-baec-625cb07e29ff")
+	)
+
+	(wire
+		(pts
+			(xy 124.46 46.99) (xy 128.27 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c485b8-82ef-41e0-8433-d8f6a517d084")
+	)
+
+	(junction
+		(at 124.46 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55d347e6-2648-40fa-924e-8630ec826538")
+	)
+
+	(symbol
+		(lib_id "xt8086:MountingHole_Pad")
+		(at 160.02 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d053af13-36ce-43bf-978f-c3b31f019440")
+		(property "Reference" "H1"
+			(at 162.56 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole 2.5mm"
+			(at 162.56 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xt8086:MountingHole_2.5mm_Pad_Via"
+			(at 160.02 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 160.02 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" ""
+			(at 160.02 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d929d08a-0547-4e04-8370-c8a6b4f64aed")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "xt8086:GND")
+		(at 160.02 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35cb590f-238c-4992-b7af-5e2bc0fc6a46")
+		(property "Reference" "#PWR0217"
+			(at 160.02 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72aac96e-3857-4a9e-8d81-f7781bcccc9b")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(wire
+		(pts
+			(xy 160.02 180.34) (xy 160.02 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59cd69b5-c2e4-4177-a38a-f4572cddb854")
+	)
+
+	(symbol
+		(lib_id "xt8086:MountingHole_Pad")
+		(at 170.18 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5bcbd9c-b7f6-4b1f-897d-0433365af664")
+		(property "Reference" "H2"
+			(at 172.72 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole 2.5mm"
+			(at 172.72 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xt8086:MountingHole_2.5mm_Pad_Via"
+			(at 170.18 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 170.18 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" ""
+			(at 170.18 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bd1432f-0e99-4438-be39-a8e8c8d5eb61")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "xt8086:GND")
+		(at 170.18 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "208c8bf2-5a97-4d2d-bab7-0ff4749920fd")
+		(property "Reference" "#PWR0218"
+			(at 170.18 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23fb507d-22b0-4b07-a133-ff4fbdea5228")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(wire
+		(pts
+			(xy 170.18 180.34) (xy 170.18 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee32c72-03de-4a81-bb67-5dd606fd1164")
+	)
+
+	(symbol
+		(lib_id "xt8086:MountingHole_Pad")
+		(at 180.34 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b234f1db-6c54-4ade-b20a-d723ad4d7b2b")
+		(property "Reference" "H3"
+			(at 182.88 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole 2.5mm"
+			(at 182.88 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xt8086:MountingHole_2.5mm_Pad_Via"
+			(at 180.34 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 180.34 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" ""
+			(at 180.34 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46e29008-1104-461b-a7c8-4a2c30003b36")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "xt8086:GND")
+		(at 180.34 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50feee67-20c2-4412-a697-c8fa6f7afbf4")
+		(property "Reference" "#PWR0219"
+			(at 180.34 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4eda1ae7-0f50-4369-b601-a7a150fdf457")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(wire
+		(pts
+			(xy 180.34 180.34) (xy 180.34 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ae42e6-c4b0-4918-ac04-491bc59af52a")
+	)
+
+	(symbol
+		(lib_id "xt8086:MountingHole_Pad")
+		(at 190.5 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba009387-7c69-4d58-8d0e-2218d2d5d34e")
+		(property "Reference" "H4"
+			(at 193.04 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole 2.5mm"
+			(at 193.04 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xt8086:MountingHole_2.5mm_Pad_Via"
+			(at 190.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 190.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" ""
+			(at 190.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50ea1d7a-8eed-4bc1-913f-cb1670a61ca5")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "xt8086:GND")
+		(at 190.5 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee92af5d-c59c-4d57-8e99-d73fbc5c4faf")
+		(property "Reference" "#PWR0220"
+			(at 190.5 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a0b3d13-07a0-4c2f-9caf-d3557d7301f4")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR0220")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(wire
+		(pts
+			(xy 190.5 180.34) (xy 190.5 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14682e9a-cbae-4161-a3d9-aeda95ca7ae9")
+	)
+
 	(sheet_instances
 		(path "/"
 			(page "1")
