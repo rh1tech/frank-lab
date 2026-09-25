@@ -1411,13 +1411,13 @@
 		(uuid "252554dc-a2bd-42af-9ffe-0cea51d904ef")
 	)
 	(junction
-		(at 130.81 38.1)
+		(at 138.43 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3135ad06-92b7-4dde-8d07-bcfad2b09111")
 	)
 	(junction
-		(at 123.19 58.42)
+		(at 130.81 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48fa9f79-81a9-43ff-bcb0-7341d6772ab8")
@@ -1429,13 +1429,13 @@
 		(uuid "6329ec67-fa22-4982-815e-c68f18c88f6a")
 	)
 	(junction
-		(at 130.81 58.42)
+		(at 138.43 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ab9e859-cd9a-4c14-a1bf-8e0b0569485c")
 	)
 	(junction
-		(at 123.19 38.1)
+		(at 130.81 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cb6bb3d-0b6d-4e5d-b514-7ad5d5601e29")
@@ -1480,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 55.88) (xy 115.57 58.42)
+			(xy 123.19 48.26) (xy 123.19 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 50.8) (xy 140.97 58.42)
+			(xy 148.59 43.18) (xy 148.59 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1650,7 +1650,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 40.64) (xy 115.57 38.1)
+			(xy 123.19 33.02) (xy 123.19 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1660,7 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 38.1) (xy 140.97 38.1)
+			(xy 123.19 30.48) (xy 148.59 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1720,7 +1720,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 45.72) (xy 140.97 38.1)
+			(xy 148.59 38.1) (xy 148.59 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1790,7 +1790,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 38.1) (xy 123.19 33.02)
+			(xy 130.81 30.48) (xy 130.81 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1890,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 58.42) (xy 123.19 63.5)
+			(xy 130.81 50.8) (xy 130.81 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1920,7 +1920,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 45.72) (xy 130.81 38.1)
+			(xy 138.43 38.1) (xy 138.43 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1980,7 +1980,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 58.42) (xy 140.97 58.42)
+			(xy 123.19 50.8) (xy 148.59 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1990,7 +1990,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 50.8) (xy 130.81 58.42)
+			(xy 138.43 43.18) (xy 138.43 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2473,7 +2473,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:GND")
-		(at 123.19 63.5 0)
+		(at 130.81 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2483,7 +2483,7 @@
 		(dnp no)
 		(uuid "1fa36239-c2b5-4798-919b-5327b029af05")
 		(property "Reference" "#PWR0190"
-			(at 223.52 113.03 0)
+			(at 231.14 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2494,7 +2494,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 67.31 0)
+			(at 130.81 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2504,7 +2504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 63.5 0)
+			(at 130.81 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2515,7 +2515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 63.5 0)
+			(at 130.81 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2526,7 +2526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\""
-			(at 223.52 115.57 0)
+			(at 231.14 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2726,7 +2726,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:C_Small")
-		(at 140.97 48.26 0)
+		(at 148.59 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2736,7 +2736,7 @@
 		(dnp no)
 		(uuid "31fea6a7-0ffc-4581-bd6f-b2a908a11801")
 		(property "Reference" "C98"
-			(at 138.43 48.26 90)
+			(at 146.05 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2746,7 +2746,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 143.51 48.26 90)
+			(at 151.13 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2756,7 +2756,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:C_0603_1608Metric"
-			(at 140.97 48.26 0)
+			(at 148.59 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2767,7 +2767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 48.26 0)
+			(at 148.59 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2778,7 +2778,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 140.97 48.26 0)
+			(at 148.59 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2979,7 +2979,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:C_Small")
-		(at 130.81 48.26 0)
+		(at 138.43 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2989,7 +2989,7 @@
 		(dnp no)
 		(uuid "5663f6b4-ea17-4444-a9fd-06eb44f41f45")
 		(property "Reference" "C97"
-			(at 128.27 48.26 90)
+			(at 135.89 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2999,7 +2999,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 133.35 48.26 90)
+			(at 140.97 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3009,7 +3009,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:C_0603_1608Metric"
-			(at 130.81 48.26 0)
+			(at 138.43 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3020,7 +3020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 48.26 0)
+			(at 138.43 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3031,7 +3031,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.81 48.26 0)
+			(at 138.43 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3137,7 +3137,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:VBUS")
-		(at 123.19 33.02 0)
+		(at 130.81 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3147,7 +3147,7 @@
 		(dnp no)
 		(uuid "650b2ff6-20f4-4a03-aa48-89de27fd7675")
 		(property "Reference" "#PWR0192"
-			(at 223.52 92.71 0)
+			(at 231.14 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3158,7 +3158,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 123.19 29.21 0)
+			(at 130.81 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3168,7 +3168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 33.02 0)
+			(at 130.81 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3179,7 +3179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 33.02 0)
+			(at 130.81 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3190,7 +3190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 223.52 90.17 0)
+			(at 231.14 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3303,7 +3303,7 @@
 		(dnp no)
 		(uuid "8283e945-2133-455d-9676-9872ef3b2211")
 		(property "Reference" "R7"
-			(at 53.34 114.3 270)
+			(at 53.34 116.84 270)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3313,7 +3313,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 53.34 124.46 270)
+			(at 53.34 121.92 270)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3793,7 +3793,7 @@
 		(dnp no)
 		(uuid "9d0ea216-352d-4aee-8b9a-b0d6f5d33e6a")
 		(property "Reference" "R6"
-			(at 53.34 76.2 270)
+			(at 53.34 78.74 270)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3803,7 +3803,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 53.34 86.36 270)
+			(at 53.34 83.82 270)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3872,7 +3872,7 @@
 		(dnp no)
 		(uuid "9db7a112-b9db-4a1a-9c10-bb16bbcf86c7")
 		(property "Reference" "R8"
-			(at 123.19 93.98 90)
+			(at 120.65 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3882,7 +3882,7 @@
 			)
 		)
 		(property "Value" "2.2kΩ"
-			(at 113.03 93.98 90)
+			(at 115.57 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4276,7 +4276,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 102.87 90)
+			(at 118.11 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4411,7 +4411,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:LM358")
-		(at 118.11 48.26 0)
+		(at 125.73 40.64 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4421,7 +4421,7 @@
 		(dnp no)
 		(uuid "ead3f17b-fff9-42e3-93a7-3e1d5b73013e")
 		(property "Reference" "U20"
-			(at 115.57 36.83 0)
+			(at 123.19 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4431,7 +4431,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 113.03 48.26 90)
+			(at 120.65 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4441,7 +4441,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 118.11 48.26 0)
+			(at 125.73 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4452,7 +4452,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm358.pdf"
-			(at 118.11 48.26 0)
+			(at 125.73 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4463,7 +4463,7 @@
 			)
 		)
 		(property "Description" "Low-power dual operational amplifier"
-			(at 118.11 48.26 0)
+			(at 125.73 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

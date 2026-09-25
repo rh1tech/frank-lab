@@ -3244,6 +3244,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "DC input: 9-12 V only.\nC44 and C45 must be rated at least 16 V.\nR25/R26 (EN) and R22/R23 (Q2 gate) are sized for 12 V max."
+		(exclude_from_sim no)
+		(at 60.96 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a27a0de6-e1d0-4081-b47b-7822a23894c6")
+	)
 	(junction
 		(at 167.64 106.68)
 		(diameter 0)
@@ -4142,17 +4153,6 @@
 			(justify left)
 		)
 		(uuid "ac818484-fcf9-489e-ba72-141fdcc59cb2")
-	)
-	(text "DC input: 9-12 V only.\nC44 and C45 must be rated at least 16 V.\nR25/R26 (EN) and R22/R23 (Q2 gate) are sized for 12 V max."
-		(exclude_from_sim no)
-		(at 60.96 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a27a0de6-e1d0-4081-b47b-7822a23894c6")
 	)
 	(symbol
 		(lib_id "xt8086:C_Small")
@@ -6807,7 +6807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "xt8086:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "xt8086:TestPoint_Pad_D1.0mm"
 			(at 187.96 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7359,7 +7359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "xt8086:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "xt8086:TestPoint_Pad_D1.0mm"
 			(at 182.88 121.92 0)
 			(hide yes)
 			(show_name no)
