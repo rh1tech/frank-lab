@@ -293,13 +293,14 @@
 		(symbol "xt8086:AO3401A"
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U24"
+			(property "Reference" "Q"
 				(at 0.508 9.144 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -331,7 +332,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "AO3401A"
+			(property "Datasheet" "https://www.aosmd.com/res/datasheets/AO3401A.pdf"
 				(at 1.016 -8.128 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -343,7 +344,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "P-channel MOSFET, -30 V, -4 A, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -389,10 +390,10 @@
 			(symbol "AO3401A_0_1"
 				(polyline
 					(pts
-						(xy -2.54 3.81) (xy -2.54 -3.81)
+						(xy 1.27 -3.81) (xy 1.27 -1.524)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -401,10 +402,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -3.81) (xy 3.81 -3.81)
+						(xy -1.27 -1.524) (xy 2.54 -1.524)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -413,10 +414,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 3.81) (xy -2.54 3.81)
+						(xy -1.27 -0.762) (xy -0.508 -0.762)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -425,14 +426,122 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -3.81) (xy 3.81 3.81)
+						(xy 0.254 -0.762) (xy 1.016 -0.762)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.762) (xy 2.54 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.762) (xy -0.889 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 -0.762) (xy 2.159 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.762) (xy 0.635 1.27) (xy -0.889 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.27) (xy -0.889 3.048) (xy 0.127 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 3.048) (xy 2.159 3.048) (xy 2.159 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 3.556) (xy 0.127 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.381) (xy 0.317 -0.254) (xy 0.953 -0.254) (xy 0.635 0.381)
+					)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 3.556) (xy 1.143 2.54) (xy 0.127 3.048) (xy 1.143 3.556)
+					)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(pin input line
@@ -3244,7 +3353,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DC input: 9-12 V only.\nC44 and C45 must be rated at least 16 V.\nR25/R26 (EN) and R22/R23 (Q2 gate) are sized for 12 V max."
+	(text "DC input: 9-12 V only.\nC44 and C45 must be rated at least 16 V.\nR25/R26 (EN) and R22/R23 (Q1 gate) are sized for 12 V max."
 		(exclude_from_sim no)
 		(at 60.96 38.1 0)
 		(effects
@@ -7573,7 +7682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b32c25e-b77b-5862-9085-116bcc081f52")
-		(property "Reference" "Q3"
+		(property "Reference" "Q2"
 			(at 99.06 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7606,7 +7715,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "AO3401A"
+		(property "Datasheet" "https://www.aosmd.com/res/datasheets/AO3401A.pdf"
 			(at 100.33 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7617,7 +7726,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-channel MOSFET, -30 V, -4 A, SOT-23"
 			(at 100.33 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7640,7 +7749,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -9008,7 +9117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d92abe9c-e78d-550d-8d1c-b082f5ce9da6")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 100.33 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9039,7 +9148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "AO3401A"
+		(property "Datasheet" "https://www.aosmd.com/res/datasheets/AO3401A.pdf"
 			(at 100.33 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9050,7 +9159,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-channel MOSFET, -30 V, -4 A, SOT-23"
 			(at 100.33 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9073,7 +9182,7 @@
 		(instances
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)

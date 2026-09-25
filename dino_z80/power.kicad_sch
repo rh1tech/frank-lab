@@ -293,13 +293,14 @@
 		(symbol "dino:AO3401A"
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U24"
+			(property "Reference" "Q"
 				(at 0.508 9.144 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -331,7 +332,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "AO3401A"
+			(property "Datasheet" "https://www.aosmd.com/res/datasheets/AO3401A.pdf"
 				(at 1.016 -8.128 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -343,7 +344,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "P-channel MOSFET, -30 V, -4 A, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -389,10 +390,10 @@
 			(symbol "AO3401A_0_1"
 				(polyline
 					(pts
-						(xy -2.54 3.81) (xy -2.54 -3.81)
+						(xy 1.27 -3.81) (xy 1.27 -1.524)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -401,10 +402,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -3.81) (xy 3.81 -3.81)
+						(xy -1.27 -1.524) (xy 2.54 -1.524)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -413,10 +414,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 3.81) (xy -2.54 3.81)
+						(xy -1.27 -0.762) (xy -0.508 -0.762)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -425,14 +426,122 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -3.81) (xy 3.81 3.81)
+						(xy 0.254 -0.762) (xy 1.016 -0.762)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.762) (xy 2.54 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.762) (xy -0.889 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 -0.762) (xy 2.159 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.762) (xy 0.635 1.27) (xy -0.889 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.27) (xy -0.889 3.048) (xy 0.127 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 3.048) (xy 2.159 3.048) (xy 2.159 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 3.556) (xy 0.127 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.381) (xy 0.317 -0.254) (xy 0.953 -0.254) (xy 0.635 0.381)
+					)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 3.556) (xy 1.143 2.54) (xy 0.127 3.048) (xy 1.143 3.556)
+					)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(pin input line
@@ -3244,6 +3353,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "DC input: 9-12 V only.\nC54 and C55 must be rated at least 16 V.\nR47/R48 (EN) and R44/R45 (Q1 gate) are sized for 12 V max."
+		(exclude_from_sim no)
+		(at 60.96 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc2c41ce-e72d-4b1a-bdf8-9be7fa8521a7")
+	)
 	(junction
 		(at 167.64 106.68)
 		(diameter 0)
@@ -4142,17 +4262,6 @@
 			(justify left)
 		)
 		(uuid "ac818484-fcf9-489e-ba72-141fdcc59cb2")
-	)
-	(text "DC input: 9-12 V only.\nC54 and C55 must be rated at least 16 V.\nR47/R48 (EN) and R44/R45 (Q1 gate) are sized for 12 V max."
-		(exclude_from_sim no)
-		(at 60.96 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc2c41ce-e72d-4b1a-bdf8-9be7fa8521a7")
 	)
 	(symbol
 		(lib_id "dino:C_Small")
@@ -7606,7 +7715,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "AO3401A"
+		(property "Datasheet" "https://www.aosmd.com/res/datasheets/AO3401A.pdf"
 			(at 100.33 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7617,7 +7726,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-channel MOSFET, -30 V, -4 A, SOT-23"
 			(at 100.33 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9039,7 +9148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "AO3401A"
+		(property "Datasheet" "https://www.aosmd.com/res/datasheets/AO3401A.pdf"
 			(at 100.33 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9050,7 +9159,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-channel MOSFET, -30 V, -4 A, SOT-23"
 			(at 100.33 63.5 0)
 			(hide yes)
 			(show_name no)
