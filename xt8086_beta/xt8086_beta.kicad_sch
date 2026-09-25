@@ -3148,10 +3148,6 @@
 		(uuid "3cd25d88-5e55-4930-acf2-985c56796e14")
 	)
 	(no_connect
-		(at 204.47 72.39)
-		(uuid "5450cf28-26e2-4dac-a186-903351c0ee7e")
-	)
-	(no_connect
 		(at 179.07 74.93)
 		(uuid "55bfb946-dffc-49ee-a6d5-d53a672908eb")
 	)
@@ -3190,10 +3186,6 @@
 	(no_connect
 		(at 86.36 139.7)
 		(uuid "fd8eda0b-e0a7-4d48-a020-d27927260bca")
-	)
-	(no_connect
-		(at 204.47 77.47)
-		(uuid "fed28f2d-5abd-4862-bdd2-2a82e1b26436")
 	)
 	(wire
 		(pts
@@ -4047,16 +4039,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 120.65) (xy 77.47 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6299a68-ce4d-41bc-9de2-b27ca587162c")
-	)
-	(wire
-		(pts
 			(xy 264.16 62.23) (xy 260.35 62.23)
 		)
 		(stroke
@@ -4355,16 +4337,6 @@
 		)
 		(uuid "9095fb1c-3d44-42e8-8213-c0d43c150f82")
 	)
-	(label "CLK{slash}GP29"
-		(at 66.04 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "921f7c59-ea39-4840-9baf-bef49ea720b7")
-	)
 	(label "MN{slash}MX"
 		(at 33.02 53.34 0)
 		(effects
@@ -4524,6 +4496,339 @@
 			(justify left bottom)
 		)
 		(uuid "f8ca7e74-5c5e-4c83-af4e-8e7e7cc7bf6d")
+	)
+	(wire
+		(pts
+			(xy 63.5 120.65) (xy 64.77 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d81d762-8091-4b1f-9f95-9e89d7664513")
+	)
+	(wire
+		(pts
+			(xy 64.77 120.65) (xy 64.77 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32aff86e-1522-4348-b5c1-6b80bf3dfd81")
+	)
+	(label "CLK_5V"
+		(at 64.77 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c0e6ece-66a2-4468-9899-a3ae985b5fa7")
+	)
+	(wire
+		(pts
+			(xy 67.31 120.65) (xy 77.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c3603b-783e-4921-a6a0-09339b9c5665")
+	)
+	(label "CLK{slash}GP29"
+		(at 67.31 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d80fae22-c5d9-4dae-b6a7-7a5a01fbbd1e")
+	)
+	(wire
+		(pts
+			(xy 204.47 69.85) (xy 214.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aef18ae-0559-4f48-b52d-c28638b7c1b4")
+	)
+	(label "CLK{slash}GP29"
+		(at 214.63 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c7b69d4-09a8-4344-98cc-41ac1d0c46d5")
+	)
+	(wire
+		(pts
+			(xy 204.47 72.39) (xy 207.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f913add-84c2-4fb9-bc8a-f72d8cc3eaa5")
+	)
+	(wire
+		(pts
+			(xy 207.01 72.39) (xy 207.01 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29793f9f-0d62-4b8b-9d74-f4fcc1f56548")
+	)
+	(wire
+		(pts
+			(xy 207.01 74.93) (xy 204.47 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e25b92a4-e356-4e0a-851b-fdd190ddb4a5")
+	)
+	(wire
+		(pts
+			(xy 204.47 77.47) (xy 214.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fa8e71-6889-48c5-bef7-f4fbd8eb0e80")
+	)
+	(label "CLK_5V"
+		(at 214.63 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4eba1fed-81d6-461e-b781-24a74491e62c")
+	)
+	(text "U1 (74HCT04, 5 V) buffers GP29 through two gates,\nso the 8086 CLK swings to 5 V (the 8086 needs VCH >= 3.9 V)."
+		(exclude_from_sim no)
+		(at 179.07 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e040117d-0ac8-4096-b8fa-cd15f26b7ae4")
+	)
+	(symbol
+		(lib_id "xt8086:R")
+		(at 231.14 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "62b27d99-627e-4abb-b139-47d33d6f4af0")
+		(property "Reference" "R69"
+			(at 233.68 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 233.68 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xt8086:R_0603_1608Metric"
+			(at 231.14 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 231.14 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20e6e42c-ccb8-4a2b-ab2d-673770632343")
+		)
+		(pin "2"
+			(uuid "d4cf28e5-22b1-4ee7-b072-c6e2dbe8c585")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xt8086:+3V3")
+		(at 231.14 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d59dc513-80e9-47ae-a82f-2c0cc376f4d6")
+		(property "Reference" "#PWR0225"
+			(at 227.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 234.95 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 63.5 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a224d38-2af8-4d53-91aa-30f76f2b4df8")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 231.14 107.95) (xy 231.14 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3824212f-1584-4062-bfa8-3661f47f30e3")
+	)
+	(label "RESET{slash}GP28"
+		(at 231.14 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e4c5524-e11c-4b28-9fb9-0082c62fd1ef")
+	)
+	(text "R69 holds the 8086 in reset (RESET is active high)\nuntil the RP2350 drives GP28."
+		(exclude_from_sim no)
+		(at 215.9 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "656f0a9a-b59f-492e-aae8-ab2a8b8cf445")
 	)
 	(symbol
 		(lib_id "xt8086:GND")
@@ -5002,7 +5307,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C48935385"
 			(at 170.18 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5675,7 +5980,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
 			(at 175.26 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6034,7 +6339,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C48935385"
 			(at 274.32 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6393,7 +6698,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
 			(at 264.16 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6874,6 +7179,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 57.15 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 57.15 135.89 0)
 			(hide yes)
@@ -7174,7 +7490,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 57.15 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7336,6 +7652,18 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-ck-slide-sk-series-datasheet?assetguid=b8839b40-326a-4b0a-8ce9-5e9d0637af3f"
+			(at 147.32 239.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "LCSC" "C22355741"
 			(at 147.32 239.37 0)
 			(hide yes)
 			(show_name no)
@@ -8502,6 +8830,18 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C39990"
+			(at 256.54 257.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(property "Description" "Flip Flops Dual Pos-Edge-Trig D-Type Flip-Flop"
 			(at 232.41 62.23 0)
 			(hide yes)
@@ -9027,6 +9367,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C49257"
+			(at 185.42 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 185.42 96.52 0)
 			(hide yes)
@@ -9233,84 +9584,6 @@
 		)
 	)
 	(symbol
-		(lib_id "xt8086:GND")
-		(at 204.47 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c560e823-16c6-5fe8-bc3f-99b4c6954b5f")
-		(property "Reference" "#PWR020"
-			(at 204.47 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 213.36 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b44603c-80a4-5163-9c2d-9a1226699396")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "xt8086:R")
 		(at 27.94 68.58 90)
 		(unit 1)
@@ -9353,6 +9626,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 27.94 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 27.94 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9591,7 +9875,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LS04"
+		(property "Value" "74HCT04"
 			(at 191.77 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9613,7 +9897,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls04"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hct04.pdf"
 			(at 182.88 259.69 0)
 			(hide yes)
 			(show_name no)
@@ -9625,7 +9909,19 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Hex inverter,SN74LS04N DIP14 25pcs"
+		(property "LCSC" "C6766"
+			(at 182.88 259.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Hex inverter, HCT (TTL-level inputs, 5 V CMOS outputs)"
 			(at 204.47 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9791,6 +10087,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 49.53 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2297"
 			(at 49.53 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -10082,6 +10389,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 27.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 27.94 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10442,84 +10760,6 @@
 	)
 	(symbol
 		(lib_id "xt8086:GND")
-		(at 204.47 69.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4c3d0fd-16d5-5cd6-9c92-765b9e691997")
-		(property "Reference" "#PWR019"
-			(at 204.47 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "334ed1b4-bc18-53b5-8d76-3c3271340276")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "xt8086:GND")
 		(at 45.72 148.59 270)
 		(unit 1)
 		(body_style 1)
@@ -10641,6 +10881,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 49.53 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C84256"
 			(at 49.53 135.89 0)
 			(hide yes)
 			(show_name no)

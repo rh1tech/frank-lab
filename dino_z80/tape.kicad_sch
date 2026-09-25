@@ -5,7 +5,7 @@
 	(uuid "7a9e0000-7a9e-4a9e-8a9e-000000000742")
 	(paper "A4")
 	(title_block
-		(title "${NAME}")
+		(title "${NAME} ${MODEL}")
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
@@ -1651,7 +1651,7 @@
 				(pin input line
 					(at 60.96 -12.7 180)
 					(length 7.62)
-					(name "D14"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2885,7 +2885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15b2bbb7-9006-4511-be7b-08c568c69e62")
-		(property "Reference" "R81"
+		(property "Reference" "R60"
 			(at 123.19 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2949,7 +2949,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2906982"
+		(property "LCSC" "C25804"
 			(at 123.19 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -2969,7 +2969,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "R81")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -2987,7 +2987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18fe2694-2cd3-4f21-a45b-81a920310064")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0148"
 			(at 121.92 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3048,7 +3048,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "#PWR0209")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -3065,7 +3065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1afa636e-5362-4484-94fb-479c55aeef3b")
-		(property "Reference" "C63"
+		(property "Reference" "C64"
 			(at 203.2 55.626 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3151,7 +3151,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "C63")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -3169,7 +3169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22e66cae-d0bf-49dd-9723-38ac5ca9aa2a")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR0156"
 			(at 207.01 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3230,7 +3230,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "#PWR0210")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -3248,7 +3248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2da75c39-1813-4be0-a8fd-3f0522215927")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0155"
 			(at 207.01 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3309,7 +3309,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "#PWR0211")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -3327,7 +3327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c44f6b9-07c1-4018-bb29-2596ca428f45")
-		(property "Reference" "U20"
+		(property "Reference" "U15"
 			(at 166.37 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,6 +3382,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C93672"
+			(at 135.89 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "5e883e57-6651-42db-b2f7-8c22a85525a7")
 		)
@@ -3427,7 +3439,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "U20")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -3444,7 +3456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3de91b58-c444-4f90-8970-98df0993db8b")
-		(property "Reference" "R55"
+		(property "Reference" "R58"
 			(at 100.584 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3497,6 +3509,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 102.87 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 102.87 76.2 0)
 			(hide yes)
@@ -3517,7 +3540,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "R55")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -3535,7 +3558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "411cbe74-e754-42c4-91cd-d56a6c996f6e")
-		(property "Reference" "R80"
+		(property "Reference" "R59"
 			(at 103.632 128.3278 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3621,7 +3644,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "R80")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -3639,7 +3662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58bc88b3-eafc-4f77-ab88-73376c64f12a")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0149"
 			(at 140.97 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3699,7 +3722,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "#PWR0218")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -3717,7 +3740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58f21ce4-96af-47bd-9648-0fd089c54139")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0150"
 			(at 158.75 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3777,7 +3800,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "#PWR0219")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -3904,7 +3927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66d6be56-1cd2-40ff-8938-02db4ea95541")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0152"
 			(at 199.39 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3964,7 +3987,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "#PWR0212")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -3982,7 +4005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a33a5a7-dc40-45d5-9346-a5e73b26252a")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0146"
 			(at 72.39 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4043,7 +4066,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "#PWR0213")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -4060,7 +4083,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6afc18aa-b89c-47b3-bfac-bbed7c96e0b0")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0153"
 			(at 196.85 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4120,7 +4143,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "#PWR0214")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -4138,7 +4161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bcabeb5-ecab-4dcf-9580-475abd3224e6")
-		(property "Reference" "R56"
+		(property "Reference" "R62"
 			(at 147.32 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4202,7 +4225,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2906982"
+		(property "LCSC" "C25804"
 			(at 147.32 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4222,7 +4245,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "R56")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -4350,7 +4373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74bfea75-c012-487d-93f5-f7e1216baacf")
-		(property "Reference" "R57"
+		(property "Reference" "R63"
 			(at 161.29 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4416,7 +4439,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C25804"
 			(at 158.75 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4436,7 +4459,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "R57")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -4453,7 +4476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85bf84c0-9f90-40b5-959a-628a43b90885")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0151"
 			(at 165.1 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4513,7 +4536,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "#PWR0217")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -4531,7 +4554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e441ec7-1aa4-4f68-ba69-4600d1ea2626")
-		(property "Reference" "R82"
+		(property "Reference" "R61"
 			(at 143.51 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4597,7 +4620,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2906982"
+		(property "LCSC" "C25804"
 			(at 140.97 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4617,7 +4640,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "R82")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -4635,7 +4658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2288cc4-3a5f-40a8-8c78-b523d89f524c")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR0154"
 			(at 207.01 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4696,7 +4719,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "#PWR0215")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -4713,7 +4736,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2e925ae-e07c-4511-93a0-85e57ef4094c")
-		(property "Reference" "C106"
+		(property "Reference" "C63"
 			(at 114.3 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4799,7 +4822,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "C106")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -4816,7 +4839,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a95a30df-309d-4afc-af08-0c607edd2323")
-		(property "Reference" "R54"
+		(property "Reference" "R57"
 			(at 100.584 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,6 +4892,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 102.87 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 102.87 68.58 0)
 			(hide yes)
@@ -4889,7 +4923,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "R54")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -4907,7 +4941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb592a28-28f9-4ede-af1a-1037e7425943")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0147"
 			(at 105.41 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4967,7 +5001,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "#PWR0216")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -5279,7 +5313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4c9f8c7-9a0e-4c1a-bd17-4f131329d4b0")
-		(property "Reference" "R53"
+		(property "Reference" "R56"
 			(at 100.584 60.706 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5332,6 +5366,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23162"
+			(at 102.87 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 102.87 60.96 0)
 			(hide yes)
@@ -5352,7 +5397,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/7a9e0000-7a9e-4a9e-8a9e-000000000742"
-					(reference "R53")
+					(reference "R56")
 					(unit 1)
 				)
 			)

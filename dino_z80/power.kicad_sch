@@ -390,7 +390,7 @@
 			(symbol "AO3401A_0_1"
 				(polyline
 					(pts
-						(xy 1.27 -3.81) (xy 1.27 -1.524)
+						(xy -1.27 -0.762) (xy -0.508 -0.762)
 					)
 					(stroke
 						(width 0.254)
@@ -414,31 +414,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -0.762) (xy -0.508 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -0.762) (xy 1.016 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -0.762) (xy 2.54 -0.762)
+						(xy -0.889 1.27) (xy -0.889 3.048) (xy 0.127 3.048)
 					)
 					(stroke
 						(width 0.254)
@@ -462,55 +438,19 @@
 				)
 				(polyline
 					(pts
-						(xy 2.159 -0.762) (xy 2.159 1.27) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.762) (xy 0.635 1.27) (xy -0.889 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.27) (xy -0.889 3.048) (xy 0.127 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 3.048) (xy 2.159 3.048) (xy 2.159 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.127 3.556) (xy 0.127 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.762) (xy 1.016 -0.762)
 					)
 					(stroke
 						(width 0.254)
@@ -534,6 +474,18 @@
 				)
 				(polyline
 					(pts
+						(xy 0.635 -0.762) (xy 0.635 1.27) (xy -0.889 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 1.143 3.556) (xy 1.143 2.54) (xy 0.127 3.048) (xy 1.143 3.556)
 					)
 					(stroke
@@ -542,6 +494,54 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 3.048) (xy 2.159 3.048) (xy 2.159 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.762) (xy 2.54 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 -0.762) (xy 2.159 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin input line
@@ -4329,6 +4329,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C107038"
+			(at 125.73 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
 			(at 125.73 113.03 0)
 			(hide yes)
@@ -4433,7 +4444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0230ce3e-5abe-4862-b112-85b9d073047f")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0129"
 			(at 93.98 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4493,7 +4504,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0124")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -4555,6 +4566,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 93.98 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 93.98 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4724,6 +4746,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2818306"
+			(at 137.16 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b8c4b15-899e-5a2d-a2e8-31444a19b7d2")
 		)
@@ -4759,7 +4792,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c8fcfb1-c429-45a5-8aa3-4480db63ebd2")
-		(property "Reference" "R47"
+		(property "Reference" "R50"
 			(at 113.03 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4802,6 +4835,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 113.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25803"
 			(at 113.03 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4898,7 +4942,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "R47")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -5048,6 +5092,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C15051"
+			(at 158.75 291.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(property "Height" "1.7"
 			(at 158.75 491.44 0)
 			(hide yes)
@@ -5166,7 +5222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11961c0d-34c2-46bd-8d30-5e785fea92b7")
-		(property "Reference" "R48"
+		(property "Reference" "R51"
 			(at 117.348 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5209,6 +5265,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 119.38 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23153"
 			(at 119.38 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5305,7 +5372,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "R48")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -5367,6 +5434,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 101.6 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5480,7 +5558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b75385a-712e-455d-8bf0-18e95882e167")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0126"
 			(at 71.12 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5540,7 +5618,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0121")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -5557,7 +5635,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e0deaf5-2cc3-49dc-b2bb-75606fd7b9c7")
-		(property "Reference" "R52"
+		(property "Reference" "R55"
 			(at 176.53 104.648 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5600,6 +5678,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 176.53 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907038"
 			(at 176.53 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5696,7 +5785,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "R52")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -5714,7 +5803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "363bebde-2519-49bf-aec9-1d7a6e5e7b7c")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0144"
 			(at 207.01 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5774,7 +5863,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0139")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -5792,7 +5881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37c8b6ce-a8b9-4292-8fe9-73b7635ac408")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0134"
 			(at 125.73 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -5852,7 +5941,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0129")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -5870,7 +5959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e1e648e-b3bc-5154-a6f1-10ab6a0ddc28")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0132"
 			(at 118.11 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -5930,7 +6019,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0127")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -5948,7 +6037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a1613f6-a879-4089-8331-81300043ee07")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0139"
 			(at 167.64 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6008,7 +6097,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0134")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -6025,7 +6114,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "4c1d10e6-8197-54c8-b7f4-f71f071e45c4")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0141"
 			(at 182.88 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6085,7 +6174,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0136")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -6102,7 +6191,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e244b3b-00dd-55ee-b70a-06dece8ae880")
-		(property "Reference" "R45"
+		(property "Reference" "R48"
 			(at 106.68 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6155,6 +6244,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 106.68 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2111db89-4527-5fd5-a69a-e435dd2d91a6")
 		)
@@ -6164,7 +6264,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "R45")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -6182,7 +6282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50834c91-94a7-4f16-8c24-3e6ed45794b2")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0131"
 			(at 101.6 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6242,7 +6342,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0126")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -6259,7 +6359,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5367d218-04a3-4ad7-ad96-c210480dcdeb")
-		(property "Reference" "R51"
+		(property "Reference" "R54"
 			(at 169.672 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6302,6 +6402,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 167.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25981"
 			(at 167.64 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6398,7 +6509,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "R51")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -6416,7 +6527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61ebea9c-5689-41db-8c8f-fff832bd0114")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0145"
 			(at 213.36 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6476,7 +6587,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0140")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -6546,6 +6657,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C8678"
+			(at 177.8 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 177.8 92.71 0)
 			(hide yes)
@@ -6583,7 +6705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70519b8c-678b-5e68-96b6-62eba40dc2f8")
-		(property "Reference" "JP2"
+		(property "Reference" "JP6"
 			(at 121.92 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6645,7 +6767,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "JP2")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -6662,7 +6784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7207a8ea-237d-4535-b8ea-1dda3f20dc90")
-		(property "Reference" "R50"
+		(property "Reference" "R53"
 			(at 132.588 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6705,6 +6827,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 134.62 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25803"
 			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6801,7 +6934,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "R50")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -6819,7 +6952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78d5df8b-6501-5bcb-b47c-d1f01975ed6f")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0130"
 			(at 99.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6879,7 +7012,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0125")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -6973,7 +7106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ab59655-60c5-4b74-b0a6-c551007d2e52")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0143"
 			(at 200.66 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7033,7 +7166,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0138")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -7050,7 +7183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "846c45dd-d6cf-52ca-a047-fd72e6460d48")
-		(property "Reference" "R43"
+		(property "Reference" "R46"
 			(at 92.71 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7105,6 +7238,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 90.17 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1a8d0e03-3504-5cbe-99b8-d715aa92bedb")
 		)
@@ -7114,7 +7258,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "R43")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -7132,7 +7276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "867c7725-a40c-40d8-921a-92f1461b3f2b")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0140"
 			(at 177.8 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7192,7 +7336,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0135")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -7254,6 +7398,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C381116"
 			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7579,6 +7734,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C47344173"
+			(at 213.36 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
 			(at 213.36 110.49 0)
 			(hide yes)
@@ -7737,6 +7903,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15127"
+			(at 100.33 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26e5f379-c79f-5759-8c66-ff3bf674278d")
 		)
@@ -7767,7 +7944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cc3459b-6b6c-41df-86e6-46873fa261ac")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0137"
 			(at 134.62 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7827,7 +8004,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0132")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -7844,7 +8021,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "9d83bd6f-7fe3-538e-a6a1-8bce5105435b")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0127"
 			(at 81.28 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7904,7 +8081,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0122")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -7966,6 +8143,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 200.66 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8079,7 +8267,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2fb7abf-c2ee-45af-8e48-7ee62c6a44b2")
-		(property "Reference" "R49"
+		(property "Reference" "R52"
 			(at 123.698 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8122,6 +8310,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 125.73 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25803"
 			(at 125.73 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8218,7 +8417,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "R49")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -8289,6 +8488,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C87002"
+			(at 186.69 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 186.69 101.6 90)
 			(hide yes)
@@ -8326,7 +8536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb3a2064-e3c6-51f5-a921-998f6fded742")
-		(property "Reference" "R44"
+		(property "Reference" "R47"
 			(at 101.6 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8381,6 +8591,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 99.06 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "335011a8-b83f-5662-a889-fe811c78d226")
 		)
@@ -8390,7 +8611,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "R44")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -8407,7 +8628,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "c07fcf51-7222-5e20-a33c-b5b6db46fd97")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0135"
 			(at 127 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8467,7 +8688,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0130")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -8529,6 +8750,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 207.01 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19702"
 			(at 207.01 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8643,7 +8875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb650eaa-4bdf-437e-adff-1487b52da981")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0138"
 			(at 147.32 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8703,7 +8935,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0133")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -8765,6 +8997,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 86.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C43826"
 			(at 86.36 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8879,7 +9122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0244251-43e6-4dd9-8404-5550e3d3e6e9")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0128"
 			(at 86.36 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8939,7 +9182,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0123")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -9001,6 +9244,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 81.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 81.28 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -9080,6 +9334,17 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 81.28 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C32404"
 			(at 81.28 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9170,6 +9435,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15127"
+			(at 100.33 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "38060c37-824b-5dc1-a1e9-87f2b6955a02")
 		)
@@ -9200,7 +9476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d98efe79-97b4-4789-8797-75997cafa4e3")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0133"
 			(at 119.38 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9260,7 +9536,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0128")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -9322,6 +9598,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 165.1 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 165.1 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9435,7 +9722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ede2d48b-0c4e-5cd1-afdb-f42c19812a0b")
-		(property "Reference" "R46"
+		(property "Reference" "R49"
 			(at 109.22 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9488,6 +9775,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 109.22 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f348e7fb-e58f-5183-a0b6-cbecded2cd06")
 		)
@@ -9497,7 +9795,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "R46")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -9514,7 +9812,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "f85d092f-78e6-5599-bf5c-91675d61f3cb")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0142"
 			(at 187.96 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9574,7 +9872,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0137")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -9668,7 +9966,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "fdbe35b3-230e-5501-a204-2bb54734bb6a")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0136"
 			(at 135.89 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -9728,7 +10026,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fc69669c-5428-4356-8e92-0aa932a39979/f88cfa5c-37e8-4389-9157-cf73f7985020"
-					(reference "#PWR0131")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)

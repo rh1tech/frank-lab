@@ -12,6 +12,171 @@
 		(comment 1 "https://github.com/rh1tech/frank")
 	)
 	(lib_symbols
+		(symbol "xt8086:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "xt8086:C_1206_3216Metric"
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "xt8086:+3V3"
 			(power global)
 			(pin_numbers
@@ -2051,7 +2216,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589837112796483584"
 				(at -17.78 14.605 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2347,10 +2512,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -33.02 -13.97 0)
 					(length 2.54)
-					(name "??"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5566,16 +5731,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 147.32) (xy 151.13 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65b5f54c-aa34-4b8a-82ea-22b8e891e101")
-	)
-	(wire
-		(pts
 			(xy 227.33 157.48) (xy 240.03 157.48)
 		)
 		(stroke
@@ -6116,16 +6271,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 147.32) (xy 132.08 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b52553dc-b105-42e8-85a4-c3cf5cb6b795")
-	)
-	(wire
-		(pts
 			(xy 34.29 133.35) (xy 41.91 133.35)
 		)
 		(stroke
@@ -6173,16 +6318,6 @@
 			(type default)
 		)
 		(uuid "ba822e14-266e-4f4c-a43c-4aeabbcee7b7")
-	)
-	(wire
-		(pts
-			(xy 256.54 114.3) (xy 261.62 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baaace56-01a2-4c25-a0c8-86577836d74b")
 	)
 	(wire
 		(pts
@@ -6343,16 +6478,6 @@
 			(type default)
 		)
 		(uuid "d7b6260d-cf1b-4716-83fa-24cd7f2e6cda")
-	)
-	(wire
-		(pts
-			(xy 139.7 157.48) (xy 151.13 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9c2ceb6-1218-4a16-859d-7c2fdf100ade")
 	)
 	(wire
 		(pts
@@ -6556,16 +6681,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 157.48) (xy 132.08 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcede1e4-5f19-494a-a40a-02f9e22a92ca")
-	)
-	(wire
-		(pts
 			(xy 44.45 46.99) (xy 66.04 46.99)
 		)
 		(stroke
@@ -6655,7 +6770,7 @@
 		(uuid "21afbbf9-6f37-486d-8eb7-cae6371ad025")
 	)
 	(label "ALIN"
-		(at 151.13 147.32 180)
+		(at 158.75 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6965,7 +7080,7 @@
 		(uuid "b7dfb62e-c972-465d-b421-809293138c71")
 	)
 	(label "ARIN"
-		(at 151.13 157.48 180)
+		(at 158.75 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7158,17 +7273,6 @@
 		)
 		(uuid "78357094-7b77-41a7-aa05-c10ebc4a5681")
 	)
-	(hierarchical_label "AUDIO_IN_R"
-		(shape output)
-		(at 128.27 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7cf6016a-f5a7-4bd5-975b-cea34b87abb1")
-	)
 	(hierarchical_label "VGA_GH"
 		(shape output)
 		(at 27.94 39.37 180)
@@ -7245,6 +7349,835 @@
 			(justify right)
 		)
 		(uuid "f25f2ce4-b485-471b-b074-94ca857cc8e7")
+	)
+	(symbol
+		(lib_id "xt8086:+3V3")
+		(at 57.15 133.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0c82fc5-651d-4c21-a7df-56dbc8f263d8")
+		(property "Reference" "#PWR0133"
+			(at 53.34 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 60.96 133.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 57.15 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2c37004-13a5-409c-97e4-10098214668e")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xt8086:R")
+		(at 132.08 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74cb575b-3c70-451f-8ac0-820cf5e4f99c")
+		(property "Reference" "R72"
+			(at 132.08 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 132.08 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "xt8086:R_0603_1608Metric"
+			(at 132.08 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 132.08 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor: 0 Ω fitted; 10 kΩ with the shunt makes the reference 1/2 divider"
+			(at 132.08 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 132.08 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7a78b8b-db3c-4bbd-8e57-3b7b0dd6543f")
+		)
+		(pin "2"
+			(uuid "26b6dba3-a133-4540-9cf2-253f8cf518cb")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xt8086:R")
+		(at 138.43 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "f238d7de-d6da-44d7-85a2-0a813a6902f0")
+		(property "Reference" "R73"
+			(at 140.97 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 140.97 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xt8086:R_0603_1608Metric"
+			(at 138.43 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 138.43 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor: not fitted; 10 kΩ with a 10 kΩ series R halves the level into the MS9288A"
+			(at 138.43 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 138.43 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08782e5c-185a-4815-aecc-49d49245c2ed")
+		)
+		(pin "2"
+			(uuid "f13fe185-7724-4475-ba62-1723133f9a18")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 135.89 147.32) (xy 140.97 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1f0ccf-d923-4920-bae1-ec6a48ac2788")
+	)
+	(junction
+		(at 138.43 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0cbf9f2-66b9-45db-a66a-853c57d7eee9")
+	)
+	(wire
+		(pts
+			(xy 148.59 147.32) (xy 158.75 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e04a3c-0968-4d2e-af3e-26a7a3d50015")
+	)
+	(symbol
+		(lib_id "xt8086:GND")
+		(at 138.43 154.94 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff4aa3ab-b9ba-461d-afc6-18bb395fc77d")
+		(property "Reference" "#PWR0226"
+			(at 138.43 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1754ec55-0d44-4288-93ea-f35aa09a687f")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
+					(reference "#PWR0226")
+					(unit 1)
+				)
+			)
+		)
+	)
+		(hierarchical_label "AUDIO_IN_R"
+		(shape output)
+		(at 128.27 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4593f11-d6b7-4911-b16a-37d1762f3835")
+	)
+	(symbol
+		(lib_id "xt8086:R")
+		(at 132.08 162.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "912e4d05-c68e-4a8f-9995-643a2c300c7d")
+		(property "Reference" "R74"
+			(at 132.08 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 132.08 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "xt8086:R_0603_1608Metric"
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor: 0 Ω fitted; 10 kΩ with the shunt makes the reference 1/2 divider"
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6860cdc3-262c-45aa-88e8-fb1c42683981")
+		)
+		(pin "2"
+			(uuid "4bcc8cdf-1384-4af6-9f90-b1506eb56580")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xt8086:R")
+		(at 138.43 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "3d8b8e60-823a-40c0-b501-576eed707fd6")
+		(property "Reference" "R75"
+			(at 140.97 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 140.97 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xt8086:R_0603_1608Metric"
+			(at 138.43 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 138.43 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor: not fitted; 10 kΩ with a 10 kΩ series R halves the level into the MS9288A"
+			(at 138.43 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 138.43 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a57080b-906e-4a00-8a41-f7952647e49d")
+		)
+		(pin "2"
+			(uuid "55f3be97-5feb-45dc-a077-6ac474e49a41")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 135.89 162.56) (xy 140.97 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4eb14a6-7bbd-494a-8790-d4afcec384fb")
+	)
+	(junction
+		(at 138.43 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14a02a9c-c164-4b1e-8b2c-fdf32e172fd7")
+	)
+	(wire
+		(pts
+			(xy 148.59 162.56) (xy 158.75 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c99a3fd3-438c-4bd6-bc46-2dbc2fdd5c1e")
+	)
+	(symbol
+		(lib_id "xt8086:GND")
+		(at 138.43 170.18 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db7e5a00-e3e7-4372-af41-06687b841690")
+		(property "Reference" "#PWR0227"
+			(at 138.43 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82e49488-8545-478e-a583-8b91d0bad214")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Audio into the MS9288A: fitted with 0 Ω and no shunt, as before.\nFor the reference 1/2 level, fit 10 kΩ in series and 10 kΩ to GND."
+		(exclude_from_sim no)
+		(at 101.6 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "426fd7d5-85a1-47c8-b331-9fd5519afa7d")
+	)
+	(symbol
+		(lib_id "xt8086:Polyfuse")
+		(at 252.73 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b834e041-3b4c-4d7f-b27f-c0a92b615f7f")
+		(property "Reference" "F2"
+			(at 252.73 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.2A 9V"
+			(at 252.73 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "xt8086:Fuse_0603_1608Metric"
+			(at 252.73 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403081021_RUILON-Shenzhen-Ruilongyuan-Elec-SMD0603P020TF_C20785.pdf"
+			(at 252.73 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20785"
+			(at 252.73 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse (PTC), 0.2 A hold, 0.5 A trip: limits the HDMI +5 V pin"
+			(at 252.73 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66ede6d3-760b-4378-8db2-75ab9a775a77")
+		)
+		(pin "2"
+			(uuid "ad6e96e2-c4f1-4e22-8f2b-f3786eaa56bb")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 256.54 114.3) (xy 260.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c16b6a8-d16a-4595-93dc-1e30f2dec4df")
+	)
+	(wire
+		(pts
+			(xy 267.97 114.3) (xy 273.05 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8373b7de-6013-4e8d-89a5-a33bcdd1d98a")
 	)
 	(symbol
 		(lib_id "xt8086:GND")
@@ -7457,6 +8390,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22975"
+			(at 186.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 186.69 76.2 0)
 			(hide yes)
@@ -7537,6 +8481,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 186.69 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22975"
 			(at 186.69 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7872,6 +8827,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 121.92 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 121.92 30.48 0)
 			(hide yes)
@@ -7955,6 +8921,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 99.06 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1644"
 			(at 99.06 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8057,6 +9034,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C8020"
+			(at 241.3 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Tantalum capacitor, 3528; AMS1117 needs it for stability"
 			(at 241.3 31.75 0)
 			(hide yes)
@@ -8128,6 +9116,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 60.96 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4275"
 			(at 60.96 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8255,7 +9254,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:C")
-		(at 135.89 157.48 270)
+		(at 144.78 162.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8265,7 +9264,7 @@
 		(dnp no)
 		(uuid "21764aef-bb75-412f-917d-6e8908a6a314")
 		(property "Reference" "C69"
-			(at 134.366 155.956 90)
+			(at 143.256 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8276,7 +9275,7 @@
 			)
 		)
 		(property "Value" "1µF"
-			(at 137.668 155.956 90)
+			(at 146.558 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8287,7 +9286,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:C_0603_1608Metric"
-			(at 132.08 158.4452 0)
+			(at 140.97 163.525 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8298,7 +9297,18 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 157.48 0)
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 144.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8309,7 +9319,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 135.89 157.48 0)
+			(at 144.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8320,7 +9330,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 135.89 157.48 0)
+			(at 144.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8445,7 +9455,7 @@
 				)
 			)
 		)
-		(property "Value" "800Ω"
+		(property "Value" "806Ω"
 			(at 38.862 19.304 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8468,6 +9478,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 38.1 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23116"
 			(at 38.1 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -8728,6 +9749,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C85840"
+			(at 259.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Ferrite bead"
 			(at 259.08 29.21 0)
 			(hide yes)
@@ -8888,6 +9920,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 220.98 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 220.98 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9066,6 +10109,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 262.89 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 262.89 41.91 0)
 			(hide yes)
@@ -9148,6 +10202,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 246.38 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 246.38 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9250,6 +10315,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19666"
+			(at 83.82 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 83.82 102.87 0)
 			(hide yes)
@@ -9309,7 +10385,7 @@
 				)
 			)
 		)
-		(property "Value" "400Ω"
+		(property "Value" "402Ω"
 			(at 38.862 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9332,6 +10408,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 38.1 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23049"
 			(at 38.1 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9512,6 +10599,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23162"
+			(at 45.72 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 45.72 128.27 0)
 			(hide yes)
@@ -9604,6 +10702,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1588"
+			(at 85.09 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 85.09 76.2 0)
 			(hide yes)
@@ -9686,6 +10795,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 69.85 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 69.85 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10102,6 +11222,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 246.38 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 246.38 31.75 0)
 			(hide yes)
@@ -10273,6 +11404,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23162"
+			(at 45.72 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 45.72 133.35 0)
 			(hide yes)
@@ -10353,6 +11495,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 224.79 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C85840"
 			(at 224.79 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10614,7 +11767,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2932977"
 			(at 87.63 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10879,6 +12032,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 69.85 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 69.85 46.99 0)
 			(hide yes)
@@ -11124,6 +12288,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 262.89 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 262.89 72.39 0)
 			(hide yes)
@@ -11206,6 +12381,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 93.98 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22775"
 			(at 93.98 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -11384,6 +12570,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C6185"
+			(at 232.41 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223"
 			(at 229.87 25.4 0)
 			(hide yes)
@@ -11446,7 +12643,7 @@
 				)
 			)
 		)
-		(property "Value" "400Ω"
+		(property "Value" "402Ω"
 			(at 39.116 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11469,6 +12666,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 38.1 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23049"
 			(at 38.1 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11888,6 +13096,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C21120"
+			(at 30.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 30.48 96.52 0)
 			(hide yes)
@@ -12060,6 +13279,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C21120"
+			(at 52.07 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 52.07 99.06 0)
 			(hide yes)
@@ -12152,6 +13382,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 113.03 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 113.03 30.48 0)
 			(hide yes)
@@ -12211,7 +13452,7 @@
 				)
 			)
 		)
-		(property "Value" "800Ω"
+		(property "Value" "806Ω"
 			(at 39.116 32.004 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12234,6 +13475,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 38.1 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23116"
 			(at 38.1 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -12326,6 +13578,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 62.23 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19666"
 			(at 62.23 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12497,7 +13760,18 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589837112796483584"
+			(at 123.19 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5295922"
 			(at 123.19 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -12818,6 +14092,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 69.85 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 69.85 26.67 0)
 			(hide yes)
@@ -13057,6 +14342,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 241.3 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19702"
 			(at 241.3 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -13316,6 +14612,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C21120"
+			(at 73.66 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 73.66 102.87 0)
 			(hide yes)
@@ -13434,7 +14741,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:VBUS")
-		(at 261.62 114.3 270)
+		(at 273.05 114.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13445,7 +14752,7 @@
 		(fields_autoplaced yes)
 		(uuid "af20f26c-5af7-43fa-a88e-2a0346349f16")
 		(property "Reference" "#PWR0163"
-			(at 257.81 114.3 0)
+			(at 269.24 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13456,7 +14763,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 265.43 114.2999 90)
+			(at 276.86 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13467,7 +14774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 114.3 0)
+			(at 273.05 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13478,7 +14785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 114.3 0)
+			(at 273.05 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13489,7 +14796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 261.62 114.3 0)
+			(at 273.05 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13533,7 +14840,7 @@
 				)
 			)
 		)
-		(property "Value" "400Ω"
+		(property "Value" "402Ω"
 			(at 38.608 24.384 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13556,6 +14863,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 38.1 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23049"
 			(at 38.1 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -13648,6 +14966,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 154.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 154.94 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -13872,7 +15201,7 @@
 				)
 			)
 		)
-		(property "Value" "800Ω"
+		(property "Value" "806Ω"
 			(at 39.878 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13895,6 +15224,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 38.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23116"
 			(at 38.1 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13997,6 +15337,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 209.55 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 209.55 31.75 0)
 			(hide yes)
@@ -14089,6 +15440,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C4275"
+			(at 44.45 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 44.45 58.42 0)
 			(hide yes)
@@ -14126,88 +15488,10 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "xt8086:VBUS")
-		(at 57.15 133.35 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb67dea3-3127-4d77-9e73-60ce5f415458")
-		(property "Reference" "#PWR0133"
-			(at 53.34 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 60.96 133.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 57.15 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c169bde-9e4a-44b8-ae18-265e5b2e77c0")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
-					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "xt8086:C")
-		(at 135.89 147.32 270)
+		(at 144.78 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14217,7 +15501,7 @@
 		(dnp no)
 		(uuid "cd172f58-9406-42ac-a1c2-380a8db58c30")
 		(property "Reference" "C68"
-			(at 134.366 145.796 90)
+			(at 143.256 145.796 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14228,7 +15512,7 @@
 			)
 		)
 		(property "Value" "1µF"
-			(at 137.668 145.796 90)
+			(at 146.558 145.796 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14239,7 +15523,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:C_0603_1608Metric"
-			(at 132.08 148.2852 0)
+			(at 140.97 148.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14250,7 +15534,18 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 147.32 0)
+			(at 144.78 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 144.78 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14261,7 +15556,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 135.89 147.32 0)
+			(at 144.78 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14272,7 +15567,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 135.89 147.32 0)
+			(at 144.78 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14341,6 +15636,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 93.98 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 93.98 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -14443,6 +15749,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22775"
+			(at 93.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 93.98 69.85 0)
 			(hide yes)
@@ -14525,6 +15842,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 52.07 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4275"
 			(at 52.07 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -14627,6 +15955,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 142.24 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 142.24 30.48 0)
 			(hide yes)
@@ -14709,6 +16048,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 130.81 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 130.81 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -14811,6 +16161,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 209.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 209.55 62.23 0)
 			(hide yes)
@@ -14893,6 +16254,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 220.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 220.98 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -15152,6 +16524,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1644"
+			(at 74.93 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 74.93 140.97 0)
 			(hide yes)
@@ -15324,6 +16707,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C85840"
+			(at 259.08 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Ferrite bead"
 			(at 259.08 59.69 0)
 			(hide yes)
@@ -15363,7 +16757,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:D_Schottky")
-		(at 252.73 114.3 0)
+		(at 264.16 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15373,7 +16767,7 @@
 		(dnp no)
 		(uuid "f60663b5-9ddb-43c4-99fa-0a314a3f3a0d")
 		(property "Reference" "D5"
-			(at 252.73 116.84 0)
+			(at 264.16 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15383,7 +16777,7 @@
 			)
 		)
 		(property "Value" "1N5819WS"
-			(at 252.73 111.76 0)
+			(at 264.16 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15393,7 +16787,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:D_SOD-323"
-			(at 252.73 114.3 0)
+			(at 264.16 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15404,7 +16798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 114.3 0)
+			(at 264.16 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15415,7 +16809,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 252.73 114.3 0)
+			(at 264.16 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15426,7 +16820,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005707644429.html"
-			(at 252.73 114.3 0)
+			(at 264.16 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15436,8 +16830,8 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 252.73 114.3 0)
+		(property "LCSC" "C191023"
+			(at 264.16 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15447,7 +16841,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 252.73 114.3 0)
+			(at 264.16 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15457,7 +16851,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 252.73 114.3 0)
+			(at 264.16 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15467,7 +16861,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 252.73 114.3 0)
+			(at 264.16 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15477,7 +16871,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 252.73 114.3 0)
+			(at 264.16 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15487,7 +16881,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 252.73 114.3 0)
+			(at 264.16 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15497,7 +16891,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 252.73 114.3 0)
+			(at 264.16 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15507,7 +16901,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 252.73 114.3 0)
+			(at 264.16 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15517,7 +16911,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 252.73 114.3 0)
+			(at 264.16 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15743,6 +17137,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 40.64 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19666"
 			(at 40.64 96.52 0)
 			(hide yes)
 			(show_name no)

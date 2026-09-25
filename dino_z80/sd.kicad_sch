@@ -805,6 +805,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "dino:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Pull-ups for SPI mode (CMD, DAT0, DAT3).\nDAT1 and DAT2 are unused and left open."
+		(exclude_from_sim no)
+		(at 81.28 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ade39c89-d5f2-4efc-8921-e37502562ab7")
 	)
 	(junction
 		(at 132.08 97.79)
@@ -819,6 +970,26 @@
 	(no_connect
 		(at 144.78 90.17)
 		(uuid "9e1d4163-59e9-4dd9-88d7-7e611ec08783")
+	)
+	(wire
+		(pts
+			(xy 96.52 80.01) (xy 96.52 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4270fd05-676f-4a19-b3cc-4afc230ccb61")
+	)
+	(wire
+		(pts
+			(xy 106.68 80.01) (xy 106.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a46652-2846-4a7b-b75e-0a468be5a66e")
 	)
 	(wire
 		(pts
@@ -842,6 +1013,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 80.01) (xy 86.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07c4926-2075-4655-9321-06e47841573e")
+	)
+	(wire
+		(pts
 			(xy 132.08 102.87) (xy 132.08 97.79)
 		)
 		(stroke
@@ -849,6 +1030,36 @@
 			(type default)
 		)
 		(uuid "f7ff6cb3-856b-4d14-8585-d830ef4c7f85")
+	)
+	(label "CMD"
+		(at 96.52 85.09 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1658be5f-a6dd-4314-82ba-09c9c3076fae")
+	)
+	(label "CDDAT3"
+		(at 86.36 85.09 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65c19f71-864e-45e3-a9ad-42daeb7deb3f")
+	)
+	(label "DAT0"
+		(at 106.68 85.09 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9af12247-bcc1-4dcf-91e8-948be7610098")
 	)
 	(hierarchical_label "CMD"
 		(shape input)
@@ -893,6 +1104,267 @@
 			(justify right)
 		)
 		(uuid "d3cbda62-a18f-4d93-9910-e137aa07d0b5")
+	)
+	(symbol
+		(lib_id "dino:+3V3")
+		(at 96.52 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "08844a62-c4d5-4837-928a-74306a8051d8")
+		(property "Reference" "#PWR072"
+			(at 96.52 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 96.52 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 236.22 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c1c625e-3b4d-4a66-9991-ea0b0e6e8f24")
+		)
+		(instances
+			(project "dino_z80"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2e81912e-397c-4129-8da5-abf37a4f2667"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:R")
+		(at 106.68 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11a82b10-62b8-4e2b-9eb7-af776b4e73cc")
+		(property "Reference" "R33"
+			(at 109.22 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 109.22 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "dino:R_0603_1608Metric"
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "050c2ca8-f7f8-46fc-bdff-dfe4ef9f13b8")
+		)
+		(pin "2"
+			(uuid "8caa9126-5bca-4b39-b036-2e9210a6f957")
+		)
+		(instances
+			(project "dino_z80"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2e81912e-397c-4129-8da5-abf37a4f2667"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:R")
+		(at 96.52 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f6e7786-76f4-46cf-84f8-ee7e298e61db")
+		(property "Reference" "R32"
+			(at 99.06 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 99.06 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "dino:R_0603_1608Metric"
+			(at 96.52 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 96.52 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6f60f42-2043-4158-8567-18537ca0187b")
+		)
+		(pin "2"
+			(uuid "8bf64c88-4158-4b01-a757-67fb1085033e")
+		)
+		(instances
+			(project "dino_z80"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2e81912e-397c-4129-8da5-abf37a4f2667"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "dino:C")
@@ -960,6 +1432,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 121.92 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
 			(at 121.92 97.79 0)
 			(hide yes)
@@ -998,7 +1481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32d9018f-5322-4d0e-9f88-962e404387e9")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR075"
 			(at 132.08 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1058,7 +1541,84 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2e81912e-397c-4129-8da5-abf37a4f2667"
-					(reference "#PWR070")
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:+3V3")
+		(at 106.68 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "348e579a-9c62-4f73-9e8a-ee78285ce84b")
+		(property "Reference" "#PWR073"
+			(at 106.68 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 106.68 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 236.22 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27c96e7d-6718-4f72-8cc4-d961c95237de")
+		)
+		(instances
+			(project "dino_z80"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2e81912e-397c-4129-8da5-abf37a4f2667"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -1076,7 +1636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c50fb3b-9e10-491e-ada4-8ae86979ad7b")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR074"
 			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1137,7 +1697,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2e81912e-397c-4129-8da5-abf37a4f2667"
-					(reference "#PWR069")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -1155,7 +1715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b40481f9-beb0-4d10-b3d2-5077944cbcf7")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR077"
 			(at 194.31 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -1216,7 +1776,7 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2e81912e-397c-4129-8da5-abf37a4f2667"
-					(reference "#PWR072")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -1234,7 +1794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb64ad72-0f49-41b6-a9be-7d239255dc4a")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR076"
 			(at 138.43 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1295,7 +1855,99 @@
 		(instances
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2e81912e-397c-4129-8da5-abf37a4f2667"
-					(reference "#PWR071")
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:R")
+		(at 86.36 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2f09a40-4af5-4706-bcbc-a6899023b12b")
+		(property "Reference" "R31"
+			(at 88.9 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 88.9 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "dino:R_0603_1608Metric"
+			(at 86.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 86.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "783253f4-9984-4533-a4ca-f7512101bd42")
+		)
+		(pin "2"
+			(uuid "264d33fc-5e60-4535-a9ac-fe2686a13448")
+		)
+		(instances
+			(project "dino_z80"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2e81912e-397c-4129-8da5-abf37a4f2667"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -1366,6 +2018,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C5912397"
+			(at 167.64 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005004214252441.html"
 			(at 167.64 97.79 0)
 			(hide yes)
@@ -1411,6 +2074,83 @@
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2e81912e-397c-4129-8da5-abf37a4f2667"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:+3V3")
+		(at 86.36 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "ea636b5a-21d1-4d5f-8d87-2875f3d40f46")
+		(property "Reference" "#PWR071"
+			(at 86.36 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 86.36 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 236.22 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbdb14f7-d750-41bb-82d7-8a2f4047060d")
+		)
+		(instances
+			(project "dino_z80"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2e81912e-397c-4129-8da5-abf37a4f2667"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
