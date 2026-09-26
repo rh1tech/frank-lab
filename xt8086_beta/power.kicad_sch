@@ -390,7 +390,7 @@
 			(symbol "AO3401A_0_1"
 				(polyline
 					(pts
-						(xy 1.27 -3.81) (xy 1.27 -1.524)
+						(xy -1.27 -0.762) (xy -0.508 -0.762)
 					)
 					(stroke
 						(width 0.254)
@@ -414,31 +414,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -0.762) (xy -0.508 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -0.762) (xy 1.016 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -0.762) (xy 2.54 -0.762)
+						(xy -0.889 1.27) (xy -0.889 3.048) (xy 0.127 3.048)
 					)
 					(stroke
 						(width 0.254)
@@ -462,55 +438,19 @@
 				)
 				(polyline
 					(pts
-						(xy 2.159 -0.762) (xy 2.159 1.27) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.762) (xy 0.635 1.27) (xy -0.889 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.27) (xy -0.889 3.048) (xy 0.127 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 3.048) (xy 2.159 3.048) (xy 2.159 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.127 3.556) (xy 0.127 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.762) (xy 1.016 -0.762)
 					)
 					(stroke
 						(width 0.254)
@@ -534,6 +474,18 @@
 				)
 				(polyline
 					(pts
+						(xy 0.635 -0.762) (xy 0.635 1.27) (xy -0.889 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 1.143 3.556) (xy 1.143 2.54) (xy 0.127 3.048) (xy 1.143 3.556)
 					)
 					(stroke
@@ -542,6 +494,54 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 3.048) (xy 2.159 3.048) (xy 2.159 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.762) (xy 2.54 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 -0.762) (xy 2.159 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin input line
@@ -3355,7 +3355,7 @@
 	)
 	(text "DC input: 9-12 V only.\nC44 and C45 must be rated at least 16 V.\nR25/R26 (EN) and R22/R23 (Q1 gate) are sized for 12 V max."
 		(exclude_from_sim no)
-		(at 60.96 38.1 0)
+		(at 71.12 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4318,7 +4318,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C107038"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 125.73 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4329,7 +4329,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "LCSC" "C107038"
 			(at 125.73 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4565,7 +4565,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 93.98 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4576,7 +4576,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "LCSC" "C96446"
 			(at 93.98 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4735,7 +4735,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2818306"
+		(property "Description" "Direct Insert Single Pole Double Throw (SPDT) 30V Plugin Slide Switches ROHS"
 			(at 137.16 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -4746,7 +4746,7 @@
 				)
 			)
 		)
-		(property "Description" "Direct Insert Single Pole Double Throw (SPDT) 30V Plugin Slide Switches ROHS"
+		(property "LCSC" "C2818306"
 			(at 137.16 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -4834,7 +4834,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "Description" "Resistor"
 			(at 113.03 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4845,7 +4845,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C25803"
 			(at 113.03 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5081,6 +5081,17 @@
 				(justify left top)
 			)
 		)
+		(property "Description" "Switching Voltage Regulators 3A 1.5MHz 28V Nonsync Buck"
+			(at 134.62 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "LCSC" "C15051"
 			(at 158.75 291.44 0)
 			(hide yes)
@@ -5091,17 +5102,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Description" "Switching Voltage Regulators 3A 1.5MHz 28V Nonsync Buck"
-			(at 134.62 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Height" "1.7"
@@ -5264,7 +5264,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23153"
+		(property "Description" "Resistor"
 			(at 119.38 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5275,7 +5275,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C23153"
 			(at 119.38 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5433,7 +5433,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 101.6 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5444,7 +5444,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "LCSC" "C14663"
 			(at 101.6 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5677,7 +5677,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907038"
+		(property "Description" "Resistor"
 			(at 176.53 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5688,7 +5688,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C2907038"
 			(at 176.53 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6233,7 +6233,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "Description" "Resistor"
 			(at 106.68 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6244,7 +6244,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C25803"
 			(at 106.68 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6401,7 +6401,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25981"
+		(property "Description" "Resistor"
 			(at 167.64 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6412,7 +6412,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C25981"
 			(at 167.64 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6646,7 +6646,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "Description" "Schottky diode"
 			(at 177.8 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6657,7 +6657,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "LCSC" "C8678"
 			(at 177.8 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6826,7 +6826,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "Description" "Resistor"
 			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6837,7 +6837,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C25803"
 			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7227,7 +7227,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "Description" "Resistor"
 			(at 90.17 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -7238,7 +7238,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C25803"
 			(at 90.17 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -7397,7 +7397,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C381116"
+		(property "Description" ""
 			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7408,7 +7408,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "LCSC" "C381116"
 			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7723,7 +7723,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C47344173"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 213.36 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7734,7 +7734,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "LCSC" "C47344173"
 			(at 213.36 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7892,7 +7892,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15127"
+		(property "Description" "P-channel MOSFET, -30 V, -4 A, SOT-23"
 			(at 100.33 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7903,7 +7903,7 @@
 				)
 			)
 		)
-		(property "Description" "P-channel MOSFET, -30 V, -4 A, SOT-23"
+		(property "LCSC" "C15127"
 			(at 100.33 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -8142,7 +8142,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 200.66 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8153,7 +8153,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "LCSC" "C14663"
 			(at 200.66 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8309,7 +8309,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "Description" "Resistor"
 			(at 125.73 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8320,7 +8320,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C25803"
 			(at 125.73 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8477,7 +8477,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C87002"
+		(property "Description" "Inductor, small symbol"
 			(at 186.69 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8488,7 +8488,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "LCSC" "C87002"
 			(at 186.69 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8580,7 +8580,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "Description" "Resistor"
 			(at 99.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8591,7 +8591,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C25803"
 			(at 99.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8749,7 +8749,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 207.01 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8760,7 +8760,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "LCSC" "C19702"
 			(at 207.01 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8996,7 +8996,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C43826"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 86.36 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9007,7 +9007,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "LCSC" "C43826"
 			(at 86.36 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9243,7 +9243,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "Description" "Unpolarized capacitor"
 			(at 81.28 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -9254,7 +9254,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "LCSC" "C15849"
 			(at 81.28 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -9333,7 +9333,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C32404"
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 81.28 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9344,7 +9344,7 @@
 				)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+		(property "LCSC" "C32404"
 			(at 81.28 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9424,7 +9424,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15127"
+		(property "Description" "P-channel MOSFET, -30 V, -4 A, SOT-23"
 			(at 100.33 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9435,7 +9435,7 @@
 				)
 			)
 		)
-		(property "Description" "P-channel MOSFET, -30 V, -4 A, SOT-23"
+		(property "LCSC" "C15127"
 			(at 100.33 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9597,7 +9597,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 165.1 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9608,7 +9608,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "LCSC" "C14663"
 			(at 165.1 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9764,7 +9764,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "Description" "Resistor"
 			(at 109.22 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -9775,7 +9775,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C25804"
 			(at 109.22 165.1 0)
 			(hide yes)
 			(show_name no)

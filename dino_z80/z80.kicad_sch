@@ -1906,16 +1906,16 @@
 		(uuid "8e488a2c-6cbf-478f-816f-a98c1c07d01c")
 	)
 	(junction
-		(at 63.5 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8042fec-2bbb-4de0-8c39-47910462a36f")
-	)
-	(junction
 		(at 53.34 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecb18631-a721-40fc-8712-fbb9f05ce101")
+	)
+	(junction
+		(at 63.5 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb6a6621-7375-4b10-8155-52a2ad9a091f")
 	)
 	(no_connect
 		(at 96.52 99.06)
@@ -2167,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 105.41) (xy 63.5 101.6)
+			(xy 63.5 105.41) (xy 63.5 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4786,7 +4786,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 142.24 41.91 0)
+			(at 142.24 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5096,7 +5096,7 @@
 		(dnp no)
 		(uuid "97fe5c6b-7b76-482e-8168-05e311cd6650")
 		(property "Reference" "C1"
-			(at 139.954 45.47 90)
+			(at 138.43 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5106,7 +5106,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 144.78 45.47 90)
+			(at 146.05 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5343,7 +5343,7 @@
 	)
 	(symbol
 		(lib_id "dino:VBUS")
-		(at 63.5 101.6 0)
+		(at 63.5 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5353,7 +5353,7 @@
 		(dnp no)
 		(uuid "b02c5d8c-3973-46b1-8ebc-cee8639ea407")
 		(property "Reference" "#PWR015"
-			(at 63.5 97.79 0)
+			(at 63.5 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5364,7 +5364,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 63.5 105.41 0)
+			(at 59.69 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5374,7 +5374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 101.6 0)
+			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5385,7 +5385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 101.6 0)
+			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5396,7 +5396,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 63.5 101.6 0)
+			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

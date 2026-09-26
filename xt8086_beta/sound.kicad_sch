@@ -12,186 +12,6 @@
 		(comment 1 "https://github.com/rh1tech/frank")
 	)
 	(lib_symbols
-		(symbol "xt8086:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP2"
-				(at 1.2701 -2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "HDMI Audio"
-				(at -1.2699 -2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "xt8086:AudioJack_3.5mm"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1432,6 +1252,186 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "xt8086:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP2"
+				(at 1.2701 -2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "HDMI Audio"
+				(at -1.2699 -2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "xt8086:VBUS"
 			(power global)
 			(pin_numbers
@@ -1700,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 74.93) (xy 181.61 74.93)
+			(xy 193.04 74.93) (xy 185.42 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1840,6 +1840,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 35.56) (xy 217.17 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52617321-6f9b-450b-8995-5fde6f46658b")
+	)
+	(wire
+		(pts
 			(xy 123.19 30.48) (xy 148.59 30.48)
 		)
 		(stroke
@@ -1847,6 +1857,16 @@
 			(type default)
 		)
 		(uuid "56fd552f-53be-47da-972c-97e28a41c7a3")
+	)
+	(wire
+		(pts
+			(xy 199.39 35.56) (xy 191.77 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a97b52a-86c3-428d-95c3-19e96c488f44")
 	)
 	(wire
 		(pts
@@ -1870,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 77.47) (xy 227.33 77.47)
+			(xy 218.44 77.47) (xy 231.14 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1907,6 +1927,16 @@
 			(type default)
 		)
 		(uuid "78e9f864-fd86-49d8-a9f6-bfb0313753ed")
+	)
+	(wire
+		(pts
+			(xy 199.39 50.8) (xy 191.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8025b306-d7ec-4198-9500-479b1031cac0")
 	)
 	(wire
 		(pts
@@ -1950,7 +1980,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 72.39) (xy 181.61 72.39)
+			(xy 193.04 72.39) (xy 185.42 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2070,6 +2100,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 50.8) (xy 217.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87d262a-12f8-419d-af62-477b5a837814")
+	)
+	(wire
+		(pts
 			(xy 130.81 50.8) (xy 130.81 55.88)
 		)
 		(stroke
@@ -2110,6 +2150,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 43.18) (xy 217.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0320a58-652d-4347-bd2b-84d337a19fe2")
+	)
+	(wire
+		(pts
+			(xy 199.39 43.18) (xy 191.77 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a0c15f-0e90-488f-a5b7-694228961877")
+	)
+	(wire
+		(pts
 			(xy 208.28 116.84) (xy 217.17 116.84)
 		)
 		(stroke
@@ -2140,7 +2200,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 74.93) (xy 227.33 74.93)
+			(xy 218.44 74.93) (xy 231.14 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +2210,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 72.39) (xy 227.33 72.39)
+			(xy 218.44 72.39) (xy 231.14 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2278,8 +2338,18 @@
 		)
 		(uuid "108e87fb-f730-4128-a94a-9fa2f443125f")
 	)
+	(label "AUDIO_R"
+		(at 191.77 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16a19617-28fb-486f-b23a-02c9edeea443")
+	)
 	(label "AUDIO_L"
-		(at 181.61 72.39 180)
+		(at 185.42 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2287,6 +2357,16 @@
 			(justify right bottom)
 		)
 		(uuid "366412b2-72d2-4b28-8db4-e947172d3e6a")
+	)
+	(label "SPK_EN"
+		(at 217.17 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cce9a52-c5ea-4732-8113-9ff91972909d")
 	)
 	(label "AUDIO_L"
 		(at 247.65 107.95 0)
@@ -2339,7 +2419,7 @@
 		(uuid "acfb819d-9037-4511-9f23-488d22b2ce77")
 	)
 	(label "AUDIO_R"
-		(at 181.61 74.93 180)
+		(at 185.42 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2348,8 +2428,18 @@
 		)
 		(uuid "b1630299-a3af-4fe3-a1c4-09941f6a6f21")
 	)
+	(label "AUDIO_L"
+		(at 191.77 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b826637e-d625-48ee-9306-0b698300ff31")
+	)
 	(label "SPK_EN"
-		(at 227.33 77.47 0)
+		(at 231.14 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2360,7 +2450,7 @@
 	)
 	(hierarchical_label "HDMI_R"
 		(shape output)
-		(at 227.33 74.93 0)
+		(at 231.14 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2371,7 +2461,29 @@
 	)
 	(hierarchical_label "HDMI_L"
 		(shape output)
-		(at 227.33 72.39 0)
+		(at 217.17 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bcabc5b-8bd1-4616-a9a5-55620b9e03b9")
+	)
+	(hierarchical_label "HDMI_R"
+		(shape output)
+		(at 217.17 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f4daafa-cb9e-40ff-a435-415b87ce179c")
+	)
+	(hierarchical_label "HDMI_L"
+		(shape output)
+		(at 231.14 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2403,434 +2515,8 @@
 		(uuid "fa98e928-d077-4e3b-9988-22ffb0da165d")
 	)
 	(symbol
-		(lib_id "xt8086:SolderJumper_2_Open")
-		(at 204.47 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "af4d92b6-3514-460e-92ec-666876e8fc87")
-		(property "Reference" "JP4"
-			(at 204.47 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Audio L"
-			(at 204.47 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "xt8086:SolderJumper-2_P1.0mm_Open_RoundedPad0.7x1.0mm"
-			(at 204.47 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 204.47 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6b379a6-300d-40e9-8ef9-44ab628efb14")
-		)
-		(pin "2"
-			(uuid "dbd2650a-f124-485b-86ca-aef3eef0e7bc")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3603a3f9-aa53-493b-ae79-e24b3c1f7362"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 199.39 44.45) (xy 191.77 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a97b52a-86c3-428d-95c3-19e96c488f44")
-	)
-	(wire
-		(pts
-			(xy 209.55 44.45) (xy 217.17 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52617321-6f9b-450b-8995-5fde6f46658b")
-	)
-	(label "AUDIO_L"
-		(at 191.77 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b826637e-d625-48ee-9306-0b698300ff31")
-	)
-	(hierarchical_label "HDMI_L"
-		(shape output)
-		(at 217.17 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4bcabc5b-8bd1-4616-a9a5-55620b9e03b9")
-	)
-	(symbol
-		(lib_id "xt8086:SolderJumper_2_Open")
-		(at 204.47 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b1670e34-b4a1-4774-894b-7ffcb7d4d299")
-		(property "Reference" "JP5"
-			(at 204.47 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Audio R"
-			(at 204.47 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "xt8086:SolderJumper-2_P1.0mm_Open_RoundedPad0.7x1.0mm"
-			(at 204.47 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 204.47 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aae916cc-9260-48e8-a519-6031d4391437")
-		)
-		(pin "2"
-			(uuid "b88bc91c-57e5-4eb8-98ea-a7417d2efb7b")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3603a3f9-aa53-493b-ae79-e24b3c1f7362"
-					(reference "JP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 199.39 52.07) (xy 191.77 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1a0c15f-0e90-488f-a5b7-694228961877")
-	)
-	(wire
-		(pts
-			(xy 209.55 52.07) (xy 217.17 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0320a58-652d-4347-bd2b-84d337a19fe2")
-	)
-	(label "AUDIO_R"
-		(at 191.77 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "16a19617-28fb-486f-b23a-02c9edeea443")
-	)
-	(hierarchical_label "HDMI_R"
-		(shape output)
-		(at 217.17 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f4daafa-cb9e-40ff-a435-415b87ce179c")
-	)
-	(symbol
-		(lib_id "xt8086:SolderJumper_2_Open")
-		(at 204.47 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9fa5634e-1add-4a40-9183-31d362c50799")
-		(property "Reference" "JP6"
-			(at 204.47 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Speaker"
-			(at 204.47 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "xt8086:SolderJumper-2_P1.0mm_Open_RoundedPad0.7x1.0mm"
-			(at 204.47 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 204.47 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4833cec3-e649-41d4-99a7-b2c52deee425")
-		)
-		(pin "2"
-			(uuid "fa9df01d-96cc-46b2-a66b-e28adfb6a0b0")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3603a3f9-aa53-493b-ae79-e24b3c1f7362"
-					(reference "JP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 199.39 59.69) (xy 191.77 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8025b306-d7ec-4198-9500-479b1031cac0")
-	)
-	(wire
-		(pts
-			(xy 209.55 59.69) (xy 217.17 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b87d262a-12f8-419d-af62-477b5a837814")
-	)
-	(label "SPK_EN"
-		(at 217.17 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3cce9a52-c5ea-4732-8113-9ff91972909d")
-	)
-	(symbol
-		(lib_id "xt8086:VBUS")
-		(at 191.77 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c1886261-9fca-4577-9f66-c89a4aaafad7")
-		(property "Reference" "#PWR0221"
-			(at 261.62 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 186.69 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 256.54 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1d0a926-5b74-467b-ba99-d5fd5b3da546")
-		)
-		(instances
-			(project "xt8086_beta"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3603a3f9-aa53-493b-ae79-e24b3c1f7362"
-					(reference "#PWR0221")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "xt8086:DS05-127-2-03BK-SMT-TR")
-		(at 201.93 74.93 0)
+		(at 205.74 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2840,7 +2526,7 @@
 		(dnp no)
 		(uuid "0b251fec-5fed-5c43-b44c-7332271395fb")
 		(property "Reference" "S2"
-			(at 201.93 67.31 0)
+			(at 205.74 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2850,7 +2536,7 @@
 			)
 		)
 		(property "Value" "DS05-127-2-03BK-SMT-TR"
-			(at 200.66 81.28 0)
+			(at 204.47 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2860,7 +2546,7 @@
 			)
 		)
 		(property "Footprint" "xt8086:SW_DIP_DS05-127-2-03BK-SMT"
-			(at 201.93 74.93 0)
+			(at 205.74 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,18 +2557,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ds05-127-smt.pdf"
-			(at 201.93 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C3312528"
-			(at 201.93 74.93 0)
+			(at 205.74 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2893,7 +2568,18 @@
 			)
 		)
 		(property "Description" "3 Position, Surface Mount, 1.27 mm Pitch, Flat Slide Actuator, Flat Bottom, SMT Pin, DIP Switch"
-			(at 201.93 74.93 0)
+			(at 205.74 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3312528"
+			(at 205.74 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2983,7 +2669,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23049"
+		(property "Description" "Resistor"
 			(at 220.98 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -2994,7 +2680,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C23049"
 			(at 220.98 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3073,7 +2759,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4184"
+		(property "Description" "Resistor"
 			(at 208.28 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3084,7 +2770,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C4184"
 			(at 208.28 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3240,7 +2926,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C57112"
+		(property "Description" "Unpolarized capacitor"
 			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3251,7 +2937,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "LCSC" "C57112"
 			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3330,7 +3016,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7950"
+		(property "Description" "Low-power dual operational amplifier"
 			(at 90.17 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3341,7 +3027,7 @@
 				)
 			)
 		)
-		(property "Description" "Low-power dual operational amplifier"
+		(property "LCSC" "C7950"
 			(at 90.17 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3438,7 +3124,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "Description" "Unpolarized capacitor"
 			(at 148.59 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3449,7 +3135,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "LCSC" "C19702"
 			(at 148.59 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3605,7 +3291,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7950"
+		(property "Description" "Low-power dual operational amplifier"
 			(at 90.17 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3616,7 +3302,7 @@
 				)
 			)
 		)
-		(property "Description" "Low-power dual operational amplifier"
+		(property "LCSC" "C7950"
 			(at 90.17 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3713,7 +3399,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "Description" "Unpolarized capacitor"
 			(at 138.43 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3724,7 +3410,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "LCSC" "C14663"
 			(at 138.43 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3803,7 +3489,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23049"
+		(property "Description" "Resistor"
 			(at 220.98 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3814,7 +3500,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C23049"
 			(at 220.98 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3970,7 +3656,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "Description" "Unpolarized capacitor"
 			(at 237.49 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3981,7 +3667,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "LCSC" "C19702"
 			(at 237.49 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4060,7 +3746,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "Description" "Resistor"
 			(at 53.34 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4071,7 +3757,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C21190"
 			(at 53.34 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4110,7 +3796,7 @@
 		(dnp no)
 		(uuid "87438d7c-5b8d-448f-925e-9a6bc7578aab")
 		(property "Reference" "J4"
-			(at 186.69 120.65 0)
+			(at 186.69 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4154,7 +3840,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C431535"
+		(property "Description" ""
 			(at 186.69 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4165,7 +3851,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "LCSC" "C431535"
 			(at 186.69 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4572,7 +4258,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "Description" "Resistor"
 			(at 53.34 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4583,7 +4269,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C21190"
 			(at 53.34 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4662,7 +4348,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "Description" "Resistor"
 			(at 118.11 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4673,7 +4359,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C4190"
 			(at 118.11 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4752,7 +4438,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4184"
+		(property "Description" "Resistor"
 			(at 208.28 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4763,7 +4449,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C4184"
 			(at 208.28 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4784,6 +4470,85 @@
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3603a3f9-aa53-493b-ae79-e24b3c1f7362"
 					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xt8086:SolderJumper_2_Open")
+		(at 204.47 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9fa5634e-1add-4a40-9183-31d362c50799")
+		(property "Reference" "JP6"
+			(at 204.47 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Speaker"
+			(at 204.47 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "xt8086:SolderJumper-2_P1.0mm_Open_RoundedPad0.7x1.0mm"
+			(at 204.47 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 204.47 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4833cec3-e649-41d4-99a7-b2c52deee425")
+		)
+		(pin "2"
+			(uuid "fa9df01d-96cc-46b2-a66b-e28adfb6a0b0")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3603a3f9-aa53-493b-ae79-e24b3c1f7362"
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -4842,7 +4607,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "Description" "Resistor"
 			(at 118.11 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4853,7 +4618,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "LCSC" "C4190"
 			(at 118.11 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4957,6 +4722,164 @@
 		)
 	)
 	(symbol
+		(lib_id "xt8086:SolderJumper_2_Open")
+		(at 204.47 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af4d92b6-3514-460e-92ec-666876e8fc87")
+		(property "Reference" "JP4"
+			(at 204.47 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Audio L"
+			(at 204.47 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "xt8086:SolderJumper-2_P1.0mm_Open_RoundedPad0.7x1.0mm"
+			(at 204.47 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 204.47 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6b379a6-300d-40e9-8ef9-44ab628efb14")
+		)
+		(pin "2"
+			(uuid "dbd2650a-f124-485b-86ca-aef3eef0e7bc")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3603a3f9-aa53-493b-ae79-e24b3c1f7362"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xt8086:SolderJumper_2_Open")
+		(at 204.47 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1670e34-b4a1-4774-894b-7ffcb7d4d299")
+		(property "Reference" "JP5"
+			(at 204.47 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Audio R"
+			(at 204.47 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "xt8086:SolderJumper-2_P1.0mm_Open_RoundedPad0.7x1.0mm"
+			(at 204.47 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 204.47 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aae916cc-9260-48e8-a519-6031d4391437")
+		)
+		(pin "2"
+			(uuid "b88bc91c-57e5-4eb8-98ea-a7417d2efb7b")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3603a3f9-aa53-493b-ae79-e24b3c1f7362"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "xt8086:C_Small")
 		(at 64.77 127 0)
 		(unit 1)
@@ -5009,7 +4932,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C57112"
+		(property "Description" "Unpolarized capacitor"
 			(at 64.77 127 0)
 			(hide yes)
 			(show_name no)
@@ -5020,7 +4943,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "LCSC" "C57112"
 			(at 64.77 127 0)
 			(hide yes)
 			(show_name no)
@@ -5124,6 +5047,83 @@
 		)
 	)
 	(symbol
+		(lib_id "xt8086:VBUS")
+		(at 191.77 50.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1886261-9fca-4577-9f66-c89a4aaafad7")
+		(property "Reference" "#PWR0221"
+			(at 261.62 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 186.69 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 256.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1d0a926-5b74-467b-ba99-d5fd5b3da546")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3603a3f9-aa53-493b-ae79-e24b3c1f7362"
+					(reference "#PWR0221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "xt8086:C_Small")
 		(at 237.49 116.84 90)
 		(unit 1)
@@ -5176,7 +5176,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "Description" "Unpolarized capacitor"
 			(at 237.49 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5187,7 +5187,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "LCSC" "C19702"
 			(at 237.49 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5266,7 +5266,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7950"
+		(property "Description" "Low-power dual operational amplifier"
 			(at 125.73 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5277,7 +5277,7 @@
 				)
 			)
 		)
-		(property "Description" "Low-power dual operational amplifier"
+		(property "LCSC" "C7950"
 			(at 125.73 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5323,7 +5323,7 @@
 	)
 	(symbol
 		(lib_id "xt8086:VBUS")
-		(at 189.23 77.47 90)
+		(at 193.04 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5333,7 +5333,7 @@
 		(dnp no)
 		(uuid "f7948691-a53e-44c6-b1b7-06390faa337e")
 		(property "Reference" "#PWR0198"
-			(at 259.08 57.15 0)
+			(at 262.89 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5344,7 +5344,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 184.15 77.47 90)
+			(at 187.96 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5354,7 +5354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 77.47 0)
+			(at 193.04 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5365,7 +5365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 77.47 0)
+			(at 193.04 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5376,7 +5376,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 256.54 57.15 0)
+			(at 260.35 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

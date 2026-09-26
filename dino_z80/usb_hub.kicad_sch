@@ -945,6 +945,12 @@
 		)
 	)
 	(junction
+		(at 173.99 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12519448-4822-49a4-bbdc-2bbca78edea5")
+	)
+	(junction
 		(at 161.29 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -955,12 +961,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a9a7135-51fd-52d4-839d-ec4bfd22d940")
-	)
-	(junction
-		(at 172.72 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8740faaa-5d83-5de0-ae5d-dc24fa62389b")
 	)
 	(junction
 		(at 161.29 77.47)
@@ -980,13 +980,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 60.96) (xy 180.34 60.96)
+			(xy 173.99 60.96) (xy 185.42 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0cb59f78-4233-5fc5-9d0f-e839a447ae94")
+		(uuid "0260fde6-c45c-488f-a09a-184653f3f305")
 	)
 	(wire
 		(pts
@@ -1100,7 +1100,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 60.96) (xy 172.72 60.96)
+			(xy 168.91 60.96) (xy 173.99 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1448,7 +1448,7 @@
 	)
 	(symbol
 		(lib_id "dino:C")
-		(at 172.72 64.77 0)
+		(at 173.99 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1458,7 +1458,7 @@
 		(dnp no)
 		(uuid "0c99bc35-df39-55cc-aa7c-6bbaf294ebdd")
 		(property "Reference" "C9"
-			(at 174.625 63.5 0)
+			(at 176.53 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1469,7 +1469,7 @@
 			)
 		)
 		(property "Value" "1µF"
-			(at 174.625 66.04 0)
+			(at 176.53 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1480,7 +1480,7 @@
 			)
 		)
 		(property "Footprint" "dino:C_0603_1608Metric"
-			(at 172.72 64.77 0)
+			(at 173.99 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1491,7 +1491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 64.77 0)
+			(at 173.99 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1502,7 +1502,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 172.72 64.77 0)
+			(at 173.99 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1513,7 +1513,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 172.72 64.77 0)
+			(at 173.99 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1540,7 +1540,7 @@
 	)
 	(symbol
 		(lib_id "dino:C")
-		(at 180.34 64.77 0)
+		(at 185.42 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1550,7 +1550,7 @@
 		(dnp no)
 		(uuid "28b9c569-6cf8-507b-867a-a7905a12fff1")
 		(property "Reference" "C11"
-			(at 182.245 63.5 0)
+			(at 187.96 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1561,7 +1561,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 182.245 66.04 0)
+			(at 187.96 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1572,7 +1572,7 @@
 			)
 		)
 		(property "Footprint" "dino:C_0603_1608Metric"
-			(at 180.34 64.77 0)
+			(at 185.42 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1583,7 +1583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 64.77 0)
+			(at 185.42 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1594,7 +1594,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 180.34 64.77 0)
+			(at 185.42 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1605,7 +1605,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 180.34 64.77 0)
+			(at 185.42 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1719,7 +1719,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3633e96d-6956-4c0a-8c42-2095840ba3ad")
 		(property "Reference" "#PWR042"
 			(at 170.18 77.47 0)
@@ -1733,14 +1732,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.005 77.9038 90)
+			(at 167.64 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -1882,7 +1880,7 @@
 	)
 	(symbol
 		(lib_id "dino:GND")
-		(at 180.34 68.58 0)
+		(at 185.42 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1893,7 +1891,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e4fff55-ca21-5da4-a9bb-48ddcc04c5a9")
 		(property "Reference" "#PWR046"
-			(at 180.34 64.77 0)
+			(at 185.42 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1904,7 +1902,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 72.136 0)
+			(at 185.42 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1914,7 +1912,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 68.58 0)
+			(at 185.42 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1925,7 +1923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 68.58 0)
+			(at 185.42 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1936,7 +1934,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 68.58 0)
+			(at 185.42 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2038,7 +2036,7 @@
 	)
 	(symbol
 		(lib_id "dino:GND")
-		(at 172.72 68.58 0)
+		(at 173.99 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2049,7 +2047,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4625f95-4ee2-5bd6-b4bb-97cbebefa278")
 		(property "Reference" "#PWR043"
-			(at 172.72 64.77 0)
+			(at 173.99 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2060,7 +2058,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 72.136 0)
+			(at 173.99 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2070,7 +2068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 68.58 0)
+			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2081,7 +2079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 68.58 0)
+			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2092,7 +2090,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 68.58 0)
+			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
