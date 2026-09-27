@@ -2707,7 +2707,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 66.04) (xy 125.73 80.01)
+			(xy 125.73 66.04) (xy 125.73 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2957,6 +2957,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 63.5) (xy 110.49 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9205698f-3c86-44ab-b243-201d590e4a0c")
+	)
+	(wire
+		(pts
 			(xy 153.67 137.16) (xy 158.75 137.16)
 		)
 		(stroke
@@ -3007,7 +3017,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 85.09) (xy 125.73 91.44)
+			(xy 125.73 78.74) (xy 125.73 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3185,6 +3195,16 @@
 		)
 		(uuid "8c73d6f1-cd6a-4702-80b5-e90eb249e44f")
 	)
+	(label "CODEC_RST"
+		(at 110.49 63.5 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "937b6978-fdcd-4d1d-958d-380ba2bd5f2d")
+	)
 	(label "+5V_SPK"
 		(at 171.45 119.38 180)
 		(effects
@@ -3204,6 +3224,16 @@
 			(justify left bottom)
 		)
 		(uuid "b7b8ca94-fb05-4581-96e5-7a4b6c609aab")
+	)
+	(label "CODEC_RST"
+		(at 125.73 88.9 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c84d0447-8253-4380-8113-7d9d7012820e")
 	)
 	(hierarchical_label "BCLK"
 		(shape input)
@@ -3702,6 +3732,83 @@
 			(project "frank_zx"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cd0bdb7e-4f98-427b-bf6c-8f3efd7f72c3"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:GND")
+		(at 110.49 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11302d1e-8df4-48a3-82f9-bb2f4816ab8b")
+		(property "Reference" "#PWR0331"
+			(at 110.49 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de1858d3-cd5d-4ab6-b2ea-b10b60869961")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cd0bdb7e-4f98-427b-bf6c-8f3efd7f72c3"
+					(reference "#PWR0331")
 					(unit 1)
 				)
 			)
@@ -5020,6 +5127,96 @@
 		)
 	)
 	(symbol
+		(lib_id "FRANK:C")
+		(at 110.49 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "659059bc-b5b3-4b97-b53f-7fa3f213bfb6")
+		(property "Reference" "C103"
+			(at 106.68 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 106.68 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:C_0603_1608Metric"
+			(at 110.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 110.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af29657b-9258-42b0-856c-1f72a7c4a080")
+		)
+		(pin "2"
+			(uuid "4aaf57eb-8571-4db3-9859-99def5ee0f32")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cd0bdb7e-4f98-427b-bf6c-8f3efd7f72c3"
+					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:GND")
 		(at 113.03 111.76 270)
 		(unit 1)
@@ -6146,7 +6343,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:R_Small")
-		(at 125.73 82.55 180)
+		(at 125.73 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6156,7 +6353,7 @@
 		(dnp no)
 		(uuid "a070cc9e-33cf-42a2-b835-936468ff979f")
 		(property "Reference" "R35"
-			(at 124.46 86.36 90)
+			(at 121.92 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6166,7 +6363,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 124.46 78.74 90)
+			(at 124.46 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6176,7 +6373,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:R_0603_1608Metric"
-			(at 125.73 82.55 0)
+			(at 125.73 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6187,7 +6384,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8763490791224557568"
-			(at 125.73 82.55 0)
+			(at 125.73 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6198,7 +6395,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 125.73 82.55 0)
+			(at 125.73 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6209,7 +6406,7 @@
 			)
 		)
 		(property "LCSC" "C2906982"
-			(at 0 0 0)
+			(at 0 -6.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6220,7 +6417,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 125.73 82.55 0)
+			(at 125.73 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
