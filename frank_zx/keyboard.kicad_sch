@@ -1,0 +1,7635 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567890")
+	(paper "A3")
+	(title_block
+		(title "${NAME} Keyboard")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "Mikhail Matveev")
+		(comment 1 "https://github.com/rh1tech/frank")
+	)
+	(lib_symbols
+		(symbol "FRANK:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FRANK:D_SOD-123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FRANK:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "40-key matrix (10x4)\nCherry MX + 1N4148W, universal SOD-123 / SOD-323 pads (1N4148WS fits too)\nROW bus above keys (parallel); COL via diodes (cathode to COL)\nCOL0-9=GPIO20-29  ROW0-3=GPIO30-33\nScan: drive one COL low, read ROW0-3 with internal pull-ups\n(pull-up scheme avoids RP2350 erratum E9 on pull-downs)"
+		(exclude_from_sim no)
+		(at 40.64 160 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8edf1bb8-17b5-4404-bf08-4b4c85c989f7")
+	)
+	(junction
+		(at 309.88 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04982a22-4ed8-49e8-9a6a-7fe188f2c549")
+	)
+	(junction
+		(at 218.44 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "064e9681-e90a-4211-9c8c-5ca670f00a6b")
+	)
+	(junction
+		(at 200.66 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a858785-7d77-4199-a068-772fb1be50e8")
+	)
+	(junction
+		(at 231.14 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a3dc35f-005a-4d66-954e-27e8964fc3b9")
+	)
+	(junction
+		(at 96.52 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20558801-10fa-40ef-b684-6525890b3c2b")
+	)
+	(junction
+		(at 96.52 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2431198b-5dec-41bb-8b7c-dca0a27dc4fb")
+	)
+	(junction
+		(at 139.7 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2561676e-9c20-4fba-abe1-72601ec34e1d")
+	)
+	(junction
+		(at 127 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2aefded1-d693-449a-9d01-5bc3e494784b")
+	)
+	(junction
+		(at 157.48 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "306b5798-79f0-4e6f-936a-da21a22e2748")
+	)
+	(junction
+		(at 292.1 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "332c7130-1143-42d3-a123-f5b90eee44a1")
+	)
+	(junction
+		(at 66.04 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3df06f2f-da47-42ee-9720-ff64cba3ddb1")
+	)
+	(junction
+		(at 78.74 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44be147f-852f-4a8e-9735-cae7e6b203c3")
+	)
+	(junction
+		(at 66.04 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "459f7b50-2b53-463e-8554-fbfa5696c4a7")
+	)
+	(junction
+		(at 187.96 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5176b130-ed6e-47e1-a74f-ff816d44c38b")
+	)
+	(junction
+		(at 170.18 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52854f8c-2c7e-47ae-aa18-1b50939701d2")
+	)
+	(junction
+		(at 309.88 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c1d662e-16ed-4844-8ed3-6341d18504fa")
+	)
+	(junction
+		(at 231.14 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c802f33-5238-4278-857c-b9b55b79265d")
+	)
+	(junction
+		(at 279.4 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d6d9bb8-821f-43c5-94e7-c767dd8002bf")
+	)
+	(junction
+		(at 309.88 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ef4095e-36e8-4a7a-9e74-c4488295ec98")
+	)
+	(junction
+		(at 127 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6614bad8-6dab-4fbe-b33b-fcca6c36de80")
+	)
+	(junction
+		(at 109.22 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ba7ee69-0a23-4462-b571-9f44b4214ff3")
+	)
+	(junction
+		(at 279.4 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "702e9ce1-a8d8-4833-8aaf-62a10c664ca2")
+	)
+	(junction
+		(at 109.22 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71b4ad66-1a34-4f33-83d3-adf087009a3f")
+	)
+	(junction
+		(at 96.52 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8850b3a9-5e37-41cf-aa3b-74de30a9f36c")
+	)
+	(junction
+		(at 170.18 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f424aea-082d-4492-974b-4121773cd648")
+	)
+	(junction
+		(at 261.62 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9493fc87-9a87-432f-9f58-3e964bac2653")
+	)
+	(junction
+		(at 248.92 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96a79041-fa20-4aa4-beff-2701205a0304")
+	)
+	(junction
+		(at 248.92 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "997f8932-8ae2-430e-8b3d-93f0c58afb6f")
+	)
+	(junction
+		(at 139.7 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b510f3e-ed89-4190-b201-12f7be663141")
+	)
+	(junction
+		(at 139.7 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0f97a8a-974e-4df9-8bbe-2ea561711996")
+	)
+	(junction
+		(at 231.14 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3d9cd19-66da-45c9-a98f-8fa8f28fb51d")
+	)
+	(junction
+		(at 187.96 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acaa04af-c88d-4367-826c-62a87821ce0b")
+	)
+	(junction
+		(at 78.74 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b309cbea-8db1-4c70-8974-b22566401476")
+	)
+	(junction
+		(at 231.14 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b48e03b5-ab0e-4cf3-a183-2cc8e50c1375")
+	)
+	(junction
+		(at 279.4 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b60c833a-07b5-4ee0-bafa-8ab4e1af3d68")
+	)
+	(junction
+		(at 66.04 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6423d42-5bc6-44a7-9cc8-61dc48f01810")
+	)
+	(junction
+		(at 109.22 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b725122a-33fe-4753-9fff-5de09fd9d9eb")
+	)
+	(junction
+		(at 78.74 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfd769d6-872b-4da1-9b7a-9fdb85f308f2")
+	)
+	(junction
+		(at 248.92 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c074bdcb-7c91-4c93-9821-90f394112490")
+	)
+	(junction
+		(at 218.44 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c209b918-909f-45fc-9d9c-c8de1aca2713")
+	)
+	(junction
+		(at 48.26 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4816b59-82cd-4315-821b-8eeb09719c8c")
+	)
+	(junction
+		(at 48.26 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb814874-6f10-4fa0-bedc-c181476136cf")
+	)
+	(junction
+		(at 170.18 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3bb9c17-82ad-417a-ad1b-84ef7d203e5d")
+	)
+	(junction
+		(at 48.26 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5136428-3421-4964-a460-4f5cdf349c9c")
+	)
+	(junction
+		(at 340.36 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d64cc3a8-b5b3-4f18-a59b-d239c202fa31")
+	)
+	(junction
+		(at 218.44 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d68e02e7-540c-4400-bc3b-f88d3ad8b3da")
+	)
+	(junction
+		(at 340.36 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcc6d3a4-5c0f-4713-8b7a-b0e078633665")
+	)
+	(junction
+		(at 78.74 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd835319-d6d3-47d9-b704-b549995f71fe")
+	)
+	(junction
+		(at 292.1 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1f2b202-acbd-4e5b-8be4-711dd360fb37")
+	)
+	(junction
+		(at 200.66 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4cbd0ab-fa01-438c-9149-653a9b5ba7d1")
+	)
+	(junction
+		(at 48.26 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e59e3c4d-6b81-41aa-bd0a-5e08fb6aa900")
+	)
+	(junction
+		(at 261.62 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6432533-44c5-45c0-af71-fec3274474e3")
+	)
+	(junction
+		(at 157.48 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e892e95b-b844-4d5c-9d98-c1f9fad68d19")
+	)
+	(junction
+		(at 261.62 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb4523c9-1f5c-45a5-8ab6-16aa5e49c66f")
+	)
+	(junction
+		(at 187.96 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebf785ee-53fe-409f-b84f-1c9e044a73e2")
+	)
+	(junction
+		(at 292.1 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ece26e4c-5c77-4764-be93-90e7efa2a9a1")
+	)
+	(junction
+		(at 170.18 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eea2e5db-91dc-4cad-a015-101c783575bc")
+	)
+	(junction
+		(at 340.36 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efb14a12-8517-4978-b11a-f1ed245495ad")
+	)
+	(junction
+		(at 200.66 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2f3ec71-846d-42eb-a722-bb4bcc5364d2")
+	)
+	(junction
+		(at 157.48 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f46dde95-0eb1-4816-ba88-2939738b60cb")
+	)
+	(junction
+		(at 139.7 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9e0410c-5be6-45b9-9788-891be184f355")
+	)
+	(junction
+		(at 127 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fad6ae99-1b5d-406a-a10f-4acdd4d1f060")
+	)
+	(junction
+		(at 292.1 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc21629d-75a5-4679-bf9b-4e6f6cb97108")
+	)
+	(junction
+		(at 200.66 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd52643f-c89f-4f29-9ee4-9f72ddbd0c68")
+	)
+	(junction
+		(at 109.22 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd603180-5fed-425d-9448-6005a6cccfc9")
+	)
+	(junction
+		(at 261.62 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff6bca5b-7f83-40a4-ab2b-9c295e4d1d5c")
+	)
+	(wire
+		(pts
+			(xy 200.66 116.84) (xy 200.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02182b15-2be2-4897-a0cc-5b68f61a1beb")
+	)
+	(wire
+		(pts
+			(xy 231.14 91.44) (xy 231.14 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a751b5-f8ce-4a18-a685-31e923edecf9")
+	)
+	(wire
+		(pts
+			(xy 279.4 124.46) (xy 279.4 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b63f67-90c5-4b97-93f7-6b6b18cece3f")
+	)
+	(wire
+		(pts
+			(xy 139.7 40.64) (xy 139.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc8b15a-93fb-4554-a469-e3424623b5bd")
+	)
+	(wire
+		(pts
+			(xy 322.58 116.84) (xy 322.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c42af56-1f97-45aa-80f8-7683625b4077")
+	)
+	(wire
+		(pts
+			(xy 292.1 91.44) (xy 292.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf15cab-0296-42f3-bc1b-026ae96cc900")
+	)
+	(wire
+		(pts
+			(xy 261.62 116.84) (xy 261.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3a2788-52a2-40ea-a738-6a46b0e5eb32")
+	)
+	(wire
+		(pts
+			(xy 309.88 124.46) (xy 309.88 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27768975-495f-4c6f-9212-0f4cb4a51898")
+	)
+	(wire
+		(pts
+			(xy 27.94 40.64) (xy 322.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc0c25c-b5aa-4173-87cd-aa9915867a92")
+	)
+	(wire
+		(pts
+			(xy 261.62 91.44) (xy 261.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce2d743-2246-43da-a6ad-a1d74c36753e")
+	)
+	(wire
+		(pts
+			(xy 48.26 40.64) (xy 48.26 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3ac298-4e18-4c2e-82e5-2e09cfe2c597")
+	)
+	(wire
+		(pts
+			(xy 200.66 66.04) (xy 200.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f1aaa1-9e7d-4500-85f2-0ec0ad3a256f")
+	)
+	(wire
+		(pts
+			(xy 139.7 91.44) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c32957-b2d4-481e-8881-0d5fb11d88c8")
+	)
+	(wire
+		(pts
+			(xy 78.74 91.44) (xy 78.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35cc9a70-73a4-43a9-b986-9b4b72090ba4")
+	)
+	(wire
+		(pts
+			(xy 48.26 91.44) (xy 48.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3760998e-ac74-4074-b90c-70ebbe5c9b31")
+	)
+	(wire
+		(pts
+			(xy 170.18 91.44) (xy 170.18 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc7b042-6db0-488a-b459-028c80a8ccaa")
+	)
+	(wire
+		(pts
+			(xy 48.26 66.04) (xy 48.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413dde68-1a8e-47f6-b8c2-127d4f0bbf31")
+	)
+	(wire
+		(pts
+			(xy 139.7 66.04) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4848e389-64d2-4f89-a776-c049a9b8c630")
+	)
+	(wire
+		(pts
+			(xy 27.94 91.44) (xy 322.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a440cc-82f3-4da8-8804-a55adb11d863")
+	)
+	(wire
+		(pts
+			(xy 170.18 66.04) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67521b5b-22db-46dd-a6c3-880e3e4ad323")
+	)
+	(wire
+		(pts
+			(xy 231.14 40.64) (xy 231.14 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8e3c98-b0b6-4fd3-8596-3e5ee729cb63")
+	)
+	(wire
+		(pts
+			(xy 340.36 124.46) (xy 340.36 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e5060dd-24f1-4c8e-a364-960bf93dd0d2")
+	)
+	(wire
+		(pts
+			(xy 109.22 66.04) (xy 109.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72eae491-3c68-434f-88f0-21a20a44f8b6")
+	)
+	(wire
+		(pts
+			(xy 261.62 66.04) (xy 261.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77dd9564-d1d9-4b94-b215-bd44add42df0")
+	)
+	(wire
+		(pts
+			(xy 96.52 124.46) (xy 96.52 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c952794-e4da-43fb-8496-e45f69a454c1")
+	)
+	(wire
+		(pts
+			(xy 292.1 40.64) (xy 292.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd6f89c-0d6e-49d2-b0b2-4613d1f40f1f")
+	)
+	(wire
+		(pts
+			(xy 218.44 124.46) (xy 218.44 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d706a12-7400-4394-a452-f191a9890262")
+	)
+	(wire
+		(pts
+			(xy 200.66 40.64) (xy 200.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2d5a0f-dc5e-4203-982b-5d26743b5fb3")
+	)
+	(wire
+		(pts
+			(xy 170.18 116.84) (xy 170.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88aa03bf-8fad-43b7-97ea-b68bbca3dc89")
+	)
+	(wire
+		(pts
+			(xy 78.74 66.04) (xy 78.74 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9016e582-c237-4316-b536-30b1421d6b3e")
+	)
+	(wire
+		(pts
+			(xy 109.22 40.64) (xy 109.22 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904461f6-6aff-44dd-96fb-68b1897faca4")
+	)
+	(wire
+		(pts
+			(xy 27.94 116.84) (xy 322.58 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "914e06aa-f02b-4da2-b19d-97841e70ec73")
+	)
+	(wire
+		(pts
+			(xy 322.58 91.44) (xy 322.58 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fb1ae6-c5da-405f-94f3-0c83461ac0ba")
+	)
+	(wire
+		(pts
+			(xy 78.74 40.64) (xy 78.74 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e28bf23-110f-48ca-b41d-a3fd48124913")
+	)
+	(wire
+		(pts
+			(xy 109.22 116.84) (xy 109.22 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed1a6bc-1c1b-4792-90dd-b69e742de3db")
+	)
+	(wire
+		(pts
+			(xy 248.92 124.46) (xy 248.92 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed4d8e8-ab99-40f8-b84d-b584f81f9b51")
+	)
+	(wire
+		(pts
+			(xy 78.74 116.84) (xy 78.74 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a064d0bc-206a-4790-8533-c94e4d4932da")
+	)
+	(wire
+		(pts
+			(xy 231.14 66.04) (xy 231.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a683a21a-041d-4bae-9f49-bac5465b4e2c")
+	)
+	(wire
+		(pts
+			(xy 187.96 124.46) (xy 187.96 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2197150-4e36-4994-b7c4-d5b3c90529db")
+	)
+	(wire
+		(pts
+			(xy 66.04 124.46) (xy 66.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e699d3-fa03-460c-adb2-10bb4b0e7368")
+	)
+	(wire
+		(pts
+			(xy 200.66 91.44) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49bc19a-2883-4c12-8763-afc0e922386c")
+	)
+	(wire
+		(pts
+			(xy 231.14 116.84) (xy 231.14 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe19a3b-963d-4430-9211-5a53f1652534")
+	)
+	(wire
+		(pts
+			(xy 292.1 116.84) (xy 292.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62c7325-8d86-4074-8055-88f30c89d6ff")
+	)
+	(wire
+		(pts
+			(xy 170.18 40.64) (xy 170.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e0c9c8-768e-4e3a-9ca7-4921a2835c7b")
+	)
+	(wire
+		(pts
+			(xy 322.58 40.64) (xy 322.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d413b8-a5f0-4c16-82ae-ea11ff893e78")
+	)
+	(wire
+		(pts
+			(xy 109.22 91.44) (xy 109.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e0dc77-efb3-4e5f-b5d9-c60b726cef62")
+	)
+	(wire
+		(pts
+			(xy 292.1 66.04) (xy 292.1 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5695c5-994e-40f0-b0d4-e739989129df")
+	)
+	(wire
+		(pts
+			(xy 48.26 116.84) (xy 48.26 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d363f62f-e9aa-437b-9a48-04013378347e")
+	)
+	(wire
+		(pts
+			(xy 27.94 66.04) (xy 322.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a01783-c074-4dd3-8018-d079806cfa96")
+	)
+	(wire
+		(pts
+			(xy 139.7 116.84) (xy 139.7 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da253f64-b324-4b38-96d6-46641ff5292e")
+	)
+	(wire
+		(pts
+			(xy 322.58 66.04) (xy 322.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd19b6f4-651d-4cb5-a6da-246f479c51d1")
+	)
+	(wire
+		(pts
+			(xy 157.48 124.46) (xy 157.48 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99223b7-2cb0-4ef8-9dd2-0a0dc4b92704")
+	)
+	(wire
+		(pts
+			(xy 261.62 40.64) (xy 261.62 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa296ca6-1123-4f40-9330-00d214b68c3e")
+	)
+	(wire
+		(pts
+			(xy 127 124.46) (xy 127 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb01cf44-6aad-42db-a107-21a89ae0f81b")
+	)
+	(hierarchical_label "ROW3"
+		(shape input)
+		(at 27.94 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20757c48-5335-49e9-97b6-d164f4b81863")
+	)
+	(hierarchical_label "COL7"
+		(shape output)
+		(at 279.4 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f8d025f-7d08-4027-96f6-c0fc704af8ad")
+	)
+	(hierarchical_label "COL0"
+		(shape output)
+		(at 66.04 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ef1c7e5-fa83-4882-8534-1a8b07ff8e46")
+	)
+	(hierarchical_label "COL1"
+		(shape output)
+		(at 96.52 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5039369d-c885-4400-a61d-3f994ccc03c9")
+	)
+	(hierarchical_label "ROW1"
+		(shape input)
+		(at 27.94 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51ea9fad-43df-4947-9d96-e5a4d38d8064")
+	)
+	(hierarchical_label "COL5"
+		(shape output)
+		(at 218.44 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5fda909b-4e54-4e6f-9a71-ad72aac106e2")
+	)
+	(hierarchical_label "COL8"
+		(shape output)
+		(at 309.88 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6154daee-56b6-4404-ba98-f0ed0e735b1c")
+	)
+	(hierarchical_label "ROW2"
+		(shape input)
+		(at 27.94 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1580237-c51e-4223-acc2-ca6cb3e9e778")
+	)
+	(hierarchical_label "COL6"
+		(shape output)
+		(at 248.92 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa1fc2dc-b975-43d8-8110-b401e3e371f8")
+	)
+	(hierarchical_label "ROW0"
+		(shape input)
+		(at 27.94 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab170bcb-677a-4e2e-ae7b-3aea20733881")
+	)
+	(hierarchical_label "COL3"
+		(shape output)
+		(at 157.48 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7c05b2b-e695-4921-97ba-8f6d60685711")
+	)
+	(hierarchical_label "COL2"
+		(shape output)
+		(at 127 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8c36397-2cd2-4770-9a18-87be38afcd50")
+	)
+	(hierarchical_label "COL9"
+		(shape output)
+		(at 340.36 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2b3e46f-ebdb-40ee-97ca-0a9fa047917d")
+	)
+	(hierarchical_label "COL4"
+		(shape output)
+		(at 187.96 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7d45129-e6c3-4e3c-9697-fab0a865bb48")
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 153.67 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05963447-1091-4a40-9159-9012aca6c024")
+		(property "Reference" "D03"
+			(at 153.67 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 153.67 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 153.67 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa784c07-1486-4269-9f52-c6ba423ca6d4")
+		)
+		(pin "2"
+			(uuid "19d83c49-c769-4491-b419-2e605c2cff9f")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 144.78 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b32e047-46ea-4d39-9af6-5c448f0d87ba")
+		(property "Reference" "K03"
+			(at 142.24 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 142.24 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 144.78 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85f545a4-b743-4bea-9b4e-f48b9dc99a51")
+		)
+		(pin "2"
+			(uuid "49aeab63-0652-4900-9be8-71cc682102fc")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 184.15 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "113b0c7c-e507-4c5d-931c-1b23d16b7cc0")
+		(property "Reference" "D04"
+			(at 184.15 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 184.15 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 184.15 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b9b5fe9-b675-46de-8d82-99a33af4251f")
+		)
+		(pin "2"
+			(uuid "49f50eb0-1461-4de6-957b-0500b09f6068")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 92.71 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13436383-a943-44e4-b9dc-c4068f17b7d1")
+		(property "Reference" "D21"
+			(at 92.71 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 92.71 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 92.71 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2ba7b56-df5a-4d38-9c4e-878c9cb445ad")
+		)
+		(pin "2"
+			(uuid "f3fc4b2a-636d-455a-9f59-0b5093254efe")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 297.18 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16006551-e507-42b5-a761-48a53f0ffd6a")
+		(property "Reference" "K38"
+			(at 294.64 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 294.64 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 297.18 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58b7ed44-3cfc-4ffe-8cb6-3051713282af")
+		)
+		(pin "2"
+			(uuid "8417cc88-671f-4439-afd1-93d64f6147ba")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 144.78 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16f32a31-c113-4da2-b1c0-1e26ed80f534")
+		(property "Reference" "K23"
+			(at 142.24 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 142.24 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 144.78 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "839eef2e-5aea-495e-8cd8-12ee7cd7d5e3")
+		)
+		(pin "2"
+			(uuid "6a3ed200-eb0b-477f-a795-31d7062ff8b5")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 184.15 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "198792f0-6450-4f53-9480-66b12403e131")
+		(property "Reference" "D14"
+			(at 184.15 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 184.15 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 184.15 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d1acaa2-3e37-4fcd-a787-1bf9ec9adf99")
+		)
+		(pin "2"
+			(uuid "8c79e6a3-6026-4149-88c2-e693596f15cd")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 53.34 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19fae2c0-86af-440f-baa3-2ea69130d9d1")
+		(property "Reference" "K30"
+			(at 50.8 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 50.8 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 53.34 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fba94ee-8f73-4fed-9efb-11a382df416d")
+		)
+		(pin "2"
+			(uuid "6912222f-ff71-4bcd-bf79-d616bb063f6e")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 83.82 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d2e0d91-63d3-4f73-b298-f672158f5b42")
+		(property "Reference" "K11"
+			(at 81.28 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 81.28 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 83.82 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce0754a9-f5ee-441a-8d6a-42dca8d5b600")
+		)
+		(pin "2"
+			(uuid "edb7cf56-2c9c-4023-9e23-40fbc89450af")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 236.22 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f828a1a-0dca-4efe-a5d5-f675c2235c97")
+		(property "Reference" "K36"
+			(at 233.68 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 233.68 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 236.22 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56919a9d-a6d7-4f29-b502-2e66588d85eb")
+		)
+		(pin "2"
+			(uuid "dd009ed3-eeea-4ae6-8b50-aba276427000")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 53.34 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3888c6d1-7fe6-4952-aae3-32d7bb8a88ed")
+		(property "Reference" "K10"
+			(at 50.8 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 50.8 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 53.34 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9061c861-103a-40a1-8a7f-8e5247fd498f")
+		)
+		(pin "2"
+			(uuid "836bb5e9-fb5f-4ac1-b399-7b29a7802f14")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 92.71 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a830bf1-e52c-432c-9ead-ee38a13fbb09")
+		(property "Reference" "D31"
+			(at 92.71 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 92.71 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 92.71 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61dff5d8-34a3-4f13-8079-069d5089d8a3")
+		)
+		(pin "2"
+			(uuid "4dd6c0a9-6196-4907-9cb1-4b58a5f2f75f")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 306.07 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3bd2378c-b5c0-43b8-baee-620903e05195")
+		(property "Reference" "D38"
+			(at 306.07 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 306.07 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 306.07 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "539fe31d-144c-404f-a375-a5129e9fd4f0")
+		)
+		(pin "2"
+			(uuid "85e8dfd9-97c7-4645-9a90-70413e410183")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 266.7 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4360b21a-0051-41ec-b58f-cd2cdb93dbcb")
+		(property "Reference" "K17"
+			(at 264.16 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 264.16 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 266.7 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a137eb7b-bdbe-4a86-b761-7c89d1e4051d")
+		)
+		(pin "2"
+			(uuid "7e2f786b-1052-46df-9187-0eb1a608f051")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 175.26 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "469c9a6a-00f9-4736-97ef-fa8b0bb60bc4")
+		(property "Reference" "K24"
+			(at 172.72 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 172.72 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 175.26 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "864e4eca-e5b4-49dc-a00d-2cb3d695ed58")
+		)
+		(pin "2"
+			(uuid "f74fae23-a6be-42a4-b8f7-91634e0fe01e")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 184.15 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a164f95-e998-470e-a87d-dd241d9ef0ce")
+		(property "Reference" "D34"
+			(at 184.15 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 184.15 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 184.15 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "faaa3f8d-1f4f-4f71-bc9e-cf771c0f0369")
+		)
+		(pin "2"
+			(uuid "30cd5492-ea5c-49ce-96fd-c03de2e70562")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 336.55 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a55d8b5-21c8-48be-9660-5ebcbcf7f422")
+		(property "Reference" "D29"
+			(at 336.55 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 336.55 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 336.55 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f770892-e3ef-475d-97f1-08f670357227")
+		)
+		(pin "2"
+			(uuid "c2b902ed-ea62-4275-a209-8a5313c8a8c6")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 205.74 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d78c2ce-a682-40f7-8b28-a9213919d803")
+		(property "Reference" "K05"
+			(at 203.2 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 203.2 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 205.74 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "323dd569-ebdc-4201-9af2-98e8a0197fd9")
+		)
+		(pin "2"
+			(uuid "d1b0ae1a-9b73-4e02-b55a-48ccd934dcef")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 245.11 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f72817c-20a9-455d-84ae-179f28ebfc20")
+		(property "Reference" "D16"
+			(at 245.11 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 245.11 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 245.11 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2054c023-53bf-48b8-996f-7879f3b7556a")
+		)
+		(pin "2"
+			(uuid "778456a1-e840-496b-bb82-5c79d77de465")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 214.63 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "54105a2f-57f3-40ab-9800-50a931c6b2c0")
+		(property "Reference" "D35"
+			(at 214.63 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 214.63 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 214.63 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05f57e77-8163-49bd-87be-5a40c1651174")
+		)
+		(pin "2"
+			(uuid "25855f88-ff8a-4bac-8fd0-68bc0e7891f7")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 184.15 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56142aef-87d4-4130-af62-35049cf13f2a")
+		(property "Reference" "D24"
+			(at 184.15 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 184.15 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 184.15 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e245cc99-b7fc-4561-bd1e-694e4056d2d6")
+		)
+		(pin "2"
+			(uuid "15afaae1-997b-41f4-b59d-5f252b371d3d")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 336.55 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5750277d-4e49-4ee8-842f-aa27c4c30cd8")
+		(property "Reference" "D19"
+			(at 336.55 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 336.55 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 336.55 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fe4b395-bc85-40fe-9583-3aae8a921640")
+		)
+		(pin "2"
+			(uuid "cfec9171-0a4d-41cf-8fa1-25120c342057")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 214.63 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5adde8ee-9168-487e-8a18-3a226aa1f716")
+		(property "Reference" "D15"
+			(at 214.63 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 214.63 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 214.63 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "624a4f3b-507c-4a92-abd6-657152766f62")
+		)
+		(pin "2"
+			(uuid "c3f0701d-c9bc-43b5-aca8-e8b229e13500")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 175.26 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e8b5199-fef6-4ecf-b19f-0f2bec51c3c5")
+		(property "Reference" "K14"
+			(at 172.72 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 172.72 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 175.26 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f80ec5c7-f440-404e-b29f-1cccb3a41cb4")
+		)
+		(pin "2"
+			(uuid "3226bc1e-3a5e-461d-8298-39bb13e46758")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 92.71 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63b49d38-37ef-4df1-950a-632b98dc4607")
+		(property "Reference" "D11"
+			(at 92.71 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 92.71 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 92.71 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47fa1118-e4bc-4bdd-8465-f4be3d749e0f")
+		)
+		(pin "2"
+			(uuid "f1045444-af9d-45c2-9a85-f565502da51e")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 144.78 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6aa88d22-0905-4792-b312-a8c2a780682a")
+		(property "Reference" "K33"
+			(at 142.24 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 142.24 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 144.78 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22ff7874-0602-43ac-b75c-cdefb12c0faa")
+		)
+		(pin "2"
+			(uuid "fd6d6305-3641-4d1d-a074-c932b76e9429")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 153.67 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6bf1b733-0a44-4405-ab81-180abc143b14")
+		(property "Reference" "D13"
+			(at 153.67 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 153.67 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 153.67 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87643e56-3eae-48ec-89a7-d23f6c2e9c20")
+		)
+		(pin "2"
+			(uuid "e9f9b258-1b2d-49f6-aad0-bae908f2ec10")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 205.74 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c8ba1ec-2e78-4b22-8b70-a31e0144e466")
+		(property "Reference" "K35"
+			(at 203.2 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 203.2 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 205.74 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9593c4b3-a8e2-4e8d-9571-0d6bc09bf6c4")
+		)
+		(pin "2"
+			(uuid "ab496b3b-1848-4be8-9f5f-9247ad985d4f")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 123.19 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "71d260fa-422c-4e8c-8266-3206da9f3025")
+		(property "Reference" "D02"
+			(at 123.19 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 123.19 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 123.19 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7413a80f-7963-41bf-805f-0862f3f68945")
+		)
+		(pin "2"
+			(uuid "04b4a84b-3d81-465a-a906-cb827e8f06e7")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 62.23 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a1aa534-b420-41cf-9830-974315828e99")
+		(property "Reference" "D00"
+			(at 62.23 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 62.23 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 62.23 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d15d1ef8-e5b5-4ba6-a967-f57ebdefc926")
+		)
+		(pin "2"
+			(uuid "03cf15d8-13d3-4124-97fc-66285504fc21")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D00")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 336.55 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b81fc38-81d7-4ca7-88e2-3bff38d01d50")
+		(property "Reference" "D09"
+			(at 336.55 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 336.55 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 336.55 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb5eee51-01ea-480c-b459-4880e7d6a96a")
+		)
+		(pin "2"
+			(uuid "7e7ecfd3-60aa-485b-9472-94cd0554eb0b")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 53.34 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ddc2dc7-ee33-4e51-888d-7340379dd21f")
+		(property "Reference" "K00"
+			(at 50.8 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 50.8 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 53.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac2c64a5-0cd6-4bb6-9a8f-f14d33107ca1")
+		)
+		(pin "2"
+			(uuid "155c85f8-0ee4-420e-aa2d-7694f7b4a64b")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K00")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 144.78 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e3866da-06be-4772-8f74-ce98506c3e94")
+		(property "Reference" "K13"
+			(at 142.24 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 142.24 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 144.78 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c8431bc-ce39-446f-93de-a33cfa7774d5")
+		)
+		(pin "2"
+			(uuid "fc96642d-93e3-44e3-b5ba-6e1c4ee7a9ab")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 266.7 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ee1bec8-7bd2-4ca4-8a63-ac496957b6df")
+		(property "Reference" "K27"
+			(at 264.16 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 264.16 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 266.7 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d5c2d8d-eb9a-4a04-bfd5-6914d6f86fde")
+		)
+		(pin "2"
+			(uuid "0affac87-5c67-4520-bac0-37a62ab7ac74")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 114.3 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "821038ed-46fa-43e5-84b6-d4cf3b3c7eca")
+		(property "Reference" "K32"
+			(at 111.76 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 111.76 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 114.3 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ae6e7e2-2163-484d-9b1b-6a40689298cd")
+		)
+		(pin "2"
+			(uuid "e76b2293-1ec5-454d-801a-a30595a64c5e")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 245.11 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83272e2e-c533-484b-b6c6-044f4f7ecc21")
+		(property "Reference" "D36"
+			(at 245.11 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 245.11 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 245.11 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c707bb20-5ac5-4a7f-922b-3227321aebf2")
+		)
+		(pin "2"
+			(uuid "d0a80c44-1bb2-4da7-bdde-8476671807f1")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 175.26 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "838ec78f-bdc8-40fb-8f52-28b9ef5d4010")
+		(property "Reference" "K04"
+			(at 172.72 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 172.72 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 175.26 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45182d8a-13b8-4223-855e-adcb645c75e8")
+		)
+		(pin "2"
+			(uuid "0cb7e293-34ef-409f-bbd0-2970881139fe")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 297.18 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84d14d2e-c192-40aa-be1d-46f73387c5b7")
+		(property "Reference" "K28"
+			(at 294.64 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 294.64 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 297.18 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03fede89-2ec6-4600-88f5-fd53f67ea167")
+		)
+		(pin "2"
+			(uuid "53399947-1d88-4c31-bb87-1a9d1d825822")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 214.63 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85812ef4-a8dc-4a5d-a9ea-1111eb0ba22f")
+		(property "Reference" "D05"
+			(at 214.63 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 214.63 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 214.63 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdbce82d-d4ae-4eb7-912f-faf97394706a")
+		)
+		(pin "2"
+			(uuid "5567bfe0-16bf-4cf8-adf3-7fde633496d7")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 236.22 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8941e449-d99f-451f-97e8-0b832c490504")
+		(property "Reference" "K16"
+			(at 233.68 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 233.68 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 236.22 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca89170a-2222-440b-9218-b9e004ce3f86")
+		)
+		(pin "2"
+			(uuid "0458d4bb-6b92-42d7-bfbf-7ce211ee236d")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 245.11 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89ef5463-1875-4004-a2c4-436cb9b9cb01")
+		(property "Reference" "D26"
+			(at 245.11 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 245.11 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 245.11 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5c5dc76-42fc-4087-9a71-ecf51123a544")
+		)
+		(pin "2"
+			(uuid "69d68683-ca2d-41de-8b13-bf5961b1a9b0")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 123.19 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ac089e1-291a-4978-a2d0-b0979229d890")
+		(property "Reference" "D22"
+			(at 123.19 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 123.19 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 123.19 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb562b35-bc4d-4efd-9597-ce2a410a9f67")
+		)
+		(pin "2"
+			(uuid "8fff55d2-616b-4482-8530-6b8faf4e130d")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 175.26 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8bdaf0bf-dc7b-4199-84ad-eec790d3169d")
+		(property "Reference" "K34"
+			(at 172.72 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 172.72 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 175.26 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee9d747a-fc10-458c-934e-eb5033803247")
+		)
+		(pin "2"
+			(uuid "8467d3ec-eae5-4004-a4e7-308ecab6af9d")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 275.59 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c724de2-e207-45a1-9ed4-c2a70da52941")
+		(property "Reference" "D17"
+			(at 275.59 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 275.59 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 275.59 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8519399-8dcc-4d4e-b1f0-4be46882a763")
+		)
+		(pin "2"
+			(uuid "58e7a754-4c93-40ad-ac38-e049f119c604")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 123.19 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8cf6f00b-c11a-46df-8355-303483916bda")
+		(property "Reference" "D32"
+			(at 123.19 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 123.19 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 123.19 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f203e7b-e056-409e-a73f-5699d7ba036c")
+		)
+		(pin "2"
+			(uuid "78ccf72e-87ff-4dea-a1b8-d22a88e76271")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 275.59 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d922df6-e63f-4bda-881d-04a570926df0")
+		(property "Reference" "D07"
+			(at 275.59 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 275.59 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 275.59 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c11de7a-db91-4651-baaf-ce620f7b9702")
+		)
+		(pin "2"
+			(uuid "d839ef6e-56f5-4f5d-89c8-d2e8acc64b92")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 153.67 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90ae18db-dc17-4b21-b419-72f7ab5f52e0")
+		(property "Reference" "D23"
+			(at 153.67 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 153.67 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 153.67 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a76b0b4b-6cef-4dcd-a832-ba6287f8a84b")
+		)
+		(pin "2"
+			(uuid "0894c1be-24ac-40cb-a3ce-3eb738424ac2")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 236.22 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91edaf1a-5569-4194-bef9-0a37460fc3c2")
+		(property "Reference" "K06"
+			(at 233.68 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 233.68 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 236.22 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf3c54ce-6ab1-4c62-8b7e-42cd31491d8e")
+		)
+		(pin "2"
+			(uuid "146b9e1c-54f2-46b0-b8bb-2072687ee35a")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 62.23 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93c95d33-1a42-46f4-b9a3-01d151ef468c")
+		(property "Reference" "D20"
+			(at 62.23 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 62.23 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 62.23 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daf1a508-53b1-44ac-8ba0-a8e655e7dac6")
+		)
+		(pin "2"
+			(uuid "78dd98da-9c18-48d6-b349-eed1bb1021ea")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 53.34 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "94ee29f6-e070-48da-8839-147a06e10b86")
+		(property "Reference" "K20"
+			(at 50.8 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 50.8 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 53.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7485b9c7-e8c5-4319-80dd-3235ac1d39ae")
+		)
+		(pin "2"
+			(uuid "8ab27a85-7564-43c7-9f32-bc7280cab2c6")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 153.67 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9993f1dd-5396-472e-95c4-c0ff684c0e6a")
+		(property "Reference" "D33"
+			(at 153.67 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 153.67 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 153.67 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "846d19d5-a4b4-40ce-9148-51392c59988e")
+		)
+		(pin "2"
+			(uuid "f09d09d9-eeaf-4ba5-8959-e0ea749830bd")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 114.3 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9db29806-a2c6-484f-ba64-808ab4c8b0b7")
+		(property "Reference" "K22"
+			(at 111.76 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 111.76 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 114.3 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e29bdce-d533-497b-a975-b06ef7a31433")
+		)
+		(pin "2"
+			(uuid "54d34665-a0b5-419c-80bc-1b99988d6766")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 275.59 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1eb4a28-4bd7-4912-bb85-03ea5359132e")
+		(property "Reference" "D27"
+			(at 275.59 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 275.59 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 275.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f8af2a2-978e-486a-a400-855091f9a6f9")
+		)
+		(pin "2"
+			(uuid "2de3e563-6ddc-4e66-aa7a-5a5572d5bef1")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 297.18 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1fc2575-1164-42c1-aecf-4e9543a1b209")
+		(property "Reference" "K08"
+			(at 294.64 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 294.64 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 297.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "489c2410-58c9-4cc5-a570-e8f3e5235bad")
+		)
+		(pin "2"
+			(uuid "ac34b0f8-4764-4882-b9bc-516adf258c05")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 214.63 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab89cc2e-c3f5-4b41-a7c9-d55bcbf41992")
+		(property "Reference" "D25"
+			(at 214.63 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 214.63 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 214.63 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3753dd6-f354-426e-8659-8b28cf30ca0b")
+		)
+		(pin "2"
+			(uuid "19250c82-a04e-45dd-98f6-1f8641c9e9ad")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 236.22 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab9ee02e-2a0c-4b1b-98ff-47700aede86f")
+		(property "Reference" "K26"
+			(at 233.68 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 233.68 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 236.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f90171a-2573-47ae-ac8a-4e909a018ee9")
+		)
+		(pin "2"
+			(uuid "1b7446f0-663d-40f9-80ab-58a0f7ada80d")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 245.11 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5c97bff-65ee-4cac-8045-a4dc88ece3b5")
+		(property "Reference" "D06"
+			(at 245.11 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 245.11 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 245.11 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73e96059-a1e2-4092-8bdb-f2393f8573dc")
+		)
+		(pin "2"
+			(uuid "3773c68c-2a69-4c2b-8260-625583f259f5")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 205.74 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b83d81f0-0394-496a-8bd1-fd29392cd5d5")
+		(property "Reference" "K25"
+			(at 203.2 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 203.2 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 205.74 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9950cf7-644b-4311-a8cf-54f66924333b")
+		)
+		(pin "2"
+			(uuid "464c55ee-59b1-4e2a-a1b8-f68528d0fee4")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 114.3 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba8b51a6-87ca-42ba-8da2-d26d6f667b40")
+		(property "Reference" "K12"
+			(at 111.76 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 111.76 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 114.3 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a23374d3-ca7a-428f-83cd-45af4fdd5365")
+		)
+		(pin "2"
+			(uuid "b1a635d0-2f25-4d94-b4a5-c8743caf5531")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 327.66 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb8ee1e9-13ca-403c-b66f-23ce4b1b7000")
+		(property "Reference" "K19"
+			(at 325.12 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 325.12 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 327.66 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 327.66 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9c66253-7937-426f-ae4f-9c2cc2e7aaa3")
+		)
+		(pin "2"
+			(uuid "4fc02d4b-a96b-4031-93de-c927e86cbb5d")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 114.3 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbbce855-316a-45df-8a5a-408ccc8be6a6")
+		(property "Reference" "K02"
+			(at 111.76 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 111.76 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 114.3 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "125d8813-626c-4061-a63e-f42438d64228")
+		)
+		(pin "2"
+			(uuid "93399957-43b1-40cd-a454-d1fce64cf284")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 83.82 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bcf557c7-0b89-49b1-97c0-43c5ff7d9d3d")
+		(property "Reference" "K21"
+			(at 81.28 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 81.28 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 83.82 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "027c676e-2718-499c-b385-c73121439471")
+		)
+		(pin "2"
+			(uuid "9c6ba63a-049c-439e-9f07-19a1381fd1ae")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 205.74 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf7aa5ad-6e65-49dc-84cb-a241996da131")
+		(property "Reference" "K15"
+			(at 203.2 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 203.2 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 205.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92c5bb08-32c6-4e64-96ee-c7afeacfca59")
+		)
+		(pin "2"
+			(uuid "911a1ebf-19c6-46a5-8d35-61a970828560")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 83.82 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0fbdbd8-a2a0-4b5a-8487-6f4850b21f84")
+		(property "Reference" "K31"
+			(at 81.28 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 81.28 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 83.82 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee098604-e1f8-4457-ba34-e385f1082ce8")
+		)
+		(pin "2"
+			(uuid "3636a53b-d2c2-42f2-83dc-b3b70748dbfa")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 123.19 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1ab3fb3-9dc7-4e98-9466-d493a3d6794c")
+		(property "Reference" "D12"
+			(at 123.19 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 123.19 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 123.19 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afef3eba-bc99-4eaf-870a-978df188dbca")
+		)
+		(pin "2"
+			(uuid "b37db2ef-b672-4075-8fd5-aef1214a9fc8")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 62.23 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c37d4380-6aaa-45f7-801f-d370652b90f1")
+		(property "Reference" "D30"
+			(at 62.23 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 62.23 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 62.23 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4951d7ea-01d0-492e-aeb8-4a391ef25341")
+		)
+		(pin "2"
+			(uuid "0bc42820-f964-4eeb-9a19-60a9a2de4097")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 306.07 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca1b0abf-9f45-4b5d-802a-002d93d51841")
+		(property "Reference" "D08"
+			(at 306.07 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 306.07 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 306.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6352ea1-e8b1-466e-8272-d4826b89190d")
+		)
+		(pin "2"
+			(uuid "653f8ce7-8d36-41d2-be04-41c0fe092edd")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 336.55 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb3ee998-4be3-42d5-8f14-42e74d0a61e5")
+		(property "Reference" "D39"
+			(at 336.55 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 336.55 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 336.55 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30c445c9-9364-4670-aa61-fd71e89411be")
+		)
+		(pin "2"
+			(uuid "0996c7ba-2445-47b4-a3f3-9adfdb5d6a31")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 83.82 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb7703e4-a50b-42e6-9cbd-1a4ea371bec1")
+		(property "Reference" "K01"
+			(at 81.28 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 81.28 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 83.82 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa382088-8873-4c1d-a3db-89ea6a60fa1e")
+		)
+		(pin "2"
+			(uuid "ea1aa134-0d96-4f30-bff3-952f352b5a3b")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 327.66 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d10bb1c7-fcaa-4e2e-9ceb-1d898ac13692")
+		(property "Reference" "K29"
+			(at 325.12 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 325.12 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 327.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 327.66 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "876f9f32-3451-4f07-99ee-05a8d931b1f7")
+		)
+		(pin "2"
+			(uuid "b248db30-5606-4528-baa0-fce631901ec3")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 297.18 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d40ff3a5-20c6-46a6-b734-bb053d3691c5")
+		(property "Reference" "K18"
+			(at 294.64 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 294.64 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 297.18 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f16a034-8804-499e-80ac-df4b9abba539")
+		)
+		(pin "2"
+			(uuid "c58390c1-f4e9-4786-951b-3c16bb11e714")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 327.66 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc1e5046-436b-44fa-bdcd-a14527385d9c")
+		(property "Reference" "K39"
+			(at 325.12 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 325.12 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 327.66 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 327.66 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1406b6ca-9a50-43d5-a303-fe54e9ac4ad7")
+		)
+		(pin "2"
+			(uuid "bea65a1d-e27c-4a6d-8c41-672c6e4d90c5")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 306.07 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1dcee94-50c2-4975-8429-4b9efa7d36aa")
+		(property "Reference" "D28"
+			(at 306.07 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 306.07 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 306.07 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74de655c-b6f2-4826-9034-2cc1c79b00d3")
+		)
+		(pin "2"
+			(uuid "25775984-d740-468f-b096-2c3664336649")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 92.71 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e94cda20-81a9-4e06-858e-bdb7af300c21")
+		(property "Reference" "D01"
+			(at 92.71 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 92.71 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 92.71 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41411a64-322a-4156-9893-b5b7833a3933")
+		)
+		(pin "2"
+			(uuid "be42660d-ca49-43a8-8948-9bb1d7432cb8")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 266.7 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef9bc0a9-b19c-4bc4-b076-ee9177755e9d")
+		(property "Reference" "K07"
+			(at 264.16 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 264.16 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 266.7 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64e105c4-c676-41d5-813f-9e4a8df2ef29")
+		)
+		(pin "2"
+			(uuid "50efc592-f495-4bef-b3fd-55eeac9ad32c")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 266.7 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2841265-cbd1-4304-a53e-4ce48d510867")
+		(property "Reference" "K37"
+			(at 264.16 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 264.16 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 266.7 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebe8f966-0744-414a-a795-1f41311c401c")
+		)
+		(pin "2"
+			(uuid "80aedc51-d2d9-4e9b-9113-ade023cd62c6")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 275.59 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3327bdf-8c07-4bac-bcd3-b62b67825627")
+		(property "Reference" "D37"
+			(at 275.59 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 275.59 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 275.59 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16beb17c-8179-4eeb-ac24-fe9fd8df1396")
+		)
+		(pin "2"
+			(uuid "473d0bf7-b045-4d33-9ad7-dbb543c77f52")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 306.07 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6e5ce83-add5-449e-b4b9-4a345c41c233")
+		(property "Reference" "D18"
+			(at 306.07 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 306.07 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 306.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1c0c2b6-25ed-42f4-8736-c0eaca80775d")
+		)
+		(pin "2"
+			(uuid "0d85a4e3-5b4d-4bbc-976a-4beb9e37f87d")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:SW_Push")
+		(at 327.66 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f99ab39e-ed8e-4eb9-9326-ab00b4e784f3")
+		(property "Reference" "K09"
+			(at 325.12 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MX"
+			(at 325.12 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:SW_Cherry_MX_1.00u_PCB"
+			(at 327.66 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 327.66 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ceb1971-6d01-4fa5-8975-84f0c6c183c3")
+		)
+		(pin "2"
+			(uuid "31d06d27-7cae-4ec2-a809-0dd4f54636f7")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "K09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:D")
+		(at 62.23 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffcca1d3-df8b-40f5-8d6d-d6446950cc73")
+		(property "Reference" "D10"
+			(at 62.23 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 62.23 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:D_SOD-123"
+			(at 62.23 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9ae56b9-7999-4998-8105-1a316faa00c8")
+		)
+		(pin "2"
+			(uuid "5f650f15-9b6b-4e49-b725-3dbcc2249870")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "11")
+		)
+	)
+	(embedded_fonts no)
+)
