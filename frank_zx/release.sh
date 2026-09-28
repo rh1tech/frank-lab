@@ -28,6 +28,9 @@ if [ -z "$PROJECT_PRO" ]; then
     exit 1
 fi
 PROJECT_NAME="$(basename "$PROJECT_PRO" .kicad_pro)"
+
+# Basename used for the published artifacts (gerbers/<name>_1_00.zip).
+ARTIFACT_NAME="${ARTIFACT_NAME:-$PROJECT_NAME}"
 PROJECT_SCH="$SCRIPT_DIR/$PROJECT_NAME.kicad_sch"
 PROJECT_PCB="$SCRIPT_DIR/$PROJECT_NAME.kicad_pcb"
 
@@ -156,7 +159,7 @@ print(json.load(open('$PROJECT_PRO'))['text_variables'].get('VERSION','1.00'))
 
     VER_MAJOR="${NEW_VERSION%%.*}"
     VER_MINOR="${NEW_VERSION#*.}"
-    GERBER_ZIP="$SCRIPT_DIR/gerbers/${PROJECT_NAME}_${VER_MAJOR}_${VER_MINOR}.zip"
+    GERBER_ZIP="$SCRIPT_DIR/gerbers/${ARTIFACT_NAME}_${VER_MAJOR}_${VER_MINOR}.zip"
     DOCS_DIR="$SCRIPT_DIR/docs/$VER_MAJOR/$VER_MINOR"
 
     if [ -e "$GERBER_ZIP" ] || [ -d "$DOCS_DIR" ]; then
@@ -328,7 +331,6 @@ build_gerbers() {
         --format excellon \
         --excellon-separate-th \
         --excellon-zeros-format decimal \
-        --excellon-units mm \
         -o "$gdir" "$PROJECT_PCB"
 
     local n_gbr n_drl
