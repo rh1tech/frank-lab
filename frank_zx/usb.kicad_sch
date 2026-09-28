@@ -5233,7 +5233,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 121.92) (xy 109.22 124.46)
+			(xy 105.41 121.92) (xy 105.41 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5843,7 +5843,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 121.92) (xy 101.6 124.46)
+			(xy 95.25 121.92) (xy 95.25 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6073,16 +6073,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 124.46) (xy 127 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb3533f8-679b-4cd3-8b61-0b4324f52655")
-	)
-	(wire
-		(pts
 			(xy 66.04 29.21) (xy 66.04 33.02)
 		)
 		(stroke
@@ -6203,6 +6193,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 119.38) (xy 128.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c934db-7aca-46d6-babb-02e77aeb24a8")
+	)
+	(wire
+		(pts
 			(xy 132.08 74.93) (xy 142.24 74.93)
 		)
 		(stroke
@@ -6213,7 +6213,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 121.92) (xy 124.46 124.46)
+			(xy 128.27 124.46) (xy 128.27 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6532,12 +6532,12 @@
 		(uuid "a6490f62-dd3e-4d6e-bc57-37e1aef65cc4")
 	)
 	(label "+5V_BUCK"
-		(at 127 124.46 0)
+		(at 132.08 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a72e217f-79db-4f97-a561-9ac3947ef040")
 	)
@@ -10516,7 +10516,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:GND")
-		(at 101.6 124.46 0)
+		(at 95.25 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10526,7 +10526,7 @@
 		(dnp no)
 		(uuid "7f2afe3d-43b6-4ec3-a4c1-7e7e3e1f9afb")
 		(property "Reference" "#PWR0300"
-			(at 101.6 126.46 0)
+			(at 95.25 126.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10537,7 +10537,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 128.27 0)
+			(at 95.25 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10547,7 +10547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 124.46 0)
+			(at 95.25 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10558,7 +10558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 124.46 0)
+			(at 95.25 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10569,7 +10569,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 124.46 0)
+			(at 95.25 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11243,7 +11243,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:PWR_FLAG")
-		(at 101.6 121.92 0)
+		(at 95.25 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11253,7 +11253,7 @@
 		(dnp no)
 		(uuid "94eb6ff0-ab1d-46e9-bf7c-2d6035164dd2")
 		(property "Reference" "#FLG001"
-			(at 101.6 123.92 0)
+			(at 95.25 123.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11264,7 +11264,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 101.6 118.11 0)
+			(at 95.25 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11274,7 +11274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 121.92 0)
+			(at 95.25 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11285,7 +11285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 121.92 0)
+			(at 95.25 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11296,7 +11296,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 121.92 0)
+			(at 95.25 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12093,7 +12093,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:PWR_FLAG")
-		(at 109.22 124.46 180)
+		(at 105.41 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12103,7 +12103,7 @@
 		(dnp no)
 		(uuid "a98db347-494c-4d51-a3b2-6b6f6b025f03")
 		(property "Reference" "#FLG002"
-			(at 109.22 126.46 0)
+			(at 105.41 126.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12114,7 +12114,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 109.22 128.27 0)
+			(at 105.41 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12124,7 +12124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 124.46 0)
+			(at 105.41 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12135,7 +12135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 124.46 0)
+			(at 105.41 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12146,7 +12146,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 124.46 0)
+			(at 105.41 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13041,7 +13041,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:PWR_FLAG")
-		(at 124.46 121.92 0)
+		(at 128.27 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13051,7 +13051,7 @@
 		(dnp no)
 		(uuid "bb71da96-e97c-45a0-96e0-aa688123fe76")
 		(property "Reference" "#FLG004"
-			(at 124.46 123.92 0)
+			(at 128.27 122.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13062,7 +13062,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 124.46 118.11 0)
+			(at 128.27 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13072,7 +13072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 121.92 0)
+			(at 128.27 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13083,7 +13083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 121.92 0)
+			(at 128.27 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13094,7 +13094,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 121.92 0)
+			(at 128.27 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13366,7 +13366,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:VBUS")
-		(at 109.22 121.92 0)
+		(at 105.41 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13376,7 +13376,7 @@
 		(dnp no)
 		(uuid "c843460d-0e0a-411b-abe2-b6733dc9fa5d")
 		(property "Reference" "#PWR0301"
-			(at 109.22 123.92 0)
+			(at 105.41 123.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13387,7 +13387,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 109.22 118.11 0)
+			(at 105.41 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13397,7 +13397,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 121.92 0)
+			(at 105.41 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13408,7 +13408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 121.92 0)
+			(at 105.41 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13419,7 +13419,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 121.92 0)
+			(at 105.41 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
