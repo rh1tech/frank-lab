@@ -4048,6 +4048,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FRANK:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FRANK:USB_A"
 			(pin_names
 				(offset 1.016)
@@ -6351,6 +6474,16 @@
 		)
 		(uuid "01bdee0c-8538-44f4-bff4-d18f84671de0")
 	)
+	(label "VDD33"
+		(at 80.01 96.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03fd17fa-6053-44c3-a343-fd8a6d9e671d")
+	)
 	(label "OVCUR"
 		(at 223.52 100.33 180)
 		(effects
@@ -6410,6 +6543,16 @@
 			(justify left bottom)
 		)
 		(uuid "2743516f-a4f9-48d8-b3ca-effc16fa5773")
+	)
+	(label "+5V_BUCK"
+		(at 59.69 96.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2761f0a2-af0e-4847-80d4-c6e4b0e53c88")
 	)
 	(label "DH+"
 		(at 180.34 151.13 0)
@@ -6511,6 +6654,16 @@
 		)
 		(uuid "8b99ec92-27c3-43b3-ba7f-45e018ed54d3")
 	)
+	(label "LX"
+		(at 222.25 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e159722-eb74-469f-a299-e78ffde6f735")
+	)
 	(label "DH-"
 		(at 224.79 80.01 180)
 		(effects
@@ -6551,6 +6704,16 @@
 		)
 		(uuid "a887729e-5856-4ec1-8070-f42be70de406")
 	)
+	(label "VBUS_IN"
+		(at 49.53 96.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad6247cd-4ece-45bb-a540-902afd4ed2ea")
+	)
 	(label "XTAL_N"
 		(at 224.79 110.49 180)
 		(effects
@@ -6580,6 +6743,16 @@
 			(justify left bottom)
 		)
 		(uuid "ba5572dd-f586-4158-805e-e7c684273c75")
+	)
+	(label "LX"
+		(at 69.85 96.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc391d4c-529b-4089-b23f-1a19916c3765")
 	)
 	(label "PWREN"
 		(at 224.79 102.87 180)
@@ -9356,6 +9529,83 @@
 			(project "frank_zx"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b"
 					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:TestPoint")
+		(at 49.53 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "4c766cf4-483f-4aa4-a158-0cf467c5d24f")
+		(property "Reference" "TP16"
+			(at 49.53 89.662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS_IN"
+			(at 49.53 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:TestPoint_Pad_D1.2mm"
+			(at 49.53 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d33e7c30-a1f6-444e-b942-618fa271204a")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -12885,6 +13135,83 @@
 		)
 	)
 	(symbol
+		(lib_id "FRANK:TestPoint")
+		(at 39.37 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "b5491c2c-e5c0-4415-855d-bfb6902ea1b9")
+		(property "Reference" "TP15"
+			(at 39.37 89.662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 39.37 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:TestPoint_Pad_D1.2mm"
+			(at 39.37 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15b63d4c-aaae-49d9-ae6e-abfd4feea591")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:GND")
 		(at 172.72 30.48 0)
 		(unit 1)
@@ -13111,6 +13438,83 @@
 			(project "frank_zx"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b"
 					(reference "#FLG004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:TestPoint")
+		(at 59.69 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "be117b5d-071f-43d7-9b1d-b03ea92a9de3")
+		(property "Reference" "TP17"
+			(at 59.69 89.662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_BUCK"
+			(at 59.69 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:TestPoint_Pad_D1.2mm"
+			(at 59.69 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5818f631-4e39-4a71-ac80-25ad06a4239f")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -13512,6 +13916,83 @@
 			(project "frank_zx"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b"
 					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:TestPoint")
+		(at 69.85 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "d30bd06a-e924-4c87-a555-888a2214ddc0")
+		(property "Reference" "TP18"
+			(at 69.85 89.662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LX"
+			(at 69.85 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:TestPoint_Pad_D1.2mm"
+			(at 69.85 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff7ed043-f03e-4f5a-8f3c-1c2e7f1df9cf")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -14014,6 +14495,83 @@
 		)
 	)
 	(symbol
+		(lib_id "FRANK:VBUS")
+		(at 39.37 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de1ecdb0-ce11-499c-bc91-b123b1167809")
+		(property "Reference" "#PWR334"
+			(at 39.37 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 39.37 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 39.37 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84b8aed9-1c14-49cf-89b3-29d91e415089")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b"
+					(reference "#PWR334")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:GND")
 		(at 158.75 95.25 90)
 		(unit 1)
@@ -14165,6 +14723,83 @@
 			(project "frank_zx"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b"
 					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:TestPoint")
+		(at 80.01 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "e8f6d986-38d5-407e-abde-e6a9d4c7ad82")
+		(property "Reference" "TP19"
+			(at 80.01 89.662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD33"
+			(at 80.01 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:TestPoint_Pad_D1.2mm"
+			(at 80.01 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 80.01 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfb4408e-f627-4b29-a54d-0254e47f277f")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b"
+					(reference "TP19")
 					(unit 1)
 				)
 			)

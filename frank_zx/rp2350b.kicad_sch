@@ -1101,7 +1101,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_* FRANK:JST_SH_1x03*"
+			(property "ki_fp_filters" "Connector*:*_1x??_* FRANK:JST_SH_1x03* FRANK:PinHeader_1x03*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4519,6 +4519,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FRANK:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FRANK:VBUS"
 			(power global)
 			(pin_numbers
@@ -7859,6 +7982,16 @@
 		)
 		(uuid "37dc3186-af2c-46a9-b542-90f1b65d3e51")
 	)
+	(label "GPIO44"
+		(at 332.74 129.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38bbd4b4-b9cf-43ac-bafb-97d75340b919")
+	)
 	(label "QSPI_SCLK"
 		(at 66.04 140.97 180)
 		(effects
@@ -8028,6 +8161,16 @@
 			(justify right bottom)
 		)
 		(uuid "9db39589-0280-f467-0ca6-3edcb6084e75")
+	)
+	(label "RUN"
+		(at 320.04 129.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a12d6974-e376-4cbb-a889-ef2eb5d39b75")
 	)
 	(label "RGB_LED"
 		(at 264.16 190.5 180)
@@ -9146,6 +9289,83 @@
 			(project "frank_zx"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:TestPoint")
+		(at 307.34 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "0a13d65b-e652-4fbc-884a-710fc8c8d8cb")
+		(property "Reference" "TP12"
+			(at 307.34 122.682 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V1"
+			(at 307.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:TestPoint_Pad_D1.2mm"
+			(at 307.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 307.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d1f797a-23d0-4d11-af6c-b1b8da3bae8c")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -11050,6 +11270,83 @@
 		)
 	)
 	(symbol
+		(lib_id "FRANK:+1V1")
+		(at 307.34 129.54 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e18a4d0-f9e2-4a48-89ba-18fd22d3eca9")
+		(property "Reference" "#PWR333"
+			(at 307.34 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V1"
+			(at 307.34 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
+			(at 307.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c76748a7-ba98-4f0f-b7af-5341c408c223")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
+					(reference "#PWR333")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:L")
 		(at 146.05 97.79 0)
 		(unit 1)
@@ -11422,6 +11719,83 @@
 			(project "frank_zx"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
 					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:TestPoint")
+		(at 320.04 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "4850c20b-7ea4-4766-894f-e58ff8e5c325")
+		(property "Reference" "TP13"
+			(at 320.04 122.682 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RUN"
+			(at 320.04 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:TestPoint_Pad_D1.2mm"
+			(at 320.04 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 320.04 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 320.04 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d35878d3-ee6e-419a-9a0f-b4221b7cfec3")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -11852,6 +12226,83 @@
 			(project "frank_zx"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:+3V3")
+		(at 294.64 129.54 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "571e5ad1-ba65-49a2-9abf-a0d6a9d6071e")
+		(property "Reference" "#PWR332"
+			(at 294.64 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 294.64 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 294.64 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34825bcd-676d-42c8-ba90-575f4d59bb71")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
+					(reference "#PWR332")
 					(unit 1)
 				)
 			)
@@ -15603,6 +16054,83 @@
 		)
 	)
 	(symbol
+		(lib_id "FRANK:TestPoint")
+		(at 294.64 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "be645c85-660c-4636-976e-3495c14a7f26")
+		(property "Reference" "TP11"
+			(at 294.64 122.682 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 294.64 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:TestPoint_Pad_D1.2mm"
+			(at 294.64 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 294.64 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0eb606b1-5ed7-4ba9-941c-867e0d0730c9")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:C")
 		(at 297.18 55.88 0)
 		(unit 1)
@@ -17015,6 +17543,83 @@
 			(project "frank_zx"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:TestPoint")
+		(at 332.74 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "f56205a6-1d14-44a9-8de0-5e0d0cc83615")
+		(property "Reference" "TP14"
+			(at 332.74 122.682 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GPIO44"
+			(at 332.74 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:TestPoint_Pad_D1.2mm"
+			(at 332.74 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 332.74 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 332.74 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "629ffafc-296d-4423-b3d3-5d6921c0feb3")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc"
+					(reference "TP14")
 					(unit 1)
 				)
 			)

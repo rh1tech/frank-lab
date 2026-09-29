@@ -840,7 +840,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_* FRANK:JST_GH_1x02* FRANK:Hirose_DF13*"
+			(property "ki_fp_filters" "Connector*:*_1x??_* FRANK:JST_GH_1x02* FRANK:Hirose_DF13* FRANK:PinHeader_1x02*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2205,6 +2205,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FRANK:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FRANK:VBUS"
 			(power global)
 			(pin_numbers
@@ -3185,6 +3308,16 @@
 		)
 		(uuid "77ac60d3-80c4-47d7-919a-e3d408188628")
 	)
+	(label "+5V_SPK"
+		(at 35.56 38.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79d05c07-729b-4da2-9382-2f3d9c70c577")
+	)
 	(label "SPKM"
 		(at 148.59 124.46 0)
 		(effects
@@ -3215,6 +3348,16 @@
 		)
 		(uuid "a1b2c3d4-0000-4000-8000-000000000004")
 	)
+	(label "SPKM"
+		(at 58.42 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa4a719a-152a-47f4-8f22-fade273d0197")
+	)
 	(label "SPKP"
 		(at 148.59 116.84 0)
 		(effects
@@ -3234,6 +3377,16 @@
 			(justify left bottom)
 		)
 		(uuid "c84d0447-8253-4380-8113-7d9d7012820e")
+	)
+	(label "SPKP"
+		(at 58.42 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f730e944-e17b-4946-944e-148768e963c5")
 	)
 	(hierarchical_label "BCLK"
 		(shape input)
@@ -4854,6 +5007,83 @@
 		)
 	)
 	(symbol
+		(lib_id "FRANK:TestPoint")
+		(at 35.56 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "4271e04b-d065-4e22-a238-b16bde97c2d6")
+		(property "Reference" "TP21"
+			(at 35.56 31.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_SPK"
+			(at 35.56 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:TestPoint_Pad_D1.2mm"
+			(at 35.56 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1be7afb-199a-4db4-b24c-1dba4ea60c78")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cd0bdb7e-4f98-427b-bf6c-8f3efd7f72c3"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:GND")
 		(at 217.17 139.7 90)
 		(unit 1)
@@ -5981,6 +6211,83 @@
 		)
 	)
 	(symbol
+		(lib_id "FRANK:+1V8")
+		(at 22.86 38.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9277dcdb-eac2-4f86-9146-0ae3895cb384")
+		(property "Reference" "#PWR335"
+			(at 22.86 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 22.86 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 22.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89cef680-d218-49bc-95e0-cd235d4c2621")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cd0bdb7e-4f98-427b-bf6c-8f3efd7f72c3"
+					(reference "#PWR335")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:Ferrite_Bead")
 		(at 175.26 119.38 90)
 		(mirror x)
@@ -6946,6 +7253,83 @@
 		)
 	)
 	(symbol
+		(lib_id "FRANK:TestPoint")
+		(at 22.86 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "b6e76990-a133-4b36-bd09-94f43386cceb")
+		(property "Reference" "TP20"
+			(at 22.86 31.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 22.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:TestPoint_Pad_D1.2mm"
+			(at 22.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 22.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30fcf680-1544-4e79-bf70-a360c4f7df4c")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cd0bdb7e-4f98-427b-bf6c-8f3efd7f72c3"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:+3V3")
 		(at 161.29 129.54 270)
 		(unit 1)
@@ -7095,6 +7479,85 @@
 			(project "frank_zx"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cd0bdb7e-4f98-427b-bf6c-8f3efd7f72c3"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:Conn_01x02_Pin")
+		(at 53.34 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "c8da6dfe-5edb-4b38-9677-ee0253e40392")
+		(property "Reference" "J15"
+			(at 53.34 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Speaker"
+			(at 53.34 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:PinHeader_1x02_P2.54mm_Vertical"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Alternative speaker wire pads, parallel to J8"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5389f4cb-66e2-4509-a32a-9e6f4e792e95")
+		)
+		(pin "2"
+			(uuid "8af0a57f-8dae-4b1e-878d-482a9021f301")
+		)
+		(instances
+			(project "frank_zx"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cd0bdb7e-4f98-427b-bf6c-8f3efd7f72c3"
+					(reference "J15")
 					(unit 1)
 				)
 			)

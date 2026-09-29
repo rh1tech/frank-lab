@@ -1203,7 +1203,7 @@
 	)
 	(text "ESP-01 (ESP8266) on RP2350B UART1: GPIO36 = UART1 TX -> URXD, GPIO37 = UART1 RX <- UTXD\nGPIO38 -> RST and GPIO39 -> GPIO0 (via R12/R13 100R on the RP2350B sheet) let firmware reset and reflash the ESP\nR38/R39 4.7K pull-ups win over the RP2350 default pad pull-downs at power-up (normal boot)\nC53/C54 at the module VCC pin: ESP8266 TX bursts draw ~300 mA\nPCB: keep copper (all layers) out from under the antenna end of the module"
 		(exclude_from_sim no)
-		(at 90.17 35.56 0)
+		(at 93.98 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1214,7 +1214,7 @@
 	)
 	(text "S5 resets the ESP-01, S7 is the edge-mounted (TS-1234VW) duplicate of S5\nFlash mode: hold S6 (GPIO0 low) while pressing and releasing S5/S7"
 		(exclude_from_sim no)
-		(at 105.41 129.54 0)
+		(at 93.98 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
