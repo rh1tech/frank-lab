@@ -18,10 +18,6 @@ For production-ready boards, see the main [frank](https://github.com/rh1tech/fra
 | `xt8086_beta` | Work in progress — pulled back from the released set |
 | `frank_next_proto` | Prototype — superseded by FRANK Next, released |
 
-`frank_core2u/firmware/` and `frank_core2_proto/firmware/` hold the dual-core firmware sources
-for those two boards. Both boards themselves have been released; only the firmware still
-lives here.
-
 ## Released from this repository
 
 These boards have graduated to [rh1tech/frank](https://github.com/rh1tech/frank) and are no
