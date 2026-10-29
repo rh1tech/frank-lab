@@ -14,6 +14,7 @@ For production-ready boards, see the main [frank](https://github.com/rh1tech/fra
 |-------|--------|
 | `frank_air` | Work in progress |
 | `frank_core2` | Work in progress — pulled back from the released set |
+| `frank_pga2` | 1.00 ready for fab, untested — dual PGA2350 (Core2 link), 2-layer, hand-solderable |
 | `dino_z80` | Work in progress — pulled back from the released set |
 | `xt8086_beta` | Work in progress — pulled back from the released set |
 | `frank_next_proto` | Prototype — superseded by FRANK Next, released |

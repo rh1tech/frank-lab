@@ -1,0 +1,46 @@
+(version 1)
+# JLCPCB standard 2-layer process (no extra cost). Board-wide minimums are in Board Setup.
+
+(rule "JLC via annular ring 0.13"
+    (condition "A.Type == 'Via'")
+    (constraint annular_width (min 0.13mm)))
+
+(rule "JLC plated pad annular ring 0.13 (connected pads)"
+    (condition "A.Type == 'Pad' && A.isPlated() && A.NetName != ''")
+    (constraint annular_width (min 0.13mm)))
+
+(rule "JLC via to via 0.254"
+    (condition "A.Type == 'Via' && B.Type == 'Via'")
+    (constraint hole_to_hole (min 0.254mm)))
+
+(rule "PGA2350 module markings (part of the module footprint)"
+    (layer "F.Silkscreen")
+    (condition "A.memberOfFootprint('U1') || A.memberOfFootprint('U2')")
+    (constraint text_height (min 0.5mm))
+    (constraint text_thickness (min 0.08mm)))
+
+# No pair-skew rules. The old USB/HDMI skew rules never matched: inDiffPair() needs +/- or P/N
+# suffixes, and these nets end in DP/DM or the shared VGA name. They are also not needed:
+# USB is Full Speed (12 Mb/s, 83 ns bit) and DVI from HSTX runs at ~250 Mb/s (4 ns bit),
+# so the measured 3-30 mm of skew (~20-200 ps) is a small fraction of a bit.
+
+(rule "Plated mounting holes: via ring inside the footprint"
+    (condition "A.memberOfFootprint('H*') && B.memberOfFootprint('H*')")
+    (constraint hole_to_hole (min 0.25mm)))
+
+(rule "Board labels in TrueType (Nordwand Mono / Proxima Nova, as frank_next)"
+    (layer "?.Silkscreen")
+    (condition "A.Type == 'Text'")
+    (constraint text_thickness (min 0.1mm)))
+
+(rule "High current: no thermal spokes thinner than 0.5mm"
+    (condition "A.NetClass == 'HighPower'")
+    (constraint thermal_spoke_width (min 0.5mm)))
+
+(rule "USB-C J6: VBUS/GND pad pitch is fixed by the connector (0.17mm)"
+    (condition "A.memberOfFootprint('J6') && B.memberOfFootprint('J6')")
+    (constraint clearance (min 0.15mm)))
+
+(rule "USB-C J6: GND pads too narrow for thermal spokes, connect solid"
+    (condition "A.memberOfFootprint('J6') && A.NetName == 'GND'")
+    (constraint zone_connection solid))
