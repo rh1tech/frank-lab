@@ -61,12 +61,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "footprint_type_mismatch|245400000|91233333|836b0a62-6169-4d55-b469-037f88989446|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -873,14 +868,20 @@
           "label": "KiLib_Generator",
           "name": "KiLib_Generator",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_asc": false,
+      "sort_field": "${QUANTITY}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
