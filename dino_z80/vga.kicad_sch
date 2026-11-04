@@ -5174,6 +5174,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 172.72) (xy 86.36 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12bca732-53cd-4423-88be-a9fd4c8da56f")
+	)
+	(wire
+		(pts
 			(xy 99.06 114.3) (xy 107.95 114.3)
 		)
 		(stroke
@@ -5461,6 +5471,16 @@
 			(type default)
 		)
 		(uuid "2db5993f-7bae-4450-bb1e-7f5f36a157f5")
+	)
+	(wire
+		(pts
+			(xy 76.2 172.72) (xy 76.2 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db8344b-a0ff-487b-ac6d-5ec021307191")
 	)
 	(wire
 		(pts
@@ -6464,6 +6484,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 172.72) (xy 96.52 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69bd2af-daf6-47a1-88c5-1a86c1b4bed6")
+	)
+	(wire
+		(pts
 			(xy 246.38 55.88) (xy 259.08 55.88)
 		)
 		(stroke
@@ -6932,6 +6962,16 @@
 		)
 		(uuid "3fb143d5-98c6-4f5d-9a52-e2ceab197508")
 	)
+	(label "AMS_1V8A"
+		(at 96.52 177.8 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4631bb1c-e6f4-4a8a-9e9b-a37e4d9bc5c7")
+	)
 	(label "G"
 		(at 93.98 78.74 0)
 		(effects
@@ -7031,6 +7071,16 @@
 			(justify right bottom)
 		)
 		(uuid "6caec172-672b-4d6b-bd0c-cffa343ad061")
+	)
+	(label "AMS_3V3"
+		(at 76.2 177.8 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a2aeb84-d78b-4921-8757-9a42091be347")
 	)
 	(label "TMDS_D1-"
 		(at 185.42 97.79 180)
@@ -7171,6 +7221,16 @@
 			(justify right bottom)
 		)
 		(uuid "b850b854-24ba-4509-8da7-189c0237af0d")
+	)
+	(label "AMS_3V3A"
+		(at 86.36 177.8 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbb5940e-82cb-460e-960f-010643ec801c")
 	)
 	(label "R"
 		(at 34.29 157.48 0)
@@ -10639,6 +10699,82 @@
 		)
 	)
 	(symbol
+		(lib_id "dino:TestPoint")
+		(at 86.36 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5334503e-32d1-4596-89c6-be466c524c89")
+		(property "Reference" "TP19"
+			(at 86.36 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS_3V3A"
+			(at 86.36 166.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dino:TestPoint_Pad_D1.0mm"
+			(at 86.36 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 86.36 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fadf7b5-4bf6-4ab1-b940-b9c59dd003c5")
+		)
+		(instances
+			(project "dino_z80"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dino:GND")
 		(at 130.81 26.67 0)
 		(mirror x)
@@ -11351,6 +11487,82 @@
 			(project "dino_z80"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:TestPoint")
+		(at 96.52 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66efeade-d650-4fcc-bdad-2c3e5f6f32c3")
+		(property "Reference" "TP20"
+			(at 96.52 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS_1V8A"
+			(at 96.52 166.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dino:TestPoint_Pad_D1.0mm"
+			(at 96.52 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71c2c299-9fe7-4cb8-b4e3-56737d2d4b12")
+		)
+		(instances
+			(project "dino_z80"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -14721,6 +14933,82 @@
 	)
 	(symbol
 		(lib_id "dino:TestPoint")
+		(at 76.2 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb306a56-c20c-412c-b361-1a6b8ee48c12")
+		(property "Reference" "TP18"
+			(at 76.2 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS_3V3"
+			(at 76.2 166.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dino:TestPoint_Pad_D1.0mm"
+			(at 76.2 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 76.2 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f190e015-17aa-4096-b915-5e726a10272f")
+		)
+		(instances
+			(project "dino_z80"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dino:TestPoint")
 		(at 167.64 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -17194,293 +17482,5 @@
 				)
 			)
 		)
-	)
-	(symbol
-		(lib_id "dino:TestPoint")
-		(at 76.2 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bb306a56-c20c-412c-b361-1a6b8ee48c12")
-		(property "Reference" "TP18"
-			(at 76.2 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS_3V3"
-			(at 76.2 166.878 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "dino:TestPoint_Pad_D1.0mm"
-			(at 76.2 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 76.2 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f190e015-17aa-4096-b915-5e726a10272f")
-		)
-		(instances
-			(project "dino_z80"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 76.2 172.72) (xy 76.2 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db8344b-a0ff-487b-ac6d-5ec021307191")
-	)
-	(label "AMS_3V3"
-		(at 76.2 177.8 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a2aeb84-d78b-4921-8757-9a42091be347")
-	)
-	(symbol
-		(lib_id "dino:TestPoint")
-		(at 86.36 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5334503e-32d1-4596-89c6-be466c524c89")
-		(property "Reference" "TP19"
-			(at 86.36 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS_3V3A"
-			(at 86.36 166.878 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "dino:TestPoint_Pad_D1.0mm"
-			(at 86.36 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 86.36 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2fadf7b5-4bf6-4ab1-b940-b9c59dd003c5")
-		)
-		(instances
-			(project "dino_z80"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
-					(reference "TP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 86.36 172.72) (xy 86.36 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12bca732-53cd-4423-88be-a9fd4c8da56f")
-	)
-	(label "AMS_3V3A"
-		(at 86.36 177.8 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bbb5940e-82cb-460e-960f-010643ec801c")
-	)
-	(symbol
-		(lib_id "dino:TestPoint")
-		(at 96.52 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "66efeade-d650-4fcc-bdad-2c3e5f6f32c3")
-		(property "Reference" "TP20"
-			(at 96.52 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS_1V8A"
-			(at 96.52 166.878 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "dino:TestPoint_Pad_D1.0mm"
-			(at 96.52 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 96.52 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "71c2c299-9fe7-4cb8-b4e3-56737d2d4b12")
-		)
-		(instances
-			(project "dino_z80"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 96.52 172.72) (xy 96.52 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c69bd2af-daf6-47a1-88c5-1a86c1b4bed6")
-	)
-	(label "AMS_1V8A"
-		(at 96.52 177.8 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4631bb1c-e6f4-4a8a-9e9b-a37e4d9bc5c7")
 	)
 )
