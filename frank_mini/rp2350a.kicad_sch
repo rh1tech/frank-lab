@@ -4351,7 +4351,7 @@
 		)
 		(uuid "d4481b48-d895-4168-9adc-afefbb07f296")
 	)
-	(text "QSPI flash W25Q128JVPIQ (WSON-8 6x5, exposed pad to GND); R17 holds CS high, R16 0R"
+	(text "QSPI flash W25Q128JVPIQ (WSON-8 6x5, exposed pad to GND); R7 holds CS high, R4 isolates BOOTSEL."
 		(exclude_from_sim no)
 		(at 78.74 200.66 0)
 		(effects
@@ -4361,6 +4361,17 @@
 			(justify left bottom)
 		)
 		(uuid "e5d706ea-e88f-4406-91d2-a161ccac76c7")
+	)
+	(text "PCB REVIEW: C12 (CIN) and C13 (COUT) are on B.Cu; move beside U1/L1 on F.Cu before fabrication.\nFollow RP2350 datasheet 6.3.8: short local power loop, paired GND vias, COUT-to-FB sense, marked L1 orientation.\nKeep top copper clear under L1 and layer-2 copper clear under L1/LX; the keepout alone does not fix the capacitor layout."
+		(exclude_from_sim no)
+		(at 78.74 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a28c435d-ea5b-4e90-8c96-392135ccf352")
 	)
 	(text "1"
 		(exclude_from_sim no)

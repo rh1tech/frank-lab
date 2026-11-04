@@ -2080,7 +2080,7 @@
 		)
 		(uuid "0ebebd5c-c667-4ea6-a59d-5a76404d6b08")
 	)
-	(text "S2 jumpers: 1 = audio (TDA/ext. sound), 2 = tape in -> GPIO22, 3 = USB force USB-C"
+	(text "S1 switches: 1 = audio (TDA/ext. sound), 2 = tape in -> GPIO22, 3 = USB force USB-C"
 		(exclude_from_sim no)
 		(at 220.98 86.36 0)
 		(effects
@@ -2234,7 +2234,7 @@
 		)
 		(uuid "f9dfeb3f-819c-498b-8e23-8c383518e501")
 	)
-	(text "Shared interfaces (not simultaneous):\nRemove ESP-01 before gamepad firmware drives GPIO21: ESP TX is push-pull.\nDisconnect UART J2 when using the PS/2 mouse; connect only HDMI or VGA, not both.\nPower: J3 is a rail breakout, not an isolated auxiliary input. No USB-C current detection.\nSize the 5 V source for board + peripherals, within F1; a PC USB port may not support the full load."
+	(text "Shared interfaces (not simultaneous):\nRemove ESP-01 before gamepad firmware drives GPIO21: ESP TX is push-pull.\nDisconnect UART J2 when using the PS/2 mouse; connect only HDMI or VGA, not both.\nPower: J1 is a rail breakout, not an isolated auxiliary input. No USB-C current detection.\nSize the 5 V source for board + peripherals, within F1; a PC USB port may not support the full load."
 		(exclude_from_sim no)
 		(at 220.98 184.15 0)
 		(effects

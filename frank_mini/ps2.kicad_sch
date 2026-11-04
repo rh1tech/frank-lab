@@ -1371,7 +1371,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PS/2 keyboard + mouse on one Mini-DIN (J6): TXS0104 3V3 <-> 5V, OE tied high."
+	(text "PS/2 keyboard + mouse on one Mini-DIN (J11): TXS0104E 3V3 <-> 5V, OE tied high."
 		(exclude_from_sim no)
 		(at 86.36 80.01 0)
 		(effects
@@ -1382,7 +1382,7 @@
 		)
 		(uuid "6b2ae76c-77b1-4dd2-b104-f0f75435b5b6")
 	)
-	(text "C12 VCCA, C13 VCCB at U6; C11 at the connector VBUS pin. U6 has internal 10K pull-ups on both sides."
+	(text "C50 VCCA, C51 VCCB at U13; C52 at the connector VBUS pin. U13 has internal 10K pull-ups on both sides."
 		(exclude_from_sim no)
 		(at 86.36 83.82 0)
 		(effects
