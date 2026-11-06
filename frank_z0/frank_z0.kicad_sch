@@ -1,0 +1,348 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "201bd2d9-0138-4492-b97a-3874cd1e911b")
+	(paper "A4")
+	(title_block
+		(title "${NAME}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "Mikhail Matveev")
+		(comment 1 "https://github.com/rh1tech/frank")
+	)
+	(lib_symbols)
+	(sheet
+		(at 96.52 76.2)
+		(size 22.86 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "13b34769-47e9-4473-a6e9-27bb3c3c6d22")
+		(property "Sheetname" "RP2350A"
+			(at 96.52 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp2350a.kicad_sch"
+			(at 96.52 140.2846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D+" input
+			(at 96.52 78.74 180)
+			(uuid "ec17e904-1e76-4cea-99a8-3e77115e59dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" input
+			(at 96.52 81.28 180)
+			(uuid "dbf2c88b-28ea-4f0c-92b7-29a77963eba5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO1" input
+			(at 119.38 78.74 0)
+			(uuid "5a76c682-d335-4cef-a32a-ced0b5b9ef6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO2" input
+			(at 119.38 81.28 0)
+			(uuid "2190dc13-2629-45b4-aaa1-2063fcc52289")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO3" input
+			(at 119.38 83.82 0)
+			(uuid "57181962-90cb-4ad7-91af-1ec0d2c578d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO4" input
+			(at 119.38 86.36 0)
+			(uuid "8c5975e3-95e2-4b84-9cc4-47cab95192ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO5" input
+			(at 119.38 88.9 0)
+			(uuid "004d59e1-c77e-41f4-bdcd-cca7f3dc119a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO6" input
+			(at 119.38 91.44 0)
+			(uuid "c96f88f1-b8ee-4c68-8f49-3fa8a2dacc9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO7" input
+			(at 119.38 93.98 0)
+			(uuid "b5a556ad-978b-49ea-82da-bca340821986")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO8" input
+			(at 119.38 96.52 0)
+			(uuid "03e1db67-35e6-47dc-84dd-c121d605ea3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO9" input
+			(at 119.38 99.06 0)
+			(uuid "919c9f22-e19f-4c97-bedc-5b1c509d3c3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO10" input
+			(at 119.38 101.6 0)
+			(uuid "41f457b7-467e-448b-8933-ebf7aff7bd4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO11" input
+			(at 119.38 104.14 0)
+			(uuid "6290d6d6-270a-46e2-809f-21e71d8a0b30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO12" input
+			(at 119.38 106.68 0)
+			(uuid "dd9f6b17-30c0-49ae-9f12-a8aec5bfd2e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO13" input
+			(at 119.38 109.22 0)
+			(uuid "c00cdbec-a022-495a-b9ed-f426d81b3531")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO14" input
+			(at 119.38 111.76 0)
+			(uuid "dc78f9f5-f72e-4acc-9e91-d29a12e45ce1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO15" input
+			(at 119.38 114.3 0)
+			(uuid "579b049b-aabb-4339-900f-7aaa5e0dc965")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO16" input
+			(at 119.38 116.84 0)
+			(uuid "c7ea1827-545e-47a4-ab65-6ff6b425bb83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO17" input
+			(at 119.38 119.38 0)
+			(uuid "16eb0b61-5b67-40cf-b57e-6bc36c2db89d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO18" input
+			(at 119.38 121.92 0)
+			(uuid "e4fb59ae-2e05-4b04-81d1-12a3b340cb40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO19" input
+			(at 119.38 124.46 0)
+			(uuid "3836401f-fa1b-4cf2-8a60-d39869794e12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO20" input
+			(at 119.38 127 0)
+			(uuid "fc25e242-19b2-4c53-bb1a-235fc8c4fa88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO21" input
+			(at 119.38 129.54 0)
+			(uuid "412ad72c-1e21-4b72-b3a9-b448fb0dc9fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO22" input
+			(at 119.38 132.08 0)
+			(uuid "43536759-056c-460a-847c-743d882bd1c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO23" input
+			(at 119.38 134.62 0)
+			(uuid "dadd9429-1df0-4d97-acad-0cd66afc1223")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO28" input
+			(at 96.52 134.62 180)
+			(uuid "65ab89c4-b7b7-4fd6-b92d-c29e3da010b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO29" input
+			(at 96.52 137.16 180)
+			(uuid "2b30c93e-4b74-474d-abf6-8582aa31402f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RUN" input
+			(at 119.38 137.16 0)
+			(uuid "b47edb11-8c17-43ab-947b-d1884111300f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "frank_z0"
+				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

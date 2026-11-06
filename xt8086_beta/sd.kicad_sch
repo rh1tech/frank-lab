@@ -676,7 +676,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -22.86 0 0)
 					(length 3.81)
 					(name "VDD"
@@ -712,7 +712,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -22.86 -5.08 0)
 					(length 3.81)
 					(name "VSS"
@@ -1204,7 +1204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 123.063 94.869 0)
 			(show_name no)
 			(do_not_autoplace no)

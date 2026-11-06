@@ -12,6 +12,121 @@
 		(comment 1 "https://github.com/rh1tech/frank")
 	)
 	(lib_symbols
+		(symbol "xt8086:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "xt8086:+1V1"
 			(power global)
 			(pin_numbers
@@ -1042,7 +1157,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "SCLK"
@@ -6749,7 +6864,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C42411119.html"
 			(at 62.23 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6772,6 +6887,17 @@
 			)
 		)
 		(property "LCSC" "C42411119"
+			(at 62.23 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AOTA-B201610S3R3-101-T"
 			(at 62.23 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6819,7 +6945,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7u 16V"
 			(at 85.471 26.543 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7323,7 +7449,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 230.251 36.703 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7415,7 +7541,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 184.531 36.703 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7711,7 +7837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 207.391 36.703 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7804,7 +7930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7u 16V"
 			(at 39.37 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7896,7 +8022,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 218.821 36.703 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8142,7 +8268,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 253.111 36.703 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8487,7 +8613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7u 16V"
 			(at 85.09 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8579,7 +8705,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 96.901 26.543 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8671,7 +8797,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 195.961 36.703 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8840,7 +8966,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 204.851 92.583 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9043,7 +9169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 241.681 36.703 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9135,7 +9261,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 172.466 36.703 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9227,7 +9353,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 264.541 36.703 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9725,7 +9851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 74.041 26.543 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9817,7 +9943,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 192.913 127.889 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10343,7 +10469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7u 16V"
 			(at 50.8 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10512,7 +10638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 30.48 93.9769 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11159,7 +11285,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25804.html"
 			(at 186.69 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11606,7 +11732,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25804.html"
 			(at 241.3 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -11808,7 +11934,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/Oscillators/ASEseries.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C7503129.html"
 			(at 53.34 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11902,7 +12028,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "YF4012M00033001"
 			(at 55.88 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12457,6 +12583,267 @@
 			(project "xt8086_beta"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/69d580d4-830a-4ad1-89c3-268c1b1da372"
 					(page "9")
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xt8086:PWR_FLAG")
+		(at 25.4 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "97b3502f-3ef4-45a2-82ec-631d27fba685")
+		(property "Reference" "#FLG903"
+			(at 25.4 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 25.4 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 25.4 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "719efa83-187c-4037-871c-9ac7d9f2b93c")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/69d580d4-830a-4ad1-89c3-268c1b1da372"
+					(reference "#FLG903")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 25.4 172.72) (xy 25.4 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0f93af-300a-4e54-83ed-5ca0e5603a0e")
+	)
+	(label "VREG_AVDD"
+		(at 25.4 175.26 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1eec4d4-5ec4-4ee5-a53e-17909502ae64")
+	)
+	(symbol
+		(lib_id "xt8086:PWR_FLAG")
+		(at 35.56 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "91099f31-1911-40d8-9cd2-cf08ca25602c")
+		(property "Reference" "#FLG904"
+			(at 35.56 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 35.56 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 35.56 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a28a64ea-5a78-47cf-86aa-641120c9d16b")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/69d580d4-830a-4ad1-89c3-268c1b1da372"
+					(reference "#FLG904")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 35.56 172.72) (xy 35.56 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e42dc52-89c1-4bc9-b4d9-68e5db57c0f3")
+	)
+	(symbol
+		(lib_id "xt8086:+1V1")
+		(at 35.56 175.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b5c1d6a-b88b-4840-8ac8-8813a43c965a")
+		(property "Reference" "#PWR931"
+			(at 31.75 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V1"
+			(at 39.9542 175.641 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e421375-d157-493a-b680-fca8183a6db7")
+		)
+		(instances
+			(project "xt8086_beta"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/69d580d4-830a-4ad1-89c3-268c1b1da372"
+					(reference "#PWR931")
+					(unit 1)
 				)
 			)
 		)

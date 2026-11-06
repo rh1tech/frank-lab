@@ -711,7 +711,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_out line
 					(at 19.05 -1.27 180)
 					(length 7.62)
 					(name "VD33"
@@ -729,7 +729,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 19.05 1.27 180)
 					(length 7.62)
 					(name "VDD5"
@@ -765,7 +765,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 19.05 6.35 180)
 					(length 7.62)
 					(name "GND"
@@ -783,7 +783,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 19.05 8.89 180)
 					(length 7.62)
 					(name "GND"
@@ -1468,7 +1468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1u 50V"
 			(at 176.53 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1560,7 +1560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 187.96 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1808,7 +1808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 186.055 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2133,7 +2133,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7u 16V"
 			(at 173.736 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
