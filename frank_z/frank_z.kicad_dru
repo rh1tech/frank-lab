@@ -1,0 +1,25 @@
+(version 1)
+# Mini-HDMI J2 shell tabs sit at the fixed board edge (RP2350-PiZero mechanics); JLC routed-edge minimum is 0.3 mm.
+(rule "J2 shell at board edge"
+	(constraint edge_clearance (min 0.3mm))
+	(condition "A.memberOfFootprint('J2') && A.Pad_Number == 'SH'"))
+
+# RP2350B QFN-80 (0.4 mm pitch, 0.22 mm pads leave 0.18 mm): allow 0.15 mm at U5's pads only.
+(rule "U5 QFN-80 fine pitch"
+	(constraint clearance (min 0.15mm))
+	(condition "A.memberOfFootprint('U5') || B.memberOfFootprint('U5')"))
+
+# RP2350 VREG block copied from the Raspberry Pi RP2350B minimal design: its geometry uses 0.15 mm clearance.
+(rule "RPi VREG block clearance"
+	(constraint clearance (min 0.15mm))
+	(condition "A.NetName == '/RP2350B/VREG_LX' || A.NetName == '/RP2350B/VREG_AVDD' || A.NetName == '+1V1_A' || A.memberOfFootprint('C22') || A.memberOfFootprint('C25') || A.memberOfFootprint('L2') || A.memberOfFootprint('C27') || A.memberOfFootprint('R20')"))
+
+# Those parts sit inside U5's courtyard exactly as in the reference.
+(rule "RPi reference parts inside U5 courtyard"
+	(constraint courtyard_clearance (min -3mm))
+	(condition "A.Reference == 'U5' && (B.Reference == 'C22' || B.Reference == 'C25' || B.Reference == 'C27' || B.Reference == 'L2' || B.Reference == 'R20')"))
+
+# 0402 cap or resistor with its own power-rail via under the body: via ring to the other pad is 0.175 mm by design.
+(rule "0402 part with via: via to its other pad"
+	(constraint clearance (min 0.15mm))
+	(condition "A.memberOfFootprint('FRANK:*Metric_small_pads_Via*') && B.memberOfFootprint('FRANK:*Metric_small_pads_Via*')"))
