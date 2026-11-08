@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator (pads: IPC-7351B least density, reflow)")
 	(tags "inductor")
 	(property "Reference" "REF**"
 		(at 1.85 0 90)
@@ -75,8 +75,8 @@
 		(uuid "061056cc-2f4a-4b20-a99f-377f0f85fdcb")
 	)
 	(fp_line
-		(start -1.48 -0.73)
-		(end 1.48 -0.73)
+		(start -1.125 -0.525)
+		(end 1.125 -0.525)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -85,8 +85,8 @@
 		(uuid "2c4f5f8f-4383-46c4-8574-f94e8c23cf75")
 	)
 	(fp_line
-		(start -1.48 0.73)
-		(end -1.48 -0.73)
+		(start -1.125 0.525)
+		(end -1.125 -0.525)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -95,8 +95,8 @@
 		(uuid "b72a7bee-7968-43aa-913b-199495495804")
 	)
 	(fp_line
-		(start 1.48 -0.73)
-		(end 1.48 0.73)
+		(start 1.125 -0.525)
+		(end 1.125 0.525)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "76f6ab82-08cc-4c24-8294-b0cbf3b6e8c6")
 	)
 	(fp_line
-		(start 1.48 0.73)
-		(end -1.48 0.73)
+		(start 1.125 0.525)
+		(end -1.125 0.525)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -166,15 +166,15 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.7875 0)
-		(size 0.875 0.95)
+		(at -0.625 0)
+		(size 0.8 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f2a21cec-0272-4484-ba2b-4bb7df5cfe69")
 	)
 	(pad "2" smd roundrect
-		(at 0.7875 0)
-		(size 0.875 0.95)
+		(at 0.625 0)
+		(size 0.8 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3e6c88f8-4fb4-4b51-89d4-3c27a4b95df2")
