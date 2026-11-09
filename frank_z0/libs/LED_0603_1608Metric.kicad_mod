@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator (pads: IPC-7351B least density, reflow)")
 	(tags "LED")
 	(property "Reference" "REF**"
 		(at 1.9 0 90)
@@ -55,8 +55,8 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -1.485 -0.735)
-		(end -1.485 0.735)
+		(start -1.125 -0.525)
+		(end -1.125 0.525)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -65,8 +65,8 @@
 		(uuid "2de0312b-4fa2-4b60-96b1-05fdc7951d4d")
 	)
 	(fp_line
-		(start -1.485 0.735)
-		(end 0.8 0.735)
+		(start -1.125 0.525)
+		(end 0.8 0.525)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -75,8 +75,8 @@
 		(uuid "97211eb4-124a-4c45-8c44-b78c2fa653bd")
 	)
 	(fp_line
-		(start 0.8 -0.735)
-		(end -1.485 -0.735)
+		(start 0.8 -0.525)
+		(end -1.125 -0.525)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -85,8 +85,8 @@
 		(uuid "80e03636-e504-4a24-a884-ee66f57f0ec2")
 	)
 	(fp_line
-		(start -1.48 -0.73)
-		(end 1.48 -0.73)
+		(start -1.125 -0.525)
+		(end 1.125 -0.525)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -95,8 +95,8 @@
 		(uuid "0dfe7abd-a32a-4654-af5f-45f3862734e4")
 	)
 	(fp_line
-		(start -1.48 0.73)
-		(end -1.48 -0.73)
+		(start -1.125 0.525)
+		(end -1.125 -0.525)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "1115ce3d-0ae3-46c1-93c9-32810fa6f952")
 	)
 	(fp_line
-		(start 1.48 -0.73)
-		(end 1.48 0.73)
+		(start 1.125 -0.525)
+		(end 1.125 0.525)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -115,8 +115,8 @@
 		(uuid "8edff408-ba56-4035-9abb-90405eb96ed2")
 	)
 	(fp_line
-		(start 1.48 0.73)
-		(end -1.48 0.73)
+		(start 1.125 0.525)
+		(end -1.125 0.525)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -186,15 +186,15 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.7875 0)
-		(size 0.875 0.95)
+		(at -0.625 0)
+		(size 0.8 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7b292d05-7fb0-4827-ae50-36e66661f32b")
 	)
 	(pad "2" smd roundrect
-		(at 0.7875 0)
-		(size 0.875 0.95)
+		(at 0.625 0)
+		(size 0.8 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "53aab1e0-13f8-4ae6-9816-432cefd75ae1")
