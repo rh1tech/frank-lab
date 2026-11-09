@@ -95,12 +95,7 @@
 			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy 0 0)
-						(xy 0 -1.27)
-						(xy 1.27 -1.27)
-						(xy 0 -2.54)
-						(xy -1.27 -1.27)
-						(xy 0 -1.27)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -939,8 +934,7 @@
 			(symbol "VBUS_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27)
-						(xy 0 2.54)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -952,8 +946,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54)
-						(xy 0.762 1.27)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -965,8 +958,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0)
-						(xy 0 2.54)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1000,7 +992,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "J3 PIO-USB host (as on Waveshare RP2350-PiZero): CC 5.1K, U2 TPD4S012 ESD, R5/R6 22R series.\nGPIO20 = D+, GPIO21 = D- (M2 / ZeroFRANK). VBUS comes from the board VBUS rail (5 V to the device)."
+	(text "J7 PIO-USB host (as on Waveshare RP2350-PiZero): CC 5.1K, U7 TPD4S012 ESD, R13/R14 22R series.\nGPIO21 = D+, GPIO22 = D-. VBUS comes from the board VBUS rail (5 V to the device)."
 		(exclude_from_sim no)
 		(at 172.72 157.48 0)
 		(effects
@@ -1011,7 +1003,7 @@
 		)
 		(uuid "4e063e73-d763-4a3f-be38-afe0db9487dc")
 	)
-	(text "J6 native USB-C (RP2350 USB device / BOOTSEL, 5 V power in): CC 5.1K = sink, U1 USBLC6 ESD at the connector.\nSeries 27R for USB_DP/DM sit at the RP2350 (MCU sheet)."
+	(text "J8 native USB-C (RP2350 USB device / BOOTSEL, 5 V power in): CC 5.1K = sink, U8 TPD4S012 ESD at the connector.\nSeries 27R for USB_DP/DM sit at the RP2350 (MCU sheet)."
 		(exclude_from_sim no)
 		(at 172.72 85.09 0)
 		(effects
@@ -1053,12 +1045,6 @@
 		(uuid "782a7e95-ab84-47b2-9a2b-7334975dd7a3")
 	)
 	(junction
-		(at 195.58 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7865b71c-83e9-4e1b-8645-3c837cab6a04")
-	)
-	(junction
 		(at 187.96 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1077,16 +1063,22 @@
 		(uuid "a8615652-7583-4f29-a4f3-4858be1b1a38")
 	)
 	(junction
-		(at 187.96 119.38)
+		(at 195.58 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e7302c82-c625-4df6-9001-85d134f4304b")
+		(uuid "aabc020a-5dee-4dc6-9568-253811185a18")
 	)
 	(junction
 		(at 195.58 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4bf9dd6-2495-4362-b318-cf6904657b81")
+		(uuid "e6b081ee-8e5e-4c79-ad70-a1d045212f88")
+	)
+	(junction
+		(at 187.96 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7302c82-c625-4df6-9001-85d134f4304b")
 	)
 	(junction
 		(at 220.98 182.88)
@@ -1128,8 +1120,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 134.62)
-			(xy 256.54 134.62)
+			(xy 254 134.62) (xy 256.54 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1139,8 +1130,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 124.46)
-			(xy 187.96 124.46)
+			(xy 185.42 124.46) (xy 187.96 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1150,8 +1140,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 137.16)
-			(xy 187.96 137.16)
+			(xy 185.42 137.16) (xy 187.96 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1161,8 +1150,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 134.62)
-			(xy 187.96 134.62)
+			(xy 185.42 134.62) (xy 187.96 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1172,8 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 121.92)
-			(xy 259.08 121.92)
+			(xy 218.44 121.92) (xy 259.08 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1183,8 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 119.38)
-			(xy 187.96 119.38)
+			(xy 185.42 119.38) (xy 187.96 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1194,8 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 137.16)
-			(xy 187.96 139.7)
+			(xy 187.96 137.16) (xy 187.96 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1205,8 +1190,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 109.22)
-			(xy 195.58 109.22)
+			(xy 185.42 109.22) (xy 195.58 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1216,8 +1200,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 195.58)
-			(xy 195.58 195.58)
+			(xy 185.42 195.58) (xy 195.58 195.58)
 		)
 		(stroke
 			(width 0)
@@ -1227,8 +1210,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 101.6)
-			(xy 236.22 101.6)
+			(xy 195.58 99.06) (xy 236.22 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1238,8 +1220,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 182.88)
-			(xy 220.98 182.88)
+			(xy 187.96 182.88) (xy 220.98 182.88)
 		)
 		(stroke
 			(width 0)
@@ -1249,8 +1230,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 193.04)
-			(xy 226.06 193.04)
+			(xy 220.98 193.04) (xy 226.06 193.04)
 		)
 		(stroke
 			(width 0)
@@ -1260,8 +1240,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 198.12)
-			(xy 187.96 198.12)
+			(xy 185.42 198.12) (xy 187.96 198.12)
 		)
 		(stroke
 			(width 0)
@@ -1271,8 +1250,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 124.46)
-			(xy 187.96 119.38)
+			(xy 187.96 124.46) (xy 187.96 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1282,8 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 134.62)
-			(xy 187.96 137.16)
+			(xy 187.96 134.62) (xy 187.96 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1293,8 +1270,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 185.42)
-			(xy 218.44 195.58)
+			(xy 218.44 185.42) (xy 218.44 195.58)
 		)
 		(stroke
 			(width 0)
@@ -1304,8 +1280,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 180.34)
-			(xy 190.5 185.42)
+			(xy 190.5 180.34) (xy 190.5 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1315,8 +1290,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 132.08)
-			(xy 195.58 132.08)
+			(xy 185.42 132.08) (xy 195.58 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1326,8 +1300,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 132.08)
-			(xy 195.58 109.22)
+			(xy 195.58 132.08) (xy 195.58 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1337,8 +1310,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 193.04)
-			(xy 203.2 193.04)
+			(xy 185.42 193.04) (xy 203.2 193.04)
 		)
 		(stroke
 			(width 0)
@@ -1348,8 +1320,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 170.18)
-			(xy 187.96 170.18)
+			(xy 185.42 170.18) (xy 187.96 170.18)
 		)
 		(stroke
 			(width 0)
@@ -1359,8 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 106.68)
-			(xy 187.96 106.68)
+			(xy 185.42 106.68) (xy 187.96 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1370,8 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 116.84)
-			(xy 190.5 116.84)
+			(xy 185.42 116.84) (xy 190.5 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1381,8 +1350,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 114.3)
-			(xy 203.2 114.3)
+			(xy 185.42 114.3) (xy 203.2 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1392,8 +1360,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 172.72)
-			(xy 195.58 172.72)
+			(xy 185.42 172.72) (xy 195.58 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1403,8 +1370,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 185.42)
-			(xy 259.08 185.42)
+			(xy 218.44 185.42) (xy 259.08 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1414,8 +1380,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 129.54)
-			(xy 203.2 129.54)
+			(xy 185.42 129.54) (xy 203.2 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1425,8 +1390,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 193.04)
-			(xy 256.54 193.04)
+			(xy 254 193.04) (xy 256.54 193.04)
 		)
 		(stroke
 			(width 0)
@@ -1436,8 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 132.08)
-			(xy 226.06 132.08)
+			(xy 218.44 132.08) (xy 226.06 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1447,8 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 109.22)
-			(xy 195.58 101.6)
+			(xy 195.58 109.22) (xy 195.58 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1458,8 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 119.38)
-			(xy 259.08 119.38)
+			(xy 220.98 119.38) (xy 259.08 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1469,8 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 187.96)
-			(xy 187.96 187.96)
+			(xy 185.42 187.96) (xy 187.96 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1480,8 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 195.58)
-			(xy 226.06 195.58)
+			(xy 218.44 195.58) (xy 226.06 195.58)
 		)
 		(stroke
 			(width 0)
@@ -1491,8 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 129.54)
-			(xy 226.06 129.54)
+			(xy 220.98 129.54) (xy 226.06 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1502,8 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 172.72)
-			(xy 195.58 165.1)
+			(xy 195.58 172.72) (xy 195.58 163.83)
 		)
 		(stroke
 			(width 0)
@@ -1513,8 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 198.12)
-			(xy 256.54 198.12)
+			(xy 254 198.12) (xy 256.54 198.12)
 		)
 		(stroke
 			(width 0)
@@ -1524,8 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 121.92)
-			(xy 190.5 121.92)
+			(xy 185.42 121.92) (xy 190.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1535,8 +1490,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 200.66)
-			(xy 187.96 200.66)
+			(xy 185.42 200.66) (xy 187.96 200.66)
 		)
 		(stroke
 			(width 0)
@@ -1546,8 +1500,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 200.66)
-			(xy 187.96 203.2)
+			(xy 187.96 200.66) (xy 187.96 203.2)
 		)
 		(stroke
 			(width 0)
@@ -1557,8 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 177.8)
-			(xy 203.2 177.8)
+			(xy 185.42 177.8) (xy 203.2 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1568,8 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 182.88)
-			(xy 220.98 193.04)
+			(xy 220.98 182.88) (xy 220.98 193.04)
 		)
 		(stroke
 			(width 0)
@@ -1579,8 +1530,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 180.34)
-			(xy 190.5 180.34)
+			(xy 185.42 180.34) (xy 190.5 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1590,8 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 182.88)
-			(xy 259.08 182.88)
+			(xy 220.98 182.88) (xy 259.08 182.88)
 		)
 		(stroke
 			(width 0)
@@ -1601,8 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 116.84)
-			(xy 190.5 121.92)
+			(xy 190.5 116.84) (xy 190.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1612,8 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 121.92)
-			(xy 218.44 132.08)
+			(xy 218.44 121.92) (xy 218.44 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1623,8 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 129.54)
-			(xy 256.54 129.54)
+			(xy 254 129.54) (xy 256.54 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1634,8 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 185.42)
-			(xy 218.44 185.42)
+			(xy 190.5 185.42) (xy 218.44 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1645,8 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 195.58)
-			(xy 195.58 172.72)
+			(xy 195.58 195.58) (xy 195.58 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1656,8 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 119.38)
-			(xy 220.98 119.38)
+			(xy 187.96 119.38) (xy 220.98 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1667,8 +1610,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 185.42)
-			(xy 190.5 185.42)
+			(xy 185.42 185.42) (xy 190.5 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1678,8 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 165.1)
-			(xy 236.22 165.1)
+			(xy 195.58 163.83) (xy 236.22 163.83)
 		)
 		(stroke
 			(width 0)
@@ -1689,8 +1630,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 198.12)
-			(xy 187.96 200.66)
+			(xy 187.96 198.12) (xy 187.96 200.66)
 		)
 		(stroke
 			(width 0)
@@ -1700,8 +1640,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 182.88)
-			(xy 187.96 182.88)
+			(xy 185.42 182.88) (xy 187.96 182.88)
 		)
 		(stroke
 			(width 0)
@@ -1711,8 +1650,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 119.38)
-			(xy 220.98 129.54)
+			(xy 220.98 119.38) (xy 220.98 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1722,8 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 121.92)
-			(xy 218.44 121.92)
+			(xy 190.5 121.92) (xy 218.44 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1733,8 +1670,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 187.96)
-			(xy 187.96 182.88)
+			(xy 187.96 187.96) (xy 187.96 182.88)
 		)
 		(stroke
 			(width 0)
@@ -1766,7 +1702,7 @@
 	)
 	(hierarchical_label "VBUS_USB"
 		(shape output)
-		(at 236.22 101.6 0)
+		(at 236.22 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2046,7 +1982,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:VBUS")
-		(at 236.22 165.1 0)
+		(at 236.22 163.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2056,7 +1992,7 @@
 		(dnp no)
 		(uuid "22aaf55b-359c-4860-ba35-45c7fa609c2f")
 		(property "Reference" "#PWR0310"
-			(at 236.22 161.29 0)
+			(at 240.03 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2067,7 +2003,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 236.22 161.29 0)
+			(at 242.57 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2077,7 +2013,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 165.1 0)
+			(at 236.22 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2088,7 +2024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 165.1 0)
+			(at 236.22 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2099,7 +2035,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 236.22 165.1 0)
+			(at 236.22 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2288,8 +2224,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3849185a-5f9a-461e-83a9-7e7971f1a8be")
-		(property "Reference" "R6"
-			(at 262.89 188.62 0)
+		(property "Reference" "R14"
+			(at 264.16 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2300,15 +2236,13 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 264.79 186.72 0)
-			(hide yes)
+			(at 262.89 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FRANK:R_0402_1005Metric"
@@ -2344,6 +2278,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25092"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f6207646-ac14-469e-9bbf-51e46017597f")
 		)
@@ -2353,7 +2298,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/92c2b269-3cf2-4a36-895f-75a2bda4e571"
-					(reference "R6")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2370,7 +2315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43342b20-834a-4121-8e84-fa7c3893540c")
-		(property "Reference" "J6"
+		(property "Reference" "J8"
 			(at 177.8 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2381,7 +2326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB4215-03-A"
+		(property "Value" "KH-TYPE-C-16P"
 			(at 177.8 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2403,7 +2348,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/837/usb4215-3472997.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C709357.html"
 			(at 182.88 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2414,7 +2359,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kinghelm KH-TYPE-C-16P USB 2.0 Type-C receptacle, 16P SMD + 4 shell THT"
 			(at 182.88 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2425,7 +2370,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C165948"
+		(property "LCSC" "C709357"
 			(at 182.88 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2478,7 +2423,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/92c2b269-3cf2-4a36-895f-75a2bda4e571"
-					(reference "J6")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2652,7 +2597,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f6b27cb-c81f-4434-8912-a0236b363301")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 240.03 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2705,6 +2650,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C96506"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "13c3f79d-aaee-4ce6-a4e4-223344735633")
 		)
@@ -2726,7 +2682,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/92c2b269-3cf2-4a36-895f-75a2bda4e571"
-					(reference "U2")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -2743,7 +2699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9aab643b-89a8-45ef-b564-817df37178fd")
-		(property "Reference" "R1"
+		(property "Reference" "R22"
 			(at 205.1 109.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2798,6 +2754,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "965e3d21-69d5-4d75-96a4-75e071d42984")
 		)
@@ -2807,7 +2774,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/92c2b269-3cf2-4a36-895f-75a2bda4e571"
-					(reference "R1")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2902,7 +2869,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a61df389-8b0b-4e8e-bd08-9e3bcfcdaae9")
-		(property "Reference" "R2"
+		(property "Reference" "R23"
 			(at 205.1 132.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2957,6 +2924,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "219fa0b6-445e-48d1-b1f7-387796f87a3d")
 		)
@@ -2966,7 +2944,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/92c2b269-3cf2-4a36-895f-75a2bda4e571"
-					(reference "R2")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -2983,7 +2961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae02427e-6fbd-45c6-b9ce-3119026ecc3a")
-		(property "Reference" "U1"
+		(property "Reference" "U8"
 			(at 240.03 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3036,6 +3014,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C96506"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8348ec2f-1d36-4d5e-813a-5af19b8354b7")
 		)
@@ -3057,7 +3046,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/92c2b269-3cf2-4a36-895f-75a2bda4e571"
-					(reference "U1")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3230,7 +3219,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d57a0d87-8564-4a3d-a540-8d895d3b2d3d")
-		(property "Reference" "R4"
+		(property "Reference" "R20"
 			(at 205.1 195.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,6 +3274,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b89f7cd2-455f-4c38-bcf3-409e5bf58187")
 		)
@@ -3294,7 +3294,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/92c2b269-3cf2-4a36-895f-75a2bda4e571"
-					(reference "R4")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3311,7 +3311,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de26327b-dab9-4fb9-8871-191223942a95")
-		(property "Reference" "R3"
+		(property "Reference" "R19"
 			(at 205.1 172.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3366,6 +3366,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f1fbf05c-e4ea-447e-8398-37aabdb93eb5")
 		)
@@ -3375,7 +3386,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/92c2b269-3cf2-4a36-895f-75a2bda4e571"
-					(reference "R3")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3392,8 +3403,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ded218e7-f66c-42ed-811a-5ee78d318a1b")
-		(property "Reference" "R5"
-			(at 262.89 180.88 0)
+		(property "Reference" "R13"
+			(at 264.16 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3404,15 +3415,13 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 264.79 184.18 0)
-			(hide yes)
+			(at 262.89 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FRANK:R_0402_1005Metric"
@@ -3448,6 +3457,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25092"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2888b5b9-c705-47e4-8c2c-5bc798f874ba")
 		)
@@ -3457,7 +3477,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/92c2b269-3cf2-4a36-895f-75a2bda4e571"
-					(reference "R5")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3474,7 +3494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec9b87db-c76f-498b-8f23-e2340ca771be")
-		(property "Reference" "J3"
+		(property "Reference" "J7"
 			(at 177.8 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,7 +3505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB4215-03-A"
+		(property "Value" "KH-TYPE-C-16P"
 			(at 177.8 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3507,7 +3527,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/837/usb4215-3472997.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C709357.html"
 			(at 182.88 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -3518,7 +3538,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kinghelm KH-TYPE-C-16P USB 2.0 Type-C receptacle, 16P SMD + 4 shell THT"
 			(at 182.88 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -3529,7 +3549,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C165948"
+		(property "LCSC" "C709357"
 			(at 182.88 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -3582,7 +3602,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/92c2b269-3cf2-4a36-895f-75a2bda4e571"
-					(reference "J3")
+					(reference "J7")
 					(unit 1)
 				)
 			)

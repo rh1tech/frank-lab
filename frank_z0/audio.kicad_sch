@@ -95,8 +95,7 @@
 			(symbol "+1V8_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27)
-						(xy 0 2.54)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -108,8 +107,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54)
-						(xy 0.762 1.27)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -121,8 +119,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0)
-						(xy 0 2.54)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -237,8 +234,7 @@
 			(symbol "+3V3_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27)
-						(xy 0 2.54)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -250,8 +246,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54)
-						(xy 0.762 1.27)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -263,8 +258,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0)
-						(xy 0 2.54)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -389,8 +383,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762)
-						(xy 2.032 0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -402,8 +395,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762)
-						(xy 2.032 -0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -574,8 +566,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0)
-						(xy 0.8636 0)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -587,8 +578,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54)
-						(xy 0.8636 -2.54)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -719,12 +709,7 @@
 			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy 0 0)
-						(xy 0 -1.27)
-						(xy 1.27 -1.27)
-						(xy 0 -2.54)
-						(xy -1.27 -1.27)
-						(xy 0 -1.27)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -1712,8 +1697,7 @@
 			(symbol "VBUS_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27)
-						(xy 0 2.54)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1725,8 +1709,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54)
-						(xy 0.762 1.27)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1738,8 +1721,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0)
-						(xy 0 2.54)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1965,9 +1947,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "U7 TLV320DAC3100 (from FRANK Next): I2S DIN/BCLK/WCLK + MCLK, I2C control (4.7K pull-ups), RESET via 10K pull-up.\nClass-D speaker out -> J8 JST-GH (SPKP/SPKM, 8R speaker). Headphone out HPL/HPR -> C40/C41 100u DC blocking -> HP_L / HP_R, out to header J1 pins 33 / 35 (GND on 34).\nSPKVDD straight from VBUS; DVDD 1.8 V from the XC6206 LDO."
+	(text "U5 TLV320DAC3100 (from FRANK Next): I2S DIN/BCLK/WCLK + MCLK, I2C control (4.7K pull-ups), RESET via 10K pull-up.\nClass-D speaker out -> J3 JST-GH (SPKP/SPKM, 8R speaker). \nHeadphone out HPL/HPR -> C6/C12 100u DC blocking -> M_AU_HPL / M_AU_HPR, out to header J4 (L / GND / R).\nSPKVDD straight from VBUS; DVDD 1.8 V from the XC6206 LDO."
 		(exclude_from_sim no)
-		(at 85.09 26.67 0)
+		(at 82.55 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2090,8 +2072,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 129.54)
-			(xy 153.67 129.54)
+			(xy 158.75 129.54) (xy 153.67 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2101,8 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 109.22)
-			(xy 167.64 109.22)
+			(xy 157.48 109.22) (xy 167.64 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2112,8 +2092,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 157.48)
-			(xy 109.22 157.48)
+			(xy 104.14 157.48) (xy 109.22 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2123,8 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 66.04)
-			(xy 125.73 80.01)
+			(xy 125.73 66.04) (xy 125.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2134,8 +2112,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 140.97)
-			(xy 203.2 139.7)
+			(xy 203.2 140.97) (xy 203.2 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2145,8 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 109.22)
-			(xy 200.66 110.49)
+			(xy 200.66 109.22) (xy 200.66 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2156,8 +2132,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 119.38)
-			(xy 148.59 119.38)
+			(xy 157.48 119.38) (xy 148.59 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2167,8 +2142,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 82.55)
-			(xy 133.35 83.82)
+			(xy 133.35 82.55) (xy 133.35 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2178,8 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 116.84)
-			(xy 113.03 116.84)
+			(xy 101.6 116.84) (xy 113.03 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2189,8 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 110.49)
-			(xy 200.66 111.76)
+			(xy 200.66 110.49) (xy 200.66 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2200,8 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 121.92)
-			(xy 148.59 121.92)
+			(xy 153.67 121.92) (xy 148.59 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2211,8 +2182,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 129.54)
-			(xy 158.75 129.54)
+			(xy 161.29 129.54) (xy 158.75 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2222,8 +2192,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 83.82)
-			(xy 144.78 83.82)
+			(xy 133.35 83.82) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2233,8 +2202,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 63.5)
-			(xy 128.27 68.58)
+			(xy 128.27 63.5) (xy 128.27 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2244,8 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 109.22)
-			(xy 157.48 111.76)
+			(xy 157.48 109.22) (xy 157.48 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2255,8 +2222,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 76.2)
-			(xy 135.89 91.44)
+			(xy 135.89 76.2) (xy 135.89 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2266,8 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 160.02)
-			(xy 120.65 160.02)
+			(xy 114.3 160.02) (xy 120.65 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2277,8 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82)
-			(xy 152.4 83.82)
+			(xy 154.94 83.82) (xy 152.4 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2288,8 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 100.33)
-			(xy 157.48 101.6)
+			(xy 157.48 100.33) (xy 157.48 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2299,8 +2262,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 160.02)
-			(xy 120.65 152.4)
+			(xy 120.65 160.02) (xy 120.65 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2310,8 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 139.7)
-			(xy 209.55 139.7)
+			(xy 203.2 139.7) (xy 209.55 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2321,8 +2282,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 114.3)
-			(xy 101.6 114.3)
+			(xy 96.52 114.3) (xy 101.6 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2332,8 +2292,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 157.48)
-			(xy 123.19 152.4)
+			(xy 123.19 157.48) (xy 123.19 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2343,8 +2302,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 76.2)
-			(xy 128.27 91.44)
+			(xy 128.27 76.2) (xy 128.27 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2354,8 +2312,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 63.5)
-			(xy 130.81 63.5)
+			(xy 128.27 63.5) (xy 130.81 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2365,8 +2322,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 157.48)
-			(xy 123.19 157.48)
+			(xy 114.3 157.48) (xy 123.19 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2376,8 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 137.16)
-			(xy 158.75 137.16)
+			(xy 153.67 137.16) (xy 158.75 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2387,8 +2342,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 63.5)
-			(xy 130.81 48.26)
+			(xy 130.81 63.5) (xy 130.81 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2398,8 +2352,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 163.83)
-			(xy 123.19 157.48)
+			(xy 123.19 163.83) (xy 123.19 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2409,8 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 114.3)
-			(xy 113.03 114.3)
+			(xy 101.6 114.3) (xy 113.03 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2420,8 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 163.83)
-			(xy 120.65 160.02)
+			(xy 120.65 163.83) (xy 120.65 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2431,8 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 138.43)
-			(xy 158.75 137.16)
+			(xy 158.75 138.43) (xy 158.75 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2442,8 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 85.09)
-			(xy 125.73 91.44)
+			(xy 125.73 85.09) (xy 125.73 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2453,8 +2402,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 101.6)
-			(xy 167.64 101.6)
+			(xy 157.48 101.6) (xy 167.64 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2464,8 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 160.02)
-			(xy 109.22 160.02)
+			(xy 105.41 160.02) (xy 109.22 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2475,8 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 48.26)
-			(xy 135.89 68.58)
+			(xy 135.89 48.26) (xy 135.89 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2486,8 +2432,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 109.22)
-			(xy 203.2 111.76)
+			(xy 203.2 109.22) (xy 203.2 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2497,8 +2442,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 119.38)
-			(xy 177.8 119.38)
+			(xy 157.48 119.38) (xy 177.8 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2508,8 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 129.54)
-			(xy 148.59 129.54)
+			(xy 153.67 129.54) (xy 148.59 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2519,8 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 116.84)
-			(xy 101.6 116.84)
+			(xy 96.52 116.84) (xy 101.6 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2530,8 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 110.49)
-			(xy 207.01 110.49)
+			(xy 200.66 110.49) (xy 207.01 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2541,8 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 111.76)
-			(xy 157.48 111.76)
+			(xy 148.59 111.76) (xy 157.48 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2552,8 +2492,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 111.76)
-			(xy 157.48 119.38)
+			(xy 157.48 111.76) (xy 157.48 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2563,8 +2502,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 83.82)
-			(xy 133.35 91.44)
+			(xy 133.35 83.82) (xy 133.35 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2731,7 +2669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "058063d2-e3d9-467b-b093-ebef732c0461")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 116.84 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2784,6 +2722,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 111.76 160.02 0)
 			(hide yes)
@@ -2804,7 +2753,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2821,7 +2770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "068dd316-c88d-43c0-a009-a136f55b0848")
-		(property "Reference" "C16"
+		(property "Reference" "C37"
 			(at 150.749 134.5184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2832,7 +2781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 16V"
+		(property "Value" "10u 25V"
 			(at 150.749 132.207 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2907,7 +2856,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "C16")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -3156,7 +3105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12690ecb-cfba-4566-9335-a9a6ce2cc85a")
-		(property "Reference" "C18"
+		(property "Reference" "C36"
 			(at 165.1 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3211,6 +3160,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
 			(at 158.75 133.35 0)
 			(hide yes)
@@ -3231,7 +3191,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "C18")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -3404,7 +3364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bcb9f07-386b-41ae-b0ea-0680382ec369")
-		(property "Reference" "C20"
+		(property "Reference" "C23"
 			(at 211.9884 113.411 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3415,7 +3375,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u 16V"
+		(property "Value" "1u 25V"
 			(at 209.677 113.411 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3459,6 +3419,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
 			(at 210.82 110.49 0)
 			(hide yes)
@@ -3479,7 +3450,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "C20")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3496,7 +3467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d177fef-4977-44c5-abdd-b4fce649dafc")
-		(property "Reference" "C19"
+		(property "Reference" "C18"
 			(at 160.02 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3551,6 +3522,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
 			(at 167.64 105.41 0)
 			(hide yes)
@@ -3571,7 +3553,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4130,7 +4112,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43ad306d-0640-4a9a-86d5-d3c9abe59cb9")
-		(property "Reference" "C41"
+		(property "Reference" "C12"
 			(at 137.16 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4205,7 +4187,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "C41")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4222,7 +4204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "471166a9-e76e-4967-af07-8b7f4ecd0ae1")
-		(property "Reference" "C17"
+		(property "Reference" "C11"
 			(at 151.13 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4233,7 +4215,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 16V"
+		(property "Value" "10u 25V"
 			(at 151.13 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4308,7 +4290,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "C17")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4325,7 +4307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d2a8ed1-cf53-420c-b793-e07812fe0447")
-		(property "Reference" "C40"
+		(property "Reference" "C6"
 			(at 129.54 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4400,7 +4382,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "C40")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4495,7 +4477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "687a277f-4235-4e2f-acf1-678ca2466e92")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 149.7584 86.741 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4550,6 +4532,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
 			(at 148.59 83.82 0)
 			(hide yes)
@@ -4570,7 +4563,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4665,7 +4658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ced9d4e-1504-4e0f-87ef-e13c90837174")
-		(property "Reference" "J8"
+		(property "Reference" "J3"
 			(at 177.165 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4718,6 +4711,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17264620"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005001649158434.html"
 			(at 188.468 78.486 0)
 			(hide yes)
@@ -4738,7 +4742,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "J8")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4755,7 +4759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e98207a-63f7-40d7-bc75-5f2334447d6e")
-		(property "Reference" "C39"
+		(property "Reference" "C28"
 			(at 214.5284 142.621 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4766,7 +4770,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u 16V"
+		(property "Value" "1u 25V"
 			(at 212.217 142.621 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4810,6 +4814,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
 			(at 213.36 139.7 0)
 			(hide yes)
@@ -4830,7 +4845,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "C39")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -5315,7 +5330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a070cc9e-33cf-42a2-b835-936468ff979f")
-		(property "Reference" "R15"
+		(property "Reference" "R6"
 			(at 124.46 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5368,6 +5383,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 125.73 82.55 0)
 			(hide yes)
@@ -5388,7 +5414,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "R15")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5405,7 +5431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a60348cf-e4dd-4d27-9ee9-79de2b4e5b34")
-		(property "Reference" "C12"
+		(property "Reference" "C24"
 			(at 98.679 111.6584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5460,6 +5486,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
 			(at 101.6 110.49 0)
 			(hide yes)
@@ -5480,7 +5517,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "C12")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5497,7 +5534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a86e1401-6686-4b84-a200-68da1c6d4f07")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 101.6 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5725,7 +5762,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "U7")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5742,7 +5779,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8ac3d25-3f6b-4623-9a2c-6840efc99b07")
-		(property "Reference" "U8"
+		(property "Reference" "U3"
 			(at 210.82 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5752,7 +5789,7 @@
 				)
 			)
 		)
-		(property "Value" "XC6206P182MR-G"
+		(property "Value" "XC6206P182MR"
 			(at 208.28 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5774,7 +5811,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/XC6206P182MR-G.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C21659.html"
 			(at 8.28 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -5797,7 +5834,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C347373"
+		(property "LCSC" "C21659"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5880,7 +5917,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "U8")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6130,7 +6167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e78db45e-726b-409e-8b0d-ddf367b7bf33")
-		(property "Reference" "R13"
+		(property "Reference" "R21"
 			(at 116.84 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6183,6 +6220,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 111.76 157.48 0)
 			(hide yes)
@@ -6203,7 +6251,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "R13")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -6220,7 +6268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eaeabb5d-5520-49ab-ab95-992c617fd276")
-		(property "Reference" "C13"
+		(property "Reference" "C22"
 			(at 98.679 121.8184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6275,6 +6323,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
 			(at 101.6 120.65 0)
 			(hide yes)
@@ -6295,7 +6354,7 @@
 		(instances
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
-					(reference "C13")
+					(reference "C22")
 					(unit 1)
 				)
 			)

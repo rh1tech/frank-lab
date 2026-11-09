@@ -144,17 +144,17 @@
         "min_connection": 0.0508,
         "min_copper_edge_clearance": 0.3048,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.3048,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.5,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.127,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.07,
         "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -205,28 +205,12 @@
       ],
       "track_widths": [
         0.0,
-        0.127,
         0.15,
         0.2,
-        0.25,
-        0.254,
         0.3,
-        0.3048,
-        0.3556,
-        0.4,
-        0.4064,
         0.5,
-        0.508,
-        0.6,
-        0.762,
-        1.0,
-        1.016,
-        1.27,
-        1.524,
-        1.778,
-        2.032,
-        2.286,
-        2.54
+        0.8,
+        1.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -261,7 +245,7 @@
         },
         {
           "diameter": 0.45,
-          "drill": 0.2
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -651,7 +635,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "Net-(U3-LX)"
+        "pattern": "Net-(U6-LX)"
       },
       {
         "netclass": "Power",
@@ -663,19 +647,19 @@
       },
       {
         "netclass": "Zdiff=100R",
-        "pattern": "Net-(J2-CLK*)"
+        "pattern": "Net-(J6-CLK*)"
       },
       {
         "netclass": "Zdiff=100R",
-        "pattern": "Net-(J2-D0*)"
+        "pattern": "Net-(J6-D0*)"
       },
       {
         "netclass": "Zdiff=100R",
-        "pattern": "Net-(J2-D1*)"
+        "pattern": "Net-(J6-D1*)"
       },
       {
         "netclass": "Zdiff=100R",
-        "pattern": "Net-(J2-D2*)"
+        "pattern": "Net-(J6-D2*)"
       },
       {
         "netclass": "Zdiff=90R",
@@ -683,7 +667,7 @@
       },
       {
         "netclass": "Zdiff=90R",
-        "pattern": "Net-(U5-USB_D*)"
+        "pattern": "Net-(U2-USB_D*)"
       },
       {
         "netclass": "Zdiff=90R",
@@ -691,19 +675,7 @@
       },
       {
         "netclass": "Zdiff=90R",
-        "pattern": "Net-(J3-D*)"
-      },
-      {
-        "netclass": "Zdiff=90R",
-        "pattern": "Net-(J6-D*)"
-      },
-      {
-        "netclass": "Zdiff=90R",
-        "pattern": "Net-(R5-Pad1)"
-      },
-      {
-        "netclass": "Zdiff=90R",
-        "pattern": "Net-(R6-Pad1)"
+        "pattern": "Net-(J7-D*)"
       }
     ]
   },
@@ -1013,9 +985,9 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2026-10-24",
+    "DATE": "2026-11-09",
     "NAME": "FRANK Z0",
-    "VERSION": "0.10"
+    "VERSION": "1.00"
   },
   "tuning_profiles": {
     "meta": {
