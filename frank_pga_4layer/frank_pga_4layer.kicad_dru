@@ -1,0 +1,55 @@
+(version 1)
+# JLCPCB standard 4-layer process, stackup JLC04161H-7628 (no extra cost). Board-wide minimums are in Board Setup.
+
+(rule "JLC 4-layer via annular ring 0.075 (0.3/0.45 free via)"
+    (condition "A.Type == 'Via'")
+    (constraint annular_width (min 0.075mm)))
+
+(rule "JLC plated pad annular ring 0.13 (connected pads)"
+    (condition "A.Type == 'Pad' && A.isPlated() && A.NetName != ''")
+    (constraint annular_width (min 0.13mm)))
+
+(rule "JLC via to via 0.254"
+    (condition "A.Type == 'Via' && B.Type == 'Via'")
+    (constraint hole_to_hole (min 0.254mm)))
+
+(rule "PGA2350 module markings (part of the module footprint)"
+    (layer "F.Silkscreen")
+    (condition "A.memberOfFootprint('U3')")
+    (constraint text_height (min 0.5mm))
+    (constraint text_thickness (min 0.08mm)))
+
+# No pair-skew rules. The old USB/HDMI skew rules never matched: inDiffPair() needs +/- or P/N
+# suffixes, and these nets end in DP/DM or the shared VGA name. They are also not needed:
+# USB is Full Speed (12 Mb/s, 83 ns bit) and DVI from HSTX runs at ~250 Mb/s (4 ns bit),
+# so the measured 3-30 mm of skew (~20-200 ps) is a small fraction of a bit.
+
+(rule "Plated mounting holes: via ring inside the footprint"
+    (condition "A.memberOfFootprint('H*') && B.memberOfFootprint('H*')")
+    (constraint hole_to_hole (min 0.25mm)))
+
+(rule "Board labels in TrueType (Nordwand Mono / Proxima Nova, as frank_next)"
+    (layer "?.Silkscreen")
+    (condition "A.Type == 'Text'")
+    (constraint text_thickness (min 0.1mm)))
+
+(rule "High current: no thermal spokes thinner than 0.5mm"
+    (condition "A.NetClass == 'HighPower'")
+    (constraint thermal_spoke_width (min 0.5mm)))
+
+(rule "USB-C J9: VBUS/GND pad pitch is fixed by the connector (0.17mm)"
+    (condition "A.memberOfFootprint('J9') && B.memberOfFootprint('J9')")
+    (constraint clearance (min 0.15mm)))
+
+(rule "USB-C J9: GND pads too narrow for thermal spokes, connect solid"
+    (condition "A.memberOfFootprint('J9') && A.NetName == 'GND'")
+    (constraint zone_connection solid))
+
+(rule "HDMI J4: shield GND pads between 0.5mm-pitch pins, connect solid"
+    (condition "A.memberOfFootprint('J4') && A.NetName == 'GND'")
+    (constraint zone_connection solid))
+
+# JLCPCB 4-layer standard process: via-to-track and via-to-pad clearance is 0.2 mm.
+(rule "JLC 4-layer via to copper 0.2"
+    (condition "A.Type == 'Via' && B.Type != 'Via' && A.Net != B.Net")
+    (constraint clearance (min 0.2mm)))
