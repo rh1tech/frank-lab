@@ -1109,7 +1109,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "FRANK PGA - one PGA2350 (RP2350B), M2 pinout (same GPIO map as megafrank).\n\nGP0/1  PS/2 mouse CLK/DATA (PS) - shared with J10 UART header (UART0 TX/RX); open JP1 to drop the mouse pull-ups when J10 is used\nGP2/3  PS/2 keyboard CLK/DATA (PS)\nGP4-7  Micro SD (SD)          GP9-11  TDA1387 I2S (AU)\nGP12-19  HDMI + VGA (HV, shared); composite R-ladder on GP12-18\nGP22  Tape in (TP)            GP25  status LED (LD1)\nGP23/24  ESP GPIO2/GPIO0 via 1K, GP36 ESP RST via JP (ES)   GP38/39  UART1 (aux) <-> ESP-01 RX/TX (ES)\nGP28/29  I2C0 DS3231 RTC (RT)\nGP8, 20, 21, 26, 27, 30-35, 37, 40-46 free.  GP47 = PSRAM CS inside PGA2350.\nUSB: 74HC4052 switches the RP2350 USB between USB-C (PC/debug) and the MW7211A hub -> double USB-A."
+	(text "FRANK PGA - one PGA2350 (RP2350B), M2 pinout (same GPIO map as megafrank).\n\nGP0/1  PS/2 mouse CLK/DATA (PS) - shared with J8 UART header (UART0 TX/RX); open JP1 to drop the mouse pull-ups when J8 is used\nGP2/3  PS/2 keyboard CLK/DATA (PS)\nGP4-7  Micro SD (SD)          GP9-11  TDA1387 I2S (AU)\nGP12-19  HDMI + VGA (HV, shared); composite R-ladder on GP12-18\nGP22  Tape in (TP)            GP25  status LED (LD1)\nGP23/24  ESP GPIO2/GPIO0 via 1K, GP36 ESP RST via JP (ES)   GP38/39  UART1 (aux) <-> ESP-01 RX/TX (ES)\nGP28/29  I2C0 DS3231 RTC (RT)\nGP8, 20, 21, 26, 27, 30-35, 37, 40-46 free.  GP47 = PSRAM CS inside PGA2350.\nUSB: 74HC4052 switches the RP2350 USB between USB-C (PC/debug) and the MW7211A hub -> two double USB-A (4 ports)."
 		(exclude_from_sim no)
 		(at 118.11 213.36 0)
 		(effects
@@ -3390,7 +3390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a1df20f-cc46-4d23-8a5a-3923e620bfa0")
-		(property "Reference" "R65"
+		(property "Reference" "R27"
 			(at 293.37 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3453,7 +3453,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779"
-					(reference "R65")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -3546,7 +3546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c32eb7e-bfc3-427b-a34f-291cbfe1a4e4")
-		(property "Reference" "J10"
+		(property "Reference" "J8"
 			(at 276.86 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3612,7 +3612,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779"
-					(reference "J10")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3707,7 +3707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf65c82b-d56c-4a9b-80df-88dcf68eabcf")
-		(property "Reference" "R55"
+		(property "Reference" "R56"
 			(at 186.69 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3770,7 +3770,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779"
-					(reference "R55")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -3787,7 +3787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c00f5524-4a5a-4a41-b257-91b076c6cda2")
-		(property "Reference" "R54"
+		(property "Reference" "R55"
 			(at 179.07 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3850,7 +3850,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779"
-					(reference "R54")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -3941,7 +3941,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6a2d192-1cdc-402c-a753-680993e65786")
-		(property "Reference" "R56"
+		(property "Reference" "R57"
 			(at 194.31 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4004,7 +4004,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779"
-					(reference "R56")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -4097,7 +4097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4a655ca-23e0-407a-ab93-42a1b19305d7")
-		(property "Reference" "R57"
+		(property "Reference" "R58"
 			(at 201.93 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4160,7 +4160,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779"
-					(reference "R57")
+					(reference "R58")
 					(unit 1)
 				)
 			)

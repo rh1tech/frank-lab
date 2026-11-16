@@ -2560,7 +2560,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "USB MODE switch (74HC4052D U9, S3 = GND), as megafrank:\n  RUN (S0=0): RP2350 USB -> MW7211A hub upstream (USB-A sheet). RP2350 is USB host: keyboard/mouse/gamepad on USB-A.\n  PC  (S0=1): RP2350 USB -> USB-C. PC sees the RP2350 (BOOTSEL flashing / CDC console).\nJP2 \"USB Debug\" forces PC mode with S5 not fitted."
+	(text "USB MODE switch (74HC4052D U11, S4 = GND), as megafrank:\n  RUN (S0=0): RP2350 USB -> MW7211A hub upstream (USB-A sheet). RP2350 is USB host: keyboard/mouse/gamepad on USB-A.\n  PC  (S0=1): RP2350 USB -> USB-C. PC sees the RP2350 (BOOTSEL flashing / CDC console).\nJP2 \"USB Debug\" forces PC mode with S5 not fitted."
 		(exclude_from_sim no)
 		(at 212.71 167.94 0)
 		(effects
@@ -3457,7 +3457,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "121ac8ff-b5fa-4f8e-a93a-6134027b0506")
-		(property "Reference" "R86"
+		(property "Reference" "R91"
 			(at 173.99 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3520,7 +3520,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/0fe8b3af-f825-4a4f-89a0-58daf93a9d4a"
-					(reference "R86")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -4306,7 +4306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64977c11-36b3-47dc-8891-95a5e1320d94")
-		(property "Reference" "R63"
+		(property "Reference" "R66"
 			(at 154.94 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4369,7 +4369,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/0fe8b3af-f825-4a4f-89a0-58daf93a9d4a"
-					(reference "R63")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -4616,7 +4616,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fd964e6-b7a1-4373-a05f-156dbffee696")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 245.11 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4721,7 +4721,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/0fe8b3af-f825-4a4f-89a0-58daf93a9d4a"
-					(reference "U9")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -5044,7 +5044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa9591c3-5ac2-4b70-a43e-43c90dd58507")
-		(property "Reference" "R58"
+		(property "Reference" "R59"
 			(at 167.64 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5107,7 +5107,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/0fe8b3af-f825-4a4f-89a0-58daf93a9d4a"
-					(reference "R58")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -5124,7 +5124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd07315b-911a-4773-bda1-b7313b463840")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 115.57 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5220,7 +5220,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/0fe8b3af-f825-4a4f-89a0-58daf93a9d4a"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -5479,7 +5479,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea07fda7-dc76-4668-904f-58c7e5adbeb0")
-		(property "Reference" "R59"
+		(property "Reference" "R60"
 			(at 158.75 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5542,7 +5542,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/0fe8b3af-f825-4a4f-89a0-58daf93a9d4a"
-					(reference "R59")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -5636,7 +5636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee2501d4-edc6-4f15-8e29-4b048ec343b8")
-		(property "Reference" "R64"
+		(property "Reference" "R67"
 			(at 144.78 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5699,7 +5699,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/0fe8b3af-f825-4a4f-89a0-58daf93a9d4a"
-					(reference "R64")
+					(reference "R67")
 					(unit 1)
 				)
 			)

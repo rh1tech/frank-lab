@@ -70,7 +70,16 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "text_thickness|125100000|143781453|1d8e8b2c-81ce-4a4b-9377-28356793616c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|125100000|144800000|63e19617-0821-4883-9a03-d9773fedb795|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -818,7 +827,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "Net-(U8-LX)"
+        "pattern": "Net-(U10-LX)"
       }
     ]
   },
@@ -1020,10 +1029,10 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2026-11-12",
+    "DATE": "2026-11-14",
     "MODEL": "PGA",
     "NAME": "FRANK PGA",
-    "VERSION": "0.01"
+    "VERSION": "1.00"
   },
   "tuning_profiles": {
     "meta": {

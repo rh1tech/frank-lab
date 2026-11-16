@@ -4570,7 +4570,7 @@
 		)
 		(uuid "2c0e5516-b67b-4dfc-90f3-f1e7210edcf1")
 	)
-	(text "DC IN 9-12V (centre +, max 15V: SMAJ15A D4 starts conducting at ~16.7V).  F2 PTC 1812, D5 SS34 reverse-polarity protection (a diode, not a P-FET,\nso the buck stops when the plug is pulled and the USB FET takes over once +5V_DC collapses).\nMP1584EN: UVLO ~6.5V (R71/R72 100K/30K), Vout 0.8*(1+47K/8.2K) = 5.39V before the OR diode, FREQ 100K ~1MHz."
+	(text "DC IN 9-12V (centre +, max 15V: SMAJ15A D4 starts conducting at ~16.7V).  F2 PTC 1812, D5 SS34 reverse-polarity protection (a diode, not a P-FET,\nso the buck stops when the plug is pulled and the USB FET takes over once +5V_DC collapses).\nMP1584EN: UVLO ~6.5V (R74/R75 100K/30K), Vout 0.8*(1+47K/8.2K) = 5.39V before the OR diode, FREQ 100K ~1MHz."
 		(exclude_from_sim no)
 		(at 60.96 20.32 0)
 		(effects
@@ -4593,7 +4593,7 @@
 		)
 		(uuid "4a2965f7-7409-4556-abb2-58a6fa7d6857")
 	)
-	(text "Power switch: Q2 high-side, S6 only pulls the gate; R78/C46 soft start; JP4 \"Force On\"."
+	(text "Power switch: Q2 high-side, S6 only pulls the gate; R82/C49 soft start; JP4 \"Force On\"."
 		(exclude_from_sim no)
 		(at 156.21 140.97 0)
 		(effects
@@ -4639,7 +4639,7 @@
 		)
 		(uuid "e4fa6730-cf0b-4af2-807a-f470771cc4be")
 	)
-	(text "Q1 gate = +5V_DC (R77 1K / R76 100K): Q1 stays off while the buck runs and turns on\nonly after +5V_DC has collapsed - no back-feed into the PC on DC unplug, and USB\ntakes over if DC is present but below UVLO."
+	(text "Q1 gate = +5V_DC (R81 1K / R80 100K): Q1 stays off while the buck runs and turns on\nonly after +5V_DC has collapsed - no back-feed into the PC on DC unplug, and USB\ntakes over if DC is present but below UVLO."
 		(exclude_from_sim no)
 		(at 256.54 82.55 0)
 		(effects
@@ -6288,7 +6288,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0007313c-2c73-42fd-bb8a-66a1e3267954")
-		(property "Reference" "C28"
+		(property "Reference" "C31"
 			(at 278.86 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6351,7 +6351,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C28")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -6368,7 +6368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "071b8f7c-0cd2-49fd-92a5-c994a8e9421e")
-		(property "Reference" "C49"
+		(property "Reference" "C52"
 			(at 167.132 93.726 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6431,7 +6431,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C49")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -6525,7 +6525,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11be0cc4-afb5-4811-9b63-2a6ea5999a24")
-		(property "Reference" "C29"
+		(property "Reference" "C32"
 			(at 268.7 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6588,7 +6588,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C29")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -6760,7 +6760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "163e4f76-346d-4768-8639-8f30ad940325")
-		(property "Reference" "C31"
+		(property "Reference" "C34"
 			(at 191.77 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6823,7 +6823,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C31")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -7224,7 +7224,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "238d0127-4928-46f6-bc45-769c601206f5")
-		(property "Reference" "R71"
+		(property "Reference" "R74"
 			(at 113.03 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7285,7 +7285,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "R71")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -8387,7 +8387,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b958dcf-144e-4f86-be57-0eb1ceaa248c")
-		(property "Reference" "R77"
+		(property "Reference" "R81"
 			(at 307.34 37.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8448,7 +8448,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "R77")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -8465,7 +8465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5047b096-9521-4a0f-821a-30ee3814e0f1")
-		(property "Reference" "R70"
+		(property "Reference" "R73"
 			(at 123.698 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8526,7 +8526,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "R70")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -8791,7 +8791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6645326e-28f6-48de-9980-e2a1ce80de65")
-		(property "Reference" "R82"
+		(property "Reference" "R86"
 			(at 132.588 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8852,7 +8852,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "R82")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -8947,7 +8947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68baa427-37f7-458d-b5a5-08bfe25892ea")
-		(property "Reference" "R62"
+		(property "Reference" "R65"
 			(at 215.9 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9010,7 +9010,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "R62")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -9259,7 +9259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7289a129-a209-44d0-aba0-a8443d8af971")
-		(property "Reference" "C46"
+		(property "Reference" "C49"
 			(at 71.88 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9322,7 +9322,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C46")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -9339,7 +9339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76003e98-e451-43b5-a123-2eaa06cc6dd4")
-		(property "Reference" "C27"
+		(property "Reference" "C30"
 			(at 105.41 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9402,7 +9402,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C27")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -9573,7 +9573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83fb558d-4f68-495c-89d9-ef3a266f3031")
-		(property "Reference" "C48"
+		(property "Reference" "C51"
 			(at 101.854 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9636,7 +9636,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C48")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -9732,7 +9732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89a054f5-3c0f-47f4-ade3-897fcb511dc1")
-		(property "Reference" "C39"
+		(property "Reference" "C42"
 			(at 125.984 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9795,7 +9795,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C39")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -9812,7 +9812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a2e03fe-4837-4323-8c39-cedf6e9aea10")
-		(property "Reference" "R87"
+		(property "Reference" "R92"
 			(at 109.22 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9873,7 +9873,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "R87")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -9967,7 +9967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fdf3e25-0841-40a4-a678-af008be95973")
-		(property "Reference" "R72"
+		(property "Reference" "R75"
 			(at 117.348 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10028,7 +10028,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "R72")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -10356,7 +10356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0d45099-bc3b-4785-bc6c-379349089346")
-		(property "Reference" "C51"
+		(property "Reference" "C53"
 			(at 94.234 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10418,7 +10418,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C51")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -10436,7 +10436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a20b24e5-feaf-4a7c-9aef-efa39ab31825")
-		(property "Reference" "J12"
+		(property "Reference" "J13"
 			(at 62.7289 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10500,7 +10500,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "J12")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -10595,7 +10595,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a612c63c-f31a-436d-a9d3-c5c88bea3123")
-		(property "Reference" "R68"
+		(property "Reference" "R71"
 			(at 176.53 104.648 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10656,7 +10656,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "R68")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -10981,7 +10981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab4140fe-4912-44fc-9b9b-89ab9ca59fcb")
-		(property "Reference" "U8"
+		(property "Reference" "U10"
 			(at 140.97 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11053,7 +11053,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "U8")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -11374,7 +11374,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1afc0b8-6c4a-4e62-ab47-5feb8547a3fa")
-		(property "Reference" "R61"
+		(property "Reference" "R62"
 			(at 215.9 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11437,7 +11437,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "R61")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -11686,7 +11686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdc80b9a-f7d7-402e-8908-11f78c255863")
-		(property "Reference" "U13"
+		(property "Reference" "U15"
 			(at 148.59 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11768,7 +11768,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "U13")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -11940,7 +11940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c60809b2-4462-444b-9921-9115e9b6470f")
-		(property "Reference" "C36"
+		(property "Reference" "C40"
 			(at 182.88 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12003,7 +12003,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C36")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -12096,7 +12096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9a36830-b91a-482a-964a-0c222bc2fadd")
-		(property "Reference" "R76"
+		(property "Reference" "R80"
 			(at 332.74 37.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12157,7 +12157,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "R76")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -12406,7 +12406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0fda8ee-d63b-40eb-a4e8-9d311ae2d4e4")
-		(property "Reference" "R73"
+		(property "Reference" "R77"
 			(at 261.08 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12469,7 +12469,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "R73")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -12716,7 +12716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6ed97de-7764-4cea-bd60-d475825bec67")
-		(property "Reference" "R78"
+		(property "Reference" "R82"
 			(at 92.71 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12779,7 +12779,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "R78")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -12873,7 +12873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d78e3a56-4ad4-4c53-96a6-77f20eca1911")
-		(property "Reference" "R69"
+		(property "Reference" "R72"
 			(at 169.672 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12934,7 +12934,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "R69")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -12951,7 +12951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d797b3a0-2b8b-49d8-87ce-2c117a466ab4")
-		(property "Reference" "C34"
+		(property "Reference" "C38"
 			(at 115.57 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13014,7 +13014,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C34")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -13186,7 +13186,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9c05978-037a-48cf-80fc-2452ca0cfc0e")
-		(property "Reference" "C33"
+		(property "Reference" "C37"
 			(at 125.73 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13249,7 +13249,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C33")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -13347,7 +13347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de472624-b892-4559-a630-fda9b38bbdd6")
-		(property "Reference" "C40"
+		(property "Reference" "C43"
 			(at 207.264 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13410,7 +13410,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C40")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -13580,7 +13580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df61761c-72f5-4713-a3bf-e4cbb71309f1")
-		(property "Reference" "C37"
+		(property "Reference" "C41"
 			(at 213.614 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13642,7 +13642,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C37")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -13659,7 +13659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e140808c-4946-4f41-ab3d-4d3877958059")
-		(property "Reference" "C32"
+		(property "Reference" "C35"
 			(at 281.4 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13722,7 +13722,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C32")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -13892,7 +13892,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e67c3bf8-9923-4244-ae2a-782d76c43d99")
-		(property "Reference" "C54"
+		(property "Reference" "C56"
 			(at 86.614 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13954,7 +13954,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C54")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -14049,7 +14049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea93faa4-a0b2-4eb8-9050-9995a2cb9f8f")
-		(property "Reference" "C35"
+		(property "Reference" "C39"
 			(at 289.02 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14112,7 +14112,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C35")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -14436,7 +14436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4d333e0-09fb-4e9e-87bc-7c62b7a1c1f9")
-		(property "Reference" "C30"
+		(property "Reference" "C33"
 			(at 200.66 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14499,7 +14499,7 @@
 		(instances
 			(project "frank_pga"
 				(path "/31e29fe6-edab-47a0-8248-0000ea205779/be9f7e17-3433-4c2a-8934-455b7f44ac8d"
-					(reference "C30")
+					(reference "C33")
 					(unit 1)
 				)
 			)

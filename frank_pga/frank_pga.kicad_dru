@@ -37,12 +37,12 @@
     (condition "A.NetClass == 'HighPower'")
     (constraint thermal_spoke_width (min 0.5mm)))
 
-(rule "USB-C J8: VBUS/GND pad pitch is fixed by the connector (0.17mm)"
-    (condition "A.memberOfFootprint('J8') && B.memberOfFootprint('J8')")
+(rule "USB-C J9: VBUS/GND pad pitch is fixed by the connector (0.17mm)"
+    (condition "A.memberOfFootprint('J9') && B.memberOfFootprint('J9')")
     (constraint clearance (min 0.15mm)))
 
-(rule "USB-C J8: GND pads too narrow for thermal spokes, connect solid"
-    (condition "A.memberOfFootprint('J8') && A.NetName == 'GND'")
+(rule "USB-C J9: GND pads too narrow for thermal spokes, connect solid"
+    (condition "A.memberOfFootprint('J9') && A.NetName == 'GND'")
     (constraint zone_connection solid))
 
 (rule "HDMI J4: shield GND pads between 0.5mm-pitch pins, connect solid"
