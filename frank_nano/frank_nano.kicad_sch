@@ -1,0 +1,1649 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "201bd2d9-0138-4492-b97a-3874cd1e911b")
+	(paper "A3")
+	(title_block
+		(title "${NAME}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "Mikhail Matveev")
+		(comment 1 "https://github.com/rh1tech/frank")
+		(comment 2 "Block codes: SD, HV, PU, PR, LD, UC, PW (legend below)")
+	)
+	(lib_symbols
+		(symbol "FRANK:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "GPIO map (RP2350A, microfrank / murmulator order):\nSD (SPI) 4 DAT0, 5 DAT3/CS, 6 CLK, 7 CMD | PSRAM CS 8 | HDMI (HSTX) 12-19 | PIO-USB 20 D+, 21 D- | LED 25\nFree: 0-3, 9-11, 22-24, 26-29 (no-connect on the MCU sheet).\nNet names: <M><gpio>_<block>_<signal>. Block codes: SD micro SD, HV HDMI, PU PIO-USB, PR PSRAM, LD LED, UC native USB-C, PW power."
+		(exclude_from_sim no)
+		(at 157.48 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "abed3715-80f5-4f9e-b20e-1bf16334d907")
+	)
+	(wire
+		(pts
+			(xy 187.96 111.76) (xy 193.04 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f26d23b-b3b5-493c-9b61-b3d214c5c3e9")
+	)
+	(wire
+		(pts
+			(xy 233.68 121.92) (xy 228.6 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2634017f-7234-4fc1-88bc-b9132143a0c5")
+	)
+	(wire
+		(pts
+			(xy 187.96 129.54) (xy 193.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d7a65c-8bba-4dca-8099-f075289625c2")
+	)
+	(wire
+		(pts
+			(xy 187.96 114.3) (xy 193.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36491694-9aee-41e3-a9c6-be0ea9a13208")
+	)
+	(wire
+		(pts
+			(xy 233.68 119.38) (xy 228.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44347077-3c1d-4dd0-8df2-17c6ccb38d1f")
+	)
+	(wire
+		(pts
+			(xy 233.68 99.06) (xy 228.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4521604a-3279-4219-8c44-f24e2ffeb42e")
+	)
+	(wire
+		(pts
+			(xy 187.96 109.22) (xy 193.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46709f4a-d766-4109-8c2a-156c0644b379")
+	)
+	(wire
+		(pts
+			(xy 233.68 104.14) (xy 228.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487109da-678a-4aa5-8668-87f34ad24dc8")
+	)
+	(wire
+		(pts
+			(xy 233.68 144.78) (xy 228.6 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4794fc-bd2f-48d7-908c-b5f68809ecbf")
+	)
+	(wire
+		(pts
+			(xy 233.68 154.94) (xy 228.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59671b64-2ff8-433a-be92-73dbd3315074")
+	)
+	(wire
+		(pts
+			(xy 187.96 132.08) (xy 193.04 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cacaa41-0c01-408a-97da-53cc14db740c")
+	)
+	(wire
+		(pts
+			(xy 187.96 101.6) (xy 193.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3724e3-ddae-488c-9ae3-374f97e2d6ed")
+	)
+	(wire
+		(pts
+			(xy 233.68 142.24) (xy 228.6 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665ee72e-bdcd-4079-8229-e1eb654bb3da")
+	)
+	(wire
+		(pts
+			(xy 233.68 127) (xy 228.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b531acb-3ca8-43fa-ba36-5d347e348ee1")
+	)
+	(wire
+		(pts
+			(xy 233.68 101.6) (xy 228.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f1f9479-bc8c-4fa3-9646-ed5d0a7a112d")
+	)
+	(wire
+		(pts
+			(xy 233.68 152.4) (xy 228.6 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a350de-04d4-4de3-95d3-29fed9b718eb")
+	)
+	(wire
+		(pts
+			(xy 187.96 139.7) (xy 193.04 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782108eb-0b96-4da0-8251-cd96d31130d3")
+	)
+	(wire
+		(pts
+			(xy 187.96 119.38) (xy 193.04 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af91e9d-b3f7-45e4-80ea-e1bb1d425b6c")
+	)
+	(wire
+		(pts
+			(xy 233.68 147.32) (xy 228.6 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff0779c-1648-435c-b988-ad8de07c2783")
+	)
+	(wire
+		(pts
+			(xy 187.96 104.14) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9049ce-fe53-4d74-add1-2376e05c9aa1")
+	)
+	(wire
+		(pts
+			(xy 187.96 124.46) (xy 193.04 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3b1801-1e5a-450c-aaa5-5745eae78a2f")
+	)
+	(wire
+		(pts
+			(xy 187.96 137.16) (xy 193.04 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58b238f-1357-4353-907d-a8a922566c9b")
+	)
+	(wire
+		(pts
+			(xy 233.68 96.52) (xy 228.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8c68de-6b57-4c11-97cd-0cd30b1e9405")
+	)
+	(wire
+		(pts
+			(xy 233.68 165.1) (xy 228.6 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c074404b-47d5-4c42-91d2-aa46a5c24b4f")
+	)
+	(wire
+		(pts
+			(xy 187.96 116.84) (xy 193.04 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1510b0e-e8ab-47b6-9fa7-21fbb5b95340")
+	)
+	(wire
+		(pts
+			(xy 233.68 139.7) (xy 228.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c162879b-7a09-4c0c-847c-63a38458be83")
+	)
+	(wire
+		(pts
+			(xy 187.96 121.92) (xy 193.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c750862e-6e89-4d96-aad1-8e2a41a4a940")
+	)
+	(wire
+		(pts
+			(xy 187.96 106.68) (xy 193.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0df1322-6e82-4ace-94ff-1a4d9448d8d3")
+	)
+	(wire
+		(pts
+			(xy 187.96 134.62) (xy 193.04 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c28730-c5de-418a-896e-349dc86ed0fa")
+	)
+	(wire
+		(pts
+			(xy 187.96 127) (xy 193.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27b54b0-ed04-490b-afc0-10f57f3ac607")
+	)
+	(wire
+		(pts
+			(xy 233.68 106.68) (xy 228.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e716cb8d-afdb-43ab-b9dd-a22097413f2b")
+	)
+	(wire
+		(pts
+			(xy 233.68 149.86) (xy 228.6 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52e9ef1-7ab0-4139-b352-d67ca8a6a310")
+	)
+	(wire
+		(pts
+			(xy 233.68 137.16) (xy 228.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd651e66-7756-46e6-893b-8e51bd3f4a71")
+	)
+	(wire
+		(pts
+			(xy 233.68 124.46) (xy 228.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4a523e-b278-433b-8fa7-ebe79f26ee2b")
+	)
+	(label "M_USB_DP"
+		(at 228.6 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01c466e6-b429-4d65-9859-550b4eab722b")
+	)
+	(label "M6_SD_CLK"
+		(at 193.04 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a455e32-5d73-4a92-8ef6-c1357725fcef")
+	)
+	(label "M21_PU_DM"
+		(at 193.04 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12db3291-9247-4fb1-b9b1-0ccd3632e633")
+	)
+	(label "VBUS_USB"
+		(at 228.6 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14e94b2c-979b-47e4-b7ca-ce4c00d09e38")
+	)
+	(label "M6_SD_CLK"
+		(at 228.6 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15c85b79-946e-46ec-be6c-8e4133fce4f2")
+	)
+	(label "M4_SD_DAT0"
+		(at 193.04 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "259e5781-1651-4189-bcc1-4788f7596444")
+	)
+	(label "M4_SD_DAT0"
+		(at 228.6 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46b180d0-9605-487d-aa64-962ca2ebb4da")
+	)
+	(label "M16_HV_D1N"
+		(at 193.04 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4706a099-9f5d-4cdb-8c2e-3cbfdb83b477")
+	)
+	(label "M_USB_DM"
+		(at 228.6 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "475d86c1-fef0-434c-a3ce-c39cb3bf3a37")
+	)
+	(label "M20_PU_DP"
+		(at 228.6 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52373847-0f31-4db1-8aac-20819dd3483d")
+	)
+	(label "M21_PU_DM"
+		(at 228.6 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f821418-edb1-42d8-9102-16cf99ed398a")
+	)
+	(label "M18_HV_D2N"
+		(at 193.04 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d865578-a5c3-4231-869f-5d56bfb58702")
+	)
+	(label "M14_HV_D0N"
+		(at 228.6 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74529c2b-9f87-450b-83d8-baf3a6534b6f")
+	)
+	(label "M15_HV_D0P"
+		(at 228.6 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7628c4a1-07f8-4ed9-8cfd-ec08f43e7e4a")
+	)
+	(label "M19_HV_D2P"
+		(at 193.04 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8caaaed3-7b89-41bd-8a83-b5b568a4f6af")
+	)
+	(label "M18_HV_D2N"
+		(at 228.6 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ef80e20-88b0-461b-8ac9-5801d9dfad58")
+	)
+	(label "M15_HV_D0P"
+		(at 193.04 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95285351-4432-419b-8c86-47caaf97d146")
+	)
+	(label "M19_HV_D2P"
+		(at 228.6 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96ef47b6-e6dc-43cc-903b-32e78dd8b01d")
+	)
+	(label "M_USB_DM"
+		(at 193.04 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a4e979f-9e77-4b33-be3a-089110b55a2c")
+	)
+	(label "VBUS_USB"
+		(at 228.6 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0b7a4bf-58eb-467f-acc9-e674b478e9d6")
+	)
+	(label "M17_HV_D1P"
+		(at 193.04 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2863198-9f21-4b68-a683-905808509d38")
+	)
+	(label "M5_SD_DAT3"
+		(at 193.04 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a55696bb-2930-4977-93eb-d399bb9c6c10")
+	)
+	(label "M13_HV_CLKP"
+		(at 228.6 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "badf6e7f-ac7f-42a4-bb2d-511cc2515084")
+	)
+	(label "M16_HV_D1N"
+		(at 228.6 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0425380-76cb-49da-97e4-bf7b127b3b72")
+	)
+	(label "M12_HV_CLKN"
+		(at 193.04 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c172e70f-889c-4311-8abb-6f8668badc62")
+	)
+	(label "M17_HV_D1P"
+		(at 228.6 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c362f0b9-f66a-43d7-8884-097a97a8241a")
+	)
+	(label "M_USB_DP"
+		(at 193.04 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cda88b75-51f2-49de-a89b-cf497fe5cfd9")
+	)
+	(label "M14_HV_D0N"
+		(at 193.04 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce6e0120-edad-428c-810e-7409107a66a4")
+	)
+	(label "M13_HV_CLKP"
+		(at 193.04 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5f3005f-7e4a-414a-929f-72ec91b9a4dd")
+	)
+	(label "M20_PU_DP"
+		(at 193.04 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db707bfa-fd32-48e3-b84c-840396cc5236")
+	)
+	(label "M5_SD_DAT3"
+		(at 228.6 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e22d9893-8a6f-4edb-9c66-d92a0e3b1ba0")
+	)
+	(label "M7_SD_CMD"
+		(at 193.04 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e932c1aa-67de-445d-95cc-fc30b31edce4")
+	)
+	(label "M7_SD_CMD"
+		(at 228.6 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbee81b5-3396-419f-b53c-f2972bf52755")
+	)
+	(label "M12_HV_CLKN"
+		(at 228.6 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc9fffa8-4db2-48a2-90bf-5e04ec2198e1")
+	)
+	(symbol
+		(lib_id "FRANK:MountingHole")
+		(at 374.65 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "239f129d-d207-4288-b29f-c2043e54973f")
+		(property "Reference" "H2"
+			(at 374.65 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mounting Hole (3.0mm)"
+			(at 374.65 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:MountingHole_3.0mm"
+			(at 374.65 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting hole 3.0 mm NPTH (Waveshare RP2350-PiZero position)"
+			(at 374.65 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "frank_nano"
+				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:MountingHole")
+		(at 387.35 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d10802c-6930-4c9b-90ec-ce94161a1a91")
+		(property "Reference" "H3"
+			(at 387.35 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mounting Hole (3.0mm)"
+			(at 387.35 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:MountingHole_3.0mm"
+			(at 387.35 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.35 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting hole 3.0 mm NPTH (Waveshare RP2350-PiZero position)"
+			(at 387.35 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "frank_nano"
+				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:MountingHole")
+		(at 400.05 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5af8636-89a8-453b-abf5-3b915fb27250")
+		(property "Reference" "H4"
+			(at 400.05 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mounting Hole (3.0mm)"
+			(at 400.05 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:MountingHole_3.0mm"
+			(at 400.05 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting hole 3.0 mm NPTH (Waveshare RP2350-PiZero position)"
+			(at 400.05 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "frank_nano"
+				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:MountingHole")
+		(at 361.95 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d437a628-5d27-499e-8ff2-b143b2c4e661")
+		(property "Reference" "H1"
+			(at 361.95 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mounting Hole (3.0mm)"
+			(at 361.95 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:MountingHole_3.0mm"
+			(at 361.95 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting hole 3.0 mm NPTH (Waveshare RP2350-PiZero position)"
+			(at 361.95 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "frank_nano"
+				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 99.06)
+		(size 30.48 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5adc697e-27ad-4c1c-a167-8da309dfd682")
+		(property "Sheetname" "RP2350A"
+			(at 157.48 98.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp2350a.kicad_sch"
+			(at 157.48 142.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 187.96 101.6 0)
+			(uuid "a9b086db-db5c-4a3e-b2c8-c46fa08098b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 187.96 104.14 0)
+			(uuid "9693f28d-5688-4d9b-a9c7-9038473bb0a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO4" bidirectional
+			(at 187.96 106.68 0)
+			(uuid "3a0b77cf-1452-4fac-8ae7-5c0e7a5839aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO5" bidirectional
+			(at 187.96 109.22 0)
+			(uuid "533a3803-24ec-4a40-a94f-af93ae1306e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO6" bidirectional
+			(at 187.96 111.76 0)
+			(uuid "df9e5462-9d24-4212-98d9-4301f2916729")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO7" bidirectional
+			(at 187.96 114.3 0)
+			(uuid "31d08897-5e7a-4955-a3a0-f68f82bc760f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO12" bidirectional
+			(at 187.96 116.84 0)
+			(uuid "b34a1486-7386-4f6a-b3ff-255dfb5b7a28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO13" bidirectional
+			(at 187.96 119.38 0)
+			(uuid "3d4851c1-b68e-4d57-95d5-ffcc7353083e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO14" bidirectional
+			(at 187.96 121.92 0)
+			(uuid "3022a57a-f0c5-4895-bac4-b94f2dea622b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO15" bidirectional
+			(at 187.96 124.46 0)
+			(uuid "9ace6f67-a148-4d0d-a90f-a9dbfbe4f8e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO16" bidirectional
+			(at 187.96 127 0)
+			(uuid "34de6a3a-ab27-435e-8886-6a1bb99f1b2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO17" bidirectional
+			(at 187.96 129.54 0)
+			(uuid "6ad3061c-e48c-4d9e-9966-2a3ea7c0b3d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO18" bidirectional
+			(at 187.96 132.08 0)
+			(uuid "8bdc463d-3a9b-434b-809d-939ccade471d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO19" bidirectional
+			(at 187.96 134.62 0)
+			(uuid "435611e1-4281-46ab-8f71-a02828ae5fde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO20" bidirectional
+			(at 187.96 137.16 0)
+			(uuid "69e06045-6835-4f61-ab6e-518b5fc1a3d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO21" bidirectional
+			(at 187.96 139.7 0)
+			(uuid "2b221cfd-fe79-4d89-b0ce-27bba4f7f869")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 116.84)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b10beb80-adf4-4b2c-b9d6-dd2aed9ed40d")
+		(property "Sheetname" "Micro SD"
+			(at 233.68 116.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sd.kicad_sch"
+			(at 233.68 130.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DAT0" bidirectional
+			(at 233.68 119.38 180)
+			(uuid "54fa5ff4-44c8-4581-bb95-5033b8ba5e89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CDDAT3" bidirectional
+			(at 233.68 121.92 180)
+			(uuid "b79013fa-7154-44f3-867a-e91fb1919b9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK" bidirectional
+			(at 233.68 124.46 180)
+			(uuid "d3469f02-f9ef-4eee-9948-298c077a7614")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CMD" bidirectional
+			(at 233.68 127 180)
+			(uuid "c64d2694-0676-4087-9366-9ff6c1d38191")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 93.98)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e4d369f5-2d2d-426b-bd6c-a7d507fe3253")
+		(property "Sheetname" "USB"
+			(at 233.68 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 233.68 109.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "M_USB_DP" bidirectional
+			(at 233.68 96.52 180)
+			(uuid "a1078871-3d1d-4a0c-b21e-bcb4f7557b5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_USB_DM" bidirectional
+			(at 233.68 99.06 180)
+			(uuid "4de44474-0d34-4b5a-8a19-70371b8a3a3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PIO_DP" bidirectional
+			(at 233.68 101.6 180)
+			(uuid "73463254-1a38-46ed-b547-2e563c473430")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PIO_DM" bidirectional
+			(at 233.68 104.14 180)
+			(uuid "c52f4409-7ba6-45cf-9de1-d6d183a57b5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_USB" output
+			(at 233.68 106.68 180)
+			(uuid "49a828b3-366e-47b5-b6bd-f163dfa646a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 134.62)
+		(size 25.4 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e70add41-7cc3-4d77-b49c-47eef4c4a72f")
+		(property "Sheetname" "HDMI"
+			(at 233.68 133.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hdmi.kicad_sch"
+			(at 233.68 158.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLKN" input
+			(at 233.68 137.16 180)
+			(uuid "832be89c-dead-452c-bfb6-7de3c3f407d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLKP" input
+			(at 233.68 139.7 180)
+			(uuid "49567ab6-6555-4a31-8938-5b1d35925c47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D0N" input
+			(at 233.68 142.24 180)
+			(uuid "6455d5f5-a76d-49a9-bdd2-df12cd3e690a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D0P" input
+			(at 233.68 144.78 180)
+			(uuid "57e9639c-38ad-41d9-a993-78ba6de78e82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D1N" input
+			(at 233.68 147.32 180)
+			(uuid "a9299e2a-6818-4740-b204-6b6e97d35740")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D1P" input
+			(at 233.68 149.86 180)
+			(uuid "313aa3b1-a7e7-46ee-b5d4-b1127e101826")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D2N" input
+			(at 233.68 152.4 180)
+			(uuid "98a36364-1a41-4097-b868-3284b2e351bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D2P" input
+			(at 233.68 154.94 180)
+			(uuid "16db26f6-a8bc-43c0-a51e-3ee899b7ae9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 162.56)
+		(size 25.4 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f0dfeaf5-c920-4087-9407-e536309f4186")
+		(property "Sheetname" "Power"
+			(at 233.68 161.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 233.68 168.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS_USB" input
+			(at 233.68 165.1 180)
+			(uuid "81583d52-0e97-4ecc-afa8-68d014758587")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
