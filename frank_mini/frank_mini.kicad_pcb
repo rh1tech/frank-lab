@@ -53832,7 +53832,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1.5A 24V"
+		(property "Value" "1.5A 6V"
 			(at 0 -2.65 180)
 			(layer "B.Fab")
 			(uuid "d71820db-709a-4f0d-9f77-487573879d5a")
@@ -53866,6 +53866,19 @@
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C262029"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "811ad1a5-8a7b-4aad-9fe9-a0765b1a960a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
