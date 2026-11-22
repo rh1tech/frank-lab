@@ -16,7 +16,7 @@
 	(constraint clearance (min 0.15mm))
 	(condition "A.NetName == '+1V1' || A.NetName == '+1V1_A' || A.NetName == '/RP2350B/VREG_LX' || A.NetName == '/RP2350A/VREG_LX' || A.NetName == '/RP2350B/VREG_AVDD' || A.NetName == '/RP2350A/VREG_AVDD' || A.memberOfFootprint('C1') || A.memberOfFootprint('C2') || A.memberOfFootprint('C8') || A.memberOfFootprint('R4') || A.memberOfFootprint('L1') || A.memberOfFootprint('C17') || A.memberOfFootprint('C22') || A.memberOfFootprint('C25') || A.memberOfFootprint('C27') || A.memberOfFootprint('R18') || A.memberOfFootprint('L2')"))
 
-# RP2350 VREG caps sit at the pin tips (reference layout), inside the MCU courtyard.
+# RP2350 VREG caps sit at the pin tips (reference layout), inside the MCU courtyard; VIN and VOUT caps abut (0.15 mm pad gap) to leave LX its channel.
 (rule "VREG caps inside the MCU courtyard"
 	(constraint courtyard_clearance (min -3mm))
-	(condition "(A.Reference == 'U1' && (B.Reference == 'C1' || B.Reference == 'C8')) || (A.Reference == 'U5' && (B.Reference == 'C22' || B.Reference == 'C27'))"))
+	(condition "(A.Reference == 'U1' && (B.Reference == 'C1' || B.Reference == 'C8')) || (A.Reference == 'U5' && (B.Reference == 'C22' || B.Reference == 'C27')) || (A.Reference == 'C22' && B.Reference == 'C25') || (A.Reference == 'C25' && B.Reference == 'C22') || (A.Reference == 'C1' && B.Reference == 'C2') || (A.Reference == 'C2' && B.Reference == 'C1')"))
