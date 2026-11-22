@@ -1,0 +1,22 @@
+(version 1)
+# Rules taken from frank_z0 (ordered and built at JLC), adapted to frank_next2 references.
+
+# RP2350B QFN-80 and RP2350A QFN-60 (0.4 mm pitch, 0.22 mm pads leave 0.18 mm): allow 0.15 mm at their pads only.
+(rule "RP2350 QFN fine pitch"
+	(constraint clearance (min 0.15mm))
+	(condition "A.memberOfFootprint('U1') || B.memberOfFootprint('U1') || A.memberOfFootprint('U5') || B.memberOfFootprint('U5')"))
+
+# 0603 cap or resistor with its own power-rail via under the body: via ring to the other pad is 0.175 mm by design.
+(rule "Part with via: via to its other pad"
+	(constraint clearance (min 0.15mm))
+	(condition "A.memberOfFootprint('FRANK:*Metric_small_pads_Via*') && B.memberOfFootprint('FRANK:*Metric_small_pads_Via*')"))
+
+# RP2350 VREG blocks (U1 master, U5 slave): 0603 small-pad caps and the LX/1V1 escape between them use 0.15 mm, like the QFN pads.
+(rule "RP2350 VREG blocks"
+	(constraint clearance (min 0.15mm))
+	(condition "A.NetName == '+1V1' || A.NetName == '+1V1_A' || A.NetName == '/RP2350B/VREG_LX' || A.NetName == '/RP2350A/VREG_LX' || A.NetName == '/RP2350B/VREG_AVDD' || A.NetName == '/RP2350A/VREG_AVDD' || A.memberOfFootprint('C1') || A.memberOfFootprint('C2') || A.memberOfFootprint('C8') || A.memberOfFootprint('R4') || A.memberOfFootprint('L1') || A.memberOfFootprint('C17') || A.memberOfFootprint('C22') || A.memberOfFootprint('C25') || A.memberOfFootprint('C27') || A.memberOfFootprint('R18') || A.memberOfFootprint('L2')"))
+
+# RP2350 VREG caps sit at the pin tips (reference layout), inside the MCU courtyard.
+(rule "VREG caps inside the MCU courtyard"
+	(constraint courtyard_clearance (min -3mm))
+	(condition "(A.Reference == 'U1' && (B.Reference == 'C1' || B.Reference == 'C8')) || (A.Reference == 'U5' && (B.Reference == 'C22' || B.Reference == 'C27'))"))
