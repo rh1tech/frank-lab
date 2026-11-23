@@ -408,6 +408,10 @@
         ""
       ],
       [
+        "four_way_junction|1143000|952500|8c3bb8dc-96d2-44d6-9b25-919ec82f35d4|ed0de0b2-fefd-460f-9bd2-926a81872b1b|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48||",
+        ""
+      ],
+      [
         "four_way_junction|1143000|952500|8e89ee5b-2189-4eca-9a9a-fd76c8457d30|81aa82f9-4a8f-4782-b997-aee2ee2cfd13|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48||",
         ""
       ],
@@ -433,6 +437,10 @@
       ],
       [
         "four_way_junction|1143000|952500|ed0de0b2-fefd-460f-9bd2-926a81872b1b|81aa82f9-4a8f-4782-b997-aee2ee2cfd13|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48||",
+        ""
+      ],
+      [
+        "four_way_junction|1143000|952500|ed0de0b2-fefd-460f-9bd2-926a81872b1b|8c3bb8dc-96d2-44d6-9b25-919ec82f35d4|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48||",
         ""
       ],
       [
@@ -1307,35 +1315,35 @@
       },
       {
         "netclass": "Zdiff=100R",
-        "pattern": "/GPIO12/CLKN"
+        "pattern": "/M12_HV_CLKN"
       },
       {
         "netclass": "Zdiff=100R",
-        "pattern": "/GPIO13/CLKP"
+        "pattern": "/M13_HV_CLKP"
       },
       {
         "netclass": "Zdiff=100R",
-        "pattern": "/GPIO14/D0N"
+        "pattern": "/M14_HV_D0N"
       },
       {
         "netclass": "Zdiff=100R",
-        "pattern": "/GPIO15/D0P"
+        "pattern": "/M15_HV_D0P"
       },
       {
         "netclass": "Zdiff=100R",
-        "pattern": "/GPIO16/D1N"
+        "pattern": "/M16_HV_D1N"
       },
       {
         "netclass": "Zdiff=100R",
-        "pattern": "/GPIO17/D1P"
+        "pattern": "/M17_HV_D1P"
       },
       {
         "netclass": "Zdiff=100R",
-        "pattern": "/GPIO18/D2N"
+        "pattern": "/M18_HV_D2N"
       },
       {
         "netclass": "Zdiff=100R",
-        "pattern": "/GPIO19/D2P"
+        "pattern": "/M19_HV_D2P"
       },
       {
         "netclass": "Zdiff=100R",
@@ -1347,27 +1355,27 @@
       },
       {
         "netclass": "Zdiff=90R",
-        "pattern": "/USB/RPA_D*"
+        "pattern": "/USB/S_USB_D*"
       },
       {
         "netclass": "Zdiff=90R",
-        "pattern": "/USB/D2*"
+        "pattern": "/USB/US_D2*"
       },
       {
         "netclass": "Zdiff=90R",
-        "pattern": "/USB/DH*"
+        "pattern": "/USB/US_DH*"
       },
       {
         "netclass": "Zdiff=90R",
-        "pattern": "/USB/DS*"
+        "pattern": "/USB/US_DS*"
       },
       {
         "netclass": "Zdiff=90R",
-        "pattern": "/RP2350B/D+"
+        "pattern": "/RP2350B/M_USB_DP"
       },
       {
         "netclass": "Zdiff=90R",
-        "pattern": "/RP2350B/D-"
+        "pattern": "/RP2350B/M_USB_DM"
       },
       {
         "netclass": "Zdiff=90R",

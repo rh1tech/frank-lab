@@ -10,6 +10,7 @@
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/frank")
+		(comment 2 "Block code: UA (USB-A port, used 3 times)")
 	)
 	(lib_symbols
 		(symbol "FRANK:C"
@@ -1765,7 +1766,7 @@
 			)
 		)
 		(property "Value" "676430910"
-			(at 102.87 82.55 0)
+			(at 102.8700 83.6248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1873,25 +1874,25 @@
 		(dnp no)
 		(uuid "e17f9101-ff37-462e-8840-fde285f0461b")
 		(property "Reference" "C87"
-			(at 115.189 83.7184 0)
+			(at 120.6420 81.2800 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 115.189 81.407 0)
+		(property "Value" "100n 50V"
+			(at 120.6420 83.8200 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric"

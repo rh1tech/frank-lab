@@ -10,6 +10,7 @@
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/frank")
+		(comment 2 "Block code: HV (HDMI)")
 	)
 	(lib_symbols
 		(symbol "FRANK:C"
@@ -2656,7 +2657,7 @@
 		)
 		(uuid "ffc4d415-20ec-4679-8530-9d5841611f6f")
 	)
-	(hierarchical_label "D1N"
+	(hierarchical_label "M16_HV_D1N"
 		(shape input)
 		(at 182.88 118.11 0)
 		(effects
@@ -2667,7 +2668,7 @@
 		)
 		(uuid "5fa1e7fb-34c8-4a3c-9b97-557a35edb29f")
 	)
-	(hierarchical_label "D0P"
+	(hierarchical_label "M15_HV_D0P"
 		(shape input)
 		(at 182.88 113.03 0)
 		(effects
@@ -2678,7 +2679,7 @@
 		)
 		(uuid "6c2f2ef1-1376-4486-9dbe-076de93fa407")
 	)
-	(hierarchical_label "D2P"
+	(hierarchical_label "M19_HV_D2P"
 		(shape input)
 		(at 182.88 125.73 0)
 		(effects
@@ -2689,7 +2690,7 @@
 		)
 		(uuid "7a91d436-695b-485c-b597-e9555c34745e")
 	)
-	(hierarchical_label "CLKP"
+	(hierarchical_label "M13_HV_CLKP"
 		(shape input)
 		(at 182.88 107.95 0)
 		(effects
@@ -2700,7 +2701,7 @@
 		)
 		(uuid "9a072d35-04a9-4666-b482-132fcd13c307")
 	)
-	(hierarchical_label "D1P"
+	(hierarchical_label "M17_HV_D1P"
 		(shape input)
 		(at 182.88 120.65 0)
 		(effects
@@ -2711,7 +2712,7 @@
 		)
 		(uuid "a8f0b0bd-322b-4cd4-90bb-e8794977edc4")
 	)
-	(hierarchical_label "D0N"
+	(hierarchical_label "M14_HV_D0N"
 		(shape input)
 		(at 182.88 110.49 0)
 		(effects
@@ -2722,7 +2723,7 @@
 		)
 		(uuid "b0fb85dd-74a8-439a-a74c-3149b17bc866")
 	)
-	(hierarchical_label "CLKN"
+	(hierarchical_label "M12_HV_CLKN"
 		(shape input)
 		(at 182.88 105.41 0)
 		(effects
@@ -2733,7 +2734,7 @@
 		)
 		(uuid "bb2993ce-c59f-4e6e-9696-6f7e5322f1c6")
 	)
-	(hierarchical_label "D2N"
+	(hierarchical_label "M18_HV_D2N"
 		(shape input)
 		(at 182.88 123.19 0)
 		(effects
@@ -2845,7 +2846,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 164.973 84.709 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3215,7 +3216,7 @@
 		(dnp no)
 		(uuid "9a8623b5-4f12-414b-9121-7079934405ad")
 		(property "Reference" "D1"
-			(at 163.83 73.66 0)
+			(at 163.5125 68.6150 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3225,7 +3226,7 @@
 			)
 		)
 		(property "Value" "1N5819WS"
-			(at 163.83 68.58 0)
+			(at 163.5125 73.6250 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

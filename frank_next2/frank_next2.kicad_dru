@@ -14,7 +14,7 @@
 # RP2350 VREG blocks (U1 master, U5 slave): 0603 small-pad caps and the LX/1V1 escape between them use 0.15 mm, like the QFN pads.
 (rule "RP2350 VREG blocks"
 	(constraint clearance (min 0.15mm))
-	(condition "A.NetName == '+1V1' || A.NetName == '+1V1_A' || A.NetName == '/RP2350B/VREG_LX' || A.NetName == '/RP2350A/VREG_LX' || A.NetName == '/RP2350B/VREG_AVDD' || A.NetName == '/RP2350A/VREG_AVDD' || A.memberOfFootprint('C1') || A.memberOfFootprint('C2') || A.memberOfFootprint('C8') || A.memberOfFootprint('R4') || A.memberOfFootprint('L1') || A.memberOfFootprint('C17') || A.memberOfFootprint('C22') || A.memberOfFootprint('C25') || A.memberOfFootprint('C27') || A.memberOfFootprint('R18') || A.memberOfFootprint('L2')"))
+	(condition "A.NetName == '+1V1' || A.NetName == '+1V1_A' || A.NetName == '/RP2350B/M_VREG_LX' || A.NetName == '/RP2350A/S_VREG_LX' || A.NetName == '/RP2350B/M_VREG_AVDD' || A.NetName == '/RP2350A/S_VREG_AVDD' || A.memberOfFootprint('C1') || A.memberOfFootprint('C2') || A.memberOfFootprint('C8') || A.memberOfFootprint('R4') || A.memberOfFootprint('L1') || A.memberOfFootprint('C17') || A.memberOfFootprint('C22') || A.memberOfFootprint('C25') || A.memberOfFootprint('C27') || A.memberOfFootprint('R18') || A.memberOfFootprint('L2')"))
 
 # RP2350 VREG caps sit at the pin tips (reference layout), inside the MCU courtyard; VIN and VOUT caps abut (0.15 mm pad gap) to leave LX its channel; C19 hugs U3 (PSRAM) the same way.
 (rule "VREG caps inside the MCU courtyard"

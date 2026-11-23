@@ -10,6 +10,7 @@
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/frank")
+		(comment 2 "Block code: RT (RTC)")
 	)
 	(lib_symbols
 		(symbol "FRANK:+3V3"
@@ -1134,7 +1135,7 @@
 		)
 		(uuid "fa40f596-593c-445d-921b-e05bac8278c0")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "M2_IC_SDA"
 		(shape input)
 		(at 134.62 130.81 180)
 		(effects
@@ -1145,7 +1146,7 @@
 		)
 		(uuid "7d519c6b-f990-4cd6-b5e1-052d170b90ce")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "M3_IC_SCL"
 		(shape input)
 		(at 134.62 128.27 180)
 		(effects
@@ -1706,7 +1707,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 140.462 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2152,25 +2153,23 @@
 		(dnp no)
 		(uuid "d5f57ed1-8615-4870-a1b0-473b537c3f21")
 		(property "Reference" "C64"
-			(at 156.464 120.65 90)
+			(at 154.9400 113.5428 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 156.972 113.03 90)
+		(property "Value" "100n 50V"
+			(at 154.9400 120.1070 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"

@@ -10,6 +10,7 @@
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/frank")
+		(comment 2 "Block code: TA (tape in)")
 	)
 	(lib_symbols
 		(symbol "FRANK:+3V3"
@@ -1638,7 +1639,7 @@
 		)
 		(uuid "f7ba48ae-61fc-419a-8048-f0e1c43a256f")
 	)
-	(label "TAPE"
+	(label "TA_TAPE"
 		(at 107.95 110.49 0)
 		(effects
 			(font
@@ -1648,7 +1649,7 @@
 		)
 		(uuid "fa2d2152-4e33-491f-b0ad-dbbda6290011")
 	)
-	(hierarchical_label "LOAD_IN"
+	(hierarchical_label "M44_TA_LOAD_IN"
 		(shape input)
 		(at 180.34 96.52 0)
 		(effects
@@ -1749,25 +1750,23 @@
 		(dnp no)
 		(uuid "1afa636e-5362-4484-94fb-479c55aeef3b")
 		(property "Reference" "C62"
-			(at 194.2084 85.471 0)
+			(at 193.0400 79.2830 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 191.897 85.471 0)
+		(property "Value" "100n 50V"
+			(at 193.0400 85.8170 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
@@ -2875,25 +2874,23 @@
 		(dnp no)
 		(uuid "cfa1e2dd-e114-48d3-937a-20f3e3e24292")
 		(property "Reference" "C61"
-			(at 133.35 106.68 90)
+			(at 132.0800 107.2230 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 134.62 114.3 90)
+		(property "Value" "100n 50V"
+			(at 132.0800 113.7570 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric"

@@ -1070,7 +1070,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -10.16 0)
+					(at -12.7 -7.62 0)
 					(length 2.54)
 					(name "WL_ON"
 						(effects
@@ -1088,7 +1088,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -12.7 0)
+					(at -12.7 -10.16 0)
 					(length 2.54)
 					(name "BT_ON"
 						(effects
@@ -1376,16 +1376,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 99.06) (xy 121.92 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31eb9d70-e923-45cc-af37-fa15ffec3ce0")
-	)
-	(wire
-		(pts
 			(xy 177.8 83.82) (xy 177.8 86.36)
 		)
 		(stroke
@@ -1446,7 +1436,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 101.6) (xy 121.92 99.06)
+			(xy 121.92 99.06) (xy 121.92 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1466,7 +1456,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 99.06) (xy 99.06 99.06)
+			(xy 88.9 99.06) (xy 121.92 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1466,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 121.92 101.6)
+			(xy 127 96.52) (xy 121.92 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1634,7 +1624,7 @@
 		)
 		(uuid "ee393d83-a64e-4736-a017-419152804d52")
 	)
-	(hierarchical_label "CLK"
+	(hierarchical_label "S29_RF_CLK"
 		(shape input)
 		(at 88.9 76.2 180)
 		(effects
@@ -1645,7 +1635,7 @@
 		)
 		(uuid "0a14fa35-8fbd-4940-9297-398c1a24c450")
 	)
-	(hierarchical_label "CS"
+	(hierarchical_label "S26_RF_CS"
 		(shape input)
 		(at 88.9 78.74 180)
 		(effects
@@ -1656,7 +1646,7 @@
 		)
 		(uuid "272e6c8e-17b6-49d9-b5b4-09d19f6ae791")
 	)
-	(hierarchical_label "DATA"
+	(hierarchical_label "S27_RF_DATA"
 		(shape bidirectional)
 		(at 88.9 83.82 180)
 		(effects
@@ -1667,7 +1657,7 @@
 		)
 		(uuid "9ad1d4bb-6a19-4cbc-b647-95e8776e0ea8")
 	)
-	(hierarchical_label "WL_ON"
+	(hierarchical_label "S28_RF_WLON"
 		(shape input)
 		(at 88.9 99.06 180)
 		(effects
@@ -1879,7 +1869,7 @@
 		(dnp no)
 		(uuid "29fabde8-237b-46ec-b5ae-83476e345ab6")
 		(property "Reference" "R61"
-			(at 116.84 91.948 90)
+			(at 116.8400 91.7290 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1889,7 +1879,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 116.84 93.98 90)
+			(at 116.8400 96.2310 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2277,7 +2267,7 @@
 		(dnp no)
 		(uuid "62104623-6a28-4b19-979b-8b81e6823ead")
 		(property "Reference" "R62"
-			(at 160.02 81.788 90)
+			(at 160.0200 81.5690 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2287,7 +2277,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 160.02 83.82 90)
+			(at 160.0200 86.1012 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2377,7 +2367,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u 25V"
 			(at 155.575 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2459,7 +2449,7 @@
 		(dnp no)
 		(uuid "7321eb38-680d-42af-b037-c72dd78f97f8")
 		(property "Reference" "R60"
-			(at 116.84 86.868 90)
+			(at 116.8400 82.6486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2469,7 +2459,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 116.84 88.9 90)
+			(at 116.8400 85.2188 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2559,7 +2549,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 165.735 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2651,7 +2641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 175.895 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2744,7 +2734,7 @@
 			)
 		)
 		(property "Value" "RMC20452T"
-			(at 129.54 109.22 0)
+			(at 152.0600 91.4400 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -10,6 +10,7 @@
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/frank")
+		(comment 2 "Block code: SD (micro SD)")
 	)
 	(lib_symbols
 		(symbol "FRANK:+3V3"
@@ -1292,7 +1293,7 @@
 		)
 		(uuid "fb589df2-6965-4e51-8dff-70b63c355cff")
 	)
-	(hierarchical_label "CMD"
+	(hierarchical_label "M0_SD_CMD"
 		(shape input)
 		(at 128.27 92.71 180)
 		(effects
@@ -1303,7 +1304,7 @@
 		)
 		(uuid "0f28b9c8-1192-4730-a10b-b58e3987bcbe")
 	)
-	(hierarchical_label "DAT1"
+	(hierarchical_label "M5_SD_DAT1"
 		(shape input)
 		(at 128.27 105.41 180)
 		(effects
@@ -1314,7 +1315,7 @@
 		)
 		(uuid "34fdfc9c-ba2b-4922-b63a-5a0a9f1979ea")
 	)
-	(hierarchical_label "DAT0"
+	(hierarchical_label "M4_SD_DAT0"
 		(shape input)
 		(at 128.27 102.87 180)
 		(effects
@@ -1325,7 +1326,7 @@
 		)
 		(uuid "63c1c3d4-ac29-4a46-8af2-5e5fa9d4df4a")
 	)
-	(hierarchical_label "DAT2"
+	(hierarchical_label "M6_SD_DAT2"
 		(shape input)
 		(at 128.27 87.63 180)
 		(effects
@@ -1336,7 +1337,7 @@
 		)
 		(uuid "6f67c1ea-f30b-4715-b2fa-bc304d22e8dc")
 	)
-	(hierarchical_label "DAT3"
+	(hierarchical_label "M7_SD_CD_DAT3"
 		(shape input)
 		(at 128.27 90.17 180)
 		(effects
@@ -1347,7 +1348,7 @@
 		)
 		(uuid "7b201f4b-b7d9-4551-abed-f5334215f9bb")
 	)
-	(hierarchical_label "CD"
+	(hierarchical_label "X1_SD_CD"
 		(shape output)
 		(at 128.27 107.95 180)
 		(effects
@@ -1358,7 +1359,7 @@
 		)
 		(uuid "904a36df-0055-4d75-bfde-c23b8d7e5a6a")
 	)
-	(hierarchical_label "CLK"
+	(hierarchical_label "M1_SD_CLK"
 		(shape input)
 		(at 128.27 97.79 180)
 		(effects
@@ -2331,7 +2332,7 @@
 		(dnp no)
 		(uuid "ce0726a6-f369-484f-9219-c31122f03ae7")
 		(property "Reference" "C40"
-			(at 97.409 100.2284 0)
+			(at 102.8620 97.7900 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2341,8 +2342,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 97.409 97.917 0)
+		(property "Value" "10u 25V"
+			(at 102.8620 100.3300 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2512,7 +2513,7 @@
 		(dnp no)
 		(uuid "dd634246-01ca-4fe8-bc4f-7812ab182c74")
 		(property "Reference" "C41"
-			(at 111.379 100.2284 0)
+			(at 116.7130 100.7372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2522,8 +2523,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 111.379 97.917 0)
+		(property "Value" "100n 50V"
+			(at 120.9182 100.7372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

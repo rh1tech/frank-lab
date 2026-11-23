@@ -10,6 +10,7 @@
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/frank")
+		(comment 2 "Block code: AU (audio codec, speaker, headphones)")
 	)
 	(lib_symbols
 		(symbol "FRANK:+1V8"
@@ -3363,7 +3364,7 @@
 		)
 		(uuid "ff627cb9-6bbe-4c8b-b9a8-91e0c7f9ecba")
 	)
-	(label "SPKM"
+	(label "AU_SPKM"
 		(at 181.61 92.71 0)
 		(effects
 			(font
@@ -3373,7 +3374,7 @@
 		)
 		(uuid "0296f74b-2a29-42f2-b067-cd313e6972d0")
 	)
-	(label "SPKP"
+	(label "AU_SPKP"
 		(at 138.43 91.44 90)
 		(effects
 			(font
@@ -3383,7 +3384,7 @@
 		)
 		(uuid "3c7e1c23-5fa8-407e-bd3f-d8e1d24788eb")
 	)
-	(label "SPKP"
+	(label "AU_SPKP"
 		(at 181.61 90.17 0)
 		(effects
 			(font
@@ -3393,7 +3394,7 @@
 		)
 		(uuid "49b947cc-c918-4664-ab01-a2b697aadd9a")
 	)
-	(label "SPKM"
+	(label "AU_SPKM"
 		(at 148.59 114.3 0)
 		(effects
 			(font
@@ -3403,7 +3404,7 @@
 		)
 		(uuid "77ac60d3-80c4-47d7-919a-e3d408188628")
 	)
-	(label "SPKM"
+	(label "AU_SPKM"
 		(at 148.59 124.46 0)
 		(effects
 			(font
@@ -3433,7 +3434,7 @@
 		)
 		(uuid "ad265060-6344-4d79-b584-3acabee5131e")
 	)
-	(label "SPKP"
+	(label "AU_SPKP"
 		(at 148.59 116.84 0)
 		(effects
 			(font
@@ -3443,7 +3444,7 @@
 		)
 		(uuid "b7b8ca94-fb05-4581-96e5-7a4b6c609aab")
 	)
-	(hierarchical_label "BCLK"
+	(hierarchical_label "M9_AU_BCLK"
 		(shape input)
 		(at 113.03 127 180)
 		(effects
@@ -3454,7 +3455,7 @@
 		)
 		(uuid "163d24f7-569f-46f1-830d-1f9135f19e67")
 	)
-	(hierarchical_label "DIN"
+	(hierarchical_label "M11_AU_DIN"
 		(shape input)
 		(at 113.03 121.92 180)
 		(effects
@@ -3465,7 +3466,7 @@
 		)
 		(uuid "29bda974-270d-4c6e-b1b2-263486511ae5")
 	)
-	(hierarchical_label "WCLK"
+	(hierarchical_label "M10_AU_WCLK"
 		(shape input)
 		(at 113.03 124.46 180)
 		(effects
@@ -3476,7 +3477,7 @@
 		)
 		(uuid "2d2de600-4038-42e9-a2e6-aeeccdfcece9")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "M2_IC_SDA"
 		(shape input)
 		(at 120.65 163.83 270)
 		(effects
@@ -3487,7 +3488,7 @@
 		)
 		(uuid "41c865e2-2374-4d0f-84b3-2876e2667b04")
 	)
-	(hierarchical_label "MCLK"
+	(hierarchical_label "M8_AU_MCLK"
 		(shape input)
 		(at 113.03 129.54 180)
 		(effects
@@ -3498,7 +3499,7 @@
 		)
 		(uuid "491c6db5-dec6-4075-8bd5-396e38e990a7")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "M3_IC_SCL"
 		(shape input)
 		(at 123.19 163.83 270)
 		(effects
@@ -3700,25 +3701,25 @@
 		(dnp no)
 		(uuid "068dd316-c88d-43c0-a009-a136f55b0848")
 		(property "Reference" "C50"
-			(at 150.749 134.5184 0)
+			(at 153.2200 131.4530 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10uF"
-			(at 150.749 132.207 0)
+		(property "Value" "10u 25V"
+			(at 153.2200 135.2470 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
@@ -3891,14 +3892,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 104.14 90)
+			(at 106.6800 103.1050 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4046,14 +4046,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 97.79 90)
+			(at 157.4800 96.7550 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4123,7 +4122,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 167.64 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4372,25 +4371,23 @@
 		(dnp no)
 		(uuid "1bcb9f07-386b-41ae-b0ea-0680382ec369")
 		(property "Reference" "C55"
-			(at 211.9884 113.411 0)
+			(at 210.8200 107.2230 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 209.677 113.411 0)
+		(property "Value" "10u 25V"
+			(at 210.8200 113.7570 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
@@ -4475,25 +4472,25 @@
 		(dnp no)
 		(uuid "1d177fef-4977-44c5-abdd-b4fce649dafc")
 		(property "Reference" "C54"
-			(at 168.91 104.14 90)
+			(at 170.1720 104.1400 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 171.45 107.95 90)
+		(property "Value" "100n 50V"
+			(at 170.1720 106.6800 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
@@ -5230,7 +5227,7 @@
 		(dnp no)
 		(uuid "471166a9-e76e-4967-af07-8b7f4ecd0ae1")
 		(property "Reference" "C51"
-			(at 152.4 102.87 0)
+			(at 154.9480 104.1400 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5240,8 +5237,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 149.86 105.41 0)
+		(property "Value" "10u 25V"
+			(at 154.9480 106.6800 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5343,7 +5340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100u 10V"
 			(at 137.16 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5503,25 +5500,23 @@
 		(dnp no)
 		(uuid "687a277f-4235-4e2f-acf1-678ca2466e92")
 		(property "Reference" "C49"
-			(at 149.7584 86.741 0)
+			(at 148.5900 87.1172 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 147.447 86.741 0)
+		(property "Value" "100n 50V"
+			(at 148.5900 88.9920 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
@@ -5616,7 +5611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u 50V"
 			(at 115.697 89.281 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5787,7 +5782,7 @@
 		(dnp no)
 		(uuid "7ced9d4e-1504-4e0f-87ef-e13c90837174")
 		(property "Reference" "J8"
-			(at 177.165 85.09 0)
+			(at 177.1650 88.8080 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5797,7 +5792,7 @@
 			)
 		)
 		(property "Value" "Speaker"
-			(at 177.165 87.63 0)
+			(at 177.1650 94.2837 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5888,25 +5883,23 @@
 		(dnp no)
 		(uuid "7e98207a-63f7-40d7-bc75-5f2334447d6e")
 		(property "Reference" "C56"
-			(at 214.5284 142.621 0)
+			(at 213.3600 136.4330 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 212.217 142.621 0)
+		(property "Value" "1u 50V"
+			(at 213.3600 142.9670 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
@@ -6415,7 +6408,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u 25V"
 			(at 147.32 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6930,7 +6923,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n 50V"
 			(at 100.33 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7578,25 +7571,25 @@
 		(dnp no)
 		(uuid "c9fdbc87-d4fa-4686-b479-3d99582d2895")
 		(property "Reference" "C44"
-			(at 113.03 106.68 0)
+			(at 102.7430 107.6628 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10uF"
-			(at 113.03 104.14 0)
+		(property "Value" "10u 25V"
+			(at 107.0086 107.6628 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
@@ -7848,14 +7841,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 127 90)
+			(at 97.7900 128.0350 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7915,25 +7907,25 @@
 		(dnp no)
 		(uuid "e5839357-1673-4f71-95db-76a2d34f4e86")
 		(property "Reference" "C53"
-			(at 160.02 96.52 0)
+			(at 168.1480 108.2070 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10uF"
-			(at 160.02 99.06 0)
+		(property "Value" "10u 25V"
+			(at 172.3532 108.2070 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
@@ -8119,25 +8111,25 @@
 		(dnp no)
 		(uuid "eaeabb5d-5520-49ab-ab95-992c617fd276")
 		(property "Reference" "C43"
-			(at 98.679 121.8184 0)
+			(at 99.0680 119.3800 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 98.679 119.507 0)
+		(property "Value" "100n 50V"
+			(at 99.0680 121.9200 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
@@ -8378,25 +8370,25 @@
 		(dnp no)
 		(uuid "fdb922ff-ad19-498c-a6f9-0dbb662e56db")
 		(property "Reference" "C46"
-			(at 129.54 77.47 90)
+			(at 125.2380 71.1200 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100uF"
-			(at 129.54 71.12 90)
+		(property "Value" "100u 10V"
+			(at 125.2380 73.6600 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "FRANK:C_1206_3216Metric"
