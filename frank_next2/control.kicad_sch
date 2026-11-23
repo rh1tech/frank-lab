@@ -1926,7 +1926,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "U31 74LVC1G74GT BOOTSEL latch: reset button net M_RSTB (S2, R78) clocks BOOT into Q;\nRP2350B RUN follows via R83 10K / C109 1uF (~10 ms later), so D = BOOT is stable.\nBOOT held during reset -> Q = L -> U19 routes RP2350B USB to J10 (PC / BOOTSEL).\nNormal reset -> Q = H -> USB to the CH334F hub (USB-A ports).\nX2 low forces J10 (RD), X3 low forces the hub (SD); never both low."
+	(text "U12 74LVC1G74GT BOOTSEL latch: reset button net M_RSTB (S2, R36) clocks BOOT into Q;\nRP2350B RUN follows via R37 10K / C59 1uF (~10 ms later), so D = BOOT is stable.\nC93 100nF holds ~RD low at cold power-on so Q clears to L (J10 / BOOTSEL).\nBOOT held during reset -> Q = L -> U19 routes RP2350B USB to J10 (PC / BOOTSEL).\nNormal reset -> Q = H -> USB to the CH334F hub (USB-A ports).\nX2 low forces J10 (RD), X3 low forces the hub (SD); never both low."
 		(exclude_from_sim no)
 		(at 152.4 30.48 0)
 		(effects
@@ -1937,7 +1937,7 @@
 		)
 		(uuid "1200ed35-0109-4ec6-8836-7c55ce76d4e0")
 	)
-	(text "LD2 WS2812B on RP2350B GPIO43, powered from VBUS via D2 (~4.4 V)\nso the 3.3 V DIN still meets its VIH. R29 330R: data series."
+	(text "LD1 WS2812B on RP2350B GPIO43, powered from VBUS via D2 (~4.4 V)\nso the 3.3 V DIN still meets its VIH. R34 330R: data series."
 		(exclude_from_sim no)
 		(at 40.64 158.75 0)
 		(effects
@@ -1948,7 +1948,7 @@
 		)
 		(uuid "f4ea9a7c-8f28-4c54-a6c6-6c38a9f348fd")
 	)
-	(text "U30 PCF8574 I/O expander on the master I2C (GPIO2 SDA / GPIO3 SCL), address 0x20.\nPCF8574 is a 100 kHz part: run the whole I2C bus at 100 kHz.\nPorts are quasi-bidirectional (strong low, weak high); all high after power-on.\nP0 = S_RUN: RP2350A RUN via R13 1K (R2 pull-up, S4 button).  P2 / P3 = USB mux overrides.\nP1 = SD card detect (J6 pin 9).  P5 spare (RM2 WL_ON moved to slave GPIO28).\nP4, P6, P7 spare.  Firmware: write all 8 bits at init, then pulse P3 low once (hub)."
+	(text "U11 PCF8574 I/O expander on the master I2C (GPIO2 SDA / GPIO3 SCL), address 0x20.\nPCF8574 is a 100 kHz part: run the whole I2C bus at 100 kHz.\nPorts are quasi-bidirectional (strong low, weak high); all high after power-on.\nP0 = S_RUN: RP2350A RUN via R35 1K (R1 pull-up, S4 button).  P2 / P3 = USB mux overrides.\nP1 = SD card detect (J6 pin 9).  P5 spare (RM2 WL_ON moved to slave GPIO28).\nP4, P6, P7 spare.  Firmware: write all 8 bits at init, then pulse P3 low once (hub)."
 		(exclude_from_sim no)
 		(at 40.64 30.48 0)
 		(effects
@@ -2372,6 +2372,26 @@
 			(type default)
 		)
 		(uuid "f653eecd-4ecb-497f-bc8b-133825bf695a")
+	)
+	(wire
+		(pts
+			(xy 205.74 55.88) (xy 208.28 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b41c72d9-82f0-4a6b-9d1e-7c38a290f114")
+	)
+	(label "X2_USB_FORCE_C"
+		(at 205.74 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c52d83ea-93f1-4b7c-8e2f-8d49b3a1e225")
 	)
 	(label "X3_USB_FORCE_HUB"
 		(at 129.54 76.2 0)
@@ -3880,6 +3900,175 @@
 		)
 	)
 	(symbol
+		(lib_id "FRANK:C")
+		(at 208.28 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a4c8d12-35f6-4b89-9c2a-71e84f23b901")
+		(property "Reference" "C93"
+			(at 208.915 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 208.915 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FRANK:C_0603_1608Metric"
+			(at 208.28 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
+			(at 208.28 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 208.28 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4427941f-6334-4645-bf9a-4760e7ce05d5")
+		)
+		(pin "2"
+			(uuid "3e378272-184c-4767-b948-2233eefeb166")
+		)
+		(instances
+			(project "frank_next2"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:GND")
+		(at 208.28 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "2b9477df-9cec-4051-a199-2b98c083b91b")
+		(property "Reference" "#PWR0999"
+			(at 208.28 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b44f1e80-cb75-4282-ac69-d86f013ebe6a")
+		)
+		(instances
+			(project "frank_next2"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
+					(reference "#PWR0999")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:D_Schottky")
 		(at 76.2 124.46 90)
 		(unit 1)
@@ -3932,7 +4121,7 @@
 				)
 			)
 		)
-		(property "Description" "Switching diode. Silicon drop (~0.6-0.9V) sets LD2 VDD to ~4.1-4.3V so the 3.3V DIN meets VIH = 0.7*VDD"
+		(property "Description" "Switching diode. Silicon drop (~0.6-0.9V) sets LD1 VDD to ~4.1-4.3V so the 3.3V DIN meets VIH = 0.7*VDD"
 			(at 76.2 124.46 0)
 			(hide yes)
 			(show_name no)

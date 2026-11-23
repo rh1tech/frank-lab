@@ -5521,7 +5521,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "F1 / F2: 2.6 A polyfuse, D4 / D5: SMAJ5.0A TVS\nper USB-C input (TPS2116 / CH217A / SY8089\nare 6 V abs-max). U15 / U16 ESD at the connector."
+	(text "F2 / F3: 2.6 A polyfuse, D4 / D5: SMAJ5.0A TVS\nper USB-C input (TPS2116 / CH217A / SY8089\nare 6 V abs-max). U14 / U15 ESD at the connector."
 		(exclude_from_sim no)
 		(at 17.78 160.02 0)
 		(effects
@@ -5532,7 +5532,7 @@
 		)
 		(uuid "473140ba-87a2-4c17-9000-cdfb7a586dd2")
 	)
-	(text "Power path: J11 (VIN1) / J10 (VIN2) ->\nU17 TPS2116. J11 is preferred while its\nVBUS is above ~4 V (R60 / R61 on PR1,\nMODE tied to VIN1). R62: DNP.\nS8 -> U18 AO3401A P-FET: R64 holds it\noff, S8 pulls the gate low via R66,\nC84 = soft start. JP5 bypasses S8.\nVBUS -> L5 ferrite -> U20 SY8089 buck:\n3V3 = 0.6 V x (1 + R68 / R69)."
+	(text "Power path: J11 (VIN1) / J10 (VIN2) ->\nU17 TPS2116. J11 is preferred while its\nVBUS is above ~4 V (R49 / R50 on PR1,\nMODE tied to VIN1). R51: DNP.\nS5 -> U18 AO3401A P-FET: R54 holds it\noff, S5 pulls the gate low via R55,\nC73 = soft start. JP1 bypasses S5.\nVBUS -> L4 ferrite -> U20 SY8089 buck:\n3V3 = 0.6 V x (1 + R57 / R58)."
 		(exclude_from_sim no)
 		(at 88 158 0)
 		(effects
@@ -5543,7 +5543,7 @@
 		)
 		(uuid "9faa3c89-fa1f-4fe6-addb-02e2eb76acb4")
 	)
-	(text "USB data: J11 -> RP2350A USB (direct).\nU19: RP2350B -> J10 (S = L, PC / BOOTSEL)\nor hub (S = H); S = USB_SEL from the latch.\nC94 / C95 DNP (CH334 has 16 pF inside).\nNeeds a 5 V / 3 A supply."
+	(text "USB data: J11 -> RP2350A USB (direct).\nU19: RP2350B -> J10 (S = L, PC / BOOTSEL)\nor hub (S = H); S = USB_SEL from the latch.\nC83 / C84 DNP (CH334 has 16 pF inside).\nNeeds a 5 V / 3 A supply."
 		(exclude_from_sim no)
 		(at 106.68 195.58 0)
 		(effects
@@ -5565,7 +5565,7 @@
 		)
 		(uuid "fee8bdb5-5c91-4919-8c77-ba9ce455ae92")
 	)
-	(text "USB-A VBUS: U24 CH217A gangs\nall 3 ports (CH334F gang mode),\nR71 39K = 1.54 A typ total.\nC114 330 uF polymer (Wurth\n875105144010) on VBUS_A.\nC77 100 uF + C101 10 uF on VBUS."
+	(text "USB-A VBUS: U16 CH217A gangs\nall 3 ports (CH334F gang mode),\nR52 39K = 1.54 A typ total.\nC71 330 uF polymer (Wurth\n875105144010) on VBUS_A.\nC65 100 uF + C72 / C82 10 uF on VBUS."
 		(exclude_from_sim no)
 		(at 135.89 182.88 0)
 		(effects

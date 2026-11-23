@@ -1253,7 +1253,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "RM2 (Raspberry Pi Radio Module 2, CYW43439) on the RP2350A slave, gSPI via PIO:\nCLK = GPIO29, CS = GPIO26, DATA = GPIO27 (DATA_IN direct, DATA_OUT via R80 470R,\nnIRQ via R81 10K, as on Pico 2 W). Set CYW43_DEFAULT_PIN_WL_* to these pins.\nLD5 (green, R82 470R) on RM2 GPIO0 = slave status LED, works once the cyw43 driver runs.\nWL_ON + BT_ON = slave GPIO28 (cyw43 WL_REG_ON pin; CYW43439 200K pull-downs keep the radio off until firmware).\nThe slave cyw43 driver resets the radio itself: GPIO27 (DATA) low, WL_ON low >= 10 ms, high, wait >= 150 ms.\nPCB: keep the 35.5 x 18.5 mm RF keep-out (footprint rule area) free of copper on all layers;\nantenna end at the board edge."
+	(text "RM2 (Raspberry Pi Radio Module 2, CYW43439) on the RP2350A slave, gSPI via PIO:\nCLK = GPIO29, CS = GPIO26, DATA = GPIO27 (DATA_IN direct, DATA_OUT via R60 470R,\nnIRQ via R61 10K, as on Pico 2 W). Set CYW43_DEFAULT_PIN_WL_* to these pins.\nLD3 (green, R62 470R) on RM2 GPIO0 = slave status LED, works once the cyw43 driver runs.\nWL_ON + BT_ON = slave GPIO28 (cyw43 WL_REG_ON pin; CYW43439 200K pull-downs keep the radio off until firmware).\nThe slave cyw43 driver resets the radio itself: GPIO27 (DATA) low, WL_ON low >= 10 ms, high, wait >= 150 ms.\nPCB: keep the 35.5 x 18.5 mm RF keep-out (footprint rule area) free of copper on all layers;\nantenna end at the board edge."
 		(exclude_from_sim no)
 		(at 40.64 132.08 0)
 		(effects

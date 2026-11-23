@@ -4299,7 +4299,7 @@
 		)
 		(uuid "00f09909-a5bd-48f6-b5b1-767c3cb8bf07")
 	)
-	(text "J1: RP2350B console UART,\nR4 / R5 330R series protection."
+	(text "J1: RP2350B console UART,\nR2 / R3 330R series protection."
 		(exclude_from_sim no)
 		(at 22 186 0)
 		(effects
@@ -4310,7 +4310,7 @@
 		)
 		(uuid "0b77d8f8-6562-4b46-b03b-fed40fd919a1")
 	)
-	(text "BOOTSEL: S1 pulls QSPI_SS low\nvia R7 1K. R16 10K keeps the\nflash CS high while QSPI_SS floats."
+	(text "BOOTSEL: S1 pulls QSPI_SS low\nvia R5 1K. R13 10K keeps the\nflash CS high while QSPI_SS floats."
 		(exclude_from_sim no)
 		(at 15 73 0)
 		(effects
@@ -4352,7 +4352,7 @@
 		)
 		(uuid "3b207dfb-c799-4af7-bfb0-4e00921dd6dc")
 	)
-	(text "Core supply: L1 3.3uH + C2 / C6 4.7uF\nform the on-chip buck - keep the VREG_LX /\nVREG_PGND loop short. R6 33R + C8 4.7uF\nfilter VREG_AVDD."
+	(text "Core supply: L1 3.3uH + C2 / C6 4.7uF\nform the on-chip buck - keep the VREG_LX /\nVREG_PGND loop short. R4 33R + C8 4.7uF\nfilter VREG_AVDD."
 		(exclude_from_sim no)
 		(at 15 141 0)
 		(effects
@@ -4445,7 +4445,7 @@
 		)
 		(uuid "b3182be7-cb6e-4f77-b527-40a8ed672970")
 	)
-	(text "R17 2.2K keeps the PSRAM CS high during boot."
+	(text "R14 2.2K keeps the PSRAM CS high during boot."
 		(exclude_from_sim no)
 		(at 210 85.5 0)
 		(effects
@@ -4466,7 +4466,7 @@
 		)
 		(uuid "c2acbd1e-7112-49af-9b28-b419913dfd48")
 	)
-	(text "Y1: R8 1K limits crystal\ndrive, C3 / C4 15pF load."
+	(text "Y1: R6 1K limits crystal\ndrive, C3 / C4 15pF load."
 		(exclude_from_sim no)
 		(at 15 121 0)
 		(effects
@@ -9216,7 +9216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric_small_pads_Via"
+		(property "Footprint" "FRANK:R_0603_1608Metric"
 			(at 218.44 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9801,7 +9801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
+		(property "Footprint" "FRANK:C_0603_1608Metric"
 			(at 252.4252 60.96 0)
 			(hide yes)
 			(show_name no)

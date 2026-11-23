@@ -4987,7 +4987,7 @@
 		)
 		(uuid "6f52affa-a471-4097-a854-9a242b0f232c")
 	)
-	(text "Core supply: L2 3.3uH + C22 / C25\n4.7uF = on-chip buck, keep the loop short.\nR21 33R + C27 4.7uF filter VREG_AVDD."
+	(text "Core supply: L2 3.3uH + C25 / C28\n4.7uF = on-chip buck, keep the loop short.\nR18 33R + C27 4.7uF filter VREG_AVDD."
 		(exclude_from_sim no)
 		(at 15 84 0)
 		(effects
@@ -5039,7 +5039,7 @@
 		)
 		(uuid "a7579c15-070b-4fb2-929d-15f09a937bc5")
 	)
-	(text "S3 BOOT: QSPI_SS low via R22 1K.\nRUN (S_RUN) = U30 P0 via R13 (Control sheet)."
+	(text "S3 BOOT: QSPI_SS low via R19 1K.\nRUN (S_RUN) = U11 P0 via R35 (Control sheet)."
 		(exclude_from_sim no)
 		(at 15 128 0)
 		(effects
@@ -8981,7 +8981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
+		(property "Footprint" "FRANK:C_0603_1608Metric"
 			(at 35.56 159.0548 0)
 			(hide yes)
 			(show_name no)
@@ -10896,7 +10896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
+		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via"
 			(at 211.7852 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -13381,7 +13381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:R_0603_1608Metric_small_pads_Via"
+		(property "Footprint" "FRANK:R_0603_1608Metric"
 			(at 26.67 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -14072,7 +14072,7 @@
 			)
 		)
 	)
-	(text "PSRAM: one APS6404L (U6, 8 MB) on QMI CS1 = GPIO0, R21 2.2K pull-up.\nGPIO28 is free."
+	(text "PSRAM: one APS6404L (U6, 8 MB) on QMI CS1 = GPIO0, R21 2.2K pull-up.\nGPIO28 = S28_RF_WLON (RM2 WL_ON + BT_ON)."
 		(exclude_from_sim no)
 		(at 220.98 123.19 0)
 		(effects

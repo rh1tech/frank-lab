@@ -1341,7 +1341,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "VBUS_A: switched USB-A VBUS from the shared CH217A (USB sheet).\nC100 100nF at the connector; TPD4S012: ESD for D+ / D- / VBUS."
+	(text "VBUS_A: switched USB-A VBUS from the shared CH217A (USB sheet).\nC87 / C88 / C89 100nF at the connector; TPD4S012: ESD for D+ / D- / VBUS."
 		(exclude_from_sim no)
 		(at 95 118 0)
 		(effects
@@ -1894,7 +1894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
+		(property "Footprint" "FRANK:C_0603_1608Metric"
 			(at 117.1448 78.74 0)
 			(hide yes)
 			(show_name no)

@@ -2660,7 +2660,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "U9 TLV320DAC3100, I2C address 0x18 on GPIO2 / GPIO3\n(shared with RTC U13, R36 / R37 4.7K pull-ups).\nI2S: MCLK GPIO8, BCLK GPIO9, WCLK GPIO10, DIN GPIO11.\nDVDD 1.8 V from U10 XC6206 LDO.\nSPKVDD from VBUS through L3 ferrite; C55 / C52 / C54 at the SPKVDD pins.\nHeadphone HPL / HPR AC-coupled by C47 / C48 100uF.\nR38 10K + C46 100nF: power-on reset."
+	(text "U9 TLV320DAC3100, I2C address 0x18 on GPIO2 / GPIO3\n(shared with RTC U13 and U11, R31 / R32 4.7K pull-ups).\nI2S: MCLK GPIO8, BCLK GPIO9, WCLK GPIO10, DIN GPIO11.\nDVDD 1.8 V from U10 XC6206 LDO.\nSPKVDD from VBUS through L3 ferrite; C51 / C53 / C54 at the SPKVDD pins.\nHeadphone HPL / HPR AC-coupled by C47 / C46 100uF.\nR33 10K + C45 1uF: power-on reset."
 		(exclude_from_sim no)
 		(at 150 20 0)
 		(effects
@@ -5616,7 +5616,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 115.697 89.281 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5638,7 +5638,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586178652413841408"
 			(at 116.84 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5660,7 +5660,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C5199872"
 			(at -31.75 2.54 0)
 			(hide yes)
 			(show_name no)

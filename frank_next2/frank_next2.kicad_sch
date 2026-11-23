@@ -919,7 +919,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Inter-MCU bus, mirrored for planar routing (U1 / U5 side by side, both rotated 180 deg):\nmaster GPIO(20+i) <-> slave GPIO(23-i).  Master pins unchanged.  Lane 1: D0-D7 = M20-27 / S23-16,\nCLK M28 / S15, VLD M29 / S14.  Lane 2: D0-D7 = M30-37 / S13-6, CLK M38 / S5, VLD M39 / S4,\nFS M40 / S3, DB_MS M41 / S2, DB_SM M42 / S1.  Data bits arrive reversed on the slave (PIO mov x, ::y).\nR9-R12 100R series on the master CLK / VLD pins.  RP2350A RUN (S_RUN): R2 pull-up,\nheld in reset by U30 P0 (Control sheet) via R13 1K."
+	(text "Inter-MCU bus, mirrored for planar routing (U1 / U5 side by side, both rotated 180 deg):\nmaster GPIO(20+i) <-> slave GPIO(23-i).  Master pins unchanged.  Lane 1: D0-D7 = M20-27 / S23-16,\nCLK M28 / S15, VLD M29 / S14.  Lane 2: D0-D7 = M30-37 / S13-6, CLK M38 / S4, VLD M39 / S5,\nFS M40 / S3, DB_MS M41 / S2, DB_SM M42 / S1.  Data bits arrive reversed on the slave (PIO mov x, ::y).\nR7-R10 100R series on the master CLK / VLD pins.  RP2350A RUN (S_RUN): R1 pull-up,\nheld in reset by U11 P0 (Control sheet) via R35 1K."
 		(exclude_from_sim no)
 		(at 178 105 0)
 		(effects
@@ -1962,7 +1962,7 @@
 		)
 		(uuid "fdcf904c-c4d0-466d-9f93-a07d71b93940")
 	)
-	(label "BUS2_VLD"
+	(label "BUS2_CLK"
 		(at 123.19 86.36 0)
 		(effects
 			(font
@@ -2372,7 +2372,7 @@
 		)
 		(uuid "7085975e-62ff-4c7a-a822-ac51146864f3")
 	)
-	(label "BUS2_CLK"
+	(label "BUS2_VLD"
 		(at 123.19 88.9 0)
 		(effects
 			(font
