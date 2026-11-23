@@ -1342,7 +1342,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "VBUS_A: switched USB-A VBUS from the shared CH217A (USB sheet).\nC87 / C88 / C89 100nF at the connector; TPD4S012: ESD for D+ / D- / VBUS."
+	(text "VBUS_A: switched USB-A VBUS from the shared CH217A (USB sheet).\nC25 / C23 / C24 100nF at the connector; TPD4S012: ESD for D+ / D- / VBUS."
 		(exclude_from_sim no)
 		(at 95 118 0)
 		(effects
@@ -1582,7 +1582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d070415a-6719-4045-95fb-67fa9fa0b67a")
-		(property "Reference" "U22"
+		(property "Reference" "U15"
 			(at 135.89 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1729,15 +1729,15 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/59117b12-5b6b-44b2-a156-736b6d28e254"
-					(reference "U24")
+					(reference "U13")
 					(unit 1)
 				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/d4a81e63-9f27-4c05-b8ea-3f61c07d2a95"
-					(reference "U22")
+					(reference "U15")
 					(unit 1)
 				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/e58c2f74-a038-4d16-c9fb-4a72d18e3b06"
-					(reference "U23")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -1755,7 +1755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dca389f8-1937-4b5d-937f-fb0335d1c2dc")
-		(property "Reference" "J12"
+		(property "Reference" "J3"
 			(at 102.87 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1766,7 +1766,7 @@
 			)
 		)
 		(property "Value" "676430910"
-			(at 102.8700 83.6248 0)
+			(at 102.87 83.6248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1848,15 +1848,15 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/59117b12-5b6b-44b2-a156-736b6d28e254"
-					(reference "J14")
+					(reference "J1")
 					(unit 1)
 				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/d4a81e63-9f27-4c05-b8ea-3f61c07d2a95"
-					(reference "J12")
+					(reference "J3")
 					(unit 1)
 				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/e58c2f74-a038-4d16-c9fb-4a72d18e3b06"
-					(reference "J13")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1873,8 +1873,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e17f9101-ff37-462e-8840-fde285f0461b")
-		(property "Reference" "C87"
-			(at 120.6420 81.2800 0)
+		(property "Reference" "C25"
+			(at 120.642 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1885,7 +1885,7 @@
 			)
 		)
 		(property "Value" "100n 50V"
-			(at 120.6420 83.8200 0)
+			(at 120.642 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1959,15 +1959,15 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/59117b12-5b6b-44b2-a156-736b6d28e254"
-					(reference "C89")
+					(reference "C24")
 					(unit 1)
 				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/d4a81e63-9f27-4c05-b8ea-3f61c07d2a95"
-					(reference "C87")
+					(reference "C25")
 					(unit 1)
 				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f1d639df-8edc-4be9-b42e-c646a992536b/e58c2f74-a038-4d16-c9fb-4a72d18e3b06"
-					(reference "C88")
+					(reference "C23")
 					(unit 1)
 				)
 			)

@@ -1253,7 +1253,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "RM2 (Raspberry Pi Radio Module 2, CYW43439) on the RP2350A slave, gSPI via PIO:\nCLK = GPIO29, CS = GPIO26, DATA = GPIO27 (DATA_IN direct, DATA_OUT via R60 470R,\nnIRQ via R61 10K, as on Pico 2 W). Set CYW43_DEFAULT_PIN_WL_* to these pins.\nLD3 (green, R62 470R) on RM2 GPIO0 = slave status LED, works once the cyw43 driver runs.\nWL_ON + BT_ON = slave GPIO28 (cyw43 WL_REG_ON pin; CYW43439 200K pull-downs keep the radio off until firmware).\nThe slave cyw43 driver resets the radio itself: GPIO27 (DATA) low, WL_ON low >= 10 ms, high, wait >= 150 ms.\nPCB: keep the 35.5 x 18.5 mm RF keep-out (footprint rule area) free of copper on all layers;\nantenna end at the board edge."
+	(text "RM2 (Raspberry Pi Radio Module 2, CYW43439) on the RP2350A slave, gSPI via PIO:\nCLK = GPIO29, CS = GPIO26, DATA = GPIO27 (DATA_IN direct, DATA_OUT via R35 470R,\nnIRQ via R26 10K, as on Pico 2 W). Set CYW43_DEFAULT_PIN_WL_* to these pins.\nLD1 (green, R29 470R) on RM2 GPIO0 = slave status LED, works once the cyw43 driver runs.\nWL_ON + BT_ON = slave GPIO28 (cyw43 WL_REG_ON pin; CYW43439 200K pull-downs keep the radio off until firmware).\nThe slave cyw43 driver resets the radio itself: GPIO27 (DATA) low, WL_ON low >= 10 ms, high, wait >= 150 ms.\nPCB: keep the 35.5 x 18.5 mm RF keep-out (footprint rule area) free of copper on all layers;\nantenna end at the board edge."
 		(exclude_from_sim no)
 		(at 40.64 132.08 0)
 		(effects
@@ -1679,7 +1679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04038493-ba9e-473f-a9bc-6a7800339963")
-		(property "Reference" "LD3"
+		(property "Reference" "LD1"
 			(at 171.45 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1774,7 +1774,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/51e98c6d-de14-4b05-901d-d38fd703be7e"
-					(reference "LD3")
+					(reference "LD1")
 					(unit 1)
 				)
 			)
@@ -1868,8 +1868,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29fabde8-237b-46ec-b5ae-83476e345ab6")
-		(property "Reference" "R61"
-			(at 116.8400 91.7290 90)
+		(property "Reference" "R26"
+			(at 116.84 91.729 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1879,7 +1879,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 116.8400 96.2310 90)
+			(at 116.84 96.231 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1941,7 +1941,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/51e98c6d-de14-4b05-901d-d38fd703be7e"
-					(reference "R61")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -2266,8 +2266,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62104623-6a28-4b19-979b-8b81e6823ead")
-		(property "Reference" "R62"
-			(at 160.0200 81.5690 90)
+		(property "Reference" "R29"
+			(at 160.02 81.569 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2277,7 +2277,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 160.0200 86.1012 90)
+			(at 160.02 86.1012 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2339,7 +2339,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/51e98c6d-de14-4b05-901d-d38fd703be7e"
-					(reference "R62")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2356,7 +2356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66b55180-42e1-478b-88ad-bb03b8ef89e1")
-		(property "Reference" "C90"
+		(property "Reference" "C27"
 			(at 155.575 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2431,7 +2431,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/51e98c6d-de14-4b05-901d-d38fd703be7e"
-					(reference "C90")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -2448,8 +2448,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7321eb38-680d-42af-b037-c72dd78f97f8")
-		(property "Reference" "R60"
-			(at 116.8400 82.6486 90)
+		(property "Reference" "R35"
+			(at 116.84 82.6486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2459,7 +2459,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 116.8400 85.2188 90)
+			(at 116.84 85.2188 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2521,7 +2521,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/51e98c6d-de14-4b05-901d-d38fd703be7e"
-					(reference "R60")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -2538,7 +2538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76d4f1bf-953b-4a63-9ec1-d70f15ac0319")
-		(property "Reference" "C91"
+		(property "Reference" "C28"
 			(at 165.735 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2613,7 +2613,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/51e98c6d-de14-4b05-901d-d38fd703be7e"
-					(reference "C91")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -2630,7 +2630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e50a0ac-ced6-4346-ab02-efcb73ebc848")
-		(property "Reference" "C92"
+		(property "Reference" "C33"
 			(at 175.895 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2705,7 +2705,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/51e98c6d-de14-4b05-901d-d38fd703be7e"
-					(reference "C92")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -2722,7 +2722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9e6b61d-ed58-4a94-9851-0b4ac0d28ee8")
-		(property "Reference" "U25"
+		(property "Reference" "U1"
 			(at 129.54 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2734,7 +2734,7 @@
 			)
 		)
 		(property "Value" "RMC20452T"
-			(at 152.0600 91.4400 0)
+			(at 152.06 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2854,7 +2854,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/51e98c6d-de14-4b05-901d-d38fd703be7e"
-					(reference "U25")
+					(reference "U1")
 					(unit 1)
 				)
 			)

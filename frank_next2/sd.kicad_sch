@@ -948,7 +948,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "R26-R30 10K pull-ups on CMD / DAT0-3 (SD spec); CLK has none.\nCard is wired 4-bit capable to RP2350B GPIO0-7."
+	(text "R1 / R2 / R3 / R5 / R7 10K pull-ups on CMD / DAT0-3 (SD spec); CLK has none.\nCard is wired 4-bit capable to RP2350B GPIO0-7."
 		(exclude_from_sim no)
 		(at 20 175 0)
 		(effects
@@ -1381,7 +1381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2705e28c-d100-429d-9883-29e85ae72970")
-		(property "Reference" "R27"
+		(property "Reference" "R7"
 			(at 143.9994 116.7965 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1465,7 +1465,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
-					(reference "R27")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1482,7 +1482,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f800eb1-9545-423b-9151-fd99fdf7a79c")
-		(property "Reference" "R26"
+		(property "Reference" "R1"
 			(at 140.1894 123.1465 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1566,7 +1566,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
-					(reference "R26")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1894,7 +1894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a42126e0-790e-bf12-d236-d190adbda41c")
-		(property "Reference" "R30"
+		(property "Reference" "R2"
 			(at 155.4294 123.1465 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1967,7 +1967,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
-					(reference "R30")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1984,7 +1984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afb0d377-a241-e89c-e6b2-950812c33cdc")
-		(property "Reference" "R29"
+		(property "Reference" "R5"
 			(at 155.4294 82.5065 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2057,7 +2057,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
-					(reference "R29")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2074,7 +2074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b01c951c-2211-4b69-84de-c123e0ddcf62")
-		(property "Reference" "R28"
+		(property "Reference" "R3"
 			(at 147.8094 123.1465 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2158,7 +2158,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
-					(reference "R28")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2331,8 +2331,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce0726a6-f369-484f-9219-c31122f03ae7")
-		(property "Reference" "C40"
-			(at 102.8620 97.7900 0)
+		(property "Reference" "C53"
+			(at 102.862 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2343,7 +2343,7 @@
 			)
 		)
 		(property "Value" "10u 25V"
-			(at 102.8620 100.3300 0)
+			(at 102.862 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2417,7 +2417,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
-					(reference "C40")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -2512,8 +2512,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd634246-01ca-4fe8-bc4f-7812ab182c74")
-		(property "Reference" "C41"
-			(at 116.7130 100.7372 0)
+		(property "Reference" "C48"
+			(at 116.713 100.7372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2598,7 +2598,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
-					(reference "C41")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -2616,7 +2616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfd949e8-2da7-4fad-9a77-49c9cbc5d0d9")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 183.515 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2724,7 +2724,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/bbcd6061-4ba9-4d12-b08d-ddb6ce7d2b48"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)

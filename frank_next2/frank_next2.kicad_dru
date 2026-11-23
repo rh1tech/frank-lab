@@ -4,39 +4,39 @@
 # RP2350B QFN-80 and RP2350A QFN-60 (0.4 mm pitch, 0.22 mm pads leave 0.18 mm): allow 0.15 mm at their pads only.
 (rule "RP2350 QFN fine pitch"
 	(constraint clearance (min 0.15mm))
-	(condition "A.memberOfFootprint('U1') || B.memberOfFootprint('U1') || A.memberOfFootprint('U5') || B.memberOfFootprint('U5')"))
+	(condition "A.memberOfFootprint('U3') || B.memberOfFootprint('U3') || A.memberOfFootprint('U2') || B.memberOfFootprint('U2')"))
 
 # 0603 cap or resistor with its own power-rail via under the body: via ring to the other pad is 0.175 mm by design.
 (rule "Part with via: via to its other pad"
 	(constraint clearance (min 0.15mm))
 	(condition "A.memberOfFootprint('FRANK:*Metric_small_pads_Via*') && B.memberOfFootprint('FRANK:*Metric_small_pads_Via*')"))
 
-# RP2350 VREG blocks (U1 master, U5 slave): 0603 small-pad caps and the LX/1V1 escape between them use 0.15 mm, like the QFN pads.
+# RP2350 VREG blocks (U3 master, U2 slave): 0603 small-pad caps and the LX/1V1 escape between them use 0.15 mm, like the QFN pads.
 (rule "RP2350 VREG blocks"
 	(constraint clearance (min 0.15mm))
-	(condition "A.NetName == '+1V1' || A.NetName == '+1V1_A' || A.NetName == '/RP2350B/M_VREG_LX' || A.NetName == '/RP2350A/S_VREG_LX' || A.NetName == '/RP2350B/M_VREG_AVDD' || A.NetName == '/RP2350A/S_VREG_AVDD' || A.memberOfFootprint('C1') || A.memberOfFootprint('C2') || A.memberOfFootprint('C8') || A.memberOfFootprint('R4') || A.memberOfFootprint('L1') || A.memberOfFootprint('C17') || A.memberOfFootprint('C22') || A.memberOfFootprint('C25') || A.memberOfFootprint('C27') || A.memberOfFootprint('R18') || A.memberOfFootprint('L2')"))
+	(condition "A.NetName == '+1V1' || A.NetName == '+1V1_A' || A.NetName == '/RP2350B/M_VREG_LX' || A.NetName == '/RP2350A/S_VREG_LX' || A.NetName == '/RP2350B/M_VREG_AVDD' || A.NetName == '/RP2350A/S_VREG_AVDD' || A.memberOfFootprint('C7') || A.memberOfFootprint('C8') || A.memberOfFootprint('C9') || A.memberOfFootprint('R13') || A.memberOfFootprint('L2') || A.memberOfFootprint('C47') || A.memberOfFootprint('C6') || A.memberOfFootprint('C5') || A.memberOfFootprint('C4') || A.memberOfFootprint('R4') || A.memberOfFootprint('L1')"))
 
-# RP2350 VREG caps sit at the pin tips (reference layout), inside the MCU courtyard; VIN and VOUT caps abut (0.15 mm pad gap) to leave LX its channel; C19 hugs U3 (PSRAM) the same way.
+# RP2350 VREG caps sit at the pin tips (reference layout), inside the MCU courtyard; VIN and VOUT caps abut (0.15 mm pad gap) to leave LX its channel; C52 hugs U18 (PSRAM) the same way.
 (rule "VREG caps inside the MCU courtyard"
 	(constraint courtyard_clearance (min -3mm))
-	(condition "(A.Reference == 'U1' && (B.Reference == 'C1' || B.Reference == 'C8')) || (A.Reference == 'U5' && (B.Reference == 'C22' || B.Reference == 'C27')) || (A.Reference == 'C22' && B.Reference == 'C25') || (A.Reference == 'C25' && B.Reference == 'C22') || (A.Reference == 'C1' && B.Reference == 'C2') || (A.Reference == 'C2' && B.Reference == 'C1') || (A.Reference == 'U3' && B.Reference == 'C19') || (A.Reference == 'C19' && B.Reference == 'U3')"))
+	(condition "(A.Reference == 'U3' && (B.Reference == 'C7' || B.Reference == 'C9')) || (A.Reference == 'U2' && (B.Reference == 'C6' || B.Reference == 'C4')) || (A.Reference == 'C6' && B.Reference == 'C5') || (A.Reference == 'C5' && B.Reference == 'C6') || (A.Reference == 'C7' && B.Reference == 'C8') || (A.Reference == 'C8' && B.Reference == 'C7') || (A.Reference == 'U18' && B.Reference == 'C52') || (A.Reference == 'C52' && B.Reference == 'U18')"))
 
 # Fine-pitch parts whose own pads sit closer than the Power netclass (PSRAM SON-8 0.5 mm, USB mux, USB-C VBUS/GND pins): footprint geometry, 0.15 mm is fine at JLC.
 (rule "Fine-pitch parts: own pads"
 	(constraint clearance (min 0.15mm))
-	(condition "A.Type == 'Pad' && B.Type == 'Pad' && ((A.memberOfFootprint('U3') && B.memberOfFootprint('U3')) || (A.memberOfFootprint('U6') && B.memberOfFootprint('U6')) || (A.memberOfFootprint('U19') && B.memberOfFootprint('U19')) || (A.memberOfFootprint('J10') && B.memberOfFootprint('J10')) || (A.memberOfFootprint('J11') && B.memberOfFootprint('J11')))"))
+	(condition "A.Type == 'Pad' && B.Type == 'Pad' && ((A.memberOfFootprint('U18') && B.memberOfFootprint('U18')) || (A.memberOfFootprint('U20') && B.memberOfFootprint('U20')) || (A.memberOfFootprint('U5') && B.memberOfFootprint('U5')) || (A.memberOfFootprint('J14') && B.memberOfFootprint('J14')) || (A.memberOfFootprint('J13') && B.memberOfFootprint('J13')))"))
 
 # Mounting holes and connector shells sit on the board edge by design.
 (rule "Edge parts: mounting holes and connector shells"
 	(constraint edge_clearance (min 0mm))
-	(condition "A.memberOfFootprint('H*') || A.memberOfFootprint('J6') || A.memberOfFootprint('J10') || A.memberOfFootprint('J11')"))
+	(condition "A.memberOfFootprint('H*') || A.memberOfFootprint('J7') || A.memberOfFootprint('J14') || A.memberOfFootprint('J13')"))
 
 # Edge-mounted connectors and the RM2 module: their library silk outline runs to/over the board edge.
 (rule "Edge-mounted parts: silk at the edge"
 	(constraint silk_clearance (min -10mm))
-	(condition "A.memberOfFootprint('J6') || A.memberOfFootprint('J7') || A.memberOfFootprint('J9') || A.memberOfFootprint('J10') || A.memberOfFootprint('J11') || A.memberOfFootprint('S5') || A.memberOfFootprint('U25')"))
+	(condition "A.memberOfFootprint('J7') || A.memberOfFootprint('J11') || A.memberOfFootprint('J12') || A.memberOfFootprint('J14') || A.memberOfFootprint('J13') || A.memberOfFootprint('S5') || A.memberOfFootprint('U1')"))
 
 # VREG inductors abut their caps (reference layout): the pin-1 mark is clipped by the cap's solder mask.
 (rule "VREG inductors: pin-1 mark"
 	(constraint silk_clearance (min -1mm))
-	(condition "A.memberOfFootprint('L1') || A.memberOfFootprint('L2')"))
+	(condition "A.memberOfFootprint('L2') || A.memberOfFootprint('L1')"))

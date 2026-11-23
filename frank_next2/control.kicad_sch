@@ -1926,7 +1926,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "U12 74LVC1G74GT BOOTSEL latch: reset button net M_RSTB (S2, R36) clocks BOOT into Q;\nRP2350B RUN follows via R37 10K / C59 1uF (~10 ms later), so D = BOOT is stable.\nC93 100nF holds ~RD low at cold power-on so Q clears to L (J10 / BOOTSEL).\nBOOT held during reset -> Q = L -> U19 routes RP2350B USB to J10 (PC / BOOTSEL).\nNormal reset -> Q = H -> USB to the CH334F hub (USB-A ports).\nX2 low forces J10 (RD), X3 low forces the hub (SD); never both low."
+	(text "U9 74LVC1G74GT BOOTSEL latch: reset button net M_RSTB (S1, R50) clocks BOOT into Q;\nRP2350B RUN follows via R34 10K / C66 1uF (~10 ms later), so D = BOOT is stable.\nC83 100nF holds ~RD low at cold power-on so Q clears to L (J14 / BOOTSEL).\nBOOT held during reset -> Q = L -> U5 routes RP2350B USB to J14 (PC / BOOTSEL).\nNormal reset -> Q = H -> USB to the CH334F hub (USB-A ports).\nX2 low forces J14 (RD), X3 low forces the hub (SD); never both low."
 		(exclude_from_sim no)
 		(at 172.72 54.61 0)
 		(effects
@@ -1937,7 +1937,7 @@
 		)
 		(uuid "1200ed35-0109-4ec6-8836-7c55ce76d4e0")
 	)
-	(text "LD1 WS2812B on RP2350B GPIO43, powered from VBUS via D2 (~4.4 V)\nso the 3.3 V DIN still meets its VIH. R34 330R: data series."
+	(text "LD2 WS2812B on RP2350B GPIO43, powered from VBUS via D4 (~4.4 V)\nso the 3.3 V DIN still meets its VIH. R51 330R: data series."
 		(exclude_from_sim no)
 		(at 82.55 157.48 0)
 		(effects
@@ -1948,7 +1948,7 @@
 		)
 		(uuid "f4ea9a7c-8f28-4c54-a6c6-6c38a9f348fd")
 	)
-	(text "U11 PCF8574 I/O expander on the master I2C (GPIO2 SDA / GPIO3 SCL), address 0x20.\nPCF8574 is a 100 kHz part: run the whole I2C bus at 100 kHz.\nPorts are quasi-bidirectional (strong low, weak high); all high after power-on.\nP0 = S_RUN: RP2350A RUN via R35 1K (R1 pull-up, S4 button).  P2 / P3 = USB mux overrides.\nP1 = SD card detect (J6 pin 9).  P5 spare (RM2 WL_ON moved to slave GPIO28).\nP4, P6, P7 spare.  Firmware: write all 8 bits at init, then pulse P3 low once (hub)."
+	(text "U12 PCF8574 I/O expander on the master I2C (GPIO2 SDA / GPIO3 SCL), address 0x20.\nPCF8574 is a 100 kHz part: run the whole I2C bus at 100 kHz.\nPorts are quasi-bidirectional (strong low, weak high); all high after power-on.\nP0 = S_RUN: RP2350A RUN via R56 1K (R20 pull-up, S4 button).  P2 / P3 = USB mux overrides.\nP1 = SD card detect (J7 pin 9).  P5 spare (RM2 WL_ON moved to slave GPIO28).\nP4, P6, P7 spare.  Firmware: write all 8 bits at init, then pulse P3 low once (hub)."
 		(exclude_from_sim no)
 		(at 55.88 54.61 0)
 		(effects
@@ -2587,8 +2587,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06c08422-909d-4056-a82f-3483cab820a8")
-		(property "Reference" "R37"
-			(at 205.7400 128.5590 90)
+		(property "Reference" "R34"
+			(at 205.74 128.559 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2598,7 +2598,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 205.7400 133.0610 90)
+			(at 205.74 133.061 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2660,7 +2660,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
-					(reference "R37")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -2831,7 +2831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ed82956-0967-444d-b1d3-9adce2065abc")
-		(property "Reference" "U11"
+		(property "Reference" "U12"
 			(at 99.06 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2951,7 +2951,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
-					(reference "U11")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -2968,7 +2968,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "252c8662-8776-4eaa-9e2e-434675247c0d")
-		(property "Reference" "C59"
+		(property "Reference" "C66"
 			(at 217.805 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3043,7 +3043,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
-					(reference "C59")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -3060,8 +3060,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2639bd2a-3c22-431c-bddc-ec8cbb3c02f2")
-		(property "Reference" "R35"
-			(at 124.4600 76.4890 90)
+		(property "Reference" "R56"
+			(at 124.46 76.489 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3071,7 +3071,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 124.4600 79.0290 90)
+			(at 124.46 79.029 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3133,7 +3133,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
-					(reference "R35")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -3304,7 +3304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44f7f658-b053-442d-86e4-35340141225a")
-		(property "Reference" "C57"
+		(property "Reference" "C84"
 			(at 128.905 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3390,7 +3390,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
-					(reference "C57")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -3407,7 +3407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b0ebe7d-c298-479d-bd62-056d4e6a81dd")
-		(property "Reference" "LD1"
+		(property "Reference" "LD2"
 			(at 123.19 132.715 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3488,7 +3488,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
-					(reference "LD1")
+					(reference "LD2")
 					(unit 1)
 				)
 			)
@@ -3582,8 +3582,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a21000e-4a7f-403a-8d46-cfa7a9b85693")
-		(property "Reference" "R34"
-			(at 97.7900 136.1488 90)
+		(property "Reference" "R51"
+			(at 97.79 136.1488 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3593,7 +3593,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 97.7900 140.6810 90)
+			(at 97.79 140.681 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3666,7 +3666,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
-					(reference "R34")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -3683,7 +3683,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b2dbfb2-9739-4042-b1e2-8392653a917b")
-		(property "Reference" "C58"
+		(property "Reference" "C88"
 			(at 112.395 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3758,7 +3758,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
-					(reference "C58")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -3929,7 +3929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f8c8f72-b2a2-4fe5-a860-ae584d928539")
-		(property "Reference" "C60"
+		(property "Reference" "C82"
 			(at 227.965 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4004,7 +4004,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
-					(reference "C60")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -4021,7 +4021,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "973e828e-3103-42e8-91a8-967ce9ca10c6")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 115.57 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4105,7 +4105,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4122,7 +4122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a4c8d12-35f6-4b89-9c2a-71e84f23b901")
-		(property "Reference" "C93"
+		(property "Reference" "C83"
 			(at 146.05 102.235 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4197,7 +4197,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
-					(reference "C93")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -4214,7 +4214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad88b334-b4c0-4607-96c3-57e3d3219dfe")
-		(property "Reference" "U12"
+		(property "Reference" "U9"
 			(at 214.63 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4226,7 +4226,7 @@
 			)
 		)
 		(property "Value" "74LVC1G74GT"
-			(at 230.6700 93.9800 0)
+			(at 230.67 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4307,7 +4307,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
-					(reference "U12")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4632,8 +4632,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e63ca88d-5a82-489f-8f00-2bc44bbc2068")
-		(property "Reference" "R36"
-			(at 199.6360 125.7300 0)
+		(property "Reference" "R50"
+			(at 199.636 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4644,7 +4644,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 199.6360 128.2700 0)
+			(at 199.636 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4707,7 +4707,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4dad096c-f7c2-4f53-b8f6-f4ad3c3fca8a"
-					(reference "R36")
+					(reference "R50")
 					(unit 1)
 				)
 			)

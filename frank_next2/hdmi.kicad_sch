@@ -2122,7 +2122,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "RN2 / RN1 270R: series resistors on the RP2350B\nHSTX DVI pairs (GPIO12-19).\nF1 0.2 A polyfuse + D1 + C20: HDMI +5V (pin 18) from VBUS, short-circuit limited."
+	(text "RN1 / RN2 270R: series resistors on the RP2350B\nHSTX DVI pairs (GPIO12-19).\nF1 0.2 A polyfuse + D3 + C2: HDMI +5V (pin 18) from VBUS, short-circuit limited."
 		(exclude_from_sim no)
 		(at 20 175 0)
 		(effects
@@ -2835,7 +2835,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35288ac0-a1b1-4c3e-a0f7-47865b74dd7b")
-		(property "Reference" "C20"
+		(property "Reference" "C2"
 			(at 162.6616 84.709 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2921,7 +2921,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/73cf6301-7694-4a85-8209-7a7a46440d34"
-					(reference "C20")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2939,7 +2939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f31bfa1-31da-4e00-a279-ff477890008b")
-		(property "Reference" "RN1"
+		(property "Reference" "RN2"
 			(at 177.8 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3041,7 +3041,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/73cf6301-7694-4a85-8209-7a7a46440d34"
-					(reference "RN1")
+					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -3215,8 +3215,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a8623b5-4f12-414b-9121-7079934405ad")
-		(property "Reference" "D1"
-			(at 163.5125 68.6150 0)
+		(property "Reference" "D3"
+			(at 163.5125 68.615 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3226,7 +3226,7 @@
 			)
 		)
 		(property "Value" "1N5819WS"
-			(at 163.5125 73.6250 0)
+			(at 163.5125 73.625 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3299,7 +3299,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/73cf6301-7694-4a85-8209-7a7a46440d34"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3317,7 +3317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad010c1a-f0cc-461f-a485-b62f135afe1f")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 127 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3466,7 +3466,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/73cf6301-7694-4a85-8209-7a7a46440d34"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3483,7 +3483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5a32008-cdae-4bae-a389-b6ff57967cba")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 160.02 56.642 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3542,7 +3542,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/73cf6301-7694-4a85-8209-7a7a46440d34"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -3559,7 +3559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "daf83e99-c5a7-422b-98f2-02d023d60182")
-		(property "Reference" "RN2"
+		(property "Reference" "RN1"
 			(at 177.8 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3661,7 +3661,7 @@
 		(instances
 			(project "frank_next2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/73cf6301-7694-4a85-8209-7a7a46440d34"
-					(reference "RN2")
+					(reference "RN1")
 					(unit 1)
 				)
 			)
