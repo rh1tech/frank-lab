@@ -4292,7 +4292,7 @@
 	)
 	(text "76"
 		(exclude_from_sim no)
-		(at 238.76 16.51 0)
+		(at 252.73 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4300,7 +4300,7 @@
 		)
 		(uuid "00f09909-a5bd-48f6-b5b1-767c3cb8bf07")
 	)
-	(text "J10: RP2350B console UART,\nR41 / R40 330R series protection."
+	(text "J10: RP2350B console UART,\nR41 / R40 330 Ω series protection."
 		(exclude_from_sim no)
 		(at 22 186 0)
 		(effects
@@ -4311,7 +4311,7 @@
 		)
 		(uuid "0b77d8f8-6562-4b46-b03b-fed40fd919a1")
 	)
-	(text "BOOTSEL: S2 pulls QSPI_SS low\nvia R6 1K. R32 10K keeps the\nflash CS high while QSPI_SS floats."
+	(text "BOOTSEL: S2 pulls QSPI_SS low\nvia R6 1 kΩ. R32 10 kΩ keeps the\nflash CS high while QSPI_SS floats."
 		(exclude_from_sim no)
 		(at 15 73 0)
 		(effects
@@ -4342,7 +4342,7 @@
 		)
 		(uuid "15fb31d1-555e-4c31-b451-e5712d032d26")
 	)
-	(text "100R series damping\non inter-MCU\nCLK / VALID lines"
+	(text "100 Ω series damping\non inter-MCU\nCLK / VALID lines"
 		(exclude_from_sim no)
 		(at 186.69 141.605 0)
 		(effects
@@ -4353,7 +4353,7 @@
 		)
 		(uuid "3b207dfb-c799-4af7-bfb0-4e00921dd6dc")
 	)
-	(text "Core supply: L2 3.3uH + C8 / C46 4.7uF\nform the on-chip buck - keep the VREG_LX /\nVREG_PGND loop short. R13 33R + C9 4.7uF\nfilter VREG_AVDD."
+	(text "Core supply: L2 3.3 µH + C8 / C46 4.7 µF\nform the on-chip buck - keep the VREG_LX /\nVREG_PGND loop short. R13 33 Ω + C9 4.7 µF\nfilter VREG_AVDD."
 		(exclude_from_sim no)
 		(at 15 141 0)
 		(effects
@@ -4366,7 +4366,7 @@
 	)
 	(text "59"
 		(exclude_from_sim no)
-		(at 215.9 16.51 0)
+		(at 224.79 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4397,7 +4397,7 @@
 	)
 	(text "5"
 		(exclude_from_sim no)
-		(at 147.32 16.51 0)
+		(at 140.97 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4407,7 +4407,7 @@
 	)
 	(text "50"
 		(exclude_from_sim no)
-		(at 204.47 16.51 0)
+		(at 210.82 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4417,7 +4417,7 @@
 	)
 	(text "24"
 		(exclude_from_sim no)
-		(at 170.18 16.51 0)
+		(at 168.91 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4427,7 +4427,7 @@
 	)
 	(text "41"
 		(exclude_from_sim no)
-		(at 193.04 16.51 0)
+		(at 196.85 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4446,7 +4446,7 @@
 		)
 		(uuid "b3182be7-cb6e-4f77-b527-40a8ed672970")
 	)
-	(text "R28 2.2K keeps the PSRAM CS high during boot."
+	(text "R28 2.2 kΩ keeps the PSRAM CS high during boot."
 		(exclude_from_sim no)
 		(at 210 85.5 0)
 		(effects
@@ -4459,7 +4459,7 @@
 	)
 	(text "68+69"
 		(exclude_from_sim no)
-		(at 227.33 16.51 0)
+		(at 238.76 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4467,7 +4467,7 @@
 		)
 		(uuid "c2acbd1e-7112-49af-9b28-b419913dfd48")
 	)
-	(text "Y2: R25 1K limits crystal\ndrive, C41 / C32 15pF load."
+	(text "Y2: R25 1 kΩ limits crystal\ndrive, C41 / C32 15 pF load."
 		(exclude_from_sim no)
 		(at 15 121 0)
 		(effects
@@ -4480,7 +4480,7 @@
 	)
 	(text "15"
 		(exclude_from_sim no)
-		(at 158.75 16.51 0)
+		(at 154.94 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4490,7 +4490,7 @@
 	)
 	(text "29"
 		(exclude_from_sim no)
-		(at 181.61 16.51 0)
+		(at 182.88 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4511,7 +4511,7 @@
 		(uuid "12d53d27-82c2-4a0c-85ee-7f13108667b0")
 	)
 	(junction
-		(at 227.33 30.48)
+		(at 238.76 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "156aed0e-76cd-4d16-adb7-0a54b674b460")
@@ -4547,13 +4547,13 @@
 		(uuid "292b8282-4ff0-4eec-b3cd-a86d985bd0cf")
 	)
 	(junction
-		(at 215.9 19.05)
+		(at 224.79 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a7121f2-b986-4dd5-8392-b991e8e42e3a")
 	)
 	(junction
-		(at 193.04 30.48)
+		(at 196.85 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3282b80f-34a5-4750-9279-552e30bfe84a")
@@ -4565,7 +4565,7 @@
 		(uuid "3b74433d-a718-499e-976e-e62540fbef44")
 	)
 	(junction
-		(at 204.47 19.05)
+		(at 210.82 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46bc1376-6180-463f-9afb-0a3cf7095782")
@@ -4583,7 +4583,7 @@
 		(uuid "516b8b96-9411-4a92-91d6-46f3f203e7d0")
 	)
 	(junction
-		(at 215.9 30.48)
+		(at 224.79 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55b702e8-2e05-4eab-a501-a543aadcfaf1")
@@ -4607,13 +4607,13 @@
 		(uuid "6e08d56d-c2bb-4f6d-89d1-808fa3388eba")
 	)
 	(junction
-		(at 181.61 30.48)
+		(at 182.88 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73c0cf9a-fa9a-4a3e-a841-b752063cc27e")
 	)
 	(junction
-		(at 158.75 19.05)
+		(at 154.94 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7450eff9-ee37-4544-abe4-21c2cbba6a09")
@@ -4643,13 +4643,13 @@
 		(uuid "7fa8de13-1d2f-4516-bff3-66427d19e92e")
 	)
 	(junction
-		(at 147.32 19.05)
+		(at 140.97 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fc24580-5aa5-4a6e-9720-0de72f7c2d8e")
 	)
 	(junction
-		(at 227.33 19.05)
+		(at 238.76 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8246a879-f331-497d-8720-b8ba44819b9b")
@@ -4667,7 +4667,7 @@
 		(uuid "959ac4c9-5a8f-4f9e-899c-ffa1f0aa78fd")
 	)
 	(junction
-		(at 204.47 30.48)
+		(at 210.82 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ea170e9-f905-4c13-9ad4-03fe03b44c79")
@@ -4697,7 +4697,7 @@
 		(uuid "a9d7976d-a300-4867-8355-da47883561a2")
 	)
 	(junction
-		(at 158.75 30.48)
+		(at 154.94 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aaebd871-84ad-4c17-9d63-9d4e8897fa40")
@@ -4709,7 +4709,7 @@
 		(uuid "ab9cbe55-1da7-40c0-b15e-08a707380579")
 	)
 	(junction
-		(at 170.18 19.05)
+		(at 168.91 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "add8c290-a53d-472b-b70d-6787aef5e133")
@@ -4751,7 +4751,7 @@
 		(uuid "dcc8c41c-7e61-42d5-9bf8-f635db68d367")
 	)
 	(junction
-		(at 181.61 19.05)
+		(at 182.88 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df1f157b-b660-4427-b8fe-e2976b915973")
@@ -4763,7 +4763,7 @@
 		(uuid "e258618d-e701-403f-ae40-4774d079a7f7")
 	)
 	(junction
-		(at 238.76 30.48)
+		(at 252.73 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e50d6817-84c5-4d18-85fb-da58b1c1ae8a")
@@ -4775,7 +4775,7 @@
 		(uuid "e77c8de4-547c-4800-85dd-1802c839847c")
 	)
 	(junction
-		(at 170.18 30.48)
+		(at 168.91 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3ffcbe4-adad-497b-821e-6bb5f5201199")
@@ -4787,7 +4787,7 @@
 		(uuid "f7c97af6-ff31-42b3-8714-19b1aad8e304")
 	)
 	(junction
-		(at 193.04 19.05)
+		(at 196.85 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb31d741-1b87-456b-ae80-15f01a5e7f0b")
@@ -4960,7 +4960,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 19.05) (xy 227.33 19.05)
+			(xy 224.79 19.05) (xy 238.76 19.05)
 		)
 		(stroke
 			(width 0)
@@ -4970,7 +4970,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 30.48) (xy 170.18 30.48)
+			(xy 182.88 30.48) (xy 168.91 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5060,7 +5060,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 30.48) (xy 227.33 30.48)
+			(xy 252.73 30.48) (xy 238.76 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5090,7 +5090,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 19.05) (xy 215.9 19.05)
+			(xy 210.82 19.05) (xy 224.79 19.05)
 		)
 		(stroke
 			(width 0)
@@ -5170,7 +5170,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 30.48) (xy 238.76 33.02)
+			(xy 252.73 30.48) (xy 252.73 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5190,7 +5190,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 30.48) (xy 215.9 30.48)
+			(xy 238.76 30.48) (xy 224.79 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5200,7 +5200,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 19.05) (xy 147.32 19.05)
+			(xy 138.43 19.05) (xy 140.97 19.05)
 		)
 		(stroke
 			(width 0)
@@ -5220,7 +5220,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 20.32) (xy 238.76 19.05)
+			(xy 252.73 20.32) (xy 252.73 19.05)
 		)
 		(stroke
 			(width 0)
@@ -5230,7 +5230,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 30.48) (xy 147.32 30.48)
+			(xy 154.94 30.48) (xy 140.97 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5320,7 +5320,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 20.32) (xy 193.04 19.05)
+			(xy 196.85 20.32) (xy 196.85 19.05)
 		)
 		(stroke
 			(width 0)
@@ -5340,7 +5340,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 30.48) (xy 158.75 30.48)
+			(xy 168.91 30.48) (xy 154.94 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5420,7 +5420,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 20.32) (xy 227.33 19.05)
+			(xy 238.76 20.32) (xy 238.76 19.05)
 		)
 		(stroke
 			(width 0)
@@ -5430,7 +5430,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 30.48) (xy 193.04 30.48)
+			(xy 210.82 30.48) (xy 196.85 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5450,7 +5450,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 27.94) (xy 170.18 30.48)
+			(xy 168.91 27.94) (xy 168.91 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5470,7 +5470,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 19.05) (xy 238.76 19.05)
+			(xy 238.76 19.05) (xy 252.73 19.05)
 		)
 		(stroke
 			(width 0)
@@ -5490,7 +5490,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 27.94) (xy 181.61 30.48)
+			(xy 182.88 27.94) (xy 182.88 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5580,7 +5580,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 27.94) (xy 227.33 30.48)
+			(xy 238.76 27.94) (xy 238.76 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5630,7 +5630,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 30.48) (xy 181.61 30.48)
+			(xy 196.85 30.48) (xy 182.88 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5670,7 +5670,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 27.94) (xy 147.32 30.48)
+			(xy 140.97 27.94) (xy 140.97 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5700,7 +5700,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 27.94) (xy 215.9 30.48)
+			(xy 224.79 27.94) (xy 224.79 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5840,7 +5840,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 20.32) (xy 170.18 19.05)
+			(xy 168.91 20.32) (xy 168.91 19.05)
 		)
 		(stroke
 			(width 0)
@@ -5950,7 +5950,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 19.05) (xy 204.47 19.05)
+			(xy 196.85 19.05) (xy 210.82 19.05)
 		)
 		(stroke
 			(width 0)
@@ -6120,7 +6120,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 19.05) (xy 181.61 19.05)
+			(xy 168.91 19.05) (xy 182.88 19.05)
 		)
 		(stroke
 			(width 0)
@@ -6130,7 +6130,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 19.05) (xy 170.18 19.05)
+			(xy 154.94 19.05) (xy 168.91 19.05)
 		)
 		(stroke
 			(width 0)
@@ -6160,7 +6160,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 19.05) (xy 158.75 19.05)
+			(xy 140.97 19.05) (xy 154.94 19.05)
 		)
 		(stroke
 			(width 0)
@@ -6230,7 +6230,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 19.05) (xy 193.04 19.05)
+			(xy 182.88 19.05) (xy 196.85 19.05)
 		)
 		(stroke
 			(width 0)
@@ -6240,7 +6240,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 20.32) (xy 181.61 19.05)
+			(xy 182.88 20.32) (xy 182.88 19.05)
 		)
 		(stroke
 			(width 0)
@@ -6260,7 +6260,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 27.94) (xy 158.75 30.48)
+			(xy 154.94 27.94) (xy 154.94 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6290,7 +6290,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 30.48) (xy 204.47 30.48)
+			(xy 224.79 30.48) (xy 210.82 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6390,7 +6390,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 27.94) (xy 204.47 30.48)
+			(xy 210.82 27.94) (xy 210.82 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6410,7 +6410,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 20.32) (xy 215.9 19.05)
+			(xy 224.79 20.32) (xy 224.79 19.05)
 		)
 		(stroke
 			(width 0)
@@ -6450,7 +6450,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 20.32) (xy 147.32 19.05)
+			(xy 140.97 20.32) (xy 140.97 19.05)
 		)
 		(stroke
 			(width 0)
@@ -6500,7 +6500,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 27.94) (xy 193.04 30.48)
+			(xy 196.85 27.94) (xy 196.85 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6520,7 +6520,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 20.32) (xy 158.75 19.05)
+			(xy 154.94 20.32) (xy 154.94 19.05)
 		)
 		(stroke
 			(width 0)
@@ -6540,7 +6540,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 27.94) (xy 238.76 30.48)
+			(xy 252.73 27.94) (xy 252.73 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6570,7 +6570,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 20.32) (xy 204.47 19.05)
+			(xy 210.82 20.32) (xy 210.82 19.05)
 		)
 		(stroke
 			(width 0)
@@ -7560,7 +7560,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100 nF 50 V"
+			(at 72.771 25.273 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
 			(at 72.771 25.273 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7643,7 +7655,7 @@
 		(fields_autoplaced yes)
 		(uuid "02975086-7355-4842-bf4a-3d492af0be39")
 		(property "Reference" "C8"
-			(at 41.91 54.61 0)
+			(at 38.5500 53.9830 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7653,8 +7665,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u 25V"
-			(at 41.91 57.15 0)
+		(property "Value" "4.7 µF 25 V"
+			(at 38.5500 58.0189 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "4.7 µF"
+			(at 38.5500 58.0189 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8087,7 +8111,19 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u 25V"
+		(property "Value" "4.7 µF 25 V"
+			(at 24.138 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Capacitance" "4.7 µF"
 			(at 24.138 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8413,7 +8449,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p 50V"
+		(property "Value" "15 pF 50 V"
+			(at 44.577 92.329 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "15 pF"
 			(at 44.577 92.329 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8846,7 +8894,19 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u 25V"
+		(property "Value" "4.7 µF 25 V"
+			(at 69.858 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Capacitance" "4.7 µF"
 			(at 69.858 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9197,7 +9257,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "2.2 kΩ"
 			(at 215.9 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9679,7 +9739,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e53ae4c-1d2a-41fd-b955-4fd103a827e2")
 		(property "Reference" "L2"
-			(at 54.61 54.6099 0)
+			(at 54.4723 57.1500 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9689,8 +9749,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3µH"
-			(at 54.61 57.1499 0)
+		(property "Value" "3.3 µH"
+			(at 54.4723 59.6900 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9781,7 +9841,19 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u 50V"
+		(property "Value" "1 µF 50 V"
+			(at 253.992 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Capacitance" "1 µF"
 			(at 253.992 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9885,7 +9957,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0 Ω"
 			(at 259.207 116.078 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10045,7 +10117,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:C")
-		(at 227.33 24.13 0)
+		(at 238.76 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10055,7 +10127,7 @@
 		(dnp no)
 		(uuid "4c60ceaf-3ab2-429a-873e-0f7e0e32c997")
 		(property "Reference" "C47"
-			(at 227.78 21.883 0)
+			(at 239.2100 26.0770 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10065,8 +10137,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 227.78 26.377 0)
+		(property "Value" "100 nF 50 V"
+			(at 239.2100 27.7470 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
+			(at 239.2100 27.7470 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10077,7 +10161,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via"
-			(at 228.2952 27.94 0)
+			(at 239.7252 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10088,7 +10172,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
-			(at 227.33 24.13 0)
+			(at 238.76 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10099,7 +10183,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 227.33 24.13 0)
+			(at 238.76 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10110,7 +10194,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at -92.71 -31.75 0)
+			(at -81.28 -31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10137,7 +10221,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:C")
-		(at 158.75 24.13 0)
+		(at 154.94 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10147,7 +10231,7 @@
 		(dnp no)
 		(uuid "4f39fe9a-0bd0-4bbe-8faf-3380737e4dfe")
 		(property "Reference" "C35"
-			(at 159.2 21.883 0)
+			(at 155.3900 26.0770 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10157,8 +10241,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 159.2 26.377 0)
+		(property "Value" "100 nF 50 V"
+			(at 155.3900 27.7470 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
+			(at 155.3900 27.7470 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10169,7 +10265,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via"
-			(at 159.7152 27.94 0)
+			(at 155.9052 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10180,7 +10276,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
-			(at 158.75 24.13 0)
+			(at 154.94 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10191,7 +10287,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 158.75 24.13 0)
+			(at 154.94 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10202,7 +10298,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at -92.71 -31.75 0)
+			(at -96.52 -31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10316,7 +10412,7 @@
 		(dnp no)
 		(uuid "54bac022-1486-4933-9379-4a14b18b9092")
 		(property "Reference" "C46"
-			(at 60.952 24.13 0)
+			(at 65.9130 21.0911 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10326,8 +10422,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u 25V"
-			(at 60.952 26.67 0)
+		(property "Value" "4.7 µF 25 V"
+			(at 70.1182 21.0911 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "4.7 µF"
+			(at 70.1182 21.0911 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10475,7 +10583,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:C")
-		(at 238.76 24.13 0)
+		(at 252.73 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10485,7 +10593,7 @@
 		(dnp no)
 		(uuid "61ab500d-cba7-40f9-ab8a-d8b822189904")
 		(property "Reference" "C43"
-			(at 239.21 21.883 0)
+			(at 253.1800 20.5130 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10495,8 +10603,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 239.21 26.377 0)
+		(property "Value" "100 nF 50 V"
+			(at 253.1800 22.1830 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
+			(at 253.1800 22.1830 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10507,7 +10627,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via"
-			(at 239.7252 27.94 0)
+			(at 253.6952 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10518,7 +10638,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
-			(at 238.76 24.13 0)
+			(at 252.73 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10529,7 +10649,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 238.76 24.13 0)
+			(at 252.73 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10540,7 +10660,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at -92.71 -31.75 0)
+			(at -78.74 -31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10567,7 +10687,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:C")
-		(at 215.9 24.13 0)
+		(at 224.79 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10577,7 +10697,7 @@
 		(dnp no)
 		(uuid "65dcf400-fff9-41aa-bcac-6e9400ca4349")
 		(property "Reference" "C61"
-			(at 216.35 21.883 0)
+			(at 225.2400 20.5130 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10587,8 +10707,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 216.35 26.377 0)
+		(property "Value" "100 nF 50 V"
+			(at 225.2400 22.1830 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
+			(at 225.2400 22.1830 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10599,7 +10731,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via"
-			(at 216.8652 27.94 0)
+			(at 225.7552 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10610,7 +10742,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
-			(at 215.9 24.13 0)
+			(at 224.79 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10621,7 +10753,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 215.9 24.13 0)
+			(at 224.79 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10632,7 +10764,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at -92.71 -31.75 0)
+			(at -83.82 -31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10756,7 +10888,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100 Ω"
 			(at 177.8 153.959 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10827,7 +10959,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:C")
-		(at 147.32 24.13 0)
+		(at 140.97 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10837,7 +10969,7 @@
 		(dnp no)
 		(uuid "6e40548f-2e1e-40f3-a9b7-d098533bb698")
 		(property "Reference" "C37"
-			(at 147.77 21.883 0)
+			(at 141.4200 20.5130 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10847,8 +10979,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 147.77 26.377 0)
+		(property "Value" "100 nF 50 V"
+			(at 141.4200 22.1830 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
+			(at 141.4200 22.1830 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10859,7 +11003,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via"
-			(at 148.2852 27.94 0)
+			(at 141.9352 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10870,7 +11014,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
-			(at 147.32 24.13 0)
+			(at 140.97 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10881,7 +11025,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 147.32 24.13 0)
+			(at 140.97 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10892,7 +11036,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at -92.71 -31.75 0)
+			(at -99.06 -31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10939,7 +11083,18 @@
 				)
 			)
 		)
-		(property "Value" "15p 50V"
+		(property "Value" "15 pF 50 V"
+			(at 45.72 113.9687 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "15 pF"
 			(at 45.72 113.9687 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11194,7 +11349,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1 kΩ"
 			(at 64.77 68.1736 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11265,7 +11420,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:C")
-		(at 181.61 24.13 0)
+		(at 182.88 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11275,7 +11430,7 @@
 		(dnp no)
 		(uuid "76a1ad5e-35eb-4f70-938a-0cbec399159e")
 		(property "Reference" "C58"
-			(at 182.06 21.883 0)
+			(at 183.3300 26.0770 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11285,8 +11440,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 182.06 26.377 0)
+		(property "Value" "100 nF 50 V"
+			(at 183.3300 27.7470 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
+			(at 183.3300 27.7470 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11297,7 +11464,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via"
-			(at 182.5752 27.94 0)
+			(at 183.8452 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11308,7 +11475,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
-			(at 181.61 24.13 0)
+			(at 182.88 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11319,7 +11486,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 181.61 24.13 0)
+			(at 182.88 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11330,7 +11497,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at -92.71 -31.75 0)
+			(at -91.44 -31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12103,7 +12270,7 @@
 				)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "27 Ω"
 			(at 163.83 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12352,7 +12519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33 Ω"
 			(at 62.103 36.322 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12617,7 +12784,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100 Ω"
 			(at 177.8 162.906 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12785,7 +12952,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1 kΩ"
 			(at 71.12 113.4364 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12876,7 +13043,19 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100 nF 50 V"
+			(at 44.458 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Capacitance" "100 nF"
 			(at 44.458 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12967,7 +13146,7 @@
 				)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "27 Ω"
 			(at 163.576 53.594 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13038,7 +13217,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:C")
-		(at 170.18 24.13 0)
+		(at 168.91 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13048,7 +13227,7 @@
 		(dnp no)
 		(uuid "b2764876-9e90-43d6-9b5f-0df0b1bdac25")
 		(property "Reference" "C42"
-			(at 170.63 21.883 0)
+			(at 169.3600 20.5130 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13058,8 +13237,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 170.63 26.377 0)
+		(property "Value" "100 nF 50 V"
+			(at 169.3600 22.1830 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
+			(at 169.3600 22.1830 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13070,7 +13261,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via"
-			(at 171.1452 27.94 0)
+			(at 169.8752 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13081,7 +13272,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
-			(at 170.18 24.13 0)
+			(at 168.91 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13092,7 +13283,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 170.18 24.13 0)
+			(at 168.91 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13103,7 +13294,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at -92.71 -31.75 0)
+			(at -93.98 -31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13130,7 +13321,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:GND")
-		(at 238.76 33.02 0)
+		(at 252.73 33.02 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13141,7 +13332,7 @@
 		(dnp no)
 		(uuid "b4b82b66-1ac1-48c7-8494-fee697b8f65f")
 		(property "Reference" "#PWR027"
-			(at 238.76 39.37 0)
+			(at 252.73 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13152,7 +13343,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.633 37.4142 0)
+			(at 252.603 37.4142 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13162,7 +13353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 33.02 0)
+			(at 252.73 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13173,7 +13364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 33.02 0)
+			(at 252.73 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13184,7 +13375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 33.02 0)
+			(at 252.73 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13228,7 +13419,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100 nF 50 V"
+			(at 190.373 92.329 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
 			(at 190.373 92.329 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13388,7 +13591,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:C")
-		(at 204.47 24.13 0)
+		(at 210.82 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13398,7 +13601,7 @@
 		(dnp no)
 		(uuid "be9ae5e4-0bda-4d8c-81e7-5935b332a1f5")
 		(property "Reference" "C59"
-			(at 204.92 21.883 0)
+			(at 211.2700 26.0770 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13408,8 +13611,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 204.92 26.377 0)
+		(property "Value" "100 nF 50 V"
+			(at 211.2700 27.7470 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
+			(at 211.2700 27.7470 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13420,7 +13635,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via"
-			(at 205.4352 27.94 0)
+			(at 211.7852 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13431,7 +13646,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
-			(at 204.47 24.13 0)
+			(at 210.82 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13442,7 +13657,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 24.13 0)
+			(at 210.82 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13453,7 +13668,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at -92.71 -31.75 0)
+			(at -86.36 -31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13480,7 +13695,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:C")
-		(at 193.04 24.13 0)
+		(at 196.85 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13490,7 +13705,7 @@
 		(dnp no)
 		(uuid "c16b84c3-df15-4eb0-a4d8-1bb6b0b04c41")
 		(property "Reference" "C57"
-			(at 193.49 21.8528 0)
+			(at 197.3000 20.5130 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13500,8 +13715,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 193.49 26.377 0)
+		(property "Value" "100 nF 50 V"
+			(at 197.3000 22.1830 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
+			(at 197.3000 22.1830 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13512,7 +13739,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via"
-			(at 194.0052 27.94 0)
+			(at 197.8152 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13523,7 +13750,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
-			(at 193.04 24.13 0)
+			(at 196.85 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13534,7 +13761,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 193.04 24.13 0)
+			(at 196.85 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13545,7 +13772,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at -92.71 -31.75 0)
+			(at -88.9 -31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13669,7 +13896,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330 Ω"
 			(at 35.56 171.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13865,7 +14092,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100 Ω"
 			(at 177.8 128.559 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13955,7 +14182,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100 Ω"
 			(at 177.8 137.506 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14045,7 +14272,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10 kΩ"
 			(at 187.0964 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14146,7 +14373,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330 Ω"
 			(at 35.56 184.496 90)
 			(show_name no)
 			(do_not_autoplace no)

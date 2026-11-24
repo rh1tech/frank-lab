@@ -1926,7 +1926,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "U9 74LVC1G74GT BOOTSEL latch: reset button net M_RSTB (S1, R50) clocks BOOT into Q;\nRP2350B RUN follows via R34 10K / C66 1uF (~10 ms later), so D = BOOT is stable.\nC83 100nF holds ~RD low at cold power-on so Q clears to L (J14 / BOOTSEL).\nBOOT held during reset -> Q = L -> U5 routes RP2350B USB to J14 (PC / BOOTSEL).\nNormal reset -> Q = H -> USB to the CH334F hub (USB-A ports).\nX2 low forces J14 (RD), X3 low forces the hub (SD); never both low."
+	(text "U9 74LVC1G74GT BOOTSEL latch: reset button net M_RSTB (S1, R50) clocks BOOT into Q;\nRP2350B RUN follows via R34 10 kΩ / C66 1 µF (~10 ms later), so D = BOOT is stable.\nC83 100 nF holds ~RD low at cold power-on so Q clears to L (J14 / BOOTSEL).\nBOOT held during reset -> Q = L -> U5 routes RP2350B USB to J14 (PC / BOOTSEL).\nNormal reset -> Q = H -> USB to the CH334F hub (USB-A ports).\nX2 low forces J14 (RD), X3 low forces the hub (SD); never both low."
 		(exclude_from_sim no)
 		(at 172.72 54.61 0)
 		(effects
@@ -1937,7 +1937,7 @@
 		)
 		(uuid "1200ed35-0109-4ec6-8836-7c55ce76d4e0")
 	)
-	(text "LD2 WS2812B on RP2350B GPIO43, powered from VBUS via D4 (~4.4 V)\nso the 3.3 V DIN still meets its VIH. R51 330R: data series."
+	(text "LD2 WS2812B on RP2350B GPIO43, powered from VBUS via D4 (~4.4 V)\nso the 3.3 V DIN still meets its VIH. R51 330 Ω: data series."
 		(exclude_from_sim no)
 		(at 82.55 157.48 0)
 		(effects
@@ -1948,7 +1948,7 @@
 		)
 		(uuid "f4ea9a7c-8f28-4c54-a6c6-6c38a9f348fd")
 	)
-	(text "U12 PCF8574 I/O expander on the master I2C (GPIO2 SDA / GPIO3 SCL), address 0x20.\nPCF8574 is a 100 kHz part: run the whole I2C bus at 100 kHz.\nPorts are quasi-bidirectional (strong low, weak high); all high after power-on.\nP0 = S_RUN: RP2350A RUN via R56 1K (R20 pull-up, S4 button).  P2 / P3 = USB mux overrides.\nP1 = SD card detect (J7 pin 9).  P5 spare (RM2 WL_ON moved to slave GPIO28).\nP4, P6, P7 spare.  Firmware: write all 8 bits at init, then pulse P3 low once (hub)."
+	(text "U12 PCF8574 I/O expander on the master I2C (GPIO2 SDA / GPIO3 SCL), address 0x20.\nPCF8574 is a 100 kHz part: run the whole I2C bus at 100 kHz.\nPorts are quasi-bidirectional (strong low, weak high); all high after power-on.\nP0 = S_RUN: RP2350A RUN via R56 1 kΩ (R20 pull-up, S4 button).  P2 / P3 = USB mux overrides.\nP1 = SD card detect (J7 pin 9).  P5 spare (RM2 WL_ON moved to slave GPIO28).\nP4, P6, P7 spare.  Firmware: write all 8 bits at init, then pulse P3 low once (hub)."
 		(exclude_from_sim no)
 		(at 55.88 54.61 0)
 		(effects
@@ -2588,7 +2588,7 @@
 		(dnp no)
 		(uuid "06c08422-909d-4056-a82f-3483cab820a8")
 		(property "Reference" "R34"
-			(at 205.74 128.559 90)
+			(at 205.7400 128.5288 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2597,8 +2597,8 @@
 				)
 			)
 		)
-		(property "Value" "10K"
-			(at 205.74 133.061 90)
+		(property "Value" "10 kΩ"
+			(at 205.7400 133.0610 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2979,7 +2979,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u 50V"
+		(property "Value" "1 µF 50 V"
+			(at 217.805 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "1 µF"
 			(at 217.805 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3070,7 +3082,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1 kΩ"
 			(at 124.46 79.029 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3315,7 +3327,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100 nF 50 V"
+			(at 128.905 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
 			(at 128.905 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3592,7 +3616,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330 Ω"
 			(at 97.79 140.681 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3694,7 +3718,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100 nF 50 V"
+			(at 112.395 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
 			(at 112.395 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3940,7 +3976,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100 nF 50 V"
+			(at 227.965 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
 			(at 227.965 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4133,7 +4181,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100 nF 50 V"
+			(at 151.13 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
 			(at 151.13 102.235 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4633,25 +4693,25 @@
 		(dnp no)
 		(uuid "e63ca88d-5a82-489f-8f00-2bc44bbc2068")
 		(property "Reference" "R50"
-			(at 199.636 125.73 0)
+			(at 196.6040 125.7300 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10K"
-			(at 199.636 128.27 0)
+		(property "Value" "10 kΩ"
+			(at 196.6040 128.2700 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "FRANK:R_0603_1608Metric_small_pads_Via"

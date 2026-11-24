@@ -948,7 +948,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "R1 / R2 / R3 / R5 / R7 10K pull-ups on CMD / DAT0-3 (SD spec); CLK has none.\nCard is wired 4-bit capable to RP2350B GPIO0-7."
+	(text "R1 / R2 / R3 / R5 / R7 10 kΩ pull-ups on CMD / DAT0-3 (SD spec); CLK has none.\nCard is wired 4-bit capable to RP2350B GPIO0-7."
 		(exclude_from_sim no)
 		(at 20 175 0)
 		(effects
@@ -1391,7 +1391,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10 kΩ"
 			(at 140.58 116.8336 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1492,7 +1492,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10 kΩ"
 			(at 136.77 123.1836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1904,7 +1904,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10 kΩ"
 			(at 152.01 123.1836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1994,7 +1994,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10 kΩ"
 			(at 152.01 82.5436 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2084,7 +2084,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10 kΩ"
 			(at 144.39 123.1836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2332,7 +2332,7 @@
 		(dnp no)
 		(uuid "ce0726a6-f369-484f-9219-c31122f03ae7")
 		(property "Reference" "C53"
-			(at 102.862 97.79 0)
+			(at 100.7800 97.1630 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2342,8 +2342,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 25V"
-			(at 102.862 100.33 0)
+		(property "Value" "10 µF 25 V"
+			(at 100.7800 101.1687 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "10 µF"
+			(at 100.7800 101.1687 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2523,7 +2535,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100 nF 50 V"
+			(at 120.9182 100.7372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
 			(at 120.9182 100.7372 0)
 			(show_name no)
 			(do_not_autoplace no)

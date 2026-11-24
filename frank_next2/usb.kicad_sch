@@ -4714,7 +4714,7 @@
 					)
 				)
 			)
-			(property "Value" "676430910"
+			(property "Value" "AF 10.0 HC6.3"
 				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4735,7 +4735,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/product-detail/C2798029.html"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C456017.pdf"
 				(at 3.81 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4746,7 +4746,7 @@
 					)
 				)
 			)
-			(property "Description" "USB Type A connector"
+			(property "Description" "USB Type A receptacle, right angle THT, short body 10 mm (SHOU HAN AF 10.0 HC6.3)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5555,7 +5555,7 @@
 		)
 		(uuid "a7ee924f-2c7d-44ef-8718-7b6ba2776f3e")
 	)
-	(text "5.1K CC pull-downs (Rd):\nboth USB-C ports are sinks"
+	(text "5.1 kΩ CC pull-downs (Rd):\nboth USB-C ports are sinks"
 		(exclude_from_sim no)
 		(at 20 54 0)
 		(effects
@@ -5566,7 +5566,7 @@
 		)
 		(uuid "fee8bdb5-5c91-4919-8c77-ba9ce455ae92")
 	)
-	(text "USB-A VBUS: U17 CH217A gangs\nall 3 ports (CH334F gang mode),\nR21 39K = 1.54 A typ total.\nC1 330 uF polymer (Wurth\n875105144010) on VBUS_A.\nC15 100 uF + C73 / C3 10 uF on VBUS."
+	(text "USB-A VBUS: U17 CH217A gangs\nall 3 ports (CH334F gang mode),\nR21 39 kΩ = 1.54 A typ total.\nC1 330 µF polymer (Wurth\n875105144010) on VBUS_A.\nC15 100 µF + C73 / C3 10 µF on VBUS."
 		(exclude_from_sim no)
 		(at 135.89 177.8 0)
 		(effects
@@ -8316,7 +8316,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22K"
+		(property "Value" "22 kΩ"
 			(at 161.366 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8830,7 +8830,18 @@
 				)
 			)
 		)
-		(property "Value" "1u 50V"
+		(property "Value" "1 µF 50 V"
+			(at 224.79 60.233 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "1 µF"
 			(at 224.79 60.233 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9009,7 +9020,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1 MΩ"
 			(at 99.06 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9266,7 +9277,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uH"
+		(property "Value" "2.2 µH"
 			(at 234.95 20.955 270)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9357,7 +9368,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4.7 kΩ"
 			(at 208.28 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9774,7 +9785,7 @@
 				)
 			)
 		)
-		(property "Value" "300K"
+		(property "Value" "300 kΩ"
 			(at 86.36 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10032,7 +10043,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100 nF 50 V"
+			(at 186.682 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
 			(at 186.682 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10340,7 +10363,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100 nF 50 V"
+			(at 102.878 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
 			(at 102.878 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10520,7 +10555,19 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u 25V"
+		(property "Value" "10 µF 25 V"
+			(at 236.228 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Capacitance" "10 µF"
 			(at 236.228 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10868,7 +10915,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 25V"
+		(property "Value" "10 µF 25 V"
+			(at 244.28 30.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "10 µF"
 			(at 244.28 30.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10950,7 +11009,7 @@
 		(dnp no)
 		(uuid "410148d7-1f68-477b-a543-44304a979ab4")
 		(property "Reference" "C85"
-			(at 272.288 29.6787 0)
+			(at 272.2880 24.8113 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10960,8 +11019,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22p 50V"
-			(at 276.4932 29.6787 0)
+		(property "Value" "22 pF 50 V"
+			(at 276.4932 24.8113 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "22 pF"
+			(at 276.4932 24.8113 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11327,7 +11398,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n 50V"
+		(property "Value" "47 nF 50 V"
+			(at 143.256 79.248 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "47 nF"
 			(at 143.256 79.248 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11938,7 +12021,19 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330u 6.3V"
+		(property "Value" "330 µF 6.3 V"
+			(at 131.834 136.271 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Capacitance" "330 µF"
 			(at 131.834 136.271 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12108,7 +12203,19 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u 25V"
+		(property "Value" "10 µF 25 V"
+			(at 120.642 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Capacitance" "10 µF"
 			(at 120.642 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12211,7 +12318,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100 nF 50 V"
+			(at 102.878 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
 			(at 102.878 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12469,7 +12588,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.1 kΩ"
 			(at 58.9422 24.3428 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12804,7 +12923,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12p 50V"
+		(property "Value" "12 pF 50 V"
+			(at 253.873 136.779 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "12 pF"
 			(at 253.873 136.779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13447,7 +13578,19 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u 25V"
+		(property "Value" "10 µF 25 V"
+			(at 120.642 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Capacitance" "10 µF"
 			(at 120.642 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13705,7 +13848,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 25V"
+		(property "Value" "10 µF 25 V"
+			(at 175.252 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "10 µF"
 			(at 175.252 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13787,7 +13942,7 @@
 		(dnp no)
 		(uuid "86493589-5654-4055-9851-5d69531db337")
 		(property "Reference" "C12"
-			(at 163.01 24.3928 0)
+			(at 163.0100 24.7730 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13797,8 +13952,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 25V"
-			(at 163.01 28.917 0)
+		(property "Value" "10 µF 25 V"
+			(at 172.9882 24.8113 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "10 µF"
+			(at 163.0100 28.7787 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13890,7 +14057,19 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u 25V"
+		(property "Value" "10 µF 25 V"
+			(at 249.1882 60.583 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Capacitance" "10 µF"
 			(at 249.1882 60.583 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14200,7 +14379,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 25V"
+		(property "Value" "10 µF 25 V"
+			(at 145.415 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "10 µF"
 			(at 145.415 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14446,7 +14637,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1 MΩ"
 			(at 146.05 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14548,7 +14739,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u 16V"
+		(property "Value" "100 µF 16 V"
+			(at 71.12 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 µF"
 			(at 71.12 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14716,7 +14919,18 @@
 				)
 			)
 		)
-		(property "Value" "12p 50V"
+		(property "Value" "12 pF 50 V"
+			(at 252.73 160.5354 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "12 pF"
 			(at 252.73 160.5354 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15197,7 +15411,7 @@
 		(dnp no)
 		(uuid "a46c3b2f-6bf3-4194-b2d7-daeb790882a1")
 		(property "Reference" "L4"
-			(at 147.32 52.832 90)
+			(at 147.2692 44.2262 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15206,8 +15420,8 @@
 				)
 			)
 		)
-		(property "Value" "330R 2A"
-			(at 147.32 55.372 90)
+		(property "Value" "330 Ω@100 MHz 2.5 A"
+			(at 147.2692 52.3543 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15384,7 +15598,18 @@
 				)
 			)
 		)
-		(property "Value" "10u 25V"
+		(property "Value" "10 µF 25 V"
+			(at 224.79 50.073 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "10 µF"
 			(at 224.79 50.073 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15573,25 +15798,34 @@
 		(dnp no)
 		(uuid "acf7b15b-80b7-4827-b978-57d41ba65277")
 		(property "Reference" "C14"
-			(at 123.444 76.2 90)
+			(at 121.9200 71.6328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10u 25V"
-			(at 123.444 73.66 90)
+		(property "Value" "10 µF 25 V"
+			(at 121.9200 78.4087 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Capacitance" "10 µF"
+			(at 121.9200 78.4087 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
@@ -15997,7 +16231,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1 kΩ"
 			(at 124.46 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16409,7 +16643,7 @@
 				)
 			)
 		)
-		(property "Value" "2.6A 6V"
+		(property "Value" "2.6 A 6 V"
 			(at 179.07 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16490,7 +16724,7 @@
 		(dnp no)
 		(uuid "be461c06-cbbd-4447-aa9a-f0d94e24c295")
 		(property "Reference" "R43"
-			(at 255.27 25.4 0)
+			(at 254.2460 25.4000 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16500,8 +16734,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
-			(at 255.27 27.94 0)
+		(property "Value" "100 kΩ 1%"
+			(at 253.1800 30.3450 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16748,7 +16982,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.1 kΩ"
 			(at 39.8318 86.5728 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16841,7 +17075,7 @@
 		(dnp no)
 		(uuid "c8dda11f-9db5-4f08-8b73-9c2cbc7b3e19")
 		(property "Reference" "C86"
-			(at 274.32 25.4 0)
+			(at 274.3120 26.6700 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16851,8 +17085,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 25V"
-			(at 274.32 27.94 0)
+		(property "Value" "10 µF 25 V"
+			(at 274.3120 29.2100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "10 µF"
+			(at 274.3120 29.2100 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17095,7 +17341,7 @@
 				)
 			)
 		)
-		(property "Value" "2.6A 6V"
+		(property "Value" "2.6 A 6 V"
 			(at 179.07 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17490,7 +17736,7 @@
 		(dnp no)
 		(uuid "da7c0e48-748a-4920-94f3-351d38b2a3fe")
 		(property "Reference" "C10"
-			(at 162.56 132.623 90)
+			(at 160.0200 132.6230 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17499,8 +17745,19 @@
 				)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 162.56 139.157 90)
+		(property "Value" "100 nF 50 V"
+			(at 160.0200 139.1570 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100 nF"
+			(at 160.0200 139.1570 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17912,7 +18169,7 @@
 				)
 			)
 		)
-		(property "Value" "39K"
+		(property "Value" "39 kΩ"
 			(at 115.57 146.526 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18003,7 +18260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.1 kΩ"
 			(at 58.8818 39.5828 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18425,7 +18682,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22K"
+		(property "Value" "22 kΩ 1%"
 			(at 255.27 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18939,7 +19196,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100 kΩ"
 			(at 86.36 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19041,7 +19298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.1 kΩ"
 			(at 39.8318 71.3328 90)
 			(show_name no)
 			(do_not_autoplace no)

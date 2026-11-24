@@ -931,7 +931,7 @@
 		)
 		(uuid "89246982-20af-4ba8-9d07-4e1bc8e86319")
 	)
-	(text "Inter-MCU link bus (LK), mirrored for planar routing\n(U3 / U2 side by side, both rotated 180 deg):\nmaster GPIO(20+i) <-> slave GPIO(23-i), master pins unchanged.\nLane 1 = LK_A: D0-D7 = M20-27 / S23-16, CLK M28 / S15, VLD M29 / S14.\nLane 2 = LK_B: D0-D7 = M30-37 / S13-6, CLK M38 / S4, VLD M39 / S5.\nFS M40 / S3, DB_MS M41 / S2, DB_SM M42 / S1.\nData bits arrive reversed on the slave (PIO mov x, ::y).\nR10 / R12 / R16 / R17 100R series on the master CLK / VLD pins.\nRP2350A RUN (S_RUN): R20 pull-up, held in reset by U12 P0\n(Control sheet) via R56 1K."
+	(text "Inter-MCU link bus (LK), mirrored for planar routing\n(U3 / U2 side by side, both rotated 180 deg):\nmaster GPIO(20+i) <-> slave GPIO(23-i), master pins unchanged.\nLane 1 = LK_A: D0-D7 = M20-27 / S23-16, CLK M28 / S15, VLD M29 / S14.\nLane 2 = LK_B: D0-D7 = M30-37 / S13-6, CLK M38 / S4, VLD M39 / S5.\nFS M40 / S3, DB_MS M41 / S2, DB_SM M42 / S1.\nData bits arrive reversed on the slave (PIO mov x, ::y).\nR10 / R12 / R16 / R17 100 Ω series on the master CLK / VLD pins.\nRP2350A RUN (S_RUN): R20 pull-up, held in reset by U12 P0\n(Control sheet) via R56 1 kΩ."
 		(exclude_from_sim no)
 		(at 191.77 76.2 0)
 		(effects
@@ -3138,7 +3138,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10 kΩ"
 			(at 124.46 136.668 90)
 			(show_name no)
 			(do_not_autoplace no)

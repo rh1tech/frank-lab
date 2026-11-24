@@ -2122,7 +2122,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "RN1 / RN2 270R: series resistors on the RP2350B\nHSTX DVI pairs (GPIO12-19).\nF1 0.2 A polyfuse + D3 + C2: HDMI +5V (pin 18) from VBUS, short-circuit limited."
+	(text "RN1 / RN2 270 Ω: series resistors on the RP2350B\nHSTX DVI pairs (GPIO12-19).\nF1 0.2 A polyfuse + D3 + C2: HDMI +5V (pin 18) from VBUS, short-circuit limited."
 		(exclude_from_sim no)
 		(at 120.65 43.18 0)
 		(effects
@@ -2836,25 +2836,34 @@
 		(dnp no)
 		(uuid "35288ac0-a1b1-4c3e-a0f7-47865b74dd7b")
 		(property "Reference" "C2"
-			(at 162.6616 84.709 0)
+			(at 163.8300 84.3630 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 164.973 84.709 0)
+		(property "Value" "100 nF 50 V"
+			(at 163.8300 90.8970 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
+			(at 163.8300 90.8970 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric"
@@ -2949,7 +2958,7 @@
 				)
 			)
 		)
-		(property "Value" "270R"
+		(property "Value" "270 Ω"
 			(at 177.8 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3216,7 +3225,7 @@
 		(dnp no)
 		(uuid "9a8623b5-4f12-414b-9121-7079934405ad")
 		(property "Reference" "D3"
-			(at 163.5125 68.615 0)
+			(at 163.5125 68.6150 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3226,7 +3235,7 @@
 			)
 		)
 		(property "Value" "1N5819WS"
-			(at 163.5125 73.625 0)
+			(at 163.5125 73.6250 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3569,7 +3578,7 @@
 				)
 			)
 		)
-		(property "Value" "270R"
+		(property "Value" "270 Ω"
 			(at 177.8 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3688,7 +3697,7 @@
 				)
 			)
 		)
-		(property "Value" "0.2A 9V"
+		(property "Value" "0.2 A 9 V"
 			(at 173.99 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)

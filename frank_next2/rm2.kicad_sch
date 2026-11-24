@@ -1253,7 +1253,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "RM2 (Raspberry Pi Radio Module 2, CYW43439) on the RP2350A slave, gSPI via PIO:\nCLK = GPIO29, CS = GPIO26, DATA = GPIO27 (DATA_IN direct, DATA_OUT via R35 470R,\nnIRQ via R26 10K, as on Pico 2 W). Set CYW43_DEFAULT_PIN_WL_* to these pins.\nLD1 (green, R29 470R) on RM2 GPIO0 = slave status LED, works once the cyw43 driver runs.\nWL_ON + BT_ON = slave GPIO28 (cyw43 WL_REG_ON pin; CYW43439 200K pull-downs keep the radio off until firmware).\nThe slave cyw43 driver resets the radio itself: GPIO27 (DATA) low, WL_ON low >= 10 ms, high, wait >= 150 ms.\nPCB: keep the 35.5 x 18.5 mm RF keep-out (footprint rule area) free of copper on all layers;\nantenna end at the board edge."
+	(text "RM2 (Raspberry Pi Radio Module 2, CYW43439) on the RP2350A slave, gSPI via PIO:\nCLK = GPIO29, CS = GPIO26, DATA = GPIO27 (DATA_IN direct, DATA_OUT via R35 470 Ω,\nnIRQ via R26 10 kΩ, as on Pico 2 W). Set CYW43_DEFAULT_PIN_WL_* to these pins.\nLD1 (green, R29 470 Ω) on RM2 GPIO0 = slave status LED, works once the cyw43 driver runs.\nWL_ON + BT_ON = slave GPIO28 (cyw43 WL_REG_ON pin; CYW43439 200 kΩ pull-downs keep the radio off until firmware).\nThe slave cyw43 driver resets the radio itself: GPIO27 (DATA) low, WL_ON low >= 10 ms, high, wait >= 150 ms.\nPCB: keep the 35.5 x 18.5 mm RF keep-out (footprint rule area) free of copper on all layers;\nantenna end at the board edge."
 		(exclude_from_sim no)
 		(at 101.6 142.24 0)
 		(effects
@@ -1908,7 +1908,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10 kΩ"
 			(at 128.27 98.771 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2306,7 +2306,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "470 Ω"
 			(at 171.45 88.6412 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2387,25 +2387,37 @@
 		(dnp no)
 		(uuid "66b55180-42e1-478b-88ad-bb03b8ef89e1")
 		(property "Reference" "C27"
-			(at 167.005 67.31 0)
+			(at 165.9200 67.9530 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10u 25V"
-			(at 167.005 72.39 0)
+		(property "Value" "10 µF 25 V"
+			(at 165.9200 71.9587 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(property "Capacitance" "10 µF"
+			(at 165.9200 71.9587 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
@@ -2488,7 +2500,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "470 Ω"
 			(at 128.27 87.7588 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2569,7 +2581,7 @@
 		(dnp no)
 		(uuid "76d4f1bf-953b-4a63-9ec1-d70f15ac0319")
 		(property "Reference" "C28"
-			(at 177.165 67.31 0)
+			(at 182.7530 68.2030 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2579,8 +2591,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 177.165 72.39 0)
+		(property "Value" "100 nF 50 V"
+			(at 186.9582 68.2030 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
+			(at 186.9582 68.2030 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2661,7 +2685,7 @@
 		(dnp no)
 		(uuid "7e50a0ac-ced6-4346-ab02-efcb73ebc848")
 		(property "Reference" "C33"
-			(at 187.325 67.31 0)
+			(at 187.1400 66.5530 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2671,8 +2695,20 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 187.325 72.39 0)
+		(property "Value" "100 nF 50 V"
+			(at 187.1400 73.1470 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
+			(at 187.1400 73.1470 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

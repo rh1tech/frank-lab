@@ -1411,7 +1411,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10 kΩ"
 			(at 127 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1504,7 +1504,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1 kΩ"
 			(at 142.24 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1707,7 +1707,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100 nF 50 V"
+			(at 140.462 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" "100 nF"
 			(at 140.462 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2162,7 +2174,18 @@
 				)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100 nF 50 V"
+			(at 154.94 120.107 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100 nF"
 			(at 154.94 120.107 90)
 			(show_name no)
 			(do_not_autoplace no)
