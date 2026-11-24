@@ -2102,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 66.04) (xy 125.73 80.01)
+			(xy 125.73 66.04) (xy 125.73 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2392,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 85.09) (xy 125.73 91.44)
+			(xy 125.73 80.01) (xy 125.73 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5321,7 +5321,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:R_Small")
-		(at 125.73 82.55 0)
+		(at 125.73 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5331,7 +5331,7 @@
 		(dnp no)
 		(uuid "a070cc9e-33cf-42a2-b835-936468ff979f")
 		(property "Reference" "R6"
-			(at 124.46 86.36 90)
+			(at 124.46 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5341,7 +5341,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 124.46 78.74 90)
+			(at 124.46 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5351,7 +5351,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:R_0402_1005Metric_small_pads_Via"
-			(at 125.73 82.55 0)
+			(at 125.73 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,7 +5362,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8763490791224557568"
-			(at 125.73 82.55 0)
+			(at 125.73 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5373,7 +5373,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 125.73 82.55 0)
+			(at 125.73 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5384,7 +5384,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 0 0 0)
+			(at 0 -5.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5395,7 +5395,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 125.73 82.55 0)
+			(at 125.73 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6511,6 +6511,203 @@
 			(project "frank_z0"
 				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
 					(reference "#PWR0362")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(junction
+		(at 125.73 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e53a31b1-22fb-451c-9799-4f4138bc639e")
+	)
+	(wire
+		(pts
+			(xy 125.73 83.82) (xy 115.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9396522b-6094-427c-bd29-147496f80f11")
+	)
+	(symbol
+		(lib_id "FRANK:C")
+		(at 115.57 80.01 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be676437-9fd3-4eb6-af38-1f53285a773e")
+		(property "Reference" "C39"
+			(at 109.22 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u 50V"
+			(at 109.22 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FRANK:C_0603_1608Metric_small_pads_Via_GND"
+			(at 116.5352 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
+			(at 115.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 115.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5199872"
+			(at 115.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
+			(at 115.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0c81788-b062-492e-941f-bc56f3e37544")
+		)
+		(pin "2"
+			(uuid "fb44e891-7e1c-439d-bafe-60856dac2fd4")
+		)
+		(instances
+			(project "frank_z0"
+				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRANK:GND")
+		(at 115.57 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9bcbac19-cbcc-4a5c-85ad-46e9fddab06a")
+		(property "Reference" "#PWR0915"
+			(at 115.57 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cd85b32-45a3-4e19-9499-e8acce213e72")
+		)
+		(instances
+			(project "frank_z0"
+				(path "/201bd2d9-0138-4492-b97a-3874cd1e911b/815d8891-2c4a-4bfa-b59b-80b679c7185d"
+					(reference "#PWR0915")
 					(unit 1)
 				)
 			)
